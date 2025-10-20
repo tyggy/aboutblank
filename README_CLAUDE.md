@@ -1,5 +1,29 @@
 # Buddhism & AI Knowledge Base - Claude Code Guide
 
+## 🚀 Never Forget Commands!
+
+**New here? Start with: [`QUICKSTART.md`](QUICKSTART.md)**
+
+It has all the simple commands you need, including:
+- How to activate your Python environment (never forget again!)
+- Complete command cheat sheet
+- One-liner workflows
+
+### The Simplest Way
+
+```bash
+# First time setup (run once):
+./setup_env.sh
+
+# Every time after that:
+source activate
+make kb-build
+
+# Done!
+```
+
+---
+
 ## Quick Start with Claude Code
 
 1. **Initial Setup**

@@ -5,8 +5,13 @@
 help:
 	@echo "Buddhism & AI Knowledge Base - Available commands:"
 	@echo ""
+	@echo "🚀 QUICK START:"
+	@echo "  source activate                   - Activate Python environment"
+	@echo "  make kb-build                     - Build complete knowledge base"
+	@echo ""
 	@echo "Setup:"
-	@echo "  make setup                        - Set up Claude Code environment"
+	@echo "  ./setup_env.sh                    - First time setup (run once)"
+	@echo "  make env                          - Activate environment and open shell"
 	@echo ""
 	@echo "YouTube Transcripts:"
 	@echo "  make youtube-status               - Check transcript download status"
@@ -41,6 +46,11 @@ setup:
 	python -m venv venv
 	. venv/bin/activate && pip install -r requirements.txt
 	python setup_claude_env.py
+
+env:
+	@echo "🐍 Activating Python environment..."
+	@echo "Run 'deactivate' when done"
+	@bash -c "source venv/bin/activate && exec bash"
 
 # YouTube transcript processing with yt-dlp
 youtube-status:

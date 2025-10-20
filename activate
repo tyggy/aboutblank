@@ -1,0 +1,13 @@
+#!/bin/bash
+# Simple activation script - just source this!
+# Usage: source activate
+
+if [ ! -d "venv" ]; then
+    echo "❌ Virtual environment not found. Run: ./setup_env.sh"
+    return 1
+fi
+
+source venv/bin/activate
+
+echo "✅ Python environment activated!"
+echo "   Run 'deactivate' when done"
