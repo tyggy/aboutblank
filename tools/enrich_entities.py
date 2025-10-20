@@ -67,9 +67,15 @@ class EntityCrossEnricher:
         # Map frameworks to their creators
         for framework in data.get('frameworks', []):
             name = framework['name']
-            creators = framework.get('creator', [])
-            if isinstance(creators, str):
+            creators = framework.get('creator')
+
+            # Handle None, string, or list
+            if creators is None:
+                creators = []
+            elif isinstance(creators, str):
                 creators = [c.strip() for c in creators.split(',')]
+            elif not isinstance(creators, list):
+                creators = [creators]
 
             for creator in creators:
                 if creator:
