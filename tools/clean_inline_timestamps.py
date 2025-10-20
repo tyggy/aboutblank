@@ -280,6 +280,12 @@ Examples:
             print(f"✗ File not found: {input_file}")
             continue
 
+        # Skip files that are already cleaned or edited (unless in-place or specific output)
+        if not args.in_place and not args.output:
+            if '_cleaned' in input_file.stem or '_edited' in input_file.stem:
+                print(f"⊘ Skipping already processed file: {input_file.name}")
+                continue
+
         # Determine output file
         if args.output and len(args.files) == 1:
             output_file = Path(args.output)

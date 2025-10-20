@@ -6,25 +6,26 @@ help:
 	@echo "Buddhism & AI Knowledge Base - Available commands:"
 	@echo ""
 	@echo "Setup:"
-	@echo "  make setup                  - Set up Claude Code environment"
+	@echo "  make setup                        - Set up Claude Code environment"
 	@echo ""
 	@echo "YouTube Transcripts:"
-	@echo "  make youtube-status         - Check transcript download status"
-	@echo "  make youtube-download       - Download all YouTube transcripts"
-	@echo "  make youtube-test           - Test download with one video"
+	@echo "  make youtube-status               - Check transcript download status"
+	@echo "  make youtube-download             - Download all YouTube transcripts"
+	@echo "  make youtube-test                 - Test download with one video"
 	@echo ""
 	@echo "Transcript Cleaning:"
-	@echo "  make transcripts-clean      - Remove inline timestamps"
-	@echo "  make transcripts-copyedit   - Copyedit with Claude API"
-	@echo "  make transcripts-process    - Clean + copyedit (full pipeline)"
+	@echo "  make transcripts-clean            - Remove inline timestamps"
+	@echo "  make transcripts-copyedit         - Copyedit with Claude API"
+	@echo "  make transcripts-process          - Clean + copyedit (full pipeline)"
+	@echo "  make transcripts-cleanup-duplicates - Remove accidentally duplicated files"
 	@echo ""
 	@echo "Analysis:"
-	@echo "  make analyze                - Run concept extraction and mapping"
-	@echo "  make synthesize             - Generate synthesis documents"
-	@echo "  make report                 - Generate full project report"
+	@echo "  make analyze                      - Run concept extraction and mapping"
+	@echo "  make synthesize                   - Generate synthesis documents"
+	@echo "  make report                       - Generate full project report"
 	@echo ""
 	@echo "Utilities:"
-	@echo "  make clean                  - Clean generated files"
+	@echo "  make clean                        - Clean generated files"
 
 setup:
 	python -m venv venv
@@ -54,6 +55,7 @@ youtube-force:
 # Transcript cleaning and copyediting
 transcripts-clean:
 	@echo "Cleaning transcripts (removing timestamps)..."
+	@echo "Note: Automatically skips files with _cleaned or _edited in name"
 	python tools/clean_inline_timestamps.py knowledge_base/transcripts/raw/*.md
 	@echo "Transcripts cleaned!"
 
@@ -69,6 +71,14 @@ transcripts-copyedit:
 
 transcripts-process: transcripts-clean transcripts-copyedit
 	@echo "All transcripts processed!"
+
+# Clean up accidentally duplicated files
+transcripts-cleanup-duplicates:
+	@echo "Removing accidentally duplicated files (*_cleaned_edited_cleaned.md, etc.)..."
+	@find knowledge_base/transcripts/raw -name "*_cleaned_edited_cleaned.md" -delete 2>/dev/null || true
+	@find knowledge_base/transcripts/raw -name "*_edited_cleaned.md" -delete 2>/dev/null || true
+	@find knowledge_base/transcripts/raw -name "*_cleaned_cleaned.md" -delete 2>/dev/null || true
+	@echo "Cleanup complete!"
 
 process:
 	@echo "Processing transcripts..."
