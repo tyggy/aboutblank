@@ -19,6 +19,13 @@ help:
 	@echo "  make transcripts-process          - Clean + copyedit (full pipeline)"
 	@echo "  make transcripts-cleanup-duplicates - Remove accidentally duplicated files"
 	@echo ""
+	@echo "Knowledge Extraction:"
+	@echo "  make kb-extract                   - Extract entities from transcripts"
+	@echo "  make kb-normalize                 - Normalize and deduplicate entities"
+	@echo "  make kb-populate                  - Create entity pages in knowledge base"
+	@echo "  make kb-link                      - Inject wiki links into transcripts"
+	@echo "  make kb-build                     - Full pipeline: extract → normalize → populate → link"
+	@echo ""
 	@echo "Analysis:"
 	@echo "  make analyze                      - Run concept extraction and mapping"
 	@echo "  make synthesize                   - Generate synthesis documents"
@@ -79,6 +86,69 @@ transcripts-cleanup-duplicates:
 	@find knowledge_base/transcripts/raw -name "*_edited_cleaned.md" -delete 2>/dev/null || true
 	@find knowledge_base/transcripts/raw -name "*_cleaned_cleaned.md" -delete 2>/dev/null || true
 	@echo "Cleanup complete!"
+
+# Knowledge extraction and Obsidian knowledge base building
+kb-extract:
+	@echo "Extracting entities from transcripts..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	@mkdir -p knowledge_base/extractions
+	python tools/extract_entities.py knowledge_base/transcripts/raw/*_edited.md --verbose
+	@echo "✓ Entity extraction complete!"
+	@echo "Review extractions in: knowledge_base/extractions/"
+
+kb-normalize:
+	@echo "Normalizing and deduplicating entities..."
+	@if [ ! -d knowledge_base/extractions ] || [ -z "$$(ls -A knowledge_base/extractions/*.json 2>/dev/null)" ]; then \
+		echo "Error: No extractions found. Run 'make kb-extract' first."; \
+		exit 1; \
+	fi
+	python tools/normalize_entities.py knowledge_base/extractions/*_entities.json --verbose
+	@echo "✓ Normalization complete!"
+	@echo "Review: knowledge_base/normalized_entities.json"
+
+kb-populate:
+	@echo "Creating entity pages in knowledge base..."
+	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
+		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/populate_entities.py knowledge_base/normalized_entities.json --verbose
+	@echo "✓ Entity pages created!"
+	@echo "Open knowledge_base/ in Obsidian to explore"
+
+kb-link:
+	@echo "Injecting wiki links into transcripts..."
+	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
+		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/inject_links.py knowledge_base/transcripts/raw/*_edited.md --verbose
+	@echo "✓ Wiki links injected!"
+	@echo "Transcripts now linked to entities"
+
+kb-build: kb-extract kb-normalize kb-populate kb-link
+	@echo ""
+	@echo "════════════════════════════════════════════════"
+	@echo "✅ Knowledge Base Build Complete!"
+	@echo "════════════════════════════════════════════════"
+	@echo ""
+	@echo "Your Obsidian knowledge base is ready:"
+	@echo "  📁 Thinkers: knowledge_base/thinkers/"
+	@echo "  💡 Concepts: knowledge_base/concepts/"
+	@echo "  🔧 Frameworks: knowledge_base/frameworks/"
+	@echo "  🏛️  Institutions: knowledge_base/institutions/"
+	@echo "  ❓ Questions: knowledge_base/questions/"
+	@echo ""
+	@echo "Next steps:"
+	@echo "  1. Open knowledge_base/ in Obsidian"
+	@echo "  2. View graph: Cmd/Ctrl + G"
+	@echo "  3. Explore bidirectional links"
+	@echo "  4. Manually refine and expand entity pages"
+	@echo ""
 
 process:
 	@echo "Processing transcripts..."

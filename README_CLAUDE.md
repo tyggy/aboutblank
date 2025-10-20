@@ -154,6 +154,80 @@ If you have transcripts cleaned before the latest updates, re-clean them to appl
 - Full workflow guide: `TRANSCRIPT_CLEANING_WORKFLOW.md`
 - Installation guide: `INSTALLATION.md`
 
+## Knowledge Extraction & Obsidian Integration
+
+After transcripts are cleaned and copyedited, automatically extract entities and build a rich Obsidian knowledge base with bidirectional wiki links.
+
+### Quick Start
+
+```bash
+# Complete pipeline: extract → normalize → populate → link
+export ANTHROPIC_API_KEY=your-key-here
+make kb-build
+```
+
+### What Gets Extracted
+
+The system uses Claude API to intelligently extract:
+- **Thinkers**: People mentioned (e.g., Michael Levin, Karl Friston)
+- **Concepts**: Key ideas (e.g., Cognitive Light Cone, Free Energy Principle)
+- **Frameworks**: Models and methodologies (e.g., SCI Loop)
+- **Institutions**: Organizations and research centers
+- **Questions**: Research questions and open problems
+
+### Features
+
+✅ **Smart deduplication** - Fuzzy matching finds duplicates (e.g., "M. Levin" = "Michael Levin")
+✅ **Name normalization** - Fixes transcription errors automatically
+✅ **Bidirectional links** - Creates `[[Entity Name]]` wiki links in Obsidian
+✅ **Structured pages** - Generates organized markdown files for each entity
+✅ **Incremental growth** - Easily add new transcripts without duplicating work
+✅ **Cost-effective** - Uses Claude Haiku 4.5 (~$0.04 per transcript)
+
+### Step-by-Step
+
+```bash
+# Extract entities from transcripts
+make kb-extract
+
+# Normalize names and deduplicate
+make kb-normalize
+
+# Create entity pages in knowledge base
+make kb-populate
+
+# Inject wiki links into transcripts
+make kb-link
+```
+
+### Knowledge Base Structure
+
+```
+knowledge_base/
+├── thinkers/              # People and their ideas
+├── concepts/              # Organized by category
+│   ├── buddhist/
+│   ├── cognitive/
+│   ├── ai/
+│   └── interdisciplinary/
+├── frameworks/            # Models and methodologies
+├── institutions/          # Organizations and centers
+├── questions/             # Research questions
+└── transcripts/raw/       # Linked transcripts
+```
+
+### Using with Obsidian
+
+1. Open `knowledge_base/` in Obsidian
+2. Press `Cmd/Ctrl + G` to view the knowledge graph
+3. Click any entity to see connections
+4. Navigate bidirectionally through wiki links
+
+### Documentation
+
+- Complete guide: `KNOWLEDGE_EXTRACTION_GUIDE.md`
+- Structure reference: `KNOWLEDGE_STRUCTURE.md`
+
 ## Common Claude Code Commands
 
 ### Processing Transcripts
