@@ -26,7 +26,8 @@ help:
 	@echo "  make kb-normalize                 - Normalize and deduplicate entities"
 	@echo "  make kb-populate                  - Create entity pages in knowledge base"
 	@echo "  make kb-link                      - Inject wiki links into transcripts"
-	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link"
+	@echo "  make kb-enrich                    - Cross-enrich entities with bidirectional links"
+	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link → enrich"
 	@echo ""
 	@echo "Analysis:"
 	@echo "  make analyze                      - Run concept extraction and mapping"
@@ -141,7 +142,16 @@ kb-link:
 	@echo "✓ Wiki links injected!"
 	@echo "Transcripts now linked to entities"
 
-kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link
+kb-enrich:
+	@echo "Cross-enriching entity pages..."
+	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
+		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/enrich_entities.py knowledge_base/normalized_entities.json --verbose
+	@echo "✓ Entity pages enriched with bidirectional links!"
+
+kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
 	@echo ""
 	@echo "════════════════════════════════════════════════"
 	@echo "✅ Knowledge Base Build Complete!"
