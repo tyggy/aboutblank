@@ -4,15 +4,27 @@
 
 help:
 	@echo "Buddhism & AI Knowledge Base - Available commands:"
-	@echo "  make setup             - Set up Claude Code environment"
-	@echo "  make youtube-status    - Check YouTube transcript processing status"
-	@echo "  make youtube-download  - Download all YouTube transcripts"
-	@echo "  make youtube-test      - Test download with one video"
-	@echo "  make process           - Process all transcripts"
-	@echo "  make analyze           - Run concept extraction and mapping"
-	@echo "  make synthesize        - Generate synthesis documents"
-	@echo "  make report            - Generate full project report"
-	@echo "  make clean             - Clean generated files"
+	@echo ""
+	@echo "Setup:"
+	@echo "  make setup                  - Set up Claude Code environment"
+	@echo ""
+	@echo "YouTube Transcripts:"
+	@echo "  make youtube-status         - Check transcript download status"
+	@echo "  make youtube-download       - Download all YouTube transcripts"
+	@echo "  make youtube-test           - Test download with one video"
+	@echo ""
+	@echo "Transcript Cleaning:"
+	@echo "  make transcripts-clean      - Remove inline timestamps"
+	@echo "  make transcripts-copyedit   - Copyedit with Claude API"
+	@echo "  make transcripts-process    - Clean + copyedit (full pipeline)"
+	@echo ""
+	@echo "Analysis:"
+	@echo "  make analyze                - Run concept extraction and mapping"
+	@echo "  make synthesize             - Generate synthesis documents"
+	@echo "  make report                 - Generate full project report"
+	@echo ""
+	@echo "Utilities:"
+	@echo "  make clean                  - Clean generated files"
 
 setup:
 	python -m venv venv
@@ -38,6 +50,25 @@ youtube-force:
 	@echo "Force re-downloading all transcripts..."
 	python tools/ytdlp_processor.py --force --verbose
 	@echo "Transcripts re-downloaded!"
+
+# Transcript cleaning and copyediting
+transcripts-clean:
+	@echo "Cleaning transcripts (removing timestamps)..."
+	python tools/clean_inline_timestamps.py knowledge_base/transcripts/raw/*.md
+	@echo "Transcripts cleaned!"
+
+transcripts-copyedit:
+	@echo "Copyediting transcripts with Claude API..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	python tools/copyedit_with_claude.py knowledge_base/transcripts/raw/*_cleaned.md
+	@echo "Copyediting complete!"
+
+transcripts-process: transcripts-clean transcripts-copyedit
+	@echo "All transcripts processed!"
 
 process:
 	@echo "Processing transcripts..."
