@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Fix speaker name transcription errors in transcripts.
+Fix entity name transcription errors in transcripts.
 
-Reads speaker_corrections.yaml and corrects common transcription errors
-before entity extraction.
+Reads speaker_corrections.yaml (which handles all entity types: people,
+institutions, concepts, frameworks) and corrects common transcription
+errors before entity extraction.
 """
 
 import argparse

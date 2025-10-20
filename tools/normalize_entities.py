@@ -319,6 +319,7 @@ class EntityNormalizer:
             aliases = concept.get('aliases', [])
             display_name, filename = self.normalize_concept_name(name)
 
+            # First, check against existing KB entities
             existing_match, score = self.find_best_match(name, self.existing_concepts, aliases)
 
             if existing_match:
@@ -329,11 +330,17 @@ class EntityNormalizer:
                 entity['match_score'] = score
                 normalized_key = existing_match
             else:
-                if display_name in seen:
+                # Check for fuzzy match against new entities in current batch
+                seen_match, seen_score = self.find_best_match(name, {
+                    key: {'name': key, 'aliases': seen[key].get('aliases', [])} for key in seen.keys()
+                }, aliases)
+
+                if seen_match:
                     if verbose:
-                        print(f"  🔀 Merging duplicate: '{name}'")
-                    seen[display_name]['aliases'].extend(aliases)
-                    seen[display_name]['aliases'] = list(set(seen[display_name]['aliases']))
+                        print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
+                    # Merge aliases
+                    seen[seen_match]['aliases'].extend(aliases)
+                    seen[seen_match]['aliases'] = list(set(seen[seen_match]['aliases']))
                     continue
                 else:
                     entity = {
@@ -372,6 +379,7 @@ class EntityNormalizer:
 
             display_name, filename = self.normalize_concept_name(name)
 
+            # First, check against existing KB entities
             existing_match, score = self.find_best_match(name, self.existing_frameworks)
 
             if existing_match:
@@ -382,7 +390,14 @@ class EntityNormalizer:
                 entity['match_score'] = score
                 normalized_key = existing_match
             else:
-                if display_name in seen:
+                # Check for fuzzy match against new entities in current batch
+                seen_match, seen_score = self.find_best_match(name, {
+                    key: {'name': key, 'aliases': []} for key in seen.keys()
+                })
+
+                if seen_match:
+                    if verbose:
+                        print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
                     continue
                 else:
                     entity = {
@@ -420,6 +435,7 @@ class EntityNormalizer:
 
             display_name, filename = self.normalize_concept_name(name)
 
+            # First, check against existing KB entities
             existing_match, score = self.find_best_match(name, self.existing_institutions)
 
             if existing_match:
@@ -430,7 +446,15 @@ class EntityNormalizer:
                 entity['match_score'] = score
                 normalized_key = existing_match
             else:
-                if display_name in seen:
+                # Check for fuzzy match against new entities in current batch
+                seen_match, seen_score = self.find_best_match(name, {
+                    key: {'name': key, 'aliases': []} for key in seen.keys()
+                })
+
+                if seen_match:
+                    if verbose:
+                        print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
+                    # Skip - already have this one
                     continue
                 else:
                     entity = {
