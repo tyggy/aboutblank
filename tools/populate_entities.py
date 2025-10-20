@@ -96,9 +96,34 @@ class EntityPopulator:
         # Format aliases
         aliases_str = json.dumps(thinker.get('aliases', []))
 
-        # Format domains as list
+        # Format domains
         domains = thinker.get('domains', [])
-        domains_md = '\n'.join(f"- [[{d}]]" for d in domains) if domains else "- (To be categorized)"
+        context = thinker.get('context', '')
+
+        # Build sections conditionally
+        sections = []
+
+        # Overview (if we have context)
+        if context:
+            sections.append(f"""## Overview
+
+{context}""")
+
+        # Primary Domains (if we have any)
+        if domains:
+            domains_md = '\n'.join(f"- [[{d}]]" for d in domains)
+            sections.append(f"""## Primary Domains
+
+{domains_md}""")
+
+        # Join sections
+        content_sections = '\n\n'.join(sections) if sections else ''
+
+        # Add note at end if we have content
+        if content_sections:
+            content_sections += '\n\n' + """## Notes
+
+*This page was auto-generated from transcript analysis. Expand with affiliated institutions, key concepts, notable works, and related thinkers as needed.*"""
 
         return f"""---
 type: thinker
@@ -112,58 +137,7 @@ updated: {today}
 
 # {thinker['name']}
 
-## Overview
-
-{thinker.get('context', '(Context to be added)')}
-
-## Primary Domains
-
-{domains_md}
-
-## Affiliated Institutions
-
-- (To be added)
-
-## Key Concepts
-
-Concepts this thinker frequently discusses or developed:
-
-- (To be added from transcript analysis)
-
-## Notable Works
-
-### Books
-
-- (To be added)
-
-### Papers
-
-- (To be added)
-
-### Talks & Interviews
-
-- (To be added)
-
-## Related Thinkers
-
-Collaborators, influences, or related researchers:
-
-- (To be added)
-
-## Quotes & Insights
-
-(Notable quotes to be added)
-
-## Questions They Address
-
-- (To be added)
-
-## References
-
-Links to sources where this thinker appears in our knowledge base.
-
-**Mentioned in:**
-- (Transcripts to be linked)
+{content_sections}
 """
 
     def _populate_concepts(self, concepts: List[Dict], verbose: bool) -> None:
@@ -213,6 +187,37 @@ Links to sources where this thinker appears in our knowledge base.
         today = datetime.now().strftime('%Y-%m-%d')
         aliases_str = json.dumps(concept.get('aliases', []))
         category = concept.get('category', 'interdisciplinary')
+        context = concept.get('context', '')
+
+        # Build sections conditionally
+        sections = []
+
+        # Definition (if we have context)
+        if context:
+            sections.append(f"""## Definition
+
+{context}""")
+
+        # Category - always include
+        sections.append(f"""## Category
+
+- Primary: [[{category.title()}]]""")
+
+        # Aliases (if any beyond what's in frontmatter)
+        aliases = concept.get('aliases', [])
+        if aliases:
+            alias_list = ', '.join(f'"{a}"' for a in aliases)
+            sections.append(f"""## Alternative Names
+
+Also known as: {alias_list}""")
+
+        # Join sections
+        content_sections = '\n\n'.join(sections)
+
+        # Add note at end
+        content_sections += '\n\n' + """## Notes
+
+*This page was auto-generated from transcript analysis. Expand with additional details, related concepts, thinkers, and sources as needed.*"""
 
         return f"""---
 type: concept
@@ -225,58 +230,7 @@ updated: {today}
 
 # {concept['name']}
 
-## Definition
-
-{concept.get('context', '(Definition to be refined)')}
-
-## Category
-
-- Primary: [[{category.title()}]]
-
-## Key Characteristics
-
-- (To be added from analysis)
-
-## Key Thinkers
-
-Who discusses or developed this concept:
-
-- (To be linked)
-
-## Related Concepts
-
-How this concept connects to others:
-
-- (To be added)
-
-## Related Frameworks
-
-- (To be added)
-
-## Applications
-
-How this concept is applied or manifests:
-
-1. (To be added)
-
-## Questions & Debates
-
-- (To be added)
-
-## Examples
-
-Concrete examples illustrating the concept.
-
-## Sources
-
-Where this concept appears in our knowledge base:
-
-**Discussed in:**
-- (Transcripts to be linked)
-
-## Notes
-
-(Additional observations, connections, or insights)
+{content_sections}
 """
 
     def _populate_frameworks(self, frameworks: List[Dict], verbose: bool) -> None:
@@ -322,12 +276,42 @@ Where this concept appears in our knowledge base:
         """Generate markdown content for framework page."""
         today = datetime.now().strftime('%Y-%m-%d')
         creator = framework.get('creator')
-        creator_md = f"- [[{creator}]]" if creator else "- (Creator to be determined)"
+        context = framework.get('context', '')
+
+        # Build sections conditionally
+        sections = []
+
+        # Overview (if we have context)
+        if context:
+            sections.append(f"""## Overview
+
+{context}""")
+
+        # Creator (if we have one)
+        if creator:
+            # Parse multiple creators if comma-separated
+            creators = [c.strip() for c in creator.split(',')]
+            creator_links = '\n'.join(f"- [[{c}]]" for c in creators)
+            sections.append(f"""## Creator/Originator
+
+{creator_links}""")
+
+        # Join sections with blank lines
+        content_sections = '\n\n'.join(sections) if sections else ''
+
+        # Add placeholder note at the end if we have content
+        if content_sections:
+            content_sections += '\n\n' + """## Notes
+
+*This page was auto-generated from transcript analysis. Expand with additional details as needed.*"""
+
+        # Build frontmatter
+        creator_list = [c.strip() for c in creator.split(',')] if creator else []
 
         return f"""---
 type: framework
 aliases: []
-creator: {json.dumps([creator] if creator else [])}
+creator: {json.dumps(creator_list)}
 tags: []
 created: {today}
 updated: {today}
@@ -335,62 +319,7 @@ updated: {today}
 
 # {framework['name']}
 
-## Overview
-
-{framework.get('context', '(Description to be expanded)')}
-
-## Creator/Originator
-
-{creator_md}
-
-## Description
-
-(Detailed explanation to be added)
-
-## Components
-
-Key elements that make up this framework:
-
-1. **Component 1**
-   - (Description)
-
-2. **Component 2**
-   - (Description)
-
-## Key Concepts
-
-Concepts central to this framework:
-
-- (To be added)
-
-## Applications
-
-How this framework is used:
-
-- (To be added)
-
-## Related Frameworks
-
-- (To be added)
-
-## Strengths
-
-(What this framework does well)
-
-## Limitations
-
-(Known limitations or criticisms)
-
-## Sources
-
-Where this framework is discussed:
-
-**Detailed in:**
-- (Transcripts to be linked)
-
-## Examples
-
-(Concrete examples of the framework in action)
+{content_sections}
 """
 
     def _populate_institutions(self, institutions: List[Dict], verbose: bool) -> None:
@@ -436,6 +365,29 @@ Where this framework is discussed:
         """Generate markdown content for institution page."""
         today = datetime.now().strftime('%Y-%m-%d')
         inst_type = institution.get('type', 'organization')
+        context = institution.get('context', '')
+
+        # Build sections conditionally
+        sections = []
+
+        # Type - always include
+        sections.append(f"""## Type
+
+{inst_type.replace('-', ' ').title()}""")
+
+        # Overview (if we have context)
+        if context:
+            sections.append(f"""## Overview
+
+{context}""")
+
+        # Join sections
+        content_sections = '\n\n'.join(sections)
+
+        # Add note at end
+        content_sections += '\n\n' + """## Notes
+
+*This page was auto-generated from transcript analysis. Expand with key people, focus areas, and related work as needed.*"""
 
         return f"""---
 type: institution
@@ -447,55 +399,7 @@ updated: {today}
 
 # {institution['name']}
 
-## Type
-
-{inst_type.replace('-', ' ').title()}
-
-## Overview
-
-{institution.get('context', '(Overview to be expanded)')}
-
-## Key People
-
-- (To be added)
-
-## Focus Areas
-
-Main areas of research or practice:
-
-- (To be added)
-
-## Related Concepts
-
-- (To be added)
-
-## Related Work
-
-Projects, publications, or initiatives:
-
-- (To be added)
-
-## Collaborations
-
-Other institutions or people they work with:
-
-- (To be added)
-
-## Sources
-
-Where this institution is mentioned:
-
-**Mentioned in:**
-- (Transcripts to be linked)
-
-## Links
-
-- Website: (To be added)
-- Location: (To be added)
-
-## Notes
-
-(Additional information)
+{content_sections}
 """
 
     def _populate_questions(self, questions: List[Dict], verbose: bool) -> None:
@@ -535,6 +439,34 @@ Where this institution is mentioned:
         """Generate markdown content for question page."""
         today = datetime.now().strftime('%Y-%m-%d')
         category = question.get('category', 'other')
+        context = question.get('context', '')
+
+        # Build sections conditionally
+        sections = []
+
+        # Category - always include
+        sections.append(f"""## Category
+
+- [[{category.title()}]]""")
+
+        # Status - always include
+        sections.append("""## Status
+
+Open""")
+
+        # Description (if we have context)
+        if context:
+            sections.append(f"""## Description
+
+{context}""")
+
+        # Join sections
+        content_sections = '\n\n'.join(sections)
+
+        # Add note at end
+        content_sections += '\n\n' + """## Notes
+
+*This page was auto-generated from transcript analysis. Expand with relevant thinkers, concepts, approaches, and related questions as needed.*"""
 
         return f"""---
 type: question
@@ -547,54 +479,7 @@ updated: {today}
 
 # {question['question']}
 
-## Category
-
-- [[{category.title()}]]
-
-## Status
-
-Open
-
-## Description
-
-{question.get('context', '(Extended description to be added)')}
-
-## Relevant Thinkers
-
-Who addresses this question:
-
-- (To be added)
-
-## Relevant Concepts
-
-Concepts that inform this question:
-
-- (To be added)
-
-## Current Approaches
-
-How different traditions or fields approach this question:
-
-### Approach 1
-(To be added)
-
-### Approach 2
-(To be added)
-
-## Related Questions
-
-- (To be added)
-
-## Sources
-
-Where this question is discussed:
-
-**Discussed in:**
-- (Transcripts to be linked)
-
-## Personal Notes
-
-(Insights, connections, or observations)
+{content_sections}
 """
 
     def print_summary(self) -> None:
