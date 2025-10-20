@@ -4,14 +4,17 @@
 
 1. **Initial Setup**
    ```bash
-   # Install Claude Code (if not already installed)
-   pip install claude-code
-   
-   # Set up environment
-   python setup_claude_env.py
-   
-   # Download transcripts
-   make download
+   # Install dependencies (includes yt-dlp)
+   pip install -r requirements.txt
+
+   # Check YouTube transcript status
+   make youtube-status
+
+   # Download all YouTube transcripts
+   make youtube-download
+
+   # Or test with just one video first
+   make youtube-test
    ```
 
 2. **Working with Claude Code**
@@ -22,6 +25,65 @@
    # Or use the shorthand
    claude-code .
    ```
+
+## YouTube Transcript Pipeline
+
+### New yt-dlp Based System
+
+The project now uses **yt-dlp** for reliable YouTube transcript downloading:
+
+**Features:**
+- Automatic detection of already-processed videos (idempotent)
+- Downloads both manual and auto-generated subtitles
+- Converts VTT/SRT to clean markdown
+- Includes video metadata and formatting
+- Smart error handling and retry logic
+- Processing log tracking
+
+**Commands:**
+```bash
+# Check what's been processed
+make youtube-status
+
+# Download all new transcripts
+make youtube-download
+
+# Test with one video
+make youtube-test
+
+# Force re-download everything
+make youtube-force
+
+# Or use the script directly
+python tools/ytdlp_processor.py --help
+python tools/ytdlp_processor.py --video xaUknipwnpw --verbose
+```
+
+**How it Works:**
+1. Reads video URLs from `knowledge_base/sources/youtube_talks.md`
+2. Checks `knowledge_base/transcripts/raw/` for existing files
+3. Downloads only new videos using yt-dlp
+4. Converts subtitles to markdown with metadata
+5. Saves as `{video_id}_{title}.md`
+6. Updates `processing_log.json`
+
+**Output Format:**
+Each transcript includes:
+- Video title, URL, channel, published date
+- Duration and download timestamp
+- Video description and tags
+- Clean, paragraph-formatted transcript
+- JSON metadata for reference
+
+### Adding New Videos
+
+Simply add YouTube URLs to `knowledge_base/sources/youtube_talks.md`:
+```
+https://www.youtube.com/watch?v=xaUknipwnpw
+https://www.youtube.com/watch?v=staFQw-_e6E
+```
+
+Then run `make youtube-download` - it will automatically process only new videos.
 
 ## Common Claude Code Commands
 
