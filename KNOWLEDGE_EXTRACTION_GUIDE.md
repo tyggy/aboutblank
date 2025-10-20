@@ -49,6 +49,71 @@ make kb-link
 
 ## Detailed Workflow
 
+### 0. Speaker Name Correction (Optional but Recommended)
+
+**Problem:** YouTube's automatic transcription often mangles speaker names, especially non-English names.
+
+**Examples:**
+- "Olaf Witkowski" → transcribed as "Olaf Wowski"
+- "Michael Levin" → transcribed as "Michael Levine"
+- "Karl Friston" → transcribed as "Carl Friston"
+
+**Solution:** Fix these before extraction using the speaker corrections file.
+
+#### Setting Up Corrections
+
+1. **Create/edit the corrections file**: `knowledge_base/speaker_corrections.yaml`
+
+```yaml
+# Map incorrect transcriptions to correct names
+olaf wowski:
+  correct: Olaf Witkowski
+  aliases: [Olaf Witkowski, Olaf E. Witkowski]
+
+michael levine:
+  correct: Michael Levin
+  aliases: [M. Levin, Mike Levin]
+
+carl friston:
+  correct: Karl Friston
+```
+
+2. **Scan for potential errors**:
+```bash
+make kb-scan-speakers
+```
+
+This will show you all speaker attributions in your transcripts and flag any not in the corrections file.
+
+3. **Fix speaker names**:
+```bash
+make kb-fix-speakers
+```
+
+This automatically corrects all known transcription errors in your transcripts.
+
+**Manual alternative:**
+```bash
+# Scan only
+python tools/fix_speaker_names.py \
+  knowledge_base/transcripts/raw/*_edited.md \
+  --scan-only --verbose
+
+# Fix names
+python tools/fix_speaker_names.py \
+  knowledge_base/transcripts/raw/*_edited.md \
+  --verbose
+```
+
+**Tips:**
+- Run `kb-scan-speakers` first to discover errors
+- Add corrections incrementally as you find them
+- Corrections are case-insensitive (searches for "wowski" will match "Wowski")
+- The fixer preserves possessives ("Wowski's" → "Witkowski's")
+- Safe to run multiple times (only fixes what needs fixing)
+
+**Note:** `make kb-build` automatically runs this step first!
+
 ### 1. Entity Extraction (`make kb-extract`)
 
 **What it does:**

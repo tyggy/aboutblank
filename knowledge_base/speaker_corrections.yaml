@@ -1,0 +1,42 @@
+# Speaker Name Corrections
+
+This file maps common transcription errors in YouTube transcripts to correct names.
+Used by the speaker correction tool to fix names before entity extraction.
+
+Format: incorrect_name -> correct_name
+
+## Format
+
+```yaml
+incorrect_name:
+  correct: Correct Name
+  aliases: [Alternative Spelling 1, Alternative Spelling 2]
+  notes: Optional notes about this person
+```
+
+## Known Corrections
+
+# Olaf Witkowski
+olaf wowski:
+  correct: Olaf Witkowski
+  aliases: [Olaf Witkowski, Olaf E. Witkowski]
+  notes: AI researcher, neuroscientist
+
+olaf wowski:
+  correct: Olaf Witkowski
+
+# Add more corrections as you discover them
+# Format: transcribed name -> correct name
+
+# Michael Levin
+michael levine:
+  correct: Michael Levin
+  aliases: [Michael Levin, M. Levin, Mike Levin]
+
+# Karl Friston
+carl friston:
+  correct: Karl Friston
+  aliases: [Karl Friston, Karl J. Friston]
+
+# Add your corrections here
+# Use lowercase for the incorrect names (for case-insensitive matching)

@@ -20,11 +20,13 @@ help:
 	@echo "  make transcripts-cleanup-duplicates - Remove accidentally duplicated files"
 	@echo ""
 	@echo "Knowledge Extraction:"
+	@echo "  make kb-fix-speakers              - Fix speaker name transcription errors"
+	@echo "  make kb-scan-speakers             - Scan for potential speaker name errors"
 	@echo "  make kb-extract                   - Extract entities from transcripts"
 	@echo "  make kb-normalize                 - Normalize and deduplicate entities"
 	@echo "  make kb-populate                  - Create entity pages in knowledge base"
 	@echo "  make kb-link                      - Inject wiki links into transcripts"
-	@echo "  make kb-build                     - Full pipeline: extract → normalize → populate → link"
+	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link"
 	@echo ""
 	@echo "Analysis:"
 	@echo "  make analyze                      - Run concept extraction and mapping"
@@ -88,6 +90,15 @@ transcripts-cleanup-duplicates:
 	@echo "Cleanup complete!"
 
 # Knowledge extraction and Obsidian knowledge base building
+kb-fix-speakers:
+	@echo "Fixing speaker name transcription errors..."
+	python tools/fix_speaker_names.py knowledge_base/transcripts/raw/*_edited.md --verbose
+	@echo "✓ Speaker names corrected!"
+
+kb-scan-speakers:
+	@echo "Scanning for potential speaker name errors..."
+	python tools/fix_speaker_names.py knowledge_base/transcripts/raw/*_edited.md --scan-only --verbose
+
 kb-extract:
 	@echo "Extracting entities from transcripts..."
 	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
@@ -130,7 +141,7 @@ kb-link:
 	@echo "✓ Wiki links injected!"
 	@echo "Transcripts now linked to entities"
 
-kb-build: kb-extract kb-normalize kb-populate kb-link
+kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link
 	@echo ""
 	@echo "════════════════════════════════════════════════"
 	@echo "✅ Knowledge Base Build Complete!"

@@ -9,6 +9,12 @@
 yt-dlp>=2023.7.6
 
 # ============================================
+# CORE - Knowledge Extraction (Python 3.11+)
+# ============================================
+anthropic>=0.18.0  # Claude API for entity extraction
+pyyaml>=6.0        # For speaker corrections file
+
+# ============================================
 # OPTIONAL - Install only if needed
 # ============================================
 
