@@ -10,6 +10,7 @@ Features:
 - Removes filler words (uh, um, you know, etc.)
 - Deduplicates repeated text
 - Creates readable paragraphs
+- Strips YouTube metadata (keeps only title + transcript)
 """
 
 import argparse
@@ -223,6 +224,7 @@ class InlineTimestampCleaner:
     def process_markdown_file(self, input_file: Path, output_file: Path = None) -> None:
         """
         Process a markdown file, cleaning only the transcript section.
+        Removes YouTube metadata, keeping only title and cleaned transcript.
 
         Args:
             input_file: Path to input markdown file
@@ -233,21 +235,31 @@ class InlineTimestampCleaner:
 
         content = input_file.read_text(encoding='utf-8')
 
+        # Extract title (first heading)
+        title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+        title = title_match.group(1) if title_match else "Untitled Transcript"
+
         # Find the transcript section
         # Looking for ## Transcript followed by content until ## or end of file
-        pattern = r'(##\s+Transcript\s*\n)(.*?)(?=\n##|\Z)'
+        transcript_pattern = r'##\s+Transcript\s*\n(.*?)(?=\n##|\Z)'
+        transcript_match = re.search(transcript_pattern, content, flags=re.DOTALL | re.IGNORECASE)
 
-        def replace_transcript(match):
-            header = match.group(1)
-            transcript = match.group(2)
+        if not transcript_match:
+            print(f"⚠ Warning: No transcript section found in {input_file.name}")
+            return
 
-            # Clean the transcript
-            cleaned = self.clean_transcript_section(transcript)
+        transcript = transcript_match.group(1)
 
-            return header + '\n' + cleaned + '\n'
+        # Clean the transcript
+        cleaned_transcript = self.clean_transcript_section(transcript)
 
-        # Replace the transcript section
-        new_content = re.sub(pattern, replace_transcript, content, flags=re.DOTALL | re.IGNORECASE)
+        # Create simplified output with just title and transcript
+        new_content = f"""# {title}
+
+## Transcript
+
+{cleaned_transcript}
+"""
 
         # Write output
         output_file.write_text(new_content, encoding='utf-8')
