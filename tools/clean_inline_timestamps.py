@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Clean Inline Timestamps from Transcripts
+Clean Inline Timestamps from Transcripts - IMPROVED VERSION
 
 Handles transcripts with inline timestamps like:
 and<00: 00: 01. 319> next<00: 00: 01. 880> we<00: 00: 02. 040>
 
-Removes timestamps and deduplicates repeated text.
+Removes timestamps, deduplicates repeated text, and creates readable paragraphs.
 """
 
 import argparse
 import re
 from pathlib import Path
-from typing import List, Set
+from typing import List
 
 
 class InlineTimestampCleaner:
@@ -23,107 +23,134 @@ class InlineTimestampCleaner:
 
     def remove_timestamps(self, text: str) -> str:
         """Remove all inline timestamps from text."""
-        return self.timestamp_pattern.sub('', text)
+        return self.timestamp_pattern.sub(' ', text)
 
-    def deduplicate_text(self, text: str) -> str:
+    def aggressive_deduplicate(self, text: str) -> str:
         """
-        Remove duplicated phrases that often appear in auto-transcripts.
+        Aggressively remove duplicated phrases.
 
-        Example: "and next we are moving on our next and next we are moving on our next"
-        Should become: "and next we are moving on our next"
+        The auto-generated subtitles often duplicate phrases multiple times:
+        "hello world hello world hello world" ->  "hello world"
         """
-        # Split into words
         words = text.split()
 
-        if len(words) <= 3:
+        if len(words) <= 5:
             return text
 
-        # Find repeating sequences
-        cleaned_words = []
+        # Use a more aggressive approach: sliding window to detect any repetition
+        result = []
         i = 0
 
         while i < len(words):
-            # Try different sequence lengths (from long to short)
-            found_duplicate = False
+            # Try to find the longest non-repeating sequence from this position
+            best_seq_len = 1
 
-            for seq_len in range(min(20, len(words) - i), 2, -1):
-                if i + seq_len * 2 <= len(words):
-                    # Check if next sequence matches
-                    seq1 = words[i:i + seq_len]
-                    seq2 = words[i + seq_len:i + seq_len * 2]
+            # Check from current position to end
+            # Look for patterns where the same sequence repeats
+            for check_len in range(1, min(50, (len(words) - i) // 2 + 1)):
+                # Check if this sequence repeats immediately after
+                seq = words[i:i + check_len]
+                next_seq = words[i + check_len:i + 2 * check_len] if i + 2 * check_len <= len(words) else []
 
-                    if seq1 == seq2:
-                        # Found duplicate, add only once
-                        cleaned_words.extend(seq1)
-                        i += seq_len * 2
-                        found_duplicate = True
-                        break
+                if seq and seq == next_seq:
+                    # Found a repetition, skip all copies
+                    repeat_count = 1
+                    pos = i + check_len
 
-            if not found_duplicate:
-                cleaned_words.append(words[i])
+                    while pos + check_len <= len(words):
+                        test_seq = words[pos:pos + check_len]
+                        if test_seq == seq:
+                            repeat_count += 1
+                            pos += check_len
+                        else:
+                            break
+
+                    # Add the sequence once and skip past all repetitions
+                    result.extend(seq)
+                    i = pos
+                    best_seq_len = 0  # Signal that we handled this
+                    break
+
+            if best_seq_len > 0:
+                # No repetition found, add this word
+                result.append(words[i])
                 i += 1
 
-        return ' '.join(cleaned_words)
+        return ' '.join(result)
 
     def clean_text(self, text: str) -> str:
         """Clean text by removing timestamps and deduplicating."""
-        # Remove timestamps
+        # Remove timestamps first
         text = self.remove_timestamps(text)
 
         # Clean up extra spaces
         text = re.sub(r'\s+', ' ', text)
 
-        # Deduplicate repeated phrases
-        text = self.deduplicate_text(text)
+        # Aggressive deduplication
+        text = self.aggressive_deduplicate(text)
 
         # Clean up spacing around punctuation
         text = re.sub(r'\s+([.,!?;:])', r'\1', text)
         text = re.sub(r'([.,!?;:])\s*', r'\1 ', text)
 
-        # Remove extra spaces
+        # Remove extra spaces again
         text = re.sub(r'\s+', ' ', text)
+
+        # Remove common artifacts
+        text = re.sub(r'\[.*?\]', '', text)  # Remove [music], [applause], etc.
 
         return text.strip()
 
-    def split_into_paragraphs(self, text: str, min_sentence_length: int = 100) -> List[str]:
+    def split_into_sentences(self, text: str) -> List[str]:
+        """Split text into sentences."""
+        # Split on sentence boundaries but keep the punctuation
+        sentences = re.split(r'([.!?])\s+', text)
+
+        # Recombine sentences with their punctuation
+        result = []
+        for i in range(0, len(sentences) - 1, 2):
+            sentence = sentences[i]
+            punct = sentences[i + 1] if i + 1 < len(sentences) else ''
+            if sentence.strip():
+                result.append(sentence.strip() + punct)
+
+        # Handle last sentence if no punctuation
+        if len(sentences) % 2 == 1 and sentences[-1].strip():
+            result.append(sentences[-1].strip())
+
+        return result
+
+    def create_paragraphs(self, sentences: List[str], target_length: int = 400) -> List[str]:
         """
-        Split cleaned text into readable paragraphs.
+        Group sentences into paragraphs of roughly target_length characters.
 
         Args:
-            text: Cleaned text
-            min_sentence_length: Minimum characters before starting new paragraph
+            sentences: List of sentences
+            target_length: Target paragraph length in characters
 
         Returns:
             List of paragraphs
         """
-        # Split on sentence boundaries
-        sentences = re.split(r'([.!?]\s+)', text)
-
         paragraphs = []
         current_para = []
         current_length = 0
 
-        for i in range(0, len(sentences), 2):
-            sentence = sentences[i]
-            punct = sentences[i + 1] if i + 1 < len(sentences) else ''
+        for sentence in sentences:
+            sentence_length = len(sentence)
 
-            full_sentence = sentence + punct
-            current_para.append(full_sentence)
-            current_length += len(full_sentence)
+            # Start new paragraph if adding this would make it too long
+            # (unless current paragraph is empty)
+            if current_para and current_length + sentence_length > target_length * 1.5:
+                paragraphs.append(' '.join(current_para))
+                current_para = [sentence]
+                current_length = sentence_length
+            else:
+                current_para.append(sentence)
+                current_length += sentence_length
 
-            # Start new paragraph if we have enough text and a sentence boundary
-            if current_length >= min_sentence_length and punct.strip():
-                para_text = ''.join(current_para).strip()
-                if para_text:
-                    paragraphs.append(para_text)
-                current_para = []
-                current_length = 0
-
-        # Add any remaining text
+        # Add remaining paragraph
         if current_para:
-            para_text = ''.join(current_para).strip()
-            if para_text:
-                paragraphs.append(para_text)
+            paragraphs.append(' '.join(current_para))
 
         return paragraphs
 
@@ -140,8 +167,11 @@ class InlineTimestampCleaner:
         # Clean the text
         cleaned = self.clean_text(transcript_text)
 
-        # Split into paragraphs
-        paragraphs = self.split_into_paragraphs(cleaned)
+        # Split into sentences
+        sentences = self.split_into_sentences(cleaned)
+
+        # Group into paragraphs
+        paragraphs = self.create_paragraphs(sentences)
 
         # Join with double newlines
         return '\n\n'.join(paragraphs)
@@ -161,7 +191,7 @@ class InlineTimestampCleaner:
 
         # Find the transcript section
         # Looking for ## Transcript followed by content until ## or end of file
-        pattern = r'(## Transcript\s*\n)(.*?)(?=\n##|\Z)'
+        pattern = r'(##\s+Transcript\s*\n)(.*?)(?=\n##|\Z)'
 
         def replace_transcript(match):
             header = match.group(1)
@@ -170,10 +200,10 @@ class InlineTimestampCleaner:
             # Clean the transcript
             cleaned = self.clean_transcript_section(transcript)
 
-            return header + '\n' + cleaned
+            return header + '\n' + cleaned + '\n'
 
         # Replace the transcript section
-        new_content = re.sub(pattern, replace_transcript, content, flags=re.DOTALL)
+        new_content = re.sub(pattern, replace_transcript, content, flags=re.DOTALL | re.IGNORECASE)
 
         # Write output
         output_file.write_text(new_content, encoding='utf-8')
@@ -199,7 +229,7 @@ Examples:
   python clean_inline_timestamps.py knowledge_base/transcripts/raw/*.md
 
   # Test on raw text
-  echo "hello<00:00:01.000> world<00:00:02.000>" | python clean_inline_timestamps.py --test
+  echo "hello<00:00:01.000> world<00:00:02.000> hello world" | python clean_inline_timestamps.py --test
         """
     )
 
@@ -218,12 +248,6 @@ Examples:
         '--test',
         action='store_true',
         help='Test mode: read from stdin and print to stdout'
-    )
-
-    parser.add_argument(
-        '--suffix',
-        default='_cleaned',
-        help='Suffix to add to output files (default: _cleaned)'
     )
 
     parser.add_argument(
@@ -265,12 +289,14 @@ Examples:
             # Add suffix before extension
             stem = input_file.stem
             suffix = input_file.suffix
-            output_file = input_file.parent / f"{stem}{args.suffix}{suffix}"
+            output_file = input_file.parent / f"{stem}_cleaned{suffix}"
 
         try:
             cleaner.process_markdown_file(input_file, output_file)
         except Exception as e:
             print(f"✗ Error processing {input_file}: {e}")
+            import traceback
+            traceback.print_exc()
 
 
 if __name__ == '__main__':
