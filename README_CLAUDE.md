@@ -85,6 +85,75 @@ https://www.youtube.com/watch?v=staFQw-_e6E
 
 Then run `make youtube-download` - it will automatically process only new videos.
 
+## Transcript Cleaning & Copyediting
+
+After downloading transcripts, they need two-stage processing to remove timestamps, filler words, and improve readability:
+
+### Stage 1: Clean (Free)
+Removes inline timestamps, filler words (uh, um, you know), and YouTube metadata:
+
+```bash
+# Clean all transcripts (auto-skips already-cleaned files)
+make transcripts-clean
+
+# Or manually:
+python tools/clean_inline_timestamps.py knowledge_base/transcripts/raw/*.md
+```
+
+**What it does:**
+- Removes timestamps like `<00:00:01.319>`
+- Removes filler words (uh, um, er, you know, I mean, etc.)
+- Aggressive deduplication of repeated phrases
+- Strips YouTube metadata (keeps only title + transcript)
+- Creates readable paragraphs
+
+**Output:** Creates `*_cleaned.md` files with clean, readable text.
+
+### Stage 2: Copyedit with Claude API (Paid)
+Uses Claude Haiku 4.5 for grammar fixes and improved readability:
+
+```bash
+# Set API key first
+export ANTHROPIC_API_KEY=your-key-here
+
+# Copyedit all cleaned transcripts
+make transcripts-copyedit
+
+# Or manually:
+python tools/copyedit_with_claude.py knowledge_base/transcripts/raw/*_cleaned.md
+```
+
+**What it does:**
+- Fixes grammar and punctuation
+- Removes remaining fillers and false starts
+- Improves sentence structure and flow
+- Preserves meaning and speaker's voice
+- Automatically batches long transcripts to avoid context limits
+
+**Cost:** ~$0.02-0.05 per 20-minute transcript (very affordable!)
+
+**Output:** Creates `*_edited.md` files ready for analysis.
+
+### Complete Pipeline
+```bash
+# Full workflow: download → clean → copyedit
+make youtube-download
+make transcripts-clean
+export ANTHROPIC_API_KEY=your-key-here
+make transcripts-copyedit
+```
+
+### Re-cleaning Existing Files
+If you have transcripts cleaned before the latest updates, re-clean them to apply filler word removal and metadata stripping:
+
+```bash
+./reclean_transcripts.sh
+```
+
+### Documentation
+- Full workflow guide: `TRANSCRIPT_CLEANING_WORKFLOW.md`
+- Installation guide: `INSTALLATION.md`
+
 ## Common Claude Code Commands
 
 ### Processing Transcripts
