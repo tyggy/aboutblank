@@ -343,6 +343,56 @@ export ANTHROPIC_API_KEY=your-key-here
 # Or add to ~/.bashrc or ~/.zshrc
 ```
 
+### JSON parsing errors during extraction
+
+If you see errors like "Expecting value: line 1 column 1 (char 0)" in extraction results:
+
+**Symptoms:**
+```json
+{
+  "thinkers": [],
+  "concepts": [],
+  "_metadata": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+}
+```
+
+**What this means:**
+Claude's API returned an empty or malformed response for that transcript.
+
+**Solution:**
+
+1. **Check debug files** (created automatically with improved script):
+   ```bash
+   ls knowledge_base/extractions/*_debug_response.txt
+   ```
+   These show exactly what Claude returned.
+
+2. **Retry failed extractions**:
+   ```bash
+   python tools/retry_failed_extractions.py --verbose
+   ```
+   This will automatically re-run extraction for any files that failed.
+
+3. **Manual retry for specific file**:
+   ```bash
+   python tools/extract_entities.py \
+     knowledge_base/transcripts/raw/problem-file_edited.md \
+     --verbose
+   ```
+
+**Common causes:**
+- Transcript too long (>100k characters triggers truncation)
+- Very dense content overwhelming the model
+- Temporary API issue (retry usually works)
+- Transcript format issue (malformed markdown)
+
+**If retries keep failing:**
+- Check the transcript file - is it properly formatted?
+- Try with a smaller section of the transcript
+- The transcript might be edge case - can extract manually
+
 ### Too many duplicate entities created
 - Lower similarity threshold:
   ```bash
