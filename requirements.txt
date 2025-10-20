@@ -13,6 +13,7 @@ yt-dlp>=2023.7.6
 # ============================================
 anthropic>=0.18.0  # Claude API for entity extraction
 pyyaml>=6.0        # For speaker corrections file
+pymupdf>=1.23.0    # For PDF text extraction (research papers)
 
 # ============================================
 # OPTIONAL - Install only if needed

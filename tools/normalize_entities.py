@@ -213,11 +213,24 @@ class EntityNormalizer:
 
             try:
                 data = json.loads(extraction_file.read_text(encoding='utf-8'))
-                all_thinkers.extend(data.get('thinkers', []))
-                all_concepts.extend(data.get('concepts', []))
-                all_frameworks.extend(data.get('frameworks', []))
-                all_institutions.extend(data.get('institutions', []))
-                all_questions.extend(data.get('questions', []))
+                source_file = data.get('_metadata', {}).get('source_file', str(extraction_file))
+
+                # Add source tracking to each entity
+                for thinker in data.get('thinkers', []):
+                    thinker['_source'] = source_file
+                    all_thinkers.append(thinker)
+                for concept in data.get('concepts', []):
+                    concept['_source'] = source_file
+                    all_concepts.append(concept)
+                for framework in data.get('frameworks', []):
+                    framework['_source'] = source_file
+                    all_frameworks.append(framework)
+                for institution in data.get('institutions', []):
+                    institution['_source'] = source_file
+                    all_institutions.append(institution)
+                for question in data.get('questions', []):
+                    question['_source'] = source_file
+                    all_questions.append(question)
             except Exception as e:
                 print(f"❌ Error loading {extraction_file}: {e}", file=sys.stderr)
 
@@ -256,6 +269,7 @@ class EntityNormalizer:
                 continue
 
             aliases = thinker.get('aliases', [])
+            source = thinker.get('_source', '')
 
             # Normalize name
             display_name, filename = self.normalize_thinker_name(name)
@@ -279,6 +293,8 @@ class EntityNormalizer:
                         print(f"  🔀 Merging duplicate: '{name}'")
                     seen[display_name]['aliases'].extend(aliases)
                     seen[display_name]['aliases'] = list(set(seen[display_name]['aliases']))
+                    if source and source not in seen[display_name].get('sources', []):
+                        seen[display_name].setdefault('sources', []).append(source)
                     continue
                 else:
                     # New entity
@@ -288,9 +304,17 @@ class EntityNormalizer:
                         'aliases': aliases,
                         'domains': thinker.get('domains', []),
                         'context': thinker.get('context', ''),
+                        'sources': [source] if source else [],
                         'is_new': True
                     }
                     normalized_key = display_name
+
+            # Add source to entity
+            if source:
+                if 'sources' not in entity:
+                    entity['sources'] = []
+                if source not in entity['sources']:
+                    entity['sources'].append(source)
 
             seen[normalized_key] = entity
 
@@ -317,6 +341,7 @@ class EntityNormalizer:
                 continue
 
             aliases = concept.get('aliases', [])
+            source = concept.get('_source', '')
             display_name, filename = self.normalize_concept_name(name)
 
             # First, check against existing KB entities
@@ -341,6 +366,8 @@ class EntityNormalizer:
                     # Merge aliases
                     seen[seen_match]['aliases'].extend(aliases)
                     seen[seen_match]['aliases'] = list(set(seen[seen_match]['aliases']))
+                    if source and source not in seen[seen_match].get('sources', []):
+                        seen[seen_match].setdefault('sources', []).append(source)
                     continue
                 else:
                     entity = {
@@ -349,9 +376,17 @@ class EntityNormalizer:
                         'aliases': aliases,
                         'category': concept.get('category', 'interdisciplinary'),
                         'context': concept.get('context', ''),
+                        'sources': [source] if source else [],
                         'is_new': True
                     }
                     normalized_key = display_name
+
+            # Add source to entity
+            if source:
+                if 'sources' not in entity:
+                    entity['sources'] = []
+                if source not in entity['sources']:
+                    entity['sources'].append(source)
 
             seen[normalized_key] = entity
 
@@ -377,6 +412,7 @@ class EntityNormalizer:
             if not name:
                 continue
 
+            source = framework.get('_source', '')
             display_name, filename = self.normalize_concept_name(name)
 
             # First, check against existing KB entities
@@ -398,6 +434,8 @@ class EntityNormalizer:
                 if seen_match:
                     if verbose:
                         print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
+                    if source and source not in seen[seen_match].get('sources', []):
+                        seen[seen_match].setdefault('sources', []).append(source)
                     continue
                 else:
                     entity = {
@@ -405,9 +443,17 @@ class EntityNormalizer:
                         'filename': filename,
                         'creator': framework.get('creator'),
                         'context': framework.get('context', ''),
+                        'sources': [source] if source else [],
                         'is_new': True
                     }
                     normalized_key = display_name
+
+            # Add source to entity
+            if source:
+                if 'sources' not in entity:
+                    entity['sources'] = []
+                if source not in entity['sources']:
+                    entity['sources'].append(source)
 
             seen[normalized_key] = entity
 
@@ -433,6 +479,7 @@ class EntityNormalizer:
             if not name:
                 continue
 
+            source = institution.get('_source', '')
             display_name, filename = self.normalize_concept_name(name)
 
             # First, check against existing KB entities
@@ -454,7 +501,8 @@ class EntityNormalizer:
                 if seen_match:
                     if verbose:
                         print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
-                    # Skip - already have this one
+                    if source and source not in seen[seen_match].get('sources', []):
+                        seen[seen_match].setdefault('sources', []).append(source)
                     continue
                 else:
                     entity = {
@@ -462,9 +510,17 @@ class EntityNormalizer:
                         'filename': filename,
                         'type': institution.get('type', 'organization'),
                         'context': institution.get('context', ''),
+                        'sources': [source] if source else [],
                         'is_new': True
                     }
                     normalized_key = display_name
+
+            # Add source to entity
+            if source:
+                if 'sources' not in entity:
+                    entity['sources'] = []
+                if source not in entity['sources']:
+                    entity['sources'].append(source)
 
             seen[normalized_key] = entity
 

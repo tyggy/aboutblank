@@ -24,6 +24,11 @@ help:
 	@echo "  make transcripts-process          - Clean + copyedit (full pipeline)"
 	@echo "  make transcripts-cleanup-duplicates - Remove accidentally duplicated files"
 	@echo ""
+	@echo "Research Papers:"
+	@echo "  make papers-extract               - Extract text from PDFs"
+	@echo "  make papers-copyedit              - Copyedit papers with Claude API"
+	@echo "  make papers-process               - Extract + copyedit (full pipeline)"
+	@echo ""
 	@echo "Knowledge Extraction:"
 	@echo "  make kb-fix-speakers              - Fix speaker name transcription errors"
 	@echo "  make kb-scan-speakers             - Scan for potential speaker name errors"
@@ -100,6 +105,36 @@ transcripts-cleanup-duplicates:
 	@find knowledge_base/transcripts/raw -name "*_cleaned_cleaned.md" -delete 2>/dev/null || true
 	@echo "Cleanup complete!"
 
+# Research paper processing
+papers-extract:
+	@echo "Extracting text from PDF papers..."
+	@if [ ! -d knowledge_base/sources/papers ] || [ -z "$$(ls -A knowledge_base/sources/papers/*.pdf 2>/dev/null)" ]; then \
+		echo "⚠️  No PDF files found in knowledge_base/sources/papers/"; \
+		echo "   Add PDF files to that directory first."; \
+		exit 0; \
+	fi
+	@mkdir -p knowledge_base/papers/cleaned
+	python tools/extract_pdf.py knowledge_base/sources/papers --verbose
+	@echo "✓ PDF extraction complete!"
+
+papers-copyedit:
+	@echo "Copyediting papers with Claude API..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	@if [ ! -d knowledge_base/papers/cleaned ] || [ -z "$$(ls -A knowledge_base/papers/cleaned/*.md 2>/dev/null)" ]; then \
+		echo "Error: No extracted papers found. Run 'make papers-extract' first."; \
+		exit 1; \
+	fi
+	@mkdir -p knowledge_base/papers/edited
+	python tools/copyedit_with_claude.py knowledge_base/papers/cleaned/*.md --output-dir knowledge_base/papers/edited
+	@echo "✓ Paper copyediting complete!"
+
+papers-process: papers-extract papers-copyedit
+	@echo "All papers processed!"
+
 # Knowledge extraction and Obsidian knowledge base building
 kb-fix-speakers:
 	@echo "Fixing speaker name transcription errors..."
@@ -111,14 +146,27 @@ kb-scan-speakers:
 	python tools/fix_speaker_names.py knowledge_base/transcripts/raw/*_edited.md --scan-only --verbose
 
 kb-extract:
-	@echo "Extracting entities from transcripts..."
+	@echo "Extracting entities from transcripts and papers..."
 	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
 		echo "Error: ANTHROPIC_API_KEY not set"; \
 		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
 		exit 1; \
 	fi
 	@mkdir -p knowledge_base/extractions
-	python tools/extract_entities.py knowledge_base/transcripts/raw/*_edited.md --verbose
+	@# Extract from transcripts
+	@if [ -n "$$(ls knowledge_base/transcripts/raw/*_edited.md 2>/dev/null)" ]; then \
+		echo "📝 Extracting from transcripts..."; \
+		python tools/extract_entities.py knowledge_base/transcripts/raw/*_edited.md --verbose; \
+	else \
+		echo "⚠️  No edited transcripts found."; \
+	fi
+	@# Extract from papers
+	@if [ -n "$$(ls knowledge_base/papers/edited/*.md 2>/dev/null)" ]; then \
+		echo "📄 Extracting from papers..."; \
+		python tools/extract_entities.py knowledge_base/papers/edited/*.md --verbose; \
+	else \
+		echo "⚠️  No edited papers found."; \
+	fi
 	@echo "✓ Entity extraction complete!"
 	@echo "Review extractions in: knowledge_base/extractions/"
 
@@ -143,14 +191,23 @@ kb-populate:
 	@echo "Open knowledge_base/ in Obsidian to explore"
 
 kb-link:
-	@echo "Injecting wiki links into transcripts..."
+	@echo "Injecting wiki links into transcripts and papers..."
 	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
 		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
-	python tools/inject_links.py knowledge_base/transcripts/raw/*_edited.md --verbose
+	@# Link transcripts
+	@if [ -n "$$(ls knowledge_base/transcripts/raw/*_edited.md 2>/dev/null)" ]; then \
+		echo "📝 Linking transcripts..."; \
+		python tools/inject_links.py knowledge_base/transcripts/raw/*_edited.md --verbose; \
+	fi
+	@# Link papers
+	@if [ -n "$$(ls knowledge_base/papers/edited/*.md 2>/dev/null)" ]; then \
+		echo "📄 Linking papers..."; \
+		python tools/inject_links.py knowledge_base/papers/edited/*.md --verbose; \
+	fi
 	@echo "✓ Wiki links injected!"
-	@echo "Transcripts now linked to entities"
+	@echo "Sources now linked to entities"
 
 kb-enrich:
 	@echo "Cross-enriching entity pages..."
@@ -174,11 +231,16 @@ kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
 	@echo "  🏛️  Institutions: knowledge_base/institutions/"
 	@echo "  ❓ Questions: knowledge_base/questions/"
 	@echo ""
+	@echo "Sources processed:"
+	@echo "  📝 Transcripts: knowledge_base/transcripts/"
+	@echo "  📄 Papers: knowledge_base/papers/"
+	@echo ""
 	@echo "Next steps:"
 	@echo "  1. Open knowledge_base/ in Obsidian"
 	@echo "  2. View graph: Cmd/Ctrl + G"
-	@echo "  3. Explore bidirectional links"
-	@echo "  4. Manually refine and expand entity pages"
+	@echo "  3. Explore bidirectional links between entities"
+	@echo "  4. Add more papers: copy PDFs to knowledge_base/sources/papers/"
+	@echo "  5. Manually refine and expand entity pages"
 	@echo ""
 
 process:

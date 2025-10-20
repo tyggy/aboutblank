@@ -95,19 +95,30 @@ class EntityCrossEnricher:
                     relationships['framework_to_concepts'][fname].add(cname)
                     relationships['concept_to_frameworks'][cname].add(fname)
 
-        # Map thinkers to concepts based on domains
+        # Map thinkers to concepts based on co-occurrence and context
         for thinker in data.get('thinkers', []):
             tname = thinker['name']
             domains = thinker.get('domains', [])
             context = thinker.get('context', '').lower()
+            thinker_sources = set(thinker.get('sources', []))
 
             # Find concept mentions
             for concept in data.get('concepts', []):
                 cname = concept['name']
                 ccategory = concept.get('category', '')
+                concept_sources = set(concept.get('sources', []))
 
-                # Link if domain matches concept category or name appears in context
-                if ccategory in [d.lower() for d in domains] or cname.lower() in context:
+                # Link if:
+                # 1. They co-occur in same transcript/source
+                # 2. Domain matches concept category
+                # 3. Concept name appears in thinker context
+                # 4. Thinker name appears in concept context
+                co_occurs = bool(thinker_sources & concept_sources)
+                domain_match = ccategory.lower() in [d.lower() for d in domains] if ccategory else False
+                concept_in_thinker = cname.lower() in context
+                thinker_in_concept = tname.lower() in concept.get('context', '').lower()
+
+                if co_occurs or domain_match or concept_in_thinker or thinker_in_concept:
                     relationships['thinker_to_concepts'][tname].add(cname)
                     relationships['concept_to_thinkers'][cname].add(tname)
 
