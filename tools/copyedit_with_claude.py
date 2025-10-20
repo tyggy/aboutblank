@@ -2,7 +2,7 @@
 """
 Copyedit Transcripts Using Claude API - WITH BATCHING
 
-Uses Claude API (Claude 4.5 Haiku for cost-effectiveness) to:
+Uses Claude API (Claude Haiku 4.5 for cost-effectiveness) to:
 - Fix grammar and punctuation
 - Remove filler words (um, uh, you know, etc.)
 - Improve readability
@@ -29,13 +29,13 @@ except ImportError:
 class ClaudeCopyeditor:
     """Copyedit transcripts using Claude API with smart batching."""
 
-    def __init__(self, api_key: Optional[str] = None, model: str = "claude-4-5-haiku-20251001"):
+    def __init__(self, api_key: Optional[str] = None, model: str = "claude-haiku-4-5-20251001"):
         """
         Initialize the copyeditor.
 
         Args:
             api_key: Anthropic API key (or set ANTHROPIC_API_KEY env var)
-            model: Claude model to use (default: Claude 4.5 Haiku for cost-effectiveness)
+            model: Claude model to use (default: Claude Haiku 4.5 for cost-effectiveness)
         """
         if not ANTHROPIC_AVAILABLE:
             raise ImportError("anthropic package is required. Install with: pip install anthropic")
@@ -284,11 +284,11 @@ Examples:
   python copyedit_with_claude.py transcript.md --model claude-3-5-sonnet-20241022
 
 Models:
-  - claude-4-5-haiku-20251001 (default - Claude 4.5 Haiku, fastest & cheapest)
+  - claude-haiku-4-5-20251001 (default - Claude Haiku 4.5, fastest & cheapest)
   - claude-3-5-haiku-20241022 (Claude 3.5 Haiku, previous version)
   - claude-3-5-sonnet-20241022 (Claude 3.5 Sonnet, higher quality, more expensive)
 
-Cost estimate (Claude 4.5 Haiku):
+Cost estimate (Claude Haiku 4.5):
   - Input: $1 per million tokens (~4M characters)
   - Output: $5 per million tokens
   - A 20-minute transcript (~5000 words) costs ~$0.02-0.05
@@ -321,14 +321,14 @@ Batching:
 
     parser.add_argument(
         '--model',
-        default='claude-4-5-haiku-20251001',
+        default='claude-haiku-4-5-20251001',
         choices=[
-            'claude-4-5-haiku-20251001',
+            'claude-haiku-4-5-20251001',
             'claude-3-5-haiku-20241022',
             'claude-3-5-sonnet-20241022',
             'claude-3-opus-20240229'
         ],
-        help='Claude model to use (default: Claude 4.5 Haiku for cost-effectiveness)'
+        help='Claude model to use (default: Claude Haiku 4.5 for cost-effectiveness)'
     )
 
     parser.add_argument(
