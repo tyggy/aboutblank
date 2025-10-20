@@ -5,7 +5,11 @@ Clean Inline Timestamps from Transcripts - IMPROVED VERSION
 Handles transcripts with inline timestamps like:
 and<00: 00: 01. 319> next<00: 00: 01. 880> we<00: 00: 02. 040>
 
-Removes timestamps, deduplicates repeated text, and creates readable paragraphs.
+Features:
+- Removes timestamps
+- Removes filler words (uh, um, you know, etc.)
+- Deduplicates repeated text
+- Creates readable paragraphs
 """
 
 import argparse
@@ -15,7 +19,7 @@ from typing import List
 
 
 class InlineTimestampCleaner:
-    """Cleans transcripts with inline timestamps."""
+    """Cleans transcripts with inline timestamps and filler words."""
 
     def __init__(self):
         # Pattern to match timestamps like <00: 00: 01. 319>
@@ -78,8 +82,45 @@ class InlineTimestampCleaner:
 
         return ' '.join(result)
 
+    def remove_filler_words(self, text: str) -> str:
+        """
+        Remove common filler words from transcripts.
+
+        Removes: uh, um, er, ah, you know, and similar hesitations.
+        """
+        # Remove standalone filler words (with word boundaries)
+        # Case insensitive
+
+        # Single-word fillers
+        fillers = [
+            r'\buh\b',
+            r'\bum\b',
+            r'\buhm\b',
+            r'\ber\b',
+            r'\bah\b',
+            r'\behm\b',
+            r'\bhmm\b',
+            r'\bhm\b',
+            r'\bmm\b',
+            r'\bmhm\b',
+        ]
+
+        for filler in fillers:
+            text = re.sub(filler, '', text, flags=re.IGNORECASE)
+
+        # Multi-word fillers
+        text = re.sub(r'\byou know\b', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'\bI mean\b', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'\bsort of\b', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'\bkind of\b', '', text, flags=re.IGNORECASE)
+
+        # Clean up multiple spaces that result from removals
+        text = re.sub(r'\s+', ' ', text)
+
+        return text
+
     def clean_text(self, text: str) -> str:
-        """Clean text by removing timestamps and deduplicating."""
+        """Clean text by removing timestamps, fillers, and deduplicating."""
         # Remove timestamps first
         text = self.remove_timestamps(text)
 
@@ -88,6 +129,9 @@ class InlineTimestampCleaner:
 
         # Aggressive deduplication
         text = self.aggressive_deduplicate(text)
+
+        # Remove filler words
+        text = self.remove_filler_words(text)
 
         # Clean up spacing around punctuation
         text = re.sub(r'\s+([.,!?;:])', r'\1', text)
