@@ -1,22 +1,21 @@
 # Entity Name Corrections
+#
+# This file maps common transcription errors in YouTube transcripts to correct names.
+# Used by the entity correction tool to fix names before extraction.
+#
+# Works for: people, institutions, concepts, frameworks
+#
+# Format: incorrect_name -> correct_name
+#
+# Example:
+#   incorrect name:
+#     correct: Correct Name
+#     aliases: [Alternative Spelling 1, Alternative Spelling 2]
+#     notes: Optional notes about this entity
 
-This file maps common transcription errors in YouTube transcripts to correct names.
-Used by the entity correction tool to fix names before extraction.
-
-Works for: people, institutions, concepts, frameworks
-
-Format: incorrect_name -> correct_name
-
-## Format
-
-```yaml
-incorrect_name:
-  correct: Correct Name
-  aliases: [Alternative Spelling 1, Alternative Spelling 2]
-  notes: Optional notes about this entity
-```
-
-## People
+# ============================================
+# PEOPLE
+# ============================================
 
 # Olaf Witkowski
 olaf wowski:
@@ -34,7 +33,9 @@ carl friston:
   correct: Karl Friston
   aliases: [Karl Friston, Karl J. Friston]
 
-## Institutions
+# ============================================
+# INSTITUTIONS
+# ============================================
 
 # Center for the Study of Apparent Selves
 center for the study of apparent ai:
@@ -45,14 +46,16 @@ center for the study of parent selves:
   correct: Center for the Study of Apparent Selves
   notes: Common transcription error - "parent selves" should be "apparent selves"
 
-## Concepts & Frameworks
+# ============================================
+# CONCEPTS & FRAMEWORKS
+# ============================================
 
 # Add concept corrections here as you discover them
 # Example:
+#
 # free energy principal:
 #   correct: Free Energy Principle
-#   notes: Common misspelling
-
-# Add your corrections here
+#   notes: Common misspelling - "principal" should be "principle"
+#
 # Use lowercase for the incorrect names (for case-insensitive matching)
 
