@@ -4,21 +4,40 @@
 
 help:
 	@echo "Buddhism & AI Knowledge Base - Available commands:"
-	@echo "  make setup      - Set up Claude Code environment"
-	@echo "  make download   - Download all transcripts"
-	@echo "  make process    - Process all transcripts" 
-	@echo "  make analyze    - Run concept extraction and mapping"
-	@echo "  make synthesize - Generate synthesis documents"
-	@echo "  make report     - Generate full project report"
-	@echo "  make clean      - Clean generated files"
+	@echo "  make setup             - Set up Claude Code environment"
+	@echo "  make youtube-status    - Check YouTube transcript processing status"
+	@echo "  make youtube-download  - Download all YouTube transcripts"
+	@echo "  make youtube-test      - Test download with one video"
+	@echo "  make process           - Process all transcripts"
+	@echo "  make analyze           - Run concept extraction and mapping"
+	@echo "  make synthesize        - Generate synthesis documents"
+	@echo "  make report            - Generate full project report"
+	@echo "  make clean             - Clean generated files"
 
 setup:
 	python -m venv venv
 	. venv/bin/activate && pip install -r requirements.txt
 	python setup_claude_env.py
 
-download:
-	python tools/transcript_downloader.py Buddhism_&_AI.md -o knowledge_base/transcripts/raw
+# YouTube transcript processing with yt-dlp
+youtube-status:
+	@echo "Checking YouTube transcript status..."
+	python tools/ytdlp_processor.py --status
+
+youtube-download:
+	@echo "Downloading YouTube transcripts..."
+	python tools/ytdlp_processor.py --verbose
+	@echo "YouTube transcripts downloaded!"
+
+youtube-test:
+	@echo "Testing with one video (xaUknipwnpw - Michael Levin)..."
+	python tools/ytdlp_processor.py --video xaUknipwnpw --verbose
+	@echo "Test complete!"
+
+youtube-force:
+	@echo "Force re-downloading all transcripts..."
+	python tools/ytdlp_processor.py --force --verbose
+	@echo "Transcripts re-downloaded!"
 
 process:
 	@echo "Processing transcripts..."
