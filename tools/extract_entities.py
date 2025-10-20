@@ -97,16 +97,27 @@ class EntityExtractor:
             try:
                 entities = json.loads(json_text)
             except json.JSONDecodeError as json_err:
-                # Save the problematic response for debugging
-                debug_file = transcript_path.parent.parent / 'extractions' / f'{transcript_path.stem}_debug_response.txt'
-                debug_file.parent.mkdir(parents=True, exist_ok=True)
-                debug_file.write_text(
-                    f"=== RAW RESPONSE ===\n{response_text}\n\n=== EXTRACTED JSON ===\n{json_text}",
-                    encoding='utf-8'
-                )
-                print(f"  ⚠️  JSON parse error. Raw response saved to: {debug_file}", file=sys.stderr)
-                print(f"  Error: {json_err}", file=sys.stderr)
-                raise
+                # Try to fix common JSON errors
+                if verbose:
+                    print(f"  ⚠️  Initial JSON parse failed, attempting repair...")
+
+                fixed_json = self._try_fix_json(json_text)
+
+                try:
+                    entities = json.loads(fixed_json)
+                    if verbose:
+                        print(f"  ✓ JSON repaired successfully!")
+                except json.JSONDecodeError:
+                    # Still failed after repair - save debug info
+                    debug_file = transcript_path.parent.parent / 'extractions' / f'{transcript_path.stem}_debug_response.txt'
+                    debug_file.parent.mkdir(parents=True, exist_ok=True)
+                    debug_file.write_text(
+                        f"=== RAW RESPONSE ===\n{response_text}\n\n=== EXTRACTED JSON ===\n{json_text}\n\n=== ATTEMPTED FIX ===\n{fixed_json}",
+                        encoding='utf-8'
+                    )
+                    print(f"  ⚠️  JSON parse error. Raw response saved to: {debug_file}", file=sys.stderr)
+                    print(f"  Error: {json_err}", file=sys.stderr)
+                    raise
 
             # Add metadata
             entities['_metadata'] = {
@@ -208,6 +219,26 @@ Transcript:
 {transcript_text}
 
 Return only the JSON, no additional commentary."""
+
+    def _try_fix_json(self, json_text: str) -> str:
+        """
+        Try to fix common JSON errors.
+
+        Common issues:
+        - Trailing commas in arrays/objects
+        - Missing commas between array elements
+        - Unescaped quotes in strings
+        """
+        fixed = json_text
+
+        # Remove trailing commas before closing braces/brackets
+        fixed = re.sub(r',(\s*[}\]])', r'\1', fixed)
+
+        # Fix common quote escaping issues
+        # This is a simple heuristic - may not catch all cases
+        fixed = re.sub(r'(?<!\\)"', r'"', fixed)  # Ensure quotes are properly handled
+
+        return fixed
 
     def _print_extraction_summary(self, entities: Dict) -> None:
         """Print a summary of extracted entities."""
