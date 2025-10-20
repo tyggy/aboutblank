@@ -1,7 +1,8 @@
 #!/bin/bash
-# Re-clean existing transcripts with updated cleaner (includes filler word removal)
+# Re-clean existing transcripts with updated cleaner
+# Includes: filler word removal + metadata stripping
 
-echo "Re-cleaning transcripts with filler word removal..."
+echo "Re-cleaning transcripts (filler word removal + metadata stripping)..."
 echo ""
 
 # Find all _cleaned.md files and re-process them in-place
@@ -13,5 +14,8 @@ for file in knowledge_base/transcripts/raw/*_cleaned.md; do
 done
 
 echo ""
-echo "✓ All cleaned transcripts updated with filler word removal!"
-echo "Now you can run copyediting: make transcripts-copyedit"
+echo "✓ All cleaned transcripts updated!"
+echo "  - Filler words removed (uh, um, you know, etc.)"
+echo "  - YouTube metadata stripped (kept only title + transcript)"
+echo ""
+echo "Next step: make transcripts-copyedit"
