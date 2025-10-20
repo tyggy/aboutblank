@@ -1,0 +1,44 @@
+# Core YouTube transcript tools
+youtube-transcript-api>=0.6.0
+pytube>=15.0.0
+yt-dlp>=2023.7.6
+
+# Data processing (compatible versions)
+pandas>=1.5.0,<2.0.0
+numpy>=1.24.0,<2.0.0
+networkx>=3.0
+matplotlib>=3.7.0
+
+# NLP packages - using older stable versions for compatibility
+# Note: spacy and advanced NLP features are optional
+# If you need them, install separately with:
+# pip install spacy==3.5.0
+# python -m spacy download en_core_web_sm
+
+# Text processing basics (no C dependencies)
+beautifulsoup4>=4.12.0
+markdown>=3.4.0
+python-docx>=0.8.11
+
+# Utilities
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+# JSON/YAML handling
+pyyaml>=6.0
+jsonschema>=4.17.0
+
+# Simple analysis tools
+wordcloud>=1.9.0
+textstat>=0.7.3
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: Jupyter for interactive exploration
+jupyter>=1.0.0
+ipykernel>=6.25.0

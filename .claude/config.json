@@ -1,0 +1,32 @@
+{
+  "project_name": "Buddhism & AI Knowledge Base",
+  "version": "1.0.0",
+  "description": "Exploring consciousness, intelligence, and ethics through Buddhist and AI lenses",
+  "main_themes": [
+    "consciousness_and_intelligence",
+    "ethical_navigation",
+    "truth_seeking",
+    "artificial_selves",
+    "systems_thinking"
+  ],
+  "key_thinkers": [
+    "Michael Levin",
+    "Francisco Varela",
+    "Gregory Bateson",
+    "Iain McGilchrist",
+    "David Chapman",
+    "Eugene Gendlin"
+  ],
+  "tools": {
+    "transcript_processor": "tools/transcript_processor.py",
+    "concept_extractor": "tools/concept_extractor.py",
+    "connection_mapper": "tools/connection_mapper.py",
+    "synthesis_generator": "tools/synthesis_generator.py"
+  },
+  "output_formats": [
+    "markdown",
+    "json",
+    "graph"
+  ],
+  "claude_code_version": "latest"
+}
