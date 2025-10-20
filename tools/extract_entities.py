@@ -80,11 +80,33 @@ class EntityExtractor:
             response_text = response.content[0].text
 
             # Extract JSON from potential markdown code blocks
-            json_match = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', response_text, re.DOTALL)
+            # Try to find JSON between triple backticks first
+            json_match = re.search(r'```(?:json)?\s*(\{.*\})\s*```', response_text, re.DOTALL)
             if json_match:
-                response_text = json_match.group(1)
+                json_text = json_match.group(1)
+            else:
+                # Try to find JSON without code blocks
+                # Look for content between first { and last }
+                json_match = re.search(r'(\{.*\})', response_text, re.DOTALL)
+                if json_match:
+                    json_text = json_match.group(1)
+                else:
+                    json_text = response_text
 
-            entities = json.loads(response_text)
+            # Try to parse JSON
+            try:
+                entities = json.loads(json_text)
+            except json.JSONDecodeError as json_err:
+                # Save the problematic response for debugging
+                debug_file = transcript_path.parent.parent / 'extractions' / f'{transcript_path.stem}_debug_response.txt'
+                debug_file.parent.mkdir(parents=True, exist_ok=True)
+                debug_file.write_text(
+                    f"=== RAW RESPONSE ===\n{response_text}\n\n=== EXTRACTED JSON ===\n{json_text}",
+                    encoding='utf-8'
+                )
+                print(f"  ⚠️  JSON parse error. Raw response saved to: {debug_file}", file=sys.stderr)
+                print(f"  Error: {json_err}", file=sys.stderr)
+                raise
 
             # Add metadata
             entities['_metadata'] = {
@@ -134,8 +156,10 @@ Guidelines:
 - For concepts, use standard terminology when possible
 - Include brief context (1 sentence) for each entity
 - Categorize concepts as: buddhist, cognitive, ai, or interdisciplinary
+- If a category has no entities, return an empty array: []
 
-Return ONLY valid JSON in this exact format:
+IMPORTANT: Return ONLY valid JSON. Do not include any text before or after the JSON.
+Return the JSON in this exact format:
 
 ```json
 {{
