@@ -76,7 +76,7 @@ class EntityEnricher:
         for i, mention in enumerate(mentions[:20], 1):  # Limit to 20 most relevant
             mentions_text += f"\n{i}. From {mention['file']}:\n{mention['text']}\n"
 
-        # Build enrichment prompt
+        # Build adaptive enrichment prompt
         prompt = f"""You are creating a comprehensive knowledge base article about "{concept['name']}", a concept in the intersection of Buddhism, AI, and consciousness studies.
 
 CURRENT BASIC DEFINITION:
@@ -85,56 +85,29 @@ CURRENT BASIC DEFINITION:
 ALL MENTIONS FROM SOURCE DOCUMENTS:
 {mentions_text}
 
-Create a comprehensive, Wikipedia-quality article with these sections:
+Create an enriched article that is MORE detailed than the basic definition, but ADAPTIVE to the available material.
 
-## 1. DEFINITION & OVERVIEW
-- Clear, accessible definition (2-3 sentences)
-- Why this concept matters
-- Key characteristics
-
-## 2. HISTORICAL CONTEXT & ORIGINS
-- Who first proposed/discovered this concept
-- How understanding has evolved
-- Key papers or milestones (if mentioned)
-
-## 3. DETAILED MECHANISMS & PROCESSES
-- How it works in detail
-- Step-by-step processes
-- Technical mechanisms
-- Mathematical/computational aspects (if applicable)
-
-## 4. CONCRETE EXAMPLES & CASE STUDIES
-- Specific instances from the sources
-- Real-world applications
-- Experimental evidence mentioned
-
-## 5. RELATIONSHIPS & CONNECTIONS
-- How it relates to other concepts
-- Theoretical frameworks it belongs to
-- Interdisciplinary connections
-
-## 6. APPLICATIONS & IMPLICATIONS
-- Practical applications (medicine, AI, engineering)
-- Philosophical implications
-- Future directions mentioned
-
-## 7. OPEN QUESTIONS & CONTROVERSIES
-- Unresolved issues
-- Debates or competing views
-- Research frontiers
-
-## 8. KEY REFERENCES
-- Important papers/researchers mentioned
-- Specific claims and their sources
+GUIDELINES:
+1. Start with a clear Definition section (2-4 sentences)
+2. Then create additional sections ONLY where you have substantial material from the sources
+3. Possible sections to include (if material supports it):
+   - Historical Context & Origins (who proposed it, evolution of the concept)
+   - How It Works (mechanisms, processes, technical details)
+   - Examples & Applications (concrete instances, real-world use)
+   - Relationships (connections to other concepts/frameworks)
+   - Open Questions (unresolved issues, research frontiers)
+   - Key References (papers/researchers mentioned)
 
 IMPORTANT:
 - Use clear, accessible language
-- Include specific details from sources
+- Include specific details and quotes from sources
 - Cite sources where possible (e.g., "According to Levin et al...")
-- If information for a section isn't available, note that explicitly
-- Prioritize accuracy over completeness
+- DO NOT create empty sections or speculate beyond source material
+- Aim for a middle ground between basic definition and full Wikipedia article
+- Structure should be natural and flow from the available content
+- Length should be proportional to source material richness (typically 3-8 paragraphs)
 
-Return the enriched article in markdown format."""
+Return the enriched article in markdown format with appropriate section headings."""
 
         try:
             response = self.client.messages.create(
@@ -161,6 +134,119 @@ Return the enriched article in markdown format."""
         except Exception as e:
             print(f"  ❌ Error enriching {concept['name']}: {e}", file=sys.stderr)
             return concept
+
+    def should_enrich(
+        self,
+        entity: Dict,
+        mentions: List[Dict],
+        min_sources: int = 3,
+        min_mentions: int = 5
+    ) -> bool:
+        """
+        Determine if entity should be auto-enriched based on thresholds.
+
+        Args:
+            entity: Entity dictionary
+            mentions: List of mention dictionaries
+            min_sources: Minimum number of source files
+            min_mentions: Minimum number of total mentions
+
+        Returns:
+            True if entity should be enriched
+        """
+        # Count unique source files
+        unique_sources = len(set(m['file'] for m in mentions))
+
+        # Check thresholds
+        return unique_sources >= min_sources or len(mentions) >= min_mentions
+
+    def enrich_auto(
+        self,
+        normalized_path: Path,
+        source_dir: Path,
+        min_sources: int = 3,
+        min_mentions: int = 5,
+        output_path: Optional[Path] = None,
+        verbose: bool = False
+    ) -> None:
+        """
+        Auto-enrich entities based on source material richness.
+
+        Args:
+            normalized_path: Path to normalized_entities.json
+            source_dir: Directory containing source documents
+            min_sources: Minimum number of sources to trigger enrichment
+            min_mentions: Minimum number of mentions to trigger enrichment
+            output_path: Output path (default: overwrite input)
+            verbose: Print progress
+        """
+        if verbose:
+            print(f"📖 Loading entities from: {normalized_path}")
+            print(f"🎯 Auto-enrichment thresholds: {min_sources}+ sources OR {min_mentions}+ mentions")
+
+        data = json.loads(normalized_path.read_text(encoding='utf-8'))
+
+        # Find all source files
+        source_files = []
+        for pattern in ['*.md', '**/*.md']:
+            source_files.extend(source_dir.glob(pattern))
+
+        if verbose:
+            print(f"📚 Found {len(source_files)} source documents")
+            print()
+
+        stats = {'enriched': 0, 'skipped_threshold': 0, 'skipped_existing': 0, 'not_found': 0}
+
+        # Process concepts
+        for concept in data.get('concepts', []):
+            # Skip if already enriched
+            if concept.get('enriched_content'):
+                stats['skipped_existing'] += 1
+                continue
+
+            # Find mentions
+            mentions = self.find_entity_mentions(concept['name'], source_files)
+
+            if not mentions:
+                stats['not_found'] += 1
+                continue
+
+            # Check if should enrich
+            if not self.should_enrich(concept, mentions, min_sources, min_mentions):
+                if verbose:
+                    unique_sources = len(set(m['file'] for m in mentions))
+                    print(f"  ⊘ Skipping {concept['name']}: {unique_sources} sources, {len(mentions)} mentions (below threshold)")
+                stats['skipped_threshold'] += 1
+                continue
+
+            # Enrich
+            self.enrich_concept(concept, mentions, verbose)
+            stats['enriched'] += 1
+
+        # TODO: Add thinkers, frameworks, institutions
+
+        # Save
+        if output_path is None:
+            output_path = normalized_path
+
+        output_path.write_text(
+            json.dumps(data, indent=2, ensure_ascii=False),
+            encoding='utf-8'
+        )
+
+        # Summary
+        print()
+        print("=" * 60)
+        print("📊 Auto-Enrichment Summary")
+        print("=" * 60)
+        print(f"  ✓ Enriched: {stats['enriched']}")
+        print(f"  ⊘ Below threshold: {stats['skipped_threshold']}")
+        print(f"  ✓ Already enriched: {stats['skipped_existing']}")
+        print(f"  ⚠️  No mentions: {stats['not_found']}")
+        print()
+        print(f"✅ Saved to: {output_path}")
+        print()
+        print("Next step: run 'make kb-populate' to update entity pages")
 
     def enrich_selected_entities(
         self,
@@ -254,12 +340,34 @@ def main():
         default=Path('knowledge_base'),
         help='Directory containing source documents (default: knowledge_base)'
     )
-    parser.add_argument(
+
+    # Mode selection
+    mode_group = parser.add_mutually_exclusive_group(required=True)
+    mode_group.add_argument(
+        '--auto',
+        action='store_true',
+        help='Auto-enrich entities based on source material richness'
+    )
+    mode_group.add_argument(
         '--entities',
         nargs='+',
-        required=True,
         help='Entity names to enrich (e.g., "Morphogenesis" "Cognitive Light Cone")'
     )
+
+    # Auto-enrichment thresholds
+    parser.add_argument(
+        '--min-sources',
+        type=int,
+        default=3,
+        help='Minimum number of source files for auto-enrichment (default: 3)'
+    )
+    parser.add_argument(
+        '--min-mentions',
+        type=int,
+        default=5,
+        help='Minimum number of mentions for auto-enrichment (default: 5)'
+    )
+
     parser.add_argument(
         '--output',
         '-o',
@@ -301,18 +409,32 @@ def main():
     print("🔍 Deep Entity Enrichment")
     print(f"📁 Source: {args.normalized_entities}")
     print(f"📚 Sources: {args.source_dir}")
-    print(f"🎯 Entities: {', '.join(args.entities[:3])}{' ...' if len(args.entities) > 3 else ''}")
+
+    if args.auto:
+        print(f"🎯 Mode: Auto-enrich (≥{args.min_sources} sources OR ≥{args.min_mentions} mentions)")
+    else:
+        print(f"🎯 Entities: {', '.join(args.entities[:3])}{' ...' if len(args.entities) > 3 else ''}")
     print()
 
     # Enrich
     try:
-        enricher.enrich_selected_entities(
-            args.normalized_entities,
-            args.source_dir,
-            args.entities,
-            output_path=args.output,
-            verbose=args.verbose
-        )
+        if args.auto:
+            enricher.enrich_auto(
+                args.normalized_entities,
+                args.source_dir,
+                min_sources=args.min_sources,
+                min_mentions=args.min_mentions,
+                output_path=args.output,
+                verbose=args.verbose
+            )
+        else:
+            enricher.enrich_selected_entities(
+                args.normalized_entities,
+                args.source_dir,
+                args.entities,
+                output_path=args.output,
+                verbose=args.verbose
+            )
     except Exception as e:
         print(f"❌ Error: {e}", file=sys.stderr)
         import traceback

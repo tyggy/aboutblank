@@ -39,7 +39,8 @@ help:
 	@echo "  make kb-link                      - Inject wiki links into transcripts"
 	@echo "  make kb-enrich                    - Cross-enrich entities with bidirectional links"
 	@echo "  make kb-synthesize                - Synthesize unified entity descriptions from multiple sources"
-	@echo "  make kb-enrich-deep ENTITIES='...' - Deep Wikipedia-level enrichment of specific entities"
+	@echo "  make kb-enrich-deep ENTITIES='...' - Deep enrichment of specific entities (manual)"
+	@echo "  make kb-enrich-auto               - Auto-enrich entities with rich source material (recommended)"
 	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link → enrich"
 	@echo "  make kb-build-full                - Full pipeline + synthesis (costs extra API calls)"
 	@echo ""
@@ -263,7 +264,7 @@ kb-synthesize:
 	@echo "Re-run 'make kb-populate' to update entity pages with synthesis"
 
 kb-enrich-deep:
-	@echo "Deep enrichment of entities (Wikipedia-level)..."
+	@echo "Deep enrichment of specific entities..."
 	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
 		echo "Error: ANTHROPIC_API_KEY not set"; \
 		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
@@ -283,6 +284,27 @@ kb-enrich-deep:
 		--entities $$ENTITIES \
 		--verbose
 	@echo "✓ Deep enrichment complete!"
+	@echo "Re-run 'make kb-populate' to update entity pages"
+
+kb-enrich-auto:
+	@echo "Auto-enriching entities with rich source material..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
+		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	@# Allow custom thresholds via environment variables (defaults: 3 sources or 5 mentions)
+	python tools/enrich_entity_deep.py knowledge_base/normalized_entities.json \
+		--source-dir knowledge_base \
+		--auto \
+		$${MIN_SOURCES:+--min-sources $$MIN_SOURCES} \
+		$${MIN_MENTIONS:+--min-mentions $$MIN_MENTIONS} \
+		--verbose
+	@echo "✓ Auto-enrichment complete!"
 	@echo "Re-run 'make kb-populate' to update entity pages"
 
 kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
