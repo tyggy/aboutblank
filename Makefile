@@ -221,6 +221,16 @@ kb-populate:
 	@echo "✓ Entity pages created!"
 	@echo "Open knowledge_base/ in Obsidian to explore"
 
+kb-populate-force:
+	@echo "Force-regenerating ALL entity pages..."
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/populate_entities.py --verbose --force
+	@echo "✓ All entity pages regenerated!"
+	@echo "Open knowledge_base/ in Obsidian to explore"
+
 kb-link:
 	@echo "Injecting wiki links into transcripts and papers..."
 	@if [ ! -d knowledge_base/entities ]; then \
@@ -308,6 +318,9 @@ kb-enrich-auto:
 
 kb-enrich-auto-populate: kb-enrich-auto kb-populate
 	@echo "✓ Auto-enrichment and population complete!"
+
+kb-enrich-auto-populate-force: kb-enrich-auto kb-populate-force
+	@echo "✓ Auto-enrichment and force population complete!"
 
 kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
 

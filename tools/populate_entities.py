@@ -18,16 +18,18 @@ from datetime import datetime
 class EntityPopulator:
     """Create and update entity pages in knowledge base."""
 
-    def __init__(self, knowledge_base_dir: Path, dry_run: bool = False):
+    def __init__(self, knowledge_base_dir: Path, dry_run: bool = False, force: bool = False):
         """
         Initialize populator.
 
         Args:
             knowledge_base_dir: Root directory of knowledge base
             dry_run: If True, don't actually write files
+            force: If True, overwrite existing files
         """
         self.kb_dir = knowledge_base_dir
         self.dry_run = dry_run
+        self.force = force
         self.stats = {
             'created': 0,
             'updated': 0,
@@ -87,7 +89,7 @@ class EntityPopulator:
         thinkers_dir.mkdir(parents=True, exist_ok=True)
 
         for thinker in thinkers:
-            if not thinker.get('is_new', False):
+            if not thinker.get('is_new', False) and not self.force:
                 # Existing entity - could update references
                 self.stats['skipped'] += 1
                 if verbose:
@@ -97,7 +99,7 @@ class EntityPopulator:
             filename = thinker['filename'] + '.md'
             filepath = thinkers_dir / filename
 
-            if filepath.exists():
+            if filepath.exists() and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Already exists: {filename}")
@@ -200,7 +202,7 @@ updated: {today}
             print(f"💡 Processing {len(concepts)} concepts...")
 
         for concept in concepts:
-            if not concept.get('is_new', False):
+            if not concept.get('is_new', False) and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Skipping existing: {concept['name']}")
@@ -330,7 +332,7 @@ updated: {today}
         frameworks_dir.mkdir(parents=True, exist_ok=True)
 
         for framework in frameworks:
-            if not framework.get('is_new', False):
+            if not framework.get('is_new', False) and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Skipping existing: {framework['name']}")
@@ -339,7 +341,7 @@ updated: {today}
             filename = framework['filename'] + '.md'
             filepath = frameworks_dir / filename
 
-            if filepath.exists():
+            if filepath.exists() and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Already exists: {filename}")
@@ -443,7 +445,7 @@ updated: {today}
         institutions_dir.mkdir(parents=True, exist_ok=True)
 
         for institution in institutions:
-            if not institution.get('is_new', False):
+            if not institution.get('is_new', False) and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Skipping existing: {institution['name']}")
@@ -452,7 +454,7 @@ updated: {today}
             filename = institution['filename'] + '.md'
             filepath = institutions_dir / filename
 
-            if filepath.exists():
+            if filepath.exists() and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Already exists: {filename}")
@@ -551,7 +553,7 @@ updated: {today}
             filename = question['filename'] + '.md'
             filepath = questions_dir / filename
 
-            if filepath.exists():
+            if filepath.exists() and not self.force:
                 self.stats['skipped'] += 1
                 if verbose:
                     print(f"  ⊘ Already exists: {filename}")
@@ -644,6 +646,12 @@ def main():
         help="Don't actually write files, just show what would be done"
     )
     parser.add_argument(
+        '--force',
+        '-f',
+        action='store_true',
+        help='Force overwrite of existing files'
+    )
+    parser.add_argument(
         '--verbose',
         '-v',
         action='store_true',
@@ -659,13 +667,15 @@ def main():
         sys.exit(1)
 
     # Initialize populator
-    populator = EntityPopulator(args.knowledge_base, dry_run=args.dry_run)
+    populator = EntityPopulator(args.knowledge_base, dry_run=args.dry_run, force=args.force)
 
     print("🏗️  Populating Knowledge Base")
     print(f"📁 Knowledge base: {args.knowledge_base}")
     print(f"📖 Source: {entities_dir}")
     if args.dry_run:
         print("🔍 DRY RUN MODE - No files will be modified")
+    if args.force:
+        print("⚡ FORCE MODE - Will overwrite existing files")
     print()
 
     # Populate
