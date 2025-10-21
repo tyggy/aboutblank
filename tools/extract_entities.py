@@ -123,17 +123,24 @@ class EntityExtractor:
             parts = content.split('\n## ', 1)
             transcript_text = parts[1] if len(parts) > 1 else content
 
-        # Limit length for API call (approx 100k chars = 25k tokens)
-        if len(transcript_text) > 100000:
+        # Use batching for long content (approx 80k chars = 20k tokens per batch)
+        batch_size = 80000
+        if len(transcript_text) > batch_size:
             if verbose:
-                print(f"  ⚠️  Transcript is very long ({len(transcript_text):,} chars), truncating...")
-            transcript_text = transcript_text[:100000]
+                num_batches = (len(transcript_text) + batch_size - 1) // batch_size
+                print(f"  📚 Content is long ({len(transcript_text):,} chars), processing in {num_batches} batches...")
+            return self._extract_with_batching(transcript_text, title, verbose)
 
         if verbose:
             print(f"  🤖 Extracting entities with Claude ({len(transcript_text):,} characters)...")
 
+        # Single extraction for shorter content
+        return self._extract_single_batch(transcript_text, title, transcript_path, verbose)
+
+    def _extract_single_batch(self, text: str, title: str, transcript_path: Path, verbose: bool) -> Dict:
+        """Extract entities from a single batch of text."""
         # Call Claude to extract entities
-        extraction_prompt = self._build_extraction_prompt(transcript_text, title)
+        extraction_prompt = self._build_extraction_prompt(text, title)
 
         try:
             response = self.client.messages.create(
@@ -220,6 +227,102 @@ class EntityExtractor:
                     'error': str(e)
                 }
             }
+
+    def _extract_with_batching(self, text: str, title: str, verbose: bool) -> Dict:
+        """
+        Extract entities from long text by processing in batches.
+
+        Splits text into chunks, extracts from each, then merges results.
+        """
+        batch_size = 80000  # ~20k tokens per batch
+        batches = []
+
+        # Split into batches on paragraph boundaries
+        paragraphs = text.split('\n\n')
+        current_batch = []
+        current_length = 0
+
+        for para in paragraphs:
+            para_len = len(para) + 2  # +2 for \n\n
+            if current_length + para_len > batch_size and current_batch:
+                # Start new batch
+                batches.append('\n\n'.join(current_batch))
+                current_batch = [para]
+                current_length = para_len
+            else:
+                current_batch.append(para)
+                current_length += para_len
+
+        # Add final batch
+        if current_batch:
+            batches.append('\n\n'.join(current_batch))
+
+        if verbose:
+            print(f"  📚 Split into {len(batches)} batches")
+
+        # Extract from each batch
+        all_entities = {
+            'thinkers': [],
+            'concepts': [],
+            'frameworks': [],
+            'institutions': [],
+            'questions': []
+        }
+
+        for i, batch in enumerate(batches, 1):
+            if verbose:
+                print(f"  🤖 Processing batch {i}/{len(batches)} ({len(batch):,} chars)...")
+
+            # Create a temporary path for error reporting
+            temp_path = Path(f"batch_{i}")
+
+            try:
+                batch_entities = self._extract_single_batch(batch, f"{title} (Part {i}/{len(batches)})", temp_path, verbose=False)
+
+                # Merge results
+                for key in ['thinkers', 'concepts', 'frameworks', 'institutions', 'questions']:
+                    all_entities[key].extend(batch_entities.get(key, []))
+
+            except Exception as e:
+                if verbose:
+                    print(f"  ⚠️  Batch {i} failed: {e}", file=sys.stderr)
+                continue
+
+        # Deduplicate entities by name
+        for key in ['thinkers', 'concepts', 'frameworks', 'institutions']:
+            seen_names = set()
+            unique_entities = []
+            for entity in all_entities[key]:
+                name = entity.get('name', '').lower()
+                if name and name not in seen_names:
+                    seen_names.add(name)
+                    unique_entities.append(entity)
+            all_entities[key] = unique_entities
+
+        # Questions don't need deduplication (unique by text)
+        seen_questions = set()
+        unique_questions = []
+        for q in all_entities['questions']:
+            q_text = q.get('question', '').lower()
+            if q_text and q_text not in seen_questions:
+                seen_questions.add(q_text)
+                unique_questions.append(q)
+        all_entities['questions'] = unique_questions
+
+        # Add metadata
+        all_entities['_metadata'] = {
+            'source_file': 'batched_extraction',
+            'title': title,
+            'model': self.model,
+            'extraction_date': self._get_timestamp(),
+            'batches_processed': len(batches)
+        }
+
+        if verbose:
+            print(f"  ✓ Merged results from {len(batches)} batches")
+            self._print_extraction_summary(all_entities)
+
+        return all_entities
 
     def _build_extraction_prompt(self, transcript_text: str, title: str) -> str:
         """Build the extraction prompt for Claude."""
