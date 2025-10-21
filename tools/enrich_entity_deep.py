@@ -23,11 +23,11 @@ class EntityEnricher:
         """
         Initialize enricher.
 
-        Note: Uses Sonnet for better quality on comprehensive extraction.
+        Note: Uses Sonnet for better quality and can draw on broader knowledge.
         """
         self.client = Anthropic(api_key=api_key or os.environ.get('ANTHROPIC_API_KEY'))
         self.model = model
-        self.max_tokens = 16384  # Need large output for comprehensive content
+        self.max_tokens = 8192  # Balanced for comprehensive but focused content
 
     def find_entity_mentions(self, entity_name: str, source_files: List[Path]) -> List[Dict]:
         """
@@ -85,27 +85,27 @@ CURRENT BASIC DEFINITION:
 ALL MENTIONS FROM SOURCE DOCUMENTS:
 {mentions_text}
 
-Create an enriched article that is MORE detailed than the basic definition, but ADAPTIVE to the available material.
+Create an enriched article that combines insights from the source documents with your broader knowledge of this concept.
 
 GUIDELINES:
-1. Start with a clear Definition section (2-4 sentences)
-2. Then create additional sections ONLY where you have substantial material from the sources
-3. Possible sections to include (if material supports it):
+1. Start with a clear Definition section (2-4 sentences) that synthesizes both source material and your knowledge
+2. Create additional sections where you have valuable information to share (from sources OR your training):
    - Historical Context & Origins (who proposed it, evolution of the concept)
    - How It Works (mechanisms, processes, technical details)
    - Examples & Applications (concrete instances, real-world use)
-   - Relationships (connections to other concepts/frameworks)
+   - Relationships (connections to other concepts/frameworks mentioned in sources or relevant ones you know)
    - Open Questions (unresolved issues, research frontiers)
-   - Key References (papers/researchers mentioned)
+   - Key References (from sources)
 
 IMPORTANT:
 - Use clear, accessible language
-- Include specific details and quotes from sources
-- Cite sources where possible (e.g., "According to Levin et al...")
-- DO NOT create empty sections or speculate beyond source material
+- When citing source material, note it explicitly (e.g., "According to Levin..." or "As discussed in [source]...")
+- You may draw on your general knowledge to provide richer context beyond what's in the sources
+- For well-known concepts, provide comprehensive coverage even if sources are limited
+- DO NOT create empty sections - only include sections where you have substantive content
 - Aim for a middle ground between basic definition and full Wikipedia article
-- Structure should be natural and flow from the available content
-- Length should be proportional to source material richness (typically 3-8 paragraphs)
+- Structure should be natural and flow from the content
+- Length should be adaptive: richer for well-known concepts, more focused for niche ones (typically 3-10 paragraphs)
 
 Return the enriched article in markdown format with appropriate section headings."""
 
