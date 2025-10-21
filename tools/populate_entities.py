@@ -134,28 +134,16 @@ class EntityPopulator:
         single_context = thinker.get('context', '')
 
         if synthesized:
-            # Show synthesized overview first
+            # Use synthesized overview (best option)
             sections.append(f"""## Overview
 
 {synthesized}""")
 
-            # Then show individual perspectives
-            if contexts and len(contexts) > 1:
-                perspective_parts = []
-                for ctx in contexts:
-                    source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                    perspective_parts.append(f"**From {source_name}**: {ctx['text']}")
-
-                sections.append(f"""## Perspectives from Sources
-
-{chr(10).join(perspective_parts)}""")
-
         elif contexts and len(contexts) > 1:
-            # Multiple contexts from different sources (no synthesis yet)
+            # Multiple contexts - show as clean paragraphs
             overview_parts = []
             for ctx in contexts:
-                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                overview_parts.append(f"**From {source_name}**: {ctx['text']}")
+                overview_parts.append(f"{ctx['text']}")
 
             sections.append(f"""## Overview
 
@@ -268,26 +256,16 @@ updated: {today}
             single_context = concept.get('context', '')
 
             if synthesized:
+                # Use synthesized definition (best option)
                 sections.append(f"""## Definition
 
 {synthesized}""")
 
-                if contexts and len(contexts) > 1:
-                    perspective_parts = []
-                    for ctx in contexts:
-                        source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                        perspective_parts.append(f"**From {source_name}**: {ctx['text']}")
-
-                    sections.append(f"""## Perspectives from Sources
-
-{chr(10).join(perspective_parts)}""")
-
             elif contexts and len(contexts) > 1:
-                # Multiple contexts from different sources (no synthesis yet)
+                # Multiple contexts - show as clean paragraphs
                 definition_parts = []
                 for ctx in contexts:
-                    source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                    definition_parts.append(f"**From {source_name}**: {ctx['text']}")
+                    definition_parts.append(f"{ctx['text']}")
 
                 sections.append(f"""## Definition
 
@@ -386,16 +364,22 @@ updated: {today}
         # Build sections conditionally
         sections = []
 
-        # Overview - handle both single context and aggregated contexts
+        # Overview - handle synthesized, aggregated, and single contexts
+        synthesized = framework.get('synthesized_overview')
         contexts = framework.get('contexts')
         single_context = framework.get('context', '')
 
-        if contexts and len(contexts) > 1:
-            # Multiple contexts from different sources
+        if synthesized:
+            # Use synthesized overview (best option)
+            sections.append(f"""## Overview
+
+{synthesized}""")
+
+        elif contexts and len(contexts) > 1:
+            # Multiple contexts - show as clean paragraphs
             overview_parts = []
             for ctx in contexts:
-                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                overview_parts.append(f"**From {source_name}**: {ctx['text']}")
+                overview_parts.append(f"{ctx['text']}")
 
             sections.append(f"""## Overview
 
@@ -498,16 +482,22 @@ updated: {today}
 
 {inst_type.replace('-', ' ').title()}""")
 
-        # Overview - handle both single context and aggregated contexts
+        # Overview - handle synthesized, aggregated, and single contexts
+        synthesized = institution.get('synthesized_overview')
         contexts = institution.get('contexts')
         single_context = institution.get('context', '')
 
-        if contexts and len(contexts) > 1:
-            # Multiple contexts from different sources
+        if synthesized:
+            # Use synthesized overview (best option)
+            sections.append(f"""## Overview
+
+{synthesized}""")
+
+        elif contexts and len(contexts) > 1:
+            # Multiple contexts - show as clean paragraphs
             overview_parts = []
             for ctx in contexts:
-                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                overview_parts.append(f"**From {source_name}**: {ctx['text']}")
+                overview_parts.append(f"{ctx['text']}")
 
             sections.append(f"""## Overview
 
