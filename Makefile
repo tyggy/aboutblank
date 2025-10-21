@@ -40,7 +40,8 @@ help:
 	@echo "  make kb-enrich                    - Cross-enrich entities with bidirectional links"
 	@echo "  make kb-synthesize                - Synthesize unified entity descriptions from multiple sources"
 	@echo "  make kb-enrich-deep ENTITIES='...' - Deep enrichment of specific entities (manual)"
-	@echo "  make kb-enrich-auto               - Auto-enrich entities with rich source material (recommended)"
+	@echo "  make kb-enrich-auto               - Auto-enrich entities with rich source material"
+	@echo "  make kb-enrich-auto-populate      - Auto-enrich + regenerate pages (recommended one-step)"
 	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link → enrich"
 	@echo "  make kb-build-full                - Full pipeline + synthesis (costs extra API calls)"
 	@echo ""
@@ -306,6 +307,9 @@ kb-enrich-auto:
 		--verbose
 	@echo "✓ Auto-enrichment complete!"
 	@echo "Re-run 'make kb-populate' to update entity pages"
+
+kb-enrich-auto-populate: kb-enrich-auto kb-populate
+	@echo "✓ Auto-enrichment and population complete!"
 
 kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
 

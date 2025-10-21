@@ -246,7 +246,13 @@ Return the enriched article in markdown format with appropriate section headings
         print()
         print(f"✅ Saved to: {output_path}")
         print()
-        print("Next step: run 'make kb-populate' to update entity pages")
+        print("⚡ IMPORTANT: Enrichment updated the JSON data file.")
+        print("   To see enriched content in entity pages, run:")
+        print()
+        print("   make kb-populate")
+        print()
+        print("   This regenerates markdown pages from the enriched JSON.")
+        print()
 
     def enrich_selected_entities(
         self,
@@ -322,7 +328,13 @@ Return the enriched article in markdown format with appropriate section headings
         print()
         print(f"✅ Saved to: {output_path}")
         print()
-        print("Next step: run 'make kb-populate' to update entity pages")
+        print("⚡ IMPORTANT: Enrichment updated the JSON data file.")
+        print("   To see enriched content in entity pages, run:")
+        print()
+        print("   make kb-populate")
+        print()
+        print("   This regenerates markdown pages from the enriched JSON.")
+        print()
 
 
 def main():
