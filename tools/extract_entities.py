@@ -123,8 +123,9 @@ class EntityExtractor:
             parts = content.split('\n## ', 1)
             transcript_text = parts[1] if len(parts) > 1 else content
 
-        # Use batching for long content (approx 80k chars = 20k tokens per batch)
-        batch_size = 80000
+        # Use batching for long content (50k chars = ~12k tokens per batch)
+        # Smaller batches = fewer entities = less chance of JSON truncation
+        batch_size = 50000
         if len(transcript_text) > batch_size:
             if verbose:
                 num_batches = (len(transcript_text) + batch_size - 1) // batch_size
@@ -153,9 +154,9 @@ class EntityExtractor:
             )
 
             # Check for truncation
-            if response.stop_reason == 'max_tokens':
-                print(f"  ⚠️  WARNING: Response was truncated! Output may be incomplete.", file=sys.stderr)
-                print(f"  Consider: 1) Shorter input text, 2) More selective extraction criteria", file=sys.stderr)
+            was_truncated = response.stop_reason == 'max_tokens'
+            if was_truncated:
+                print(f"  ⚠️  WARNING: Response was truncated! Trying smaller batches...", file=sys.stderr)
 
             # Parse JSON response
             response_text = response.content[0].text
@@ -189,6 +190,11 @@ class EntityExtractor:
                     if verbose:
                         print(f"  ✓ JSON repaired successfully!")
                 except json.JSONDecodeError:
+                    # If truncated, retry with batching
+                    if was_truncated and len(text) > 25000:
+                        print(f"  🔄 Retrying with smaller batches (text was truncated)...", file=sys.stderr)
+                        return self._extract_with_batching(text, title, verbose)
+
                     # Still failed after repair - save debug info
                     debug_file = transcript_path.parent.parent / 'extractions' / f'{transcript_path.stem}_debug_response.txt'
                     debug_file.parent.mkdir(parents=True, exist_ok=True)
@@ -234,7 +240,7 @@ class EntityExtractor:
 
         Splits text into chunks, extracts from each, then merges results.
         """
-        batch_size = 80000  # ~20k tokens per batch
+        batch_size = 50000  # ~12k tokens per batch (smaller = less truncation risk)
         batches = []
 
         # Split into batches on paragraph boundaries
@@ -339,10 +345,12 @@ Extract and categorize entities into these types:
 5. **Questions** - Significant open questions or research problems posed
 
 Guidelines:
-- Be selective: only extract entities that are clearly significant to the discussion
+- PRIORITIZE QUALITY OVER QUANTITY: Extract only the most significant entities
+- Focus on entities that are central to the discussion, not casual mentions
 - Prefer full names over nicknames (e.g., "Michael Levin" not "Mike")
 - For concepts, use standard terminology when possible
 - Include brief context (1-2 sentences MAX) for each entity - be concise!
+- IMPORTANT: Aim for 10-30 entities total, not 100+. Be ruthlessly selective.
 - Categorize concepts as: buddhist, cognitive, ai, biology, philosophy, systems, or interdisciplinary
   - buddhist: Buddhist concepts, practices, teachings
   - cognitive: Cognitive science, neuroscience, psychology
