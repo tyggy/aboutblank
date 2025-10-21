@@ -155,11 +155,11 @@ class EntityPopulator:
         # Join sections
         content_sections = '\n\n'.join(sections) if sections else ''
 
-        # Add note at end if we have content
-        if content_sections:
+        # Add note for non-enriched pages only
+        if content_sections and not thinker.get('enriched_content'):
             content_sections += '\n\n' + """## Notes
 
-*This page was auto-generated from transcript analysis. Expand with affiliated institutions, key concepts, notable works, and related thinkers as needed.*"""
+*Extracted from source material (transcripts and papers). Consider enriching with affiliated institutions, key works, and biographical details.*"""
 
         return f"""---
 type: thinker
@@ -293,10 +293,11 @@ Also known as: {alias_list}""")
         # Join sections
         content_sections = '\n\n'.join(sections)
 
-        # Add note at end
-        content_sections += '\n\n' + """## Notes
+        # Add note for non-enriched pages only
+        if not enriched:
+            content_sections += '\n\n' + """## Notes
 
-*This page was auto-generated from transcript analysis. Expand with additional details, related concepts, thinkers, and sources as needed.*"""
+*Extracted from source material. Run `make kb-enrich-auto` to enrich this and other concepts with comprehensive details from Claude's broader knowledge.*"""
 
         return f"""---
 type: concept
@@ -396,11 +397,11 @@ updated: {today}
         # Join sections with blank lines
         content_sections = '\n\n'.join(sections) if sections else ''
 
-        # Add placeholder note at the end if we have content
-        if content_sections:
+        # Add note for non-enriched pages only
+        if content_sections and not framework.get('enriched_content'):
             content_sections += '\n\n' + """## Notes
 
-*This page was auto-generated from transcript analysis. Expand with additional details as needed.*"""
+*Extracted from source material. Expand with theoretical foundations, key principles, and applications as needed.*"""
 
         # Build frontmatter
         creator_list = [c.strip() for c in creator.split(',')] if creator else []
@@ -499,10 +500,11 @@ updated: {today}
         # Join sections
         content_sections = '\n\n'.join(sections)
 
-        # Add note at end
-        content_sections += '\n\n' + """## Notes
+        # Add note for non-enriched pages only
+        if not institution.get('enriched_content'):
+            content_sections += '\n\n' + """## Notes
 
-*This page was auto-generated from transcript analysis. Expand with key people, focus areas, and related work as needed.*"""
+*Extracted from source material. Expand with key people, research focus areas, and related work as needed.*"""
 
         return f"""---
 type: institution
@@ -578,10 +580,11 @@ Open""")
         # Join sections
         content_sections = '\n\n'.join(sections)
 
-        # Add note at end
-        content_sections += '\n\n' + """## Notes
+        # Add note for non-enriched pages only
+        if not question.get('enriched_content'):
+            content_sections += '\n\n' + """## Notes
 
-*This page was auto-generated from transcript analysis. Expand with relevant thinkers, concepts, approaches, and related questions as needed.*"""
+*Extracted from source material. Expand with relevant thinkers, concepts, approaches, and related questions as needed.*"""
 
         return f"""---
 type: question
