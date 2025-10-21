@@ -7,11 +7,17 @@
   "sources": [
     "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
   ],
-  "domains": [],
+  "context": "Executive director of Rangjung Yeshe Institute; researches interfaces between Buddhism and AI, focusing on Bodhisattva models for intelligent systems.",
+  "domains": [
+    "Buddhist Philosophy",
+    "AI Ethics",
+    "Consciousness Studies"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239022",
+    "last_updated": "2025-10-20T21:55:32.048918",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

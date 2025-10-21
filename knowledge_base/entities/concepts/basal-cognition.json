@@ -2,26 +2,29 @@
   "name": "Basal Cognition",
   "filename": "basal-cognition",
   "aliases": [
-    "minimal cognition",
-    "unconventional cognition",
-    "proto-cognition",
     "scale-free cognition",
-    "Proto-cognition",
-    "minimal agency",
+    "Unconventional Cognition",
+    "minimal cognition",
     "proto-intelligence",
-    "basal cognition",
-    "cellular cognition",
     "Distributed Cognition",
-    "Information Integration"
+    "proto-cognition",
+    "Proto-cognition",
+    "cellular cognition",
+    "basal cognition",
+    "minimal agency",
+    "Information Integration",
+    "unconventional cognition"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Cognition occurring in non-neural substrates and evolutionary precursors; substrate-independent problem-solving observable across phylogeny.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248948",
+    "last_updated": "2025-10-20T21:55:32.065340",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

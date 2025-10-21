@@ -1,0 +1,17 @@
+{
+  "name": "University Of Wollongong",
+  "filename": "university-of-hong-kong",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md"
+  ],
+  "context": "Institution housing Center of Buddhist Studies and venue for Buddhism-AI dialogue.",
+  "type": "university",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T21:55:32.112917",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

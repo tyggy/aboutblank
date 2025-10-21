@@ -7,11 +7,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Evolutionary limitation causing humans to be hyperfixated on three-dimensional space and medium-sized objects; prevents recognition of other forms of intelligence.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.264587",
+    "last_updated": "2025-10-20T21:55:32.085809",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

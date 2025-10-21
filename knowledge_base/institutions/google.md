@@ -1,6 +1,6 @@
 ---
 type: institution
-institution_type: organization
+institution_type: project
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -10,7 +10,11 @@ updated: 2025-10-20
 
 ## Type
 
-Organization
+Project
+
+## Overview
+
+Major tech company where Bill Duane worked on search infrastructure, Gmail, and well-being initiatives; launched Search Inside Yourself program.
 
 ## Notes
 

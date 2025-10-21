@@ -2,19 +2,21 @@
   "name": "Umwelt",
   "filename": "umwelt",
   "aliases": [
-    "self-centered world",
     "Self-centered world",
+    "self-centered world",
     "perceptual world",
     "Perceptual world"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "An organism's subjective perceptual world; unique to each agent based on its embodiment and capacities.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247848",
+    "last_updated": "2025-10-20T21:55:32.063078",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

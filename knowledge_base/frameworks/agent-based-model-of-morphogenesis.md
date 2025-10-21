@@ -1,7 +1,7 @@
 ---
 type: framework
 aliases: []
-creator: ["Michael Levin and Lakshwin Shreesha"]
+creator: ["Michael Levin", "Lakshwin Shreesha"]
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -11,11 +11,12 @@ updated: 2025-10-20
 
 ## Overview
 
-A multiscale computational model examining the impact of stress sharing on cellular collective ability to reach target morphology using cellular automata on 2D grids.
+Computational model simulating multicellular collectives as agents with homeostatic stress dynamics reaching anatomical targets.
 
 ## Creator/Originator
 
-- [[Michael Levin and Lakshwin Shreesha]]
+- [[Michael Levin]]
+- [[Lakshwin Shreesha]]
 
 ## Notes
 

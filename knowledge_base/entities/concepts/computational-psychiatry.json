@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Field applying computational models to mental illness; uses frameworks like active inference and free-energy principle.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.264480",
+    "last_updated": "2025-10-20T21:55:32.085678",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

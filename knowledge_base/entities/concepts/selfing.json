@@ -1,15 +1,19 @@
 {
   "name": "Selfing",
   "filename": "selfing",
-  "aliases": [],
+  "aliases": [
+    "Reification of Self"
+  ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Process of reifying one's own identity as an independent self; practices aimed at decreasing selfing show benefits for well-being",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.261223",
+    "last_updated": "2025-10-20T21:55:32.081106",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

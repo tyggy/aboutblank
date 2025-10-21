@@ -2,17 +2,20 @@
   "name": "Xenopus Tadpole",
   "filename": "xenopus-tadpole",
   "aliases": [
+    "African clawed frog embryo",
     "Tadpole model",
     "Xenopus laevis"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Key experimental model organism for studying developmental bioelectricity and regenerative mechanisms.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.255520",
+    "last_updated": "2025-10-20T21:55:32.073368",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

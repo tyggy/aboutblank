@@ -1,0 +1,19 @@
+{
+  "name": "Affordance Theory",
+  "filename": "affordances-theory",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Ecological psychology framework describing relationships between organism abilities and environmental features as foundation for understanding agent-environment interaction",
+  "creator": [
+    "James Gibson"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.099659",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

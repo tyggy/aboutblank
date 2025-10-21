@@ -1,6 +1,6 @@
 ---
 type: thinker
-aliases: ["Buckley, C. L."]
+aliases: ["Buckley", "Buckley, C. L.", "C. L."]
 domains: ["Complex Systems", "Adaptive Networks"]
 institutions: []
 tags: []

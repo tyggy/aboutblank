@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
   ],
-  "creator": [],
+  "context": "Classical Buddhist framework reinterpreted as model for ethical AI development, combining universal knowledge acquisition with care for all sentient beings.",
+  "creator": null,
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.267736",
+    "last_updated": "2025-10-20T21:55:32.091900",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

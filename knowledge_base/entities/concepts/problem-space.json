@@ -2,25 +2,27 @@
   "name": "Problem Space",
   "filename": "problem-space",
   "aliases": [
-    "solution space",
-    "action space",
-    "configuration space",
-    "design space",
-    "Metabolic Space",
-    "anatomical space",
-    "option space",
-    "Anatomical Space",
     "developmental space",
-    "Morphospace"
+    "Morphospace",
+    "Anatomical Space",
+    "solution space",
+    "configuration space",
+    "anatomical space",
+    "design space",
+    "option space",
+    "Metabolic Space",
+    "action space"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Abstract space of possible states or solutions navigated by intelligent systems; can exist at multiple organizational levels.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.249319",
+    "last_updated": "2025-10-20T21:55:32.065855",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -1,6 +1,6 @@
 ---
 type: thinker
-aliases: ["Nowak, M. A."]
+aliases: ["Nowak, M. A.", "M. A.", "Nowak"]
 domains: ["Evolutionary Biology", "Game Theory"]
 institutions: []
 tags: []

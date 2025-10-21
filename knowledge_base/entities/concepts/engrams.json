@@ -2,21 +2,24 @@
   "name": "Engrams",
   "filename": "engrams",
   "aliases": [
-    "memory trace",
     "memory substrate",
-    "molecular memory",
-    "engram",
     "Behavioral Inheritance",
-    "Engrams"
+    "memory engrams",
+    "molecular memory",
+    "Engrams",
+    "engram",
+    "memory trace"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Physical substrates of memory in neural tissue; subject to optogenetic manipulation and artificial implantation.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.249974",
+    "last_updated": "2025-10-20T21:55:32.066662",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

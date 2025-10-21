@@ -5,11 +5,16 @@
   "sources": [
     "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md"
   ],
-  "domains": [],
+  "context": "Quoted for views on individual creation and collective invention, used as counterpoint to discuss how all intelligences are inherently collective.",
+  "domains": [
+    "literature",
+    "philosophy"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239757",
+    "last_updated": "2025-10-20T21:55:32.050356",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

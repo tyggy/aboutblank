@@ -3,21 +3,23 @@
   "filename": "embodied-mind",
   "aliases": [
     "sensorimotor coupling",
+    "extended cognition",
     "embodied cognition",
-    "Enactive Cognition",
-    "Embodied Agency",
     "embodied mind",
     "embodied intelligence",
-    "extended cognition"
+    "Enactive Cognition",
+    "Embodied Agency"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Problem-solving and creativity emerging from physical systems interacting with their environment, not exclusively from top-down planning.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248899",
+    "last_updated": "2025-10-20T21:55:32.065275",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

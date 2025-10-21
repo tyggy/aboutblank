@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "type": "organization",
+  "context": "Institution housing Richard Watson in Electronics and Computer Science and Institute for Life Sciences.",
+  "type": "university",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.277292",
+    "last_updated": "2025-10-20T21:55:32.113507",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

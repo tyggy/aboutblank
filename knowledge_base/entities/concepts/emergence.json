@@ -3,16 +3,19 @@
   "filename": "emergence",
   "aliases": [
     "Emergence",
+    "Emergent Properties",
     "Qualitatively New Properties"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "System properties arising from component interactions over developmental or evolutionary timescales.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.245970",
+    "last_updated": "2025-10-20T21:55:32.059229",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

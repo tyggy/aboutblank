@@ -3,16 +3,20 @@
   "filename": "major-transitions-in-evolution",
   "aliases": [
     "transitions in major transitions",
-    "evolutionary transitions in individuality"
+    "ETI",
+    "evolutionary transitions in individuality",
+    "Evolutionary Transitions"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Origins of new levels of biological organization; hypothesized to correspond to deep interaction structures.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254919",
+    "last_updated": "2025-10-20T21:55:32.072638",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

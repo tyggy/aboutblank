@@ -1,0 +1,17 @@
+{
+  "name": "Earth-Life Science Institute",
+  "filename": "earth-life-science-institute",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Research institute at Tokyo Institute of Technology; Witkowski's affiliation",
+  "type": "research-center",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T21:55:32.112101",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

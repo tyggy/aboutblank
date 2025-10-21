@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
   ],
+  "context": "Matter that actively pursues goals and exhibits agency; not passive substrate but active medium with learning capacity.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251693",
+    "last_updated": "2025-10-20T21:55:32.068478",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

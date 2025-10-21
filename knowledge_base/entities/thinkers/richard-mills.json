@@ -7,11 +7,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Contributor to unsupervised learning and deep model induction research.",
+  "domains": [
+    "Machine Learning",
+    "Neural Networks"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.240692",
+    "last_updated": "2025-10-20T21:55:32.051382",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

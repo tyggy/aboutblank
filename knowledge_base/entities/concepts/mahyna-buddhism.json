@@ -1,15 +1,19 @@
 {
   "name": "Mahāyāna Buddhism",
   "filename": "mahyna-buddhism",
-  "aliases": [],
+  "aliases": [
+    "Mahayana"
+  ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Buddhist tradition describing self-identity as extendable and emphasizing orientation towards others as part of one's own identity",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.261596",
+    "last_updated": "2025-10-20T21:55:32.081494",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -3,21 +3,23 @@
   "filename": "developmental-plasticity",
   "aliases": [
     "phenotypic plasticity",
-    "Developmental Plasticity",
-    "developmental flexibility",
-    "Phenotypic plasticity",
-    "regulative plasticity",
     "phenotypic accommodation",
-    "developmental plasticity"
+    "developmental plasticity",
+    "Phenotypic plasticity",
+    "developmental flexibility",
+    "Developmental Plasticity",
+    "regulative plasticity"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Ability of organisms to adjust their development and phenotype in response to environmental signals.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251632",
+    "last_updated": "2025-10-20T21:55:32.068419",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

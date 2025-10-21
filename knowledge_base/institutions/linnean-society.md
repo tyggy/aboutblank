@@ -1,6 +1,6 @@
 ---
 type: institution
-institution_type: organization
+institution_type: research-center
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -10,7 +10,11 @@ updated: 2025-10-20
 
 ## Type
 
-Organization
+Research Center
+
+## Overview
+
+Hosted special issue on teleonomy and meeting on novel bioengineered systems; publisher of this paper.
 
 ## Notes
 

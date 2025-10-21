@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Historical figure who recognized deep symmetries between morphogenesis and behavioral cognition as early as 1952.",
+  "domains": [
+    "Computation",
+    "Morphogenesis"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239703",
+    "last_updated": "2025-10-20T21:55:32.050216",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

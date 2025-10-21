@@ -3,16 +3,19 @@
   "filename": "bodhisattva-vow",
   "aliases": [
     "Bodhicitta",
-    "Mind of Awakening"
+    "Mind of Awakening",
+    "Bodhisattva pledge"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Commitment to achieve awakening for the benefit of all sentient beings; practical design principle for advancing intelligence",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.253547",
+    "last_updated": "2025-10-20T21:55:32.071120",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

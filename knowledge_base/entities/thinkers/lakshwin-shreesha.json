@@ -1,15 +1,22 @@
 {
   "name": "Lakshwin Shreesha",
   "filename": "lakshwin-shreesha",
-  "aliases": [],
+  "aliases": [
+    "L. Shreesha"
+  ],
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Co-author developing agent-based models of morphogenesis and stress-sharing mechanisms in virtual embryos.",
+  "domains": [
+    "computational biology",
+    "evolutionary algorithms"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.238260",
+    "last_updated": "2025-10-20T21:55:32.047027",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

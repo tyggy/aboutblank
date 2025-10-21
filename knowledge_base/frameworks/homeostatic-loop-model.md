@@ -12,7 +12,6 @@ updated: 2025-10-20
 ## Overview
 
 Framework conceptualizing systems as maintaining preferred states through sensing, memory, and corrective action.
-Framework treating development, regeneration, metamorphosis, and cancer suppression as manifestations of anatomical homeostasis.
 
 ## Notes
 

@@ -1,0 +1,21 @@
+{
+  "name": "Stress-Care Intelligence Loop",
+  "filename": "stress-care-intelligence-loop",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
+  ],
+  "context": "Cybernetic model defining intelligence through care-driven response to perceived stress; substrate-independent and applicable to biological and artificial systems.",
+  "creator": [
+    "Thomas Doctor",
+    "Bill Duane",
+    "Olaf Witkowski"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.091512",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

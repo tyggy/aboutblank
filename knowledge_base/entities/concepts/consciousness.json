@@ -2,26 +2,28 @@
   "name": "Consciousness",
   "filename": "consciousness",
   "aliases": [
+    "consciousness",
     "Phenomenal Consciousness",
-    "sentient systems",
+    "Sentience",
+    "felt quality",
+    "subjective experience",
+    "Moral concern",
     "Capacity for suffering",
     "Phenomenal consciousness",
-    "consciousness",
-    "subjective experience",
-    "felt quality",
-    "Moral concern",
+    "felt states",
     "Subjective experience",
-    "Sentience",
-    "felt states"
+    "sentient systems"
   ],
   "sources": [
     "knowledge_base/transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Central focus of research intersecting AI, artificial life, and phenomenology",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247396",
+    "last_updated": "2025-10-20T21:55:32.062273",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

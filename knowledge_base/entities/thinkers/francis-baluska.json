@@ -2,16 +2,23 @@
   "name": "Francis Baluska",
   "filename": "francis-baluska",
   "aliases": [
-    "Baluska"
+    "Baluska",
+    "F. Baluska"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Researcher on plant cognition and cellular consciousness as basis for life's cognitive properties.",
+  "domains": [
+    "plant biology",
+    "cellular cognition",
+    "bioelectricity"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.241380",
+    "last_updated": "2025-10-20T21:55:32.052108",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

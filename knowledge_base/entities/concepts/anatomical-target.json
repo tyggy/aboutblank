@@ -2,17 +2,20 @@
   "name": "Anatomical Target",
   "filename": "anatomical-target",
   "aliases": [
-    "morphological goal",
-    "patterning target"
+    "patterning target",
+    "target anatomy",
+    "morphological goal"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Species-specific body form that regenerating tissues actively work to restore through bioelectric signaling.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.258929",
+    "last_updated": "2025-10-20T21:55:32.077930",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

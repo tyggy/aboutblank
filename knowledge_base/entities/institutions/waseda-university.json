@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned_edited.md"
   ],
-  "type": "organization",
+  "context": "Collaborated with Witkowski and Dominque Chen on microbial communication robot research",
+  "type": "university",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.279095",
+    "last_updated": "2025-10-20T21:55:32.115880",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

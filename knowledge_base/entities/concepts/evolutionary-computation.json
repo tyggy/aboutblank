@@ -1,0 +1,20 @@
+{
+  "name": "Evolutionary Transition",
+  "filename": "evolutionary-computation",
+  "aliases": [
+    "major evolutionary transition",
+    "genetic algorithms"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Algorithmic approach evolving populations of solutions through fitness-based selection on defined problems.",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.072277",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

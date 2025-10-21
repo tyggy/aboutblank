@@ -2,19 +2,22 @@
   "name": "Homeostatic Loops",
   "filename": "homeostatic-loops",
   "aliases": [
+    "error minimization",
     "test-operate-exit",
-    "TOTE loop",
+    "Homeostasis",
     "allostatic loops",
-    "error minimization"
+    "TOTE loop"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Feedback mechanisms maintaining system state toward goal configurations; unified locus of learning and preferences.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246693",
+    "last_updated": "2025-10-20T21:55:32.060804",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

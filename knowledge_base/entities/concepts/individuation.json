@@ -2,17 +2,20 @@
   "name": "Individuation",
   "filename": "individuation",
   "aliases": [
-    "self-boundary definition",
-    "computational boundary"
+    "computational boundary",
+    "self-individuation",
+    "self-boundary definition"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Process by which developmental bioelectricity enables cells to coordinate as unified individuals with coherent body boundaries and identity.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247593",
+    "last_updated": "2025-10-20T21:55:32.062541",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

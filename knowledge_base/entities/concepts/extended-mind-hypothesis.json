@@ -1,15 +1,19 @@
 {
   "name": "Extended Mind Hypothesis",
   "filename": "extended-mind-hypothesis",
-  "aliases": [],
+  "aliases": [
+    "extended cognition"
+  ],
   "sources": [
     "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Theory that cognitive processes can extend beyond the brain into external tools and materials; relevant to understanding distributed cognition in cyborgs and hybrid systems.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.260475",
+    "last_updated": "2025-10-20T21:55:32.080001",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

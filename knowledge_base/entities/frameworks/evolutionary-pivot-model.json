@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Framework explaining how ancient bioelectric mechanisms were repurposed across different problem spaces during evolution.",
+  "creator": [
+    "Michael Levin",
+    "Jake Fields"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.273456",
+    "last_updated": "2025-10-20T21:55:32.102572",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

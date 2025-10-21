@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/nnk2Umxa3OY_2024_「Woodenfish」Buddhism，_Consciousness_and_AI_Summit……_cleaned_edited.md"
   ],
-  "type": "organization",
+  "context": "2024 conference addressing Buddhism, consciousness, and artificial intelligence",
+  "type": "project",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.278666",
+    "last_updated": "2025-10-20T21:55:32.115396",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -1,7 +1,7 @@
 ---
 type: thinker
 aliases: []
-domains: []
+domains: ["Buddhist Philosophy", "Philosophy"]
 institutions: []
 tags: []
 created: 2025-10-20
@@ -10,4 +10,15 @@ updated: 2025-10-20
 
 # Matthew Kapstein
 
+## Overview
 
+Scholar analyzing Buddhist concepts of self, non-self, and personal identity
+
+## Primary Domains
+
+- [[Buddhist Philosophy]]
+- [[Philosophy]]
+
+## Notes
+
+*Extracted from source material (transcripts and papers). Consider enriching with affiliated institutions, key works, and biographical details.*

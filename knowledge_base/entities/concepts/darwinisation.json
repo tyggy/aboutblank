@@ -1,0 +1,17 @@
+{
+  "name": "De-Darwinisation",
+  "filename": "darwinisation",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Acquisition of heritable variation in fitness and replication ability by higher-level collectives during evolutionary transitions.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.076150",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

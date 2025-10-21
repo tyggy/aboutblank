@@ -2,17 +2,19 @@
   "name": "Homeostatic Setpoint",
   "filename": "homeostatic-setpoint",
   "aliases": [
-    "target morphology",
-    "anatomical goal state"
+    "anatomical goal state",
+    "target morphology"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Target state maintained by system-level homeostatic mechanisms; can be shifted via bioelectric modulation.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.245663",
+    "last_updated": "2025-10-20T21:55:32.058080",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

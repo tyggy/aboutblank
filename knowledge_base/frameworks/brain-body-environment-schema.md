@@ -11,7 +11,7 @@ updated: 2025-10-20
 
 ## Overview
 
-Traditional framework for understanding cognitive agents; proposed for manipulation and repurposing with diverse or unconventional components.
+Traditional framework for understanding agents; now extended to unconventional embodiments in bioengineering.
 
 ## Notes
 

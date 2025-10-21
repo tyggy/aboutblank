@@ -2,16 +2,20 @@
   "name": "Poiesis",
   "filename": "poiesis",
   "aliases": [
-    "bringing-forth"
+    "bringing-forth",
+    "production",
+    "making"
   ],
   "sources": [
     "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
   ],
+  "context": "The revelatory activity of bringing something into being; moment when potential becomes actual; contrasted with modern technology's 'challenging-forth'",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248518",
+    "last_updated": "2025-10-20T21:55:32.064550",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

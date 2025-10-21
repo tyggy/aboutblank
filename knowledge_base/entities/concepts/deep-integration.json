@@ -2,16 +2,19 @@
   "name": "Deep Integration",
   "filename": "deep-integration",
   "aliases": [
-    "Methodological Integration"
+    "Methodological Integration",
+    "Interdisciplinary integration"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Methodological approach treating discipline-specific frameworks as equal, enabling mutual discovery of blind spots and shared concerns",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254061",
+    "last_updated": "2025-10-20T21:55:32.071621",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -5,11 +5,15 @@
   "sources": [
     "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
   ],
-  "creator": [],
+  "context": "Program bridging ancient wisdom and cutting-edge technology to foster well-being and ethical AI; first major wave of mindfulness in corporate settings.",
+  "creator": [
+    "Bill Duane and Google"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.272078",
+    "last_updated": "2025-10-20T21:55:32.100029",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
   ],
-  "type": "organization",
+  "context": "Institute that produced the Smith & Boyd report on ethical use of animals in biomedical research.",
+  "type": "research-center",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.278136",
+    "last_updated": "2025-10-20T21:55:32.114674",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

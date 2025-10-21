@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Transmission of cytoskeletal patterns across cell divisions independent of DNA; enables stable morphogenetic information storage in unicells.",
+  "category": "biological",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.262884",
+    "last_updated": "2025-10-20T21:55:32.083406",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

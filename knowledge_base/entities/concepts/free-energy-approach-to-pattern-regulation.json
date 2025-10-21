@@ -1,0 +1,19 @@
+{
+  "name": "Free-Energy Approach To Pattern Regulation",
+  "filename": "free-energy-approach-to-pattern-regulation",
+  "aliases": [
+    "free energy principle in biology"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Application of free energy minimization principles to explain how biological systems maintain organized patterns.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.077242",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

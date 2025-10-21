@@ -1,0 +1,21 @@
+{
+  "name": "Kant",
+  "filename": "immanuel-kant",
+  "aliases": [
+    "Immanuel Kant"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Historical philosopher contributing to classical discussions of teleology and goal-directedness",
+  "domains": [
+    "Philosophy"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T21:55:32.051933",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

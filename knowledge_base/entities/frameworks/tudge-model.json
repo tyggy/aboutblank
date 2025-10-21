@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Minimal model of two particles with one connection showing how natural selection can evolve plasticity solving non-linearly separable functions.",
+  "creator": null,
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.270148",
+    "last_updated": "2025-10-20T21:55:32.096279",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

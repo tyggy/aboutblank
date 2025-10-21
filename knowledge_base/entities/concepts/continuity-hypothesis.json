@@ -1,0 +1,21 @@
+{
+  "name": "Gradualism",
+  "filename": "continuity-hypothesis",
+  "aliases": [
+    "Continuity Thesis",
+    "degrees of consciousness",
+    "gradualism"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Framework assuming continuity of mechanisms across natural evolved forms, synthetic life, and potential alien biology.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.073710",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

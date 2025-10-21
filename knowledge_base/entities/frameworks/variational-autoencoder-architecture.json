@@ -1,0 +1,17 @@
+{
+  "name": "Autoencoder Architecture",
+  "filename": "variational-autoencoder-architecture",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Machine learning model using compression into generative code; parallels how genomes compress morphogenetic information across reproduction bottleneck.",
+  "creator": null,
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.100682",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -7,11 +7,15 @@
   "sources": [
     "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
   ],
-  "domains": [],
+  "context": "Philosopher referenced for work on consciousness and subjective experience.",
+  "domains": [
+    "philosophy of mind"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.238567",
+    "last_updated": "2025-10-20T21:55:32.048040",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

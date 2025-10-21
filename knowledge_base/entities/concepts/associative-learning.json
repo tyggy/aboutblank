@@ -8,11 +8,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Learning paradigm where organisms learn relationships between stimuli and consequences.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.256479",
+    "last_updated": "2025-10-20T21:55:32.074787",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

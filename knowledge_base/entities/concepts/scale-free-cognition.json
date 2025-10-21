@@ -1,0 +1,23 @@
+{
+  "name": "Scale-Free Cognition",
+  "filename": "scale-free-cognition",
+  "aliases": [
+    "scale-free cognition",
+    "Hierarchical cognition",
+    "fractal properties",
+    "hierarchical scaling",
+    "Multi-scale cognition"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Cognitive and proto-cognitive capacities that operate across multiple biological scales, from molecular to organismal levels.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.065977",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

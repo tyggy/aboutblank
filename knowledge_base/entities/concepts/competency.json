@@ -2,17 +2,19 @@
   "name": "Competency",
   "filename": "competency",
   "aliases": [
-    "navigational competency",
-    "agency capacity"
+    "agency capacity",
+    "navigational competency"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Degree of problem-solving ability characterizing what makes collectives individuals as opposed to mere populations.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247526",
+    "last_updated": "2025-10-20T21:55:32.062484",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

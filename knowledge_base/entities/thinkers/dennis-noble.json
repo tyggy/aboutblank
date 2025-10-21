@@ -1,0 +1,22 @@
+{
+  "name": "Denis Noble",
+  "filename": "dennis-noble",
+  "aliases": [
+    "D. Noble"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Proposes theory of biological relativity and no privileged level of causation in biological systems.",
+  "domains": [
+    "systems biology",
+    "biophysics"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T21:55:32.054050",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

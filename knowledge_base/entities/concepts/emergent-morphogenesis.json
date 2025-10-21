@@ -7,11 +7,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Emergence of anatomical forms and behaviors from collective cell behavior rather than direct genetic instruction; reveals goals arise through system dynamics.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251227",
+    "last_updated": "2025-10-20T21:55:32.068036",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

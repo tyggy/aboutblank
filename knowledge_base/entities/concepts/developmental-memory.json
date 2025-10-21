@@ -2,19 +2,21 @@
   "name": "Developmental Memory",
   "filename": "developmental-memory",
   "aliases": [
-    "anatomical memory",
+    "morphological memory",
     "epigenetic memory",
-    "developmental robustness",
-    "morphological memory"
+    "anatomical memory",
+    "developmental robustness"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Persistent information storage in developmental systems enabling recovery from perturbations to achieve target anatomy.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248080",
+    "last_updated": "2025-10-20T21:55:32.063598",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

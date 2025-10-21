@@ -11,7 +11,7 @@ updated: 2025-10-20
 
 ## Overview
 
-Framework dividing covariance of character and fitness into between-collective and within-collective selection components.
+Mathematical framework dividing covariance of character and fitness into between-collective and within-collective selection components.
 
 ## Notes
 

@@ -1,0 +1,20 @@
+{
+  "name": "Platonic Space Of Patterns",
+  "filename": "platonism-of-patterns",
+  "aliases": [
+    "Platonic realm",
+    "Platonic Space of Patterns"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md"
+  ],
+  "context": "Theory that intelligence accesses abstract patterns not determined by physics; both biological and artificial systems are pointers into this space.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.085870",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

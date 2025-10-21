@@ -1,0 +1,21 @@
+{
+  "name": "Embodied Cognition Framework",
+  "filename": "embodied-mind-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Cognitive science framework integrating embodiment and Buddhist philosophy",
+  "creator": [
+    "Varela",
+    "Thompson",
+    "Rosch"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.095043",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

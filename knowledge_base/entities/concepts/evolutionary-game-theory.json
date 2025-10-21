@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Framework for understanding evolution through game-theoretic interactions; relevant to understanding scaling of cooperation",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.260023",
+    "last_updated": "2025-10-20T21:55:32.079516",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

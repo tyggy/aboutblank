@@ -2,16 +2,23 @@
   "name": "Heinz von Foerster",
   "filename": "heinz-von-foerster",
   "aliases": [
-    "von Foerster"
+    "von Foerster",
+    "H. von Foerster"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Pioneering theorist of cognitive tiles, memory, and information storage in chemical systems",
+  "domains": [
+    "cybernetics",
+    "cognition",
+    "memory"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.241478",
+    "last_updated": "2025-10-20T21:55:32.052268",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

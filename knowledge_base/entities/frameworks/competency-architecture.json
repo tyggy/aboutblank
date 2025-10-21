@@ -5,11 +5,17 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Multi-scale framework describing hierarchical behavioral and proto-cognitive capabilities at different organizational levels.",
+  "creator": [
+    "Michael Levin",
+    "Giovanni Pezzulo",
+    "and collaborators"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.273797",
+    "last_updated": "2025-10-20T21:55:32.103257",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

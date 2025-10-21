@@ -1,0 +1,19 @@
+{
+  "name": "Free-Energy Approach To Pattern Regulation",
+  "filename": "free-energy-approach-to-pattern-regulation",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Mathematical framework understanding how systems minimize prediction error in morphological regulation.",
+  "creator": [
+    "Karl Friston and Michael Levin"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.093915",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

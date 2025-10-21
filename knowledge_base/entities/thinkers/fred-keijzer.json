@@ -7,11 +7,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Contributor to the field of unconventional and basal cognition across phylogenetic history.",
+  "domains": [
+    "Philosophy of Mind",
+    "Cognitive Science"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.240023",
+    "last_updated": "2025-10-20T21:55:32.050711",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

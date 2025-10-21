@@ -1,6 +1,6 @@
 ---
 type: institution
-institution_type: organization
+institution_type: research-center
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -10,7 +10,11 @@ updated: 2025-10-20
 
 ## Type
 
-Organization
+Research Center
+
+## Overview
+
+Organization providing funding and support for research on bioelectricity and synthetic biology.
 
 ## Notes
 

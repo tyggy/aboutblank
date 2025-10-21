@@ -1,0 +1,17 @@
+{
+  "name": "Predictive Information",
+  "filename": "active-information",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Information actively shaping matter; physical basis of how meaning emerges from bioelectric substrate in biological systems.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.061547",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

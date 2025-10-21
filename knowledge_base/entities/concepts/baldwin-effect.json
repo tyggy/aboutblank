@@ -8,11 +8,13 @@
   "sources": [
     "batched_extraction"
   ],
+  "context": "Evolutionary mechanism where learned behaviors become genetically assimilated; may apply to bioelectrically-induced phenotypes.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.262816",
+    "last_updated": "2025-10-20T21:55:32.083329",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

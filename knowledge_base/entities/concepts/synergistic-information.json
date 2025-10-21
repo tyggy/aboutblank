@@ -1,15 +1,19 @@
 {
   "name": "Synergistic Information",
   "filename": "synergistic-information",
-  "aliases": [],
+  "aliases": [
+    "Synergy"
+  ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Information-theoretic measure capturing information provided jointly by multiple variables beyond their individual contributions",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.261486",
+    "last_updated": "2025-10-20T21:55:32.081328",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

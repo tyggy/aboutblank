@@ -1,0 +1,19 @@
+{
+  "name": "Multi-Information",
+  "filename": "multi-information",
+  "aliases": [
+    "Mutual Information"
+  ],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Information-theoretic measure of shared information between multiple variables or system components",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.081404",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

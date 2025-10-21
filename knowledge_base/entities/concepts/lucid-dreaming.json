@@ -7,11 +7,13 @@
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Dreams in which the dreamer is aware of dreaming and gains control over dream elements; used in Tibetan Buddhism to realize illusory nature of self",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.260972",
+    "last_updated": "2025-10-20T21:55:32.080829",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

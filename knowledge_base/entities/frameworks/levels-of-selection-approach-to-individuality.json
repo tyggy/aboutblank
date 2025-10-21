@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Framework for understanding biological individuality through analysis of selection operating at multiple hierarchical levels.",
+  "creator": [
+    "Ellen Clarke"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.274616",
+    "last_updated": "2025-10-20T21:55:32.106444",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

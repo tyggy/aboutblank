@@ -1,15 +1,19 @@
 {
   "name": "Process Philosophy",
   "filename": "process-philosophy",
-  "aliases": [],
+  "aliases": [
+    "process metaphysics"
+  ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Philosophical framework emphasizing process and change over static entities",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.255353",
+    "last_updated": "2025-10-20T21:55:32.073182",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

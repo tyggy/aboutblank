@@ -1,15 +1,19 @@
 {
   "name": "Pleiotropy",
   "filename": "pleiotropy",
-  "aliases": [],
+  "aliases": [
+    "pleiotropic effects"
+  ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Single gene or factor affecting multiple phenotypic traits; creates constraints on evolution.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.259506",
+    "last_updated": "2025-10-20T21:55:32.078610",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

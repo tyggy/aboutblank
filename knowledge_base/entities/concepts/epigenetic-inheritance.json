@@ -2,18 +2,21 @@
   "name": "Epigenetic Inheritance",
   "filename": "epigenetic-inheritance",
   "aliases": [
-    "Transgenerational epigenetics",
+    "epigenetics",
+    "transgenerational epigenetic inheritance",
     "heritable epigenetic variation",
-    "transgenerational epigenetic inheritance"
+    "Transgenerational epigenetics"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Non-genetic transmission of traits through chemical modifications and cellular mechanisms; adds Lamarckian dimension to evolution.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247774",
+    "last_updated": "2025-10-20T21:55:32.062945",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

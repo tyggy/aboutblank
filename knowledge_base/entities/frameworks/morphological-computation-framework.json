@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Model explaining how organism morphology and materials perform computational functions, reducing neural processing demands.",
+  "creator": [
+    "Rodney Pfeifer"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.273181",
+    "last_updated": "2025-10-20T21:55:32.102194",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

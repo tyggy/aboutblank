@@ -1,0 +1,19 @@
+{
+  "name": "Hopfield Networks",
+  "filename": "hopfield-network",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Simple neural network model with symmetric connections and fixed-point dynamics; demonstrates distributed computation and associative memory.",
+  "creator": [
+    "Hopfield"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.090628",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

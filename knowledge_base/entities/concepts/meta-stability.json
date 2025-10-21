@@ -1,0 +1,21 @@
+{
+  "name": "Meta-Stability",
+  "filename": "meta-stability",
+  "aliases": [
+    "metastability",
+    "quasi-stable states",
+    "bistability"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Property of bioelectric circuits exhibiting multiple possible stable states with stochastic transitions between them.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.074417",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

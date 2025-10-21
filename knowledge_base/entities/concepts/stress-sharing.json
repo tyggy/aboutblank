@@ -2,17 +2,19 @@
   "name": "Stress Sharing",
   "filename": "stress-sharing",
   "aliases": [
-    "stress propagation",
-    "stress leaking"
+    "stress leaking",
+    "stress propagation"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Tissue-level mechanism distributing stress across cells; contributes to scaling of cell competencies to larger problem spaces.",
+  "category": "biological",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.245396",
+    "last_updated": "2025-10-20T21:55:32.057082",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

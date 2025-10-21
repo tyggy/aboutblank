@@ -1,6 +1,6 @@
 ---
 type: institution
-institution_type: organization
+institution_type: project
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -10,7 +10,11 @@ updated: 2025-10-20
 
 ## Type
 
-Organization
+Project
+
+## Overview
+
+Peer-reviewed journal on animal cognition and feeling where this commentary was published.
 
 ## Notes
 

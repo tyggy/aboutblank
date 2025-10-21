@@ -5,11 +5,18 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Physics of and by beliefs relating Bayesian inference to physical systems",
+  "creator": [
+    "Ramstead",
+    "Friston",
+    "Heins",
+    "et al."
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.269768",
+    "last_updated": "2025-10-20T21:55:32.095523",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

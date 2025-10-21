@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Augmentation of human perception with novel sensory inputs, demonstrating plasticity of embodied cognition.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.259049",
+    "last_updated": "2025-10-20T21:55:32.078041",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

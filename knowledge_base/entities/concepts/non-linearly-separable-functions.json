@@ -1,0 +1,23 @@
+{
+  "name": "Non-Linearly Separable Functions",
+  "filename": "non-linearly-separable-functions",
+  "aliases": [
+    "Non-decomposable Functions",
+    "Role Specialisation",
+    "reciprocal sign epistasis",
+    "Division of Labour Games",
+    "Reproductive Specialisation"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Functions where response to one input changes direction based on another input; requires deep network representations.",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.075192",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,23 +1,22 @@
 ---
 type: thinker
-aliases: []
-domains: ["philosophy", "philosophy of technology"]
+aliases: ["Martin Heidegger"]
+domains: ["Philosophy"]
 institutions: []
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
 ---
 
-# Martin Heidegger
+# Heidegger
 
 ## Overview
 
-Foundational thinker on poiesis and technological enframing; argues for caring relationship to technology beyond mere tool use.
+Philosopher contributing to classical discussions of goal-directedness and being
 
 ## Primary Domains
 
-- [[philosophy]]
-- [[philosophy of technology]]
+- [[Philosophy]]
 
 ## Notes
 

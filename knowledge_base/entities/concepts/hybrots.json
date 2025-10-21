@@ -2,22 +2,24 @@
   "name": "Hybrots",
   "filename": "hybrots",
   "aliases": [
-    "hybrid agents",
-    "Bio-robotic hybrids",
-    "Living Brains with Artificial Bodies",
-    "Hybrots",
     "Biobots",
+    "Cyborgs",
+    "Bio-robotic hybrids",
     "hybrots",
-    "Cyborgs"
+    "hybrid agents",
+    "Living Brains with Artificial Bodies",
+    "Hybrots"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Hybrid robotic organisms combining biological and engineered components; future category of diverse agents for behavioral study.",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.250710",
+    "last_updated": "2025-10-20T21:55:32.067527",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

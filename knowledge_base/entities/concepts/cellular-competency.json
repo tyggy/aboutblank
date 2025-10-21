@@ -2,17 +2,20 @@
   "name": "Cellular Competency",
   "filename": "cellular-competency",
   "aliases": [
+    "Cell-level competency",
     "Cellular agency",
     "multiscale competency"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Problem-solving and adaptive behavioral capabilities of cells derived from ancestral unicellular organisms.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246146",
+    "last_updated": "2025-10-20T21:55:32.059637",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

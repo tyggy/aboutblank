@@ -2,17 +2,21 @@
   "name": "Homeostatic Stress",
   "filename": "homeostatic-stress",
   "aliases": [
-    "mismatch perception",
-    "discord between current and optimal states"
+    "dukkha",
+    "discord between current and optimal states",
+    "perceived mismatch",
+    "mismatch perception"
   ],
   "sources": [
     "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Internal perception of discord between current state and optimal circumstances; primary driver of agency in all intelligent systems",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248347",
+    "last_updated": "2025-10-20T21:55:32.064360",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

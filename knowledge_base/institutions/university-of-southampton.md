@@ -1,6 +1,6 @@
 ---
 type: institution
-institution_type: organization
+institution_type: university
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -10,7 +10,11 @@ updated: 2025-10-20
 
 ## Type
 
-Organization
+University
+
+## Overview
+
+Institution housing Richard Watson in Electronics and Computer Science and Institute for Life Sciences.
 
 ## Notes
 

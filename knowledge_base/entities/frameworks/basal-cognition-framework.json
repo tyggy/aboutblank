@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Theoretical framework addressing proto-cognitive capabilities in non-neural organisms and cellular systems.",
+  "creator": [
+    "Paul Lyon",
+    "Francis Baluska"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.267924",
+    "last_updated": "2025-10-20T21:55:32.092375",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

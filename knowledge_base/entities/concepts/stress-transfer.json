@@ -4,16 +4,19 @@
   "aliases": [
     "stress transduction",
     "stress transfer",
+    "Dukkha transfer",
     "bidirectional stress flow"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Process by which stress is exchanged between agents through signaling; mechanism for collective goal management",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248797",
+    "last_updated": "2025-10-20T21:55:32.065164",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

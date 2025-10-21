@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Unified framework for understanding biological organization through minimization of prediction error across scales.",
+  "creator": [
+    "Karl Friston"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.269587",
+    "last_updated": "2025-10-20T21:55:32.095272",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "Diverse Intelligence Research Program",
+  "filename": "diverse-intelligence-research",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Emerging interdisciplinary field examining cognitive capacities across diverse biological systems and scales.",
+  "creator": [
+    "Michael Levin and collaborators"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.094617",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

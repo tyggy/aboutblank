@@ -1,15 +1,19 @@
 {
   "name": "Morphological Coordination",
   "filename": "morphological-coordination",
-  "aliases": [],
+  "aliases": [
+    "coordinated patterning"
+  ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Unified function integrating neural and non-neural signaling systems to achieve anatomical coherence.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251749",
+    "last_updated": "2025-10-20T21:55:32.068536",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

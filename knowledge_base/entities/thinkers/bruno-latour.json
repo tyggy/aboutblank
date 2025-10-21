@@ -5,11 +5,16 @@
   "sources": [
     "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
   ],
-  "domains": [],
+  "context": "Cited for concept that 'technology is society made durable' regarding technology's ethical dimensions",
+  "domains": [
+    "science and technology studies",
+    "sociology"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239339",
+    "last_updated": "2025-10-20T21:55:32.049792",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

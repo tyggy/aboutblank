@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Synthetic living machines created from reprogrammed tadpole cells; demonstrate collaborative relationship between designer intent and cellular competency.",
+  "creator": [
+    "Joshua Bongard and Michael Levin"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.268632",
+    "last_updated": "2025-10-20T21:55:32.093566",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

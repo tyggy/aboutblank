@@ -2,16 +2,19 @@
   "name": "Perceptual Bistability",
   "filename": "perceptual-bistability",
   "aliases": [
+    "Bistability",
     "stochastic flipping"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Phenomenon where systems oscillate between two interpretations or stable states; occurs in both perception and morphogenetic circuits.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.259323",
+    "last_updated": "2025-10-20T21:55:32.078329",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Bioelectrically stored information about anatomical layouts and structures; reprogrammable like neural memories; enable guided regeneration.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.249920",
+    "last_updated": "2025-10-20T21:55:32.066609",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

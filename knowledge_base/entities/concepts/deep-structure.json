@@ -7,11 +7,13 @@
   "sources": [
     "batched_extraction"
   ],
+  "context": "Layered interaction architecture with hidden variables; enables computation of non-linearly separable functions and novel adaptive solutions",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.258130",
+    "last_updated": "2025-10-20T21:55:32.076950",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

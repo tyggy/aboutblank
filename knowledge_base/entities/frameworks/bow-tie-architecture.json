@@ -1,0 +1,17 @@
+{
+  "name": "Bow-Tie Architecture",
+  "filename": "bow-tie-architecture",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Bottleneck structure in morphogenetic control exploiting bioelectric, biochemical, and biomechanical modalities as control nodes.",
+  "creator": null,
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.100747",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

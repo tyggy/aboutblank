@@ -2,17 +2,20 @@
   "name": "Ectopic Organ",
   "filename": "ectopic-organ",
   "aliases": [
+    "heterotopic induction",
     "ectopic eye",
-    "heterotopic induction"
+    "Ectopic tissue"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Organ or tissue induced to form in anatomically inappropriate location through bioelectric state manipulation, demonstrating plasticity of morphogenetic control.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.250783",
+    "last_updated": "2025-10-20T21:55:32.067577",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

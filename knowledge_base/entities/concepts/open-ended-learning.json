@@ -1,0 +1,19 @@
+{
+  "name": "Open-Ended Learning",
+  "filename": "open-ended-learning",
+  "aliases": [
+    "Open-ended Machine Intelligence"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned_edited.md"
+  ],
+  "context": "Learning systems that generate novel knowledge without requiring continuous new data, similar to mathematical discovery",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.087765",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

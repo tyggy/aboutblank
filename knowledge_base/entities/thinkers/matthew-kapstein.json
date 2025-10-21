@@ -5,11 +5,16 @@
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "domains": [],
+  "context": "Scholar analyzing Buddhist concepts of self, non-self, and personal identity",
+  "domains": [
+    "Buddhist Philosophy",
+    "Philosophy"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.243600",
+    "last_updated": "2025-10-20T21:55:32.054381",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Spinoza",
+  "filename": "baruch-spinoza",
+  "aliases": [
+    "Baruch Spinoza"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Historical philosopher whose work on goal-directedness extends to modern discussions of teleonomy",
+  "domains": [
+    "Philosophy"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T21:55:32.051878",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

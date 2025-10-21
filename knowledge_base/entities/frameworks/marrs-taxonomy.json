@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Hierarchical analysis framework from three levels: computational theory, algorithm, and implementation; applied to bioelectric control.",
+  "creator": [
+    "David Marr"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.273573",
+    "last_updated": "2025-10-20T21:55:32.102726",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

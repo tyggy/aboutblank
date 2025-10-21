@@ -1,0 +1,17 @@
+{
+  "name": "Motivational Trade-Offs",
+  "filename": "motivational-trade-offs",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
+  ],
+  "context": "Criterion #5 in Crump et al.'s framework; weighing conflicting drives and preferences in decision-making.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.080505",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

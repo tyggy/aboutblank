@@ -2,16 +2,19 @@
   "name": "Intrinsic Motivation",
   "filename": "intrinsic-motivation",
   "aliases": [
+    "autonomous motivation",
     "Intrinsic Goal"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Internal drives for action and learning independent of external rewards.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.253729",
+    "last_updated": "2025-10-20T21:55:32.071295",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

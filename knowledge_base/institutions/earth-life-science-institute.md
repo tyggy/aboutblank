@@ -14,7 +14,7 @@ Research Center
 
 ## Overview
 
-The Earth-Life Science Institute (ELSI) is a research institute at the Tokyo Institute of Technology dedicated to investigating fundamental questions about the origins of life, the emergence of complexity, intelligence, and consciousness. Through interdisciplinary study, the institute explores how life arose on Earth and the underlying principles governing the development of intelligent systems.
+Research institute at Tokyo Institute of Technology; Witkowski's affiliation
 
 ## Notes
 

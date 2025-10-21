@@ -2,16 +2,19 @@
   "name": "Panpsychism",
   "filename": "panpsychism",
   "aliases": [
-    "mind-matter relation"
+    "mind-matter relation",
+    "mind everywhere"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Philosophical view that mind is widespread in nature; TAME offers a non-traditional variant based on causal structure rather than inevitable presence",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.256370",
+    "last_updated": "2025-10-20T21:55:32.074673",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

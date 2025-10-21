@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Theorist reviewing work on evolutionary transitions and individuality.",
+  "domains": [
+    "Evolutionary Theory"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.242713",
+    "last_updated": "2025-10-20T21:55:32.053550",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

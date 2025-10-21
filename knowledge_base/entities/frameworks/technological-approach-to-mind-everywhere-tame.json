@@ -1,0 +1,19 @@
+{
+  "name": "Tame (Technological Approach To Mind Everywhere)",
+  "filename": "technological-approach-to-mind-everywhere-tame",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Experimentally-grounded framework for understanding diverse embodiments and minds through engineering interventions.",
+  "creator": [
+    "Michael Levin"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.093491",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

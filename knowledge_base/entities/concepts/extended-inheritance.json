@@ -2,16 +2,20 @@
   "name": "Extended Inheritance",
   "filename": "extended-inheritance",
   "aliases": [
-    "Transgenerational inheritance"
+    "non-genetic inheritance",
+    "Transgenerational inheritance",
+    "transgenerational inheritance"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Transmission of biological information and traits through means other than DNA sequence.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246913",
+    "last_updated": "2025-10-20T21:55:32.061335",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

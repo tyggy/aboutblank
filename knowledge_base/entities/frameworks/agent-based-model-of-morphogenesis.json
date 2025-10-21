@@ -1,0 +1,20 @@
+{
+  "name": "Agent-Based Model Of Morphogenesis",
+  "filename": "agent-based-model-of-morphogenesis",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Computational model simulating multicellular collectives as agents with homeostatic stress dynamics reaching anatomical targets.",
+  "creator": [
+    "Michael Levin",
+    "Lakshwin Shreesha"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.089271",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

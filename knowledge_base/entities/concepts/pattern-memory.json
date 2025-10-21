@@ -2,21 +2,24 @@
   "name": "Pattern Memory",
   "filename": "pattern-memory",
   "aliases": [
-    "pattern memory",
-    "anatomical memory",
+    "Anatomical Memory",
     "anatomical setpoint",
-    "morphological memory",
     "morphogenetic memory",
-    "bioelectric pattern memory"
+    "anatomical memory",
+    "bioelectric pattern memory",
+    "morphological memory",
+    "pattern memory"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "System-level memory of target anatomical configurations guiding morphogenesis and regeneration despite perturbations.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.259107",
+    "last_updated": "2025-10-20T21:55:32.078090",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

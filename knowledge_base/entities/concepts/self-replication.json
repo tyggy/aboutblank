@@ -1,0 +1,19 @@
+{
+  "name": "Self-Regulation",
+  "filename": "self-replication",
+  "aliases": [
+    "kinematic self-replication"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Property of reconfigurable organisms to create copies of themselves through coordinated motion.",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.081905",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

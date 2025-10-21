@@ -1,0 +1,22 @@
+{
+  "name": "Developmental Bioelectricity",
+  "filename": "bioelectric-signaling",
+  "aliases": [
+    "membrane potential signaling",
+    "bioelectric signaling",
+    "gap junction signaling",
+    "Bioelectric Networks"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Ion channel-mediated electrical communication between cells that encodes and transmits pattern information independent of genetic code.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.062010",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

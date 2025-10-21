@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
   ],
-  "type": "organization",
+  "context": "Tech company where Bill Duane worked on machine learning and related initiatives.",
+  "type": "project",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.278206",
+    "last_updated": "2025-10-20T21:55:32.114737",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Theory explaining how organisms minimize surprise by updating beliefs and acting on environment simultaneously.",
+  "creator": [
+    "Karl Friston",
+    "Giovanni Pezzulo"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.271017",
+    "last_updated": "2025-10-20T21:55:32.098382",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

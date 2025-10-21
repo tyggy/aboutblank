@@ -2,17 +2,19 @@
   "name": "Anticipatory Systems",
   "filename": "anticipatory-systems",
   "aliases": [
-    "anticipation",
-    "predictive modeling"
+    "predictive modeling",
+    "anticipation"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Systems capable of predicting future states based on prior experience; implemented by gene-regulatory and protein-interaction networks.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.255202",
+    "last_updated": "2025-10-20T21:55:32.072997",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

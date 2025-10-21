@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Method for studying consciousness through objective observation of reports and behavior; can be extended through sensory substitution technology",
+  "category": "epistemology",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.252957",
+    "last_updated": "2025-10-20T21:55:32.070277",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

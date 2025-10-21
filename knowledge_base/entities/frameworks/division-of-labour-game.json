@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Game-theoretic framework where fitness depends on context-sensitive complementary roles between individuals.",
+  "creator": null,
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.270269",
+    "last_updated": "2025-10-20T21:55:32.096603",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

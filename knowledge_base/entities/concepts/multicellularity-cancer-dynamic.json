@@ -1,0 +1,17 @@
+{
+  "name": "Multicellularity-Cancer Dynamic",
+  "filename": "multicellularity-cancer-dynamic",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Balance between tight functional integration enabling collective cognition and preservation of subunit goals",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.079200",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

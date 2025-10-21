@@ -14,7 +14,7 @@ Research Center
 
 ## Overview
 
-Kyoto-based research organization exploring complexity and consciousness across disciplines.
+AI and cognitive science research center in Kyoto; Witkowski's affiliation
 
 ## Notes
 

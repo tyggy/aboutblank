@@ -1,6 +1,6 @@
 ---
 type: institution
-institution_type: organization
+institution_type: monastery
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -10,7 +10,11 @@ updated: 2025-10-20
 
 ## Type
 
-Organization
+Monastery
+
+## Overview
+
+Leading institute in India for Tibetan Buddhist philosophy and learning; location of Thomas Doctor's work as executive director.
 
 ## Notes
 

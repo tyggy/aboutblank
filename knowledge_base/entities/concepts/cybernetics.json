@@ -7,11 +7,13 @@
   "sources": [
     "batched_extraction"
   ],
+  "context": "Science of circular control and goal-directed systems; provides framework for understanding feedback mechanisms and multiscale causality in biology.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248197",
+    "last_updated": "2025-10-20T21:55:32.063873",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

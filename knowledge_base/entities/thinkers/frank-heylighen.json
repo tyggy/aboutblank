@@ -7,11 +7,17 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Researcher on stigmergy, coordination, and emergent agency",
+  "domains": [
+    "complex systems",
+    "stigmergy",
+    "agency"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.242073",
+    "last_updated": "2025-10-20T21:55:32.052987",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

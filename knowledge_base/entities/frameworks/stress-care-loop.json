@@ -1,0 +1,19 @@
+{
+  "name": "Stress-Care Loop",
+  "filename": "stress-care-loop",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
+  ],
+  "context": "Framework proposing that care is a driver of intelligence; stress/dukkha triggers care, leading to intelligent, grief perception; intended as scale-free model applicable across levels.",
+  "creator": [
+    "Thomas Doctor"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.100211",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -7,11 +7,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Neuroscience research program committed to reading mental content from electrophysiological states; applicable to developmental bioelectricity.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246388",
+    "last_updated": "2025-10-20T21:55:32.060088",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

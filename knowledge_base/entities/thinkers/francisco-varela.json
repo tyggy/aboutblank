@@ -5,11 +5,17 @@
   "sources": [
     "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md"
   ],
-  "domains": [],
+  "context": "Pioneered the enactive approach to cognition, challenging the notion of neutral independent observers in science.",
+  "domains": [
+    "Cognitive Science",
+    "Philosophy",
+    "Neuroscience"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239151",
+    "last_updated": "2025-10-20T21:55:32.049325",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

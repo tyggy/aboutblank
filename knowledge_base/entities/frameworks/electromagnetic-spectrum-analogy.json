@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md"
   ],
-  "creator": [],
+  "context": "Conceptual framework comparing diverse phenomena (lightning, static, light, magnets) as expressions of same underlying dynamic; used as model for understanding diverse intelligences as unified phenomenon.",
+  "creator": null,
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.274032",
+    "last_updated": "2025-10-20T21:55:32.103707",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

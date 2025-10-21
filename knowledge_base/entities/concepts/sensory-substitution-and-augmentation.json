@@ -2,17 +2,21 @@
   "name": "Sensory Substitution And Augmentation",
   "filename": "sensory-substitution-and-augmentation",
   "aliases": [
+    "neural interfaces",
+    "neuroprosthetics",
     "brainport",
-    "neural interfaces"
+    "sensory plasticity"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Technology enabling novel sensory channels into nervous system; demonstrates continuity between first and third person perspectives",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251809",
+    "last_updated": "2025-10-20T21:55:32.068602",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

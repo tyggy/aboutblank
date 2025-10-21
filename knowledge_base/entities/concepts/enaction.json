@@ -2,17 +2,19 @@
   "name": "Enaction",
   "filename": "enaction",
   "aliases": [
-    "enactive approach",
-    "Enactive Cognition"
+    "Enactive Cognition",
+    "enactive approach"
   ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Framework emphasizing how cognition arises through interaction between organism and environment via sensorimotor loops",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.255084",
+    "last_updated": "2025-10-20T21:55:32.072837",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

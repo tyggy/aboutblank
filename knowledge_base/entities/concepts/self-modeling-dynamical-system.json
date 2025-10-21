@@ -1,0 +1,21 @@
+{
+  "name": "Self-Modelling Dynamical System",
+  "filename": "self-modeling-dynamical-system",
+  "aliases": [
+    "recursive self-representation",
+    "self-modeling dynamical systems",
+    "self-referential dynamics"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "System that builds and updates internal models of its own behavior to improve problem-solving.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.076585",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

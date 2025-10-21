@@ -1,0 +1,19 @@
+{
+  "name": "Bioelectric Code Framework",
+  "filename": "bioelectrical-coupling-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Theoretical model explaining how gap junctions regulate bioelectric domains to enable multicellular coordination and pattern specification.",
+  "creator": [
+    "Michael Levin"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.105698",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

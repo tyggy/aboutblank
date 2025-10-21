@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Contributor to understanding epigenetic inheritance and evolutionary transitions in learning and cognition.",
+  "domains": [
+    "epigenetics",
+    "evolutionary theory"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.241805",
+    "last_updated": "2025-10-20T21:55:32.052686",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

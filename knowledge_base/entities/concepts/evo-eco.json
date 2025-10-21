@@ -1,0 +1,19 @@
+{
+  "name": "Evo-Eco",
+  "filename": "evo-eco",
+  "aliases": [
+    "evolutionary ecology"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Integration of evolutionary and ecological principles; expanded with learning theory to explain ecosystem dynamics.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.077095",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

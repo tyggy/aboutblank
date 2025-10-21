@@ -2,17 +2,19 @@
   "name": "Computational Boundary Of Self",
   "filename": "computational-boundary-of-self",
   "aliases": [
-    "cognitive self",
-    "computational identity"
+    "computational identity",
+    "cognitive self"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Scope of functional integration defining which components constitute a unified agent; changes during development and evolution.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.258871",
+    "last_updated": "2025-10-20T21:55:32.077877",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

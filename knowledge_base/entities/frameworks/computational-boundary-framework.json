@@ -1,0 +1,19 @@
+{
+  "name": "Computational Boundary Of Self",
+  "filename": "computational-boundary-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Framework defining functional integration boundaries determining which components constitute a unified agent or self.",
+  "creator": [
+    "Michael Levin"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.102826",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

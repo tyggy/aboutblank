@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Challenge of determining which genetic changes produce desired anatomical outcomes; fundamentally unsolvable in general for complex morphogenesis.",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247089",
+    "last_updated": "2025-10-20T21:55:32.061677",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

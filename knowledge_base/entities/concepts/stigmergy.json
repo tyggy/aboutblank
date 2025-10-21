@@ -2,21 +2,23 @@
   "name": "Stigmergy",
   "filename": "stigmergy",
   "aliases": [
-    "decentralized control",
     "environmental memory",
-    "stigmergic communication",
+    "stigmergy",
     "environmental coordination",
+    "stigmergic communication",
     "indirect coordination",
-    "stigmergy"
+    "decentralized control"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Coordination through environmental modification and memory; evolutionary analog of niche construction",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246025",
+    "last_updated": "2025-10-20T21:55:32.059364",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

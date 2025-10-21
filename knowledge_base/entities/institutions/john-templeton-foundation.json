@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "type": "organization",
+  "context": "Funding organization supporting research on consciousness, intelligence, and fundamental questions in biology.",
+  "type": "research-center",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.276250",
+    "last_updated": "2025-10-20T21:55:32.111486",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

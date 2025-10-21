@@ -2,19 +2,21 @@
   "name": "Diverse Intelligence",
   "filename": "diverse-intelligence",
   "aliases": [
-    "substrate-independent intelligence",
     "alternative cognition",
+    "Space of Possible Minds",
     "multi-scale intelligence",
-    "Space of Possible Minds"
+    "substrate-independent intelligence"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Intelligent behavior in unfamiliar substrates and problem spaces; requires recognizing competencies beyond conventional neural-behavioral domains.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246971",
+    "last_updated": "2025-10-20T21:55:32.061497",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

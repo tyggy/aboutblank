@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Evolutionary search algorithm iterating through development, selection, and mutation stages to optimize embryo genotypes.",
+  "creator": null,
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.266848",
+    "last_updated": "2025-10-20T21:55:32.089614",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

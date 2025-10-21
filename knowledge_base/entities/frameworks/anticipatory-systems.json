@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Theory of systems that model future states and act predictively; (M,R) framework being integrated into TAME development",
+  "creator": [
+    "Robert Rosen"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.271190",
+    "last_updated": "2025-10-20T21:55:32.098716",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

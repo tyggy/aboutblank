@@ -2,20 +2,23 @@
   "name": "Enactivism",
   "filename": "enactivism",
   "aliases": [
-    "enactivism",
-    "embodied mind",
+    "Enactive cognition",
+    "enactivist tradition",
     "enactive approach",
+    "enactivism",
     "Enactivism",
-    "enactivist tradition"
+    "embodied mind"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Cognitive science approach emphasizing dynamic, creative nature of self; boundaries between cognition, embodiment, and world are pragmatic",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248579",
+    "last_updated": "2025-10-20T21:55:32.064604",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

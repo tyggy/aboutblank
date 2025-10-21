@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Quoted on 'Beginner's Mind' to illustrate how biological systems operate with flexibility rather than hardwired expectations.",
+  "domains": [
+    "philosophy",
+    "Zen Buddhism"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.244422",
+    "last_updated": "2025-10-20T21:55:32.055339",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

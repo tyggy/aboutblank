@@ -7,11 +7,13 @@
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Tibetan Buddhist contemplative practice integrating lucid dreaming as pathway to realizing illusory nature of self and reality",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.261040",
+    "last_updated": "2025-10-20T21:55:32.081012",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

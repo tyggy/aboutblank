@@ -1,0 +1,21 @@
+{
+  "name": "Heidegger",
+  "filename": "martin-heidegger",
+  "aliases": [
+    "Martin Heidegger"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Philosopher contributing to classical discussions of goal-directedness and being",
+  "domains": [
+    "Philosophy"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T21:55:32.048984",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

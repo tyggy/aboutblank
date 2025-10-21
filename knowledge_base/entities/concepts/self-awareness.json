@@ -1,0 +1,17 @@
+{
+  "name": "Self-Awareness",
+  "filename": "self-awareness",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Second-order metacognitive property not necessarily required for basal cognition or collective intelligence.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.072703",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

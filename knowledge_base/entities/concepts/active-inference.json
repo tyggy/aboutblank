@@ -1,0 +1,30 @@
+{
+  "name": "Free Energy Principle",
+  "filename": "active-inference",
+  "aliases": [
+    "predictive coding",
+    "free energy principle",
+    "free energy minimization",
+    "active inference framework",
+    "variational free energy",
+    "Predictive coding",
+    "active inference",
+    "predictive processing",
+    "free-energy principle",
+    "sense-making",
+    "FEP",
+    "Active inference"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Computational framework where agents minimize prediction error by actively sampling or altering environment; applies to morphogenesis.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.063289",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -2,17 +2,20 @@
   "name": "Competency In Navigating Arbitrary Spaces",
   "filename": "competency-in-navigating-arbitrary-spaces",
   "aliases": [
+    "CNAS",
     "Spatial competency",
     "Cognitive invariant"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Proposed invariant for measuring and comparing cognition across diverse embodiments and biological systems.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.249529",
+    "last_updated": "2025-10-20T21:55:32.066090",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

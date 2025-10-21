@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/papers/edited/Multiple ways to implement and infer sentience_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Capacity to attribute mental states to oneself and others; foundational to ascribing sentience by behavioral analogy.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.259677",
+    "last_updated": "2025-10-20T21:55:32.078912",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

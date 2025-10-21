@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "type": "organization",
+  "context": "Australian institution where Pierrick Bourrat conducts research on multi-level selection theory.",
+  "type": "university",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.277609",
+    "last_updated": "2025-10-20T21:55:32.113851",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

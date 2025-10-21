@@ -2,17 +2,21 @@
   "name": "Gene Regulatory Networks",
   "filename": "gene-regulatory-networks",
   "aliases": [
-    "transcriptional networks",
-    "GRN"
+    "genetic networks",
+    "GRN",
+    "GRNs",
+    "transcriptional networks"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Networks of genes and their interactions exhibiting memory, storing developmental information, and enabling adaptive responses.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251867",
+    "last_updated": "2025-10-20T21:55:32.068669",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

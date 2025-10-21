@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
   ],
-  "type": "organization",
+  "context": "Leading institute in India for Tibetan Buddhist philosophy and learning; location of Thomas Doctor's work as executive director.",
+  "type": "monastery",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.275355",
+    "last_updated": "2025-10-20T21:55:32.109394",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

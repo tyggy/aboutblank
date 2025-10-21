@@ -2,16 +2,19 @@
   "name": "Organoids",
   "filename": "organoids",
   "aliases": [
+    "miniaturized organs",
     "Ex Vivo Constructs"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Lab-grown tissue structures; raise ethical questions about cognitive capacity and moral status",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254473",
+    "last_updated": "2025-10-20T21:55:32.072101",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

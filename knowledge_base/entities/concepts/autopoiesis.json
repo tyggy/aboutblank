@@ -2,22 +2,26 @@
   "name": "Autopoiesis",
   "filename": "autopoiesis",
   "aliases": [
-    "Organizational closure",
-    "Self-making",
     "self-organization",
-    "self-making",
+    "Self-making",
+    "Organizational closure",
     "self-production",
+    "emergent order",
+    "Self-organization",
+    "Self-production",
     "self-maintaining systems",
-    "emergent order"
+    "self-making"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Self-maintaining organization of biological systems that define their own boundaries and internal structure.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247470",
+    "last_updated": "2025-10-20T21:55:32.062419",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

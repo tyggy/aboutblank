@@ -2,16 +2,20 @@
   "name": "Minimal Intelligence",
   "filename": "minimal-intelligence",
   "aliases": [
-    "cognition all the way down"
+    "Basal Cognition",
+    "cognition all the way down",
+    "Proto-Cognition"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Cognitive capabilities in non-neural systems; found in bacteria, plants, and developmental morphogenesis.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.258424",
+    "last_updated": "2025-10-20T21:55:32.077311",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

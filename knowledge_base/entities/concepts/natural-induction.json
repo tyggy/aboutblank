@@ -1,15 +1,19 @@
 {
   "name": "Natural Induction",
   "filename": "natural-induction",
-  "aliases": [],
+  "aliases": [
+    "spontaneous adaptation"
+  ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Spontaneous adaptive organization emerging in physical networks without explicit programming or design.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.263595",
+    "last_updated": "2025-10-20T21:55:32.084208",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

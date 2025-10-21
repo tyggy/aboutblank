@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Identified Hebbian learning mechanism explaining synaptic connection modification in neural networks.",
+  "domains": [
+    "Neuroscience",
+    "Learning Theory"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.244932",
+    "last_updated": "2025-10-20T21:55:32.056061",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

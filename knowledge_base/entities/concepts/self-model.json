@@ -1,0 +1,22 @@
+{
+  "name": "Self-Model",
+  "filename": "self-model",
+  "aliases": [
+    "World model",
+    "virtual modeling",
+    "Somatic Story",
+    "counterfactual thought"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md"
+  ],
+  "context": "Internal representation that cells and organisms maintain about what they are and where they should go; maintained through bioelectric signaling.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.066266",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

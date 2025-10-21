@@ -7,11 +7,17 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Researcher on biogenic approach to valence, affect, and value in biological systems.",
+  "domains": [
+    "biophysics",
+    "consciousness",
+    "valence"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.238909",
+    "last_updated": "2025-10-20T21:55:32.048785",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

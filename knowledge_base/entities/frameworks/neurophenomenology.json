@@ -1,0 +1,19 @@
+{
+  "name": "Heterophenomenology",
+  "filename": "neurophenomenology",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Integration of phenomenological philosophy and neuroscientific investigation of consciousness.",
+  "creator": [
+    "Evan Thompson"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.095182",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

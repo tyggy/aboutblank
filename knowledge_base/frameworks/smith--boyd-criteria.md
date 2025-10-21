@@ -1,7 +1,7 @@
 ---
 type: framework
 aliases: []
-creator: ["Smith", "J.A.; Boyd", "K.M."]
+creator: ["Smith and Boyd"]
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -11,13 +11,11 @@ updated: 2025-10-20
 
 ## Overview
 
-Traditional criteria for moral consideration of animals; identified as inadequate for novel and unconventional agents
+Earlier ethical framework for assessing sentience; noted as inadequate for novel, unconventional agents that lack familiar phylogenetic or anatomical touchstones.
 
 ## Creator/Originator
 
-- [[Smith]]
-- [[J.A.; Boyd]]
-- [[K.M.]]
+- [[Smith and Boyd]]
 
 ## Notes
 

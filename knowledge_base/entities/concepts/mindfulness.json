@@ -2,17 +2,19 @@
   "name": "Mindfulness",
   "filename": "mindfulness",
   "aliases": [
-    "Mindfulness-Based Stress Reduction",
-    "MBSR"
+    "MBSR",
+    "Mindfulness-Based Stress Reduction"
   ],
   "sources": [
     "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Skills-based approach emphasizing self-awareness and self-regulation; first major wave of Buddhism incorporation in Western organizations with benefits but limited systemic impact.",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254866",
+    "last_updated": "2025-10-20T21:55:32.072566",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

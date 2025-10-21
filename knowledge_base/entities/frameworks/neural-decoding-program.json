@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Neuroscience research program attempting to read mental content from electrophysiological states; applicable beyond neural systems.",
+  "creator": null,
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.273515",
+    "last_updated": "2025-10-20T21:55:32.102645",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -2,17 +2,20 @@
   "name": "Mindfulness Meditation",
   "filename": "mindfulness-meditation",
   "aliases": [
+    "Focused Observation",
     "Contemplative Practice",
-    "Focused Observation"
+    "Mindfulness"
   ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Contemplative practice aimed at experientially testing the notion that the 'I' cannot be found as a specific entity, with documented effects on well-being and social connectedness",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.260890",
+    "last_updated": "2025-10-20T21:55:32.080727",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

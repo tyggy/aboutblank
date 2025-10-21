@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
+  "context": "Property used to evaluate ethical status of entities; paper argues competency in pursuing goals is more fundamental than origin or composition.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.249613",
+    "last_updated": "2025-10-20T21:55:32.066169",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

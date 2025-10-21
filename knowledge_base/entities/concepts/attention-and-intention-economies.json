@@ -1,0 +1,20 @@
+{
+  "name": "Attention Economy",
+  "filename": "attention-and-intention-economies",
+  "aliases": [
+    "Intention economy",
+    "Attention Economy"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
+  ],
+  "context": "Systems designed to capture and monetize human attention; proposed source of pollution affecting youth spiritual and mental health.",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.082336",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

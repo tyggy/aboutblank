@@ -7,11 +7,17 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Co-developer of autopoiesis theory and living systems framework",
+  "domains": [
+    "systems theory",
+    "autopoiesis",
+    "cognition"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239215",
+    "last_updated": "2025-10-20T21:55:32.049395",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

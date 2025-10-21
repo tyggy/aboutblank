@@ -7,11 +7,13 @@
   "sources": [
     "batched_extraction"
   ],
+  "context": "Evolutionary mechanism repurposing ancient bioelectric algorithms and cellular machinery from morphogenetic control into behavioral control systems.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.264101",
+    "last_updated": "2025-10-20T21:55:32.085007",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

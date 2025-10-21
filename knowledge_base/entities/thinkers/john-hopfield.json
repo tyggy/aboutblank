@@ -7,11 +7,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Developer of Hopfield networks for constraint satisfaction and optimization",
+  "domains": [
+    "neural networks",
+    "computational neuroscience"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.238774",
+    "last_updated": "2025-10-20T21:55:32.048508",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

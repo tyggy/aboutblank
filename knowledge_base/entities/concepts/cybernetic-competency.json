@@ -2,16 +2,20 @@
   "name": "Cybernetic Competency",
   "filename": "cybernetic-competency",
   "aliases": [
-    "control-theoretic capacity"
+    "control-theoretic capacity",
+    "Feedback control",
+    "Homeostatic regulation"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Self-regulating control systems enabling goal-directed behavior at all biological scales.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.263540",
+    "last_updated": "2025-10-20T21:55:32.084149",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

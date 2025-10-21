@@ -2,16 +2,21 @@
   "name": "David S. Wilson",
   "filename": "david-s-wilson",
   "aliases": [
-    "D. S. Wilson"
+    "D. S. Wilson",
+    "Wilson, D. S."
   ],
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Developer of multilevel selection theory, foundational to understanding evolutionary transitions.",
+  "domains": [
+    "Evolutionary Biology"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.243022",
+    "last_updated": "2025-10-20T21:55:32.053900",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

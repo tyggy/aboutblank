@@ -2,17 +2,21 @@
   "name": "Attractor State",
   "filename": "attractor-state",
   "aliases": [
+    "Stable state",
     "stable state",
-    "attracting set"
+    "attracting set",
+    "Goal state"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Stable configuration toward which biological systems dynamically move, representing a solution in morphological or physiological problem space.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.246630",
+    "last_updated": "2025-10-20T21:55:32.060709",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

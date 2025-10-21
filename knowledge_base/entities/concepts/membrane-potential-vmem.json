@@ -3,18 +3,20 @@
   "filename": "membrane-potential-vmem",
   "aliases": [
     "voltage",
+    "bioelectric state",
     "resting potential",
-    "voltage state",
-    "bioelectric state"
+    "voltage state"
   ],
   "sources": [
     "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Voltage differences across cell membranes that encode morphological information and can be measured to read cellular collective goals.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248138",
+    "last_updated": "2025-10-20T21:55:32.063813",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

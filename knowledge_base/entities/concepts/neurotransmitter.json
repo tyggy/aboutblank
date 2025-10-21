@@ -2,18 +2,20 @@
   "name": "Neurotransmitter",
   "filename": "neurotransmitter",
   "aliases": [
-    "serotonin",
+    "developmental neurotransmitter",
     "chemical messengers",
-    "developmental neurotransmitter"
+    "serotonin"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Signaling molecules propagating electromotive forces between cells, enabling communication in both neural and developmental bioelectric systems.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254529",
+    "last_updated": "2025-10-20T21:55:32.072159",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

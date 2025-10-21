@@ -1,0 +1,17 @@
+{
+  "name": "Cross Labs / Cross Compass Ltd.",
+  "filename": "cross-labs--cross-compass-ltd",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "AI and cognitive science research center in Kyoto; Witkowski's affiliation",
+  "type": "research-center",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T21:55:32.113320",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

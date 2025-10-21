@@ -4,18 +4,20 @@
   "aliases": [
     "regulative competency",
     "epigenetic regulation",
-    "regulative embryogenesis",
     "morphological homeostasis",
+    "regulative embryogenesis",
     "regulative development"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Developmental process in which tissues flexibly adjust outcomes to reach correct morphology despite perturbations or unusual starting conditions.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.245853",
+    "last_updated": "2025-10-20T21:55:32.058698",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

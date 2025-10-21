@@ -2,17 +2,20 @@
   "name": "Mara",
   "filename": "mara",
   "aliases": [
+    "Four maras",
     "Buddhist Devil",
     "Four Maras"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Buddhist principle of evil and deception opposing awakening; analogous to universal forces of entropy, inertia, uncertainty limiting intelligence",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254418",
+    "last_updated": "2025-10-20T21:55:32.072039",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

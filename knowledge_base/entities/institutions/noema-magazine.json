@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md"
   ],
-  "type": "organization",
+  "context": "Publication venue for this essay exploring philosophical and practical implications of AI development.",
+  "type": "project",
+  "is_new": false,
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T21:21:25.275863",
+    "last_updated": "2025-10-20T21:55:32.110650",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

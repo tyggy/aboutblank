@@ -1,0 +1,20 @@
+{
+  "name": "Self As Self-Telling Story",
+  "filename": "self-as-self-telling-story",
+  "aliases": [
+    "Self-Telling",
+    "Continuously morphing story"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
+  ],
+  "context": "Concept of selves not as permanent objects but as narratives that hold together body and mind components.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.086260",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

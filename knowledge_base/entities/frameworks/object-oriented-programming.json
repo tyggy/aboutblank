@@ -1,0 +1,17 @@
+{
+  "name": "Goal-Oriented Programming",
+  "filename": "object-oriented-programming",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Computational paradigm using encapsulated objects with interfaces; mirrored in biological modular competencies.",
+  "creator": null,
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.101845",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

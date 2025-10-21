@@ -2,17 +2,19 @@
   "name": "Homeostasis And Homeodynamics",
   "filename": "homeostasis-and-homeodynamics",
   "aliases": [
-    "homeostatic control loops",
-    "allostasis"
+    "allostasis",
+    "homeostatic control loops"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Expansion of basic homeostatic mechanisms to include dynamic, adaptive regulation at multiple scales.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.258643",
+    "last_updated": "2025-10-20T21:55:32.077630",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

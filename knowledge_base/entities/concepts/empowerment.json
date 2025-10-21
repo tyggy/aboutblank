@@ -1,15 +1,19 @@
 {
   "name": "Empowerment",
   "filename": "empowerment",
-  "aliases": [],
+  "aliases": [
+    "Empowerment Measure"
+  ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Quantification of the options available and visible to an agent; information-theoretic measure of agent autonomy",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.252797",
+    "last_updated": "2025-10-20T21:55:32.069947",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

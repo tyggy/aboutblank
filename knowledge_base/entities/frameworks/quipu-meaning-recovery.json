@@ -5,11 +5,15 @@
   "sources": [
     "knowledge_base/transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned_edited.md"
   ],
-  "creator": [],
+  "context": "Thesis work on recovering meaning from Andean quipu artifacts; demonstrates difficulty of interpreting meaning across substrates and cultures",
+  "creator": [
+    "Olaf Witkowski"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.274798",
+    "last_updated": "2025-10-20T21:55:32.107104",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -2,16 +2,19 @@
   "name": "Parsimony Pressure",
   "filename": "parsimony-pressure",
   "aliases": [
+    "simplicity bias",
     "Occam's razor"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Inductive bias favoring simpler models over complex ones; essential for learning generalizable relationships",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.258044",
+    "last_updated": "2025-10-20T21:55:32.076854",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

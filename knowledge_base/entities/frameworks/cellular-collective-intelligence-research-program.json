@@ -5,11 +5,15 @@
   "sources": [
     "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md"
   ],
-  "creator": [],
+  "context": "Interdisciplinary investigation spanning philosophy of mind, evolution, and regenerative medicine to understand problem-solving in non-neural biological systems.",
+  "creator": [
+    "Michael Levin"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.268039",
+    "last_updated": "2025-10-20T21:55:32.092582",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

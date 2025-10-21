@@ -1,0 +1,22 @@
+{
+  "name": "Physical Light Cone",
+  "filename": "light-cone",
+  "aliases": [
+    "Physical Light Cone",
+    "Behavioral Space Light Cone",
+    "PLC",
+    "Care Light Cone"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Boundary of possible states reachable by agent (physical light cone) or states agent cares about (care light cone); related to cognitive sophistication and agency.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.071054",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

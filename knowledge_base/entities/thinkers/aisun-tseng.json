@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Collaborator on research regarding alternative developmental pathways in regeneration.",
+  "domains": [
+    "developmental biology"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.243267",
+    "last_updated": "2025-10-20T21:55:32.054114",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

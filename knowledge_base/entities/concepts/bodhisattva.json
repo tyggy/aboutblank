@@ -8,11 +8,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Intelligent being committed to attaining omniscience for the benefit of all sentient beings; proposed as a model for ethical AI development.",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248690",
+    "last_updated": "2025-10-20T21:55:32.064960",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

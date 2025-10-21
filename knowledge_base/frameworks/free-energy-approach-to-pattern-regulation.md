@@ -1,7 +1,7 @@
 ---
 type: framework
 aliases: []
-creator: ["Karl Friston"]
+creator: ["Karl Friston and Michael Levin"]
 tags: []
 created: 2025-10-20
 updated: 2025-10-20
@@ -11,11 +11,11 @@ updated: 2025-10-20
 
 ## Overview
 
-Information-theoretic framework explaining pattern formation and morphological control through entropy minimization.
+Mathematical framework understanding how systems minimize prediction error in morphological regulation.
 
 ## Creator/Originator
 
-- [[Karl Friston]]
+- [[Karl Friston and Michael Levin]]
 
 ## Notes
 

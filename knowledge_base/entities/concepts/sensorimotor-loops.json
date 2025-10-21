@@ -1,0 +1,21 @@
+{
+  "name": "Sensorimotor Loop",
+  "filename": "sensorimotor-loops",
+  "aliases": [
+    "Sensorimotor Coupling",
+    "Sensory-Motor Coupling",
+    "perception-action loop"
+  ],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Bidirectional processes through which agents perceive environment and act upon it, fundamental to embodied cognition",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.081824",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

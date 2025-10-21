@@ -2,19 +2,23 @@
   "name": "Biosemiotics",
   "filename": "biosemiotics",
   "aliases": [
-    "meaning-making",
-    "semiosis",
+    "biosemiotics",
     "semantic information",
-    "biosemiotics"
+    "semiosis",
+    "signs in life",
+    "meaning-making",
+    "biological semiotics"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Study of meaning-making and sign processes in biological systems",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.255291",
+    "last_updated": "2025-10-20T21:55:32.073123",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

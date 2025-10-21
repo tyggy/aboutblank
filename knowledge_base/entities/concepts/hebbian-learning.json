@@ -2,18 +2,22 @@
   "name": "Hebbian Learning",
   "filename": "hebbian-learning",
   "aliases": [
+    "Neurons that fire together wire together",
+    "Neurons that Fire Together Wire Together",
     "Hebbian Rule",
     "neurons that fire together wire together",
-    "Neurons that Fire Together Wire Together"
+    "Hebbain Principle"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Learning mechanism where correlated neural activations strengthen connections; can emerge from local self-interest optimization.",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.257642",
+    "last_updated": "2025-10-20T21:55:32.076349",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

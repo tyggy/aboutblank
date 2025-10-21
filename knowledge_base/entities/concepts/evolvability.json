@@ -2,18 +2,21 @@
   "name": "Evolvability",
   "filename": "evolvability",
   "aliases": [
-    "evolutionary potential",
+    "Evolutionary Flexibility",
     "evolution of evolvability",
+    "evolutionary potential",
     "adaptive capacity"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Capacity of systems to generate heritable phenotypic variation; depends on autonomy of component parts.",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251518",
+    "last_updated": "2025-10-20T21:55:32.068304",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

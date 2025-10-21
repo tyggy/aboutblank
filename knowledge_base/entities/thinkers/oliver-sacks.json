@@ -7,11 +7,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Neurologist and writer on mind and neurological conditions",
+  "domains": [
+    "neurology",
+    "consciousness"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.242017",
+    "last_updated": "2025-10-20T21:55:32.052937",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

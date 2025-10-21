@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md"
   ],
+  "context": "Connected Doctor with MIT's Media Lab during networking efforts to find AI collaborators.",
   "domains": [],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.241061",
+    "last_updated": "2025-10-20T21:55:32.051786",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

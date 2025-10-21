@@ -1,0 +1,23 @@
+{
+  "name": "Anatta (Non-Self)",
+  "filename": "anatta-no-self",
+  "aliases": [
+    "No-Self",
+    "Doctrine of Non-Self",
+    "Selflessness",
+    "Non-self",
+    "No Self"
+  ],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Buddhist doctrine that the self is illusory, constructed from impermanent causal factors rather than a single enduring entity",
+  "category": "buddhist",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.068963",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

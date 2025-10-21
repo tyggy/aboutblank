@@ -2,16 +2,19 @@
   "name": "Self As Illusion",
   "filename": "self-as-illusion",
   "aliases": [
-    "Illusory Self"
+    "Illusory Self",
+    "Illusion of Self"
   ],
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
+  "context": "Cross-disciplinary concept that awareness of self as dynamic and constructed rather than substantial may alter agent behavior and capabilities",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.260834",
+    "last_updated": "2025-10-20T21:55:32.080650",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

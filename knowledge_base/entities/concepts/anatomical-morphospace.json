@@ -2,16 +2,19 @@
   "name": "Anatomical Morphospace",
   "filename": "anatomical-morphospace",
   "aliases": [
+    "Morph Space",
     "Anatomical space"
   ],
   "sources": [
     "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Abstract space of all possible body configurations that cells navigate from fertilized egg to mature organism.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.245588",
+    "last_updated": "2025-10-20T21:55:32.058003",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

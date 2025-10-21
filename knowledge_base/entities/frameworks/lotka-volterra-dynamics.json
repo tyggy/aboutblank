@@ -1,0 +1,17 @@
+{
+  "name": "Lotka-Volterra Dynamics",
+  "filename": "lotka-volterra-dynamics",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Mathematical model of ecological community dynamics used to study evolutionary adaptation",
+  "creator": null,
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.097477",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

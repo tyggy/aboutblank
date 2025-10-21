@@ -11,10 +11,14 @@
             "id": "11b86c39420aa129",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "concepts/ai/artificial-general-intelligence.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "artificial-general-intelligence"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "concepts/ai/artificial-general-intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for artificial-general-intelligence"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "concepts/ai/artificial-general-intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from artificial-general-intelligence"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "concepts/ai/artificial-general-intelligence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of artificial-general-intelligence"
             }
           }
         ]
@@ -164,41 +171,41 @@
   },
   "active": "11b86c39420aa129",
   "lastOpenFiles": [
-    "transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md",
-    "transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned.md",
-    "transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md",
-    "transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned.md",
-    "transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md",
-    "transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned.md",
-    "transcripts/raw/nnk2Umxa3OY_2024_「Woodenfish」Buddhism，_Consciousness_and_AI_Summit……_cleaned_edited.md",
-    "transcripts/raw/nnk2Umxa3OY_2024_「Woodenfish」Buddhism，_Consciousness_and_AI_Summit……_cleaned.md",
-    "transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned_edited.md",
-    "transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned.md",
-    "transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md",
-    "transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned.md",
-    "transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md",
-    "transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned.md",
-    "transcripts/extractions/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited_debug_response.txt",
-    "transcripts/extractions/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited_debug_response.txt",
-    "transcripts/extractions",
-    "thinkers/_templates/thinker-template.md",
-    "thinkers/yann-lecun.md",
-    "thinkers/william-miller.md",
-    "thinkers/william-james.md",
-    "thinkers/william-bechtel.md",
-    "thinkers/wesley-p-clawson.md",
-    "thinkers/von-foerster.md",
-    "thinkers/warren-p-clawson.md",
-    "thinkers/venerable-yifa.md",
-    "thinkers/venerable-akira.md",
-    "thinkers/u-kyar-kin.md",
-    "thinkers/thomas-nagel.md",
-    "thinkers/_templates",
-    "thinkers",
-    "speaker_corrections.yaml",
-    "sources/papers/watson-levin-2023-the-collective-intelligence-of-evolution-and-development.pdf",
-    "sources/papers/s10071-023-01780-3.pdf",
-    "sources/papers/s00018-023-04790-z.pdf",
-    "sources/papers/isal_a_00465.pdf"
+    "entities/concepts/virtual-governor 2.json",
+    "entities/concepts/mahyna-buddhism 2.json",
+    "entities/concepts/mara 2.json",
+    "entities/concepts/platonic-space-of-forms 2.json",
+    "entities/concepts/levelsofselection-approach 2.json",
+    "entities/concepts/particle-plasticity 2.json",
+    "entities/concepts/pattern-regulation 2.json",
+    "entities/concepts/hebbian-learning 2.json",
+    "entities/concepts/morphogenetic-hacking 2.json",
+    "entities/concepts/evolutionary-connectionism 2.json",
+    "entities/concepts/emergent-morphogenesis 2.json",
+    "concepts/biological/cortical-inheritance.md",
+    "concepts/biological/chreods.md",
+    "institutions/wyss-institute-for-biologically-inspired-engineering-at-harvard-university.md",
+    "institutions/university-of-hong-kong.md",
+    "institutions/tus-university.md",
+    "frameworks/variational-autoencoder-architecture.md",
+    "frameworks/technological-approach-to-mind-everywhere-tame.md",
+    "frameworks/system-agnostic-approach-to-cognition.md",
+    "frameworks/stress-care-loop.md",
+    "frameworks/stress-care-intelligence-loop.md",
+    "frameworks/object-oriented-programming.md",
+    "frameworks/neurophenomenology.md",
+    "frameworks/multiscale-problemsolving-architecture.md",
+    "frameworks/morphospace-navigation-model.md",
+    "frameworks/humanai-hybrid-systems-of-care.md",
+    "frameworks/hopfield-network.md",
+    "frameworks/facilitated-variation.md",
+    "frameworks/evolutionary-transitions-in-individuality-theory.md",
+    "frameworks/embodied-mind-framework.md",
+    "frameworks/diverse-intelligence-research.md",
+    "frameworks/cybernetic-framework.md",
+    "frameworks/continuity-hypothesis-framework.md",
+    "frameworks/computational-boundary-framework.md",
+    "frameworks/cognitive-lens-framework.md",
+    "frameworks/cellular-neural-networks.md"
   ]
 }

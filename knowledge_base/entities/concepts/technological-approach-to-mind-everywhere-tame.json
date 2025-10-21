@@ -1,0 +1,19 @@
+{
+  "name": "Tame Framework",
+  "filename": "technological-approach-to-mind-everywhere-tame",
+  "aliases": [
+    "TAME framework"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Experimentally-grounded framework for understanding cognition and agency in diverse biological bodies and systems.",
+  "category": "interdisciplinary",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.079926",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

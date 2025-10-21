@@ -5,11 +5,13 @@
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Bioengineering approach using agential materials to design and create novel living morphologies beyond natural evolution.",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.250653",
+    "last_updated": "2025-10-20T21:55:32.067481",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

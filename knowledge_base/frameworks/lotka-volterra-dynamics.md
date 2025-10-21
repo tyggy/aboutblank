@@ -11,7 +11,7 @@ updated: 2025-10-20
 
 ## Overview
 
-Mathematical model of predator-prey and competitive ecological interactions used to study community evolution
+Mathematical model of ecological community dynamics used to study evolutionary adaptation
 
 ## Notes
 

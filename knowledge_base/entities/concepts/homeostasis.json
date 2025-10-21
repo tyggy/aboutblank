@@ -5,11 +5,13 @@
   "sources": [
     "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Apparent equilibrium-seeking behavior in living systems; reinterpreted as ever-emerging goal construct rather than actual achievable state.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.247341",
+    "last_updated": "2025-10-20T21:55:32.062213",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

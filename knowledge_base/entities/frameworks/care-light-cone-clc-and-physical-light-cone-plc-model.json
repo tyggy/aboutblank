@@ -1,0 +1,20 @@
+{
+  "name": "Care Light Cone / Physical Light Cone Model",
+  "filename": "care-light-cone-clc-and-physical-light-cone-plc-model",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Dual light cone representation showing both states agent cares about versus physically achievable states; enables visualization of different agent types",
+  "creator": [
+    "Doctor",
+    "Witkowski et al."
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T21:55:32.094814",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

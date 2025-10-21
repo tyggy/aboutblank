@@ -1,0 +1,19 @@
+{
+  "name": "Persuadability",
+  "filename": "axis-of-persuadability",
+  "aliases": [
+    "Axis of Persuadability"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Continuum representing how systems can be influenced from brute physical rewiring to rational argument.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.077985",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

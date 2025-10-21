@@ -5,11 +5,15 @@
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "creator": [],
+  "context": "Formal theory measuring consciousness through integrated information (Φ) in neural systems; provides mathematical language for characterizing consciousness and system integration",
+  "creator": [
+    "Giulio Tononi"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.271709",
+    "last_updated": "2025-10-20T21:55:32.099593",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Rolf Pfeifer",
+  "filename": "rodney-pfeifer",
+  "aliases": [
+    "R. Pfeifer"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Developer of Morphological Computation concept; pioneers embodied AI and bio-inspired robotics.",
+  "domains": [
+    "Robotics",
+    "Artificial Intelligence",
+    "Cognitive Science"
+  ],
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T21:55:32.055692",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Cognitive Tiling",
+  "filename": "cognitive-lens",
+  "aliases": [
+    "tesselation of cognitive tiles"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Conceptual framework for analyzing cognition in developmental and regenerative morphogenesis across scales.",
+  "category": "cognitive",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.068799",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

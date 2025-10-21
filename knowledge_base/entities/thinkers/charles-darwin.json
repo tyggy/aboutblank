@@ -7,11 +7,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Quoted regarding adaptability and evolution; foundational to discussion of evolutionary mechanisms and the origins of species.",
+  "domains": [
+    "evolutionary biology"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.244469",
+    "last_updated": "2025-10-20T21:55:32.055401",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -2,17 +2,20 @@
   "name": "Bioelectricity",
   "filename": "bioelectricity",
   "aliases": [
-    "Bioelectric Networks",
-    "Electrical Communication"
+    "Bioelectric Signaling",
+    "Electrical Communication",
+    "Bioelectric Networks"
   ],
   "sources": [
     "batched_extraction"
   ],
-  "category": "interdisciplinary",
+  "context": "Ion channel and electrical synapse networks functioning as cognitive substrate binding cells into competent individuals across scales.",
+  "category": "ai",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.249873",
+    "last_updated": "2025-10-20T21:55:32.066461",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

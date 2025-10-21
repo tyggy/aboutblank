@@ -2,17 +2,19 @@
   "name": "Strange Loop",
   "filename": "strange-loop",
   "aliases": [
-    "self-reference",
-    "tangled hierarchy"
+    "tangled hierarchy",
+    "self-reference"
   ],
   "sources": [
     "batched_extraction"
   ],
+  "context": "Self-referential system creating consciousness through recursive feedback",
   "category": "interdisciplinary",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.254362",
+    "last_updated": "2025-10-20T21:55:32.071976",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

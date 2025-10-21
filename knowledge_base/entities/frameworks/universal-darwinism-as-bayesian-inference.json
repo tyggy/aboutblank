@@ -5,11 +5,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Theoretical framework interpreting evolution, learning, and adaptation as Bayesian inference processes.",
+  "creator": [
+    "James Campbell",
+    "Eörs Szathmáry"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.274492",
+    "last_updated": "2025-10-20T21:55:32.106263",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

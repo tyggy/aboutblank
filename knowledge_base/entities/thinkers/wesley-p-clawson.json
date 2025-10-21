@@ -7,11 +7,16 @@
   "sources": [
     "batched_extraction"
   ],
-  "domains": [],
+  "context": "Co-author; contributes to synthetic biology and novel organism engineering.",
+  "domains": [
+    "Developmental Biology",
+    "Bioengineering"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T21:21:25.239815",
+    "last_updated": "2025-10-20T21:55:32.050412",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

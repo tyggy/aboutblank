@@ -5,11 +5,15 @@
   "sources": [
     "batched_extraction"
   ],
-  "creator": [],
+  "context": "Framework for understanding phase transitions and pattern formation in multicellular environments.",
+  "creator": [
+    "Michael Weber and Juan Buceta"
+  ],
+  "is_new": false,
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T21:21:25.267435",
+    "last_updated": "2025-10-20T21:55:32.091088",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

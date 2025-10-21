@@ -1,0 +1,19 @@
+{
+  "name": "Multi-Layer Perceptron",
+  "filename": "multi-layer-perceptron",
+  "aliases": [
+    "MLP"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Neural network with multiple layers capable of representing non-linearly separable functions.",
+  "category": "ai",
+  "is_new": false,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T21:55:32.076474",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

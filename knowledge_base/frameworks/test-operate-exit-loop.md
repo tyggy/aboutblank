@@ -11,7 +11,7 @@ updated: 2025-10-20
 
 ## Overview
 
-Cybernetic model of homeostatic feedback; proposed as minimal component of agency and goal-directed activity
+Computational structure of homeostatic mechanisms enabling iterative problem-solving toward target states.
 
 ## Notes
 

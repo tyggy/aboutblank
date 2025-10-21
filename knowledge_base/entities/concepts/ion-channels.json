@@ -2,18 +2,20 @@
   "name": "Ion Channels",
   "filename": "ion-channels",
   "aliases": [
+    "electrogenic proteins",
     "voltage-gated conductances",
-    "voltage-gated channels",
-    "electrogenic proteins"
+    "voltage-gated channels"
   ],
   "sources": [
     "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Cellular structures enabling electrical communication; ancient architecture allowing abstract goals to control body chemistry.",
+  "category": "cognitive",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.251104",
+    "last_updated": "2025-10-20T21:55:32.067932",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }

@@ -2,17 +2,21 @@
   "name": "Selfless Self",
   "filename": "selfless-self",
   "aliases": [
+    "relational self",
     "self as construct",
-    "relational self"
+    "emergent self",
+    "non-self"
   ],
   "sources": [
     "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
   ],
-  "category": "interdisciplinary",
+  "context": "Model of agency where self and individuality are constructs emerging from complexes of change rather than permanent substances; central to Buddhist philosophy and enactivism",
+  "category": "buddhist",
+  "is_new": false,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T21:21:25.248634",
+    "last_updated": "2025-10-20T21:55:32.064651",
     "sources_count": 1,
-    "contexts_count": 0
+    "contexts_count": 1
   }
 }
