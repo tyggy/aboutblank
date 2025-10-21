@@ -288,13 +288,45 @@ class EntityNormalizer:
             else:
                 # Check for duplicate in current extraction
                 if display_name in seen:
-                    # Merge with existing
+                    # Merge with existing - aggregate all information
                     if verbose:
                         print(f"  🔀 Merging duplicate: '{name}'")
+
+                    # Merge aliases
                     seen[display_name]['aliases'].extend(aliases)
                     seen[display_name]['aliases'] = list(set(seen[display_name]['aliases']))
+
+                    # Merge domains (unique)
+                    existing_domains = set(seen[display_name].get('domains', []))
+                    new_domains = set(thinker.get('domains', []))
+                    seen[display_name]['domains'] = list(existing_domains | new_domains)
+
+                    # Aggregate contexts with source attribution
+                    new_context = thinker.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[display_name]:
+                            # Convert single context to list format
+                            old_context = seen[display_name].get('context', '').strip()
+                            old_source = seen[display_name].get('sources', [None])[0]
+                            seen[display_name]['contexts'] = []
+                            if old_context:
+                                seen[display_name]['contexts'].append({
+                                    'source': old_source,
+                                    'text': old_context
+                                })
+
+                        # Add new context if different
+                        existing_texts = [c['text'] for c in seen[display_name]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[display_name]['contexts'].append({
+                                'source': source,
+                                'text': new_context
+                            })
+
+                    # Track sources
                     if source and source not in seen[display_name].get('sources', []):
                         seen[display_name].setdefault('sources', []).append(source)
+
                     continue
                 else:
                     # New entity
@@ -363,11 +395,37 @@ class EntityNormalizer:
                 if seen_match:
                     if verbose:
                         print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
+
                     # Merge aliases
                     seen[seen_match]['aliases'].extend(aliases)
                     seen[seen_match]['aliases'] = list(set(seen[seen_match]['aliases']))
+
+                    # Aggregate contexts with source attribution
+                    new_context = concept.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[seen_match]:
+                            # Convert single context to list format
+                            old_context = seen[seen_match].get('context', '').strip()
+                            old_source = seen[seen_match].get('sources', [None])[0]
+                            seen[seen_match]['contexts'] = []
+                            if old_context:
+                                seen[seen_match]['contexts'].append({
+                                    'source': old_source,
+                                    'text': old_context
+                                })
+
+                        # Add new context if different
+                        existing_texts = [c['text'] for c in seen[seen_match]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[seen_match]['contexts'].append({
+                                'source': source,
+                                'text': new_context
+                            })
+
+                    # Track sources
                     if source and source not in seen[seen_match].get('sources', []):
                         seen[seen_match].setdefault('sources', []).append(source)
+
                     continue
                 else:
                     entity = {
@@ -434,8 +492,33 @@ class EntityNormalizer:
                 if seen_match:
                     if verbose:
                         print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
+
+                    # Aggregate contexts with source attribution
+                    new_context = framework.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[seen_match]:
+                            # Convert single context to list format
+                            old_context = seen[seen_match].get('context', '').strip()
+                            old_source = seen[seen_match].get('sources', [None])[0]
+                            seen[seen_match]['contexts'] = []
+                            if old_context:
+                                seen[seen_match]['contexts'].append({
+                                    'source': old_source,
+                                    'text': old_context
+                                })
+
+                        # Add new context if different
+                        existing_texts = [c['text'] for c in seen[seen_match]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[seen_match]['contexts'].append({
+                                'source': source,
+                                'text': new_context
+                            })
+
+                    # Track sources
                     if source and source not in seen[seen_match].get('sources', []):
                         seen[seen_match].setdefault('sources', []).append(source)
+
                     continue
                 else:
                     entity = {
@@ -501,8 +584,33 @@ class EntityNormalizer:
                 if seen_match:
                     if verbose:
                         print(f"  🔀 Merging duplicate: '{name}' → '{seen_match}' (score: {seen_score:.2f})")
+
+                    # Aggregate contexts with source attribution
+                    new_context = institution.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[seen_match]:
+                            # Convert single context to list format
+                            old_context = seen[seen_match].get('context', '').strip()
+                            old_source = seen[seen_match].get('sources', [None])[0]
+                            seen[seen_match]['contexts'] = []
+                            if old_context:
+                                seen[seen_match]['contexts'].append({
+                                    'source': old_source,
+                                    'text': old_context
+                                })
+
+                        # Add new context if different
+                        existing_texts = [c['text'] for c in seen[seen_match]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[seen_match]['contexts'].append({
+                                'source': source,
+                                'text': new_context
+                            })
+
+                    # Track sources
                     if source and source not in seen[seen_match].get('sources', []):
                         seen[seen_match].setdefault('sources', []).append(source)
+
                     continue
                 else:
                     entity = {

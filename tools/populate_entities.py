@@ -98,16 +98,34 @@ class EntityPopulator:
 
         # Format domains
         domains = thinker.get('domains', [])
-        context = thinker.get('context', '')
 
         # Build sections conditionally
         sections = []
 
-        # Overview (if we have context)
-        if context:
+        # Overview - handle both single context and aggregated contexts
+        contexts = thinker.get('contexts')
+        single_context = thinker.get('context', '')
+
+        if contexts and len(contexts) > 1:
+            # Multiple contexts from different sources
+            overview_parts = []
+            for ctx in contexts:
+                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                overview_parts.append(f"**From {source_name}**: {ctx['text']}")
+
             sections.append(f"""## Overview
 
-{context}""")
+{chr(10).join(overview_parts)}""")
+        elif contexts and len(contexts) == 1:
+            # Single context in new format
+            sections.append(f"""## Overview
+
+{contexts[0]['text']}""")
+        elif single_context:
+            # Old format: single context string
+            sections.append(f"""## Overview
+
+{single_context}""")
 
         # Primary Domains (if we have any)
         if domains:
@@ -187,16 +205,34 @@ updated: {today}
         today = datetime.now().strftime('%Y-%m-%d')
         aliases_str = json.dumps(concept.get('aliases', []))
         category = concept.get('category', 'interdisciplinary')
-        context = concept.get('context', '')
 
         # Build sections conditionally
         sections = []
 
-        # Definition (if we have context)
-        if context:
+        # Definition - handle both single context and aggregated contexts
+        contexts = concept.get('contexts')
+        single_context = concept.get('context', '')
+
+        if contexts and len(contexts) > 1:
+            # Multiple contexts from different sources
+            definition_parts = []
+            for ctx in contexts:
+                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                definition_parts.append(f"**From {source_name}**: {ctx['text']}")
+
             sections.append(f"""## Definition
 
-{context}""")
+{chr(10).join(definition_parts)}""")
+        elif contexts and len(contexts) == 1:
+            # Single context in new format
+            sections.append(f"""## Definition
+
+{contexts[0]['text']}""")
+        elif single_context:
+            # Old format: single context string
+            sections.append(f"""## Definition
+
+{single_context}""")
 
         # Category - always include
         sections.append(f"""## Category
@@ -276,16 +312,34 @@ updated: {today}
         """Generate markdown content for framework page."""
         today = datetime.now().strftime('%Y-%m-%d')
         creator = framework.get('creator')
-        context = framework.get('context', '')
 
         # Build sections conditionally
         sections = []
 
-        # Overview (if we have context)
-        if context:
+        # Overview - handle both single context and aggregated contexts
+        contexts = framework.get('contexts')
+        single_context = framework.get('context', '')
+
+        if contexts and len(contexts) > 1:
+            # Multiple contexts from different sources
+            overview_parts = []
+            for ctx in contexts:
+                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                overview_parts.append(f"**From {source_name}**: {ctx['text']}")
+
             sections.append(f"""## Overview
 
-{context}""")
+{chr(10).join(overview_parts)}""")
+        elif contexts and len(contexts) == 1:
+            # Single context in new format
+            sections.append(f"""## Overview
+
+{contexts[0]['text']}""")
+        elif single_context:
+            # Old format: single context string
+            sections.append(f"""## Overview
+
+{single_context}""")
 
         # Creator (if we have one)
         if creator:
@@ -365,7 +419,6 @@ updated: {today}
         """Generate markdown content for institution page."""
         today = datetime.now().strftime('%Y-%m-%d')
         inst_type = institution.get('type', 'organization')
-        context = institution.get('context', '')
 
         # Build sections conditionally
         sections = []
@@ -375,11 +428,30 @@ updated: {today}
 
 {inst_type.replace('-', ' ').title()}""")
 
-        # Overview (if we have context)
-        if context:
+        # Overview - handle both single context and aggregated contexts
+        contexts = institution.get('contexts')
+        single_context = institution.get('context', '')
+
+        if contexts and len(contexts) > 1:
+            # Multiple contexts from different sources
+            overview_parts = []
+            for ctx in contexts:
+                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                overview_parts.append(f"**From {source_name}**: {ctx['text']}")
+
             sections.append(f"""## Overview
 
-{context}""")
+{chr(10).join(overview_parts)}""")
+        elif contexts and len(contexts) == 1:
+            # Single context in new format
+            sections.append(f"""## Overview
+
+{contexts[0]['text']}""")
+        elif single_context:
+            # Old format: single context string
+            sections.append(f"""## Overview
+
+{single_context}""")
 
         # Join sections
         content_sections = '\n\n'.join(sections)
