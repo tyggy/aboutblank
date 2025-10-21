@@ -36,6 +36,32 @@ class EntityPopulator:
             'skipped': 0
         }
 
+    def _ensure_filename(self, entity: Dict, entity_type: str) -> str:
+        """
+        Ensure entity has a filename, generating one from name if missing.
+
+        Args:
+            entity: Entity dict
+            entity_type: Type of entity (for error messages)
+
+        Returns:
+            Filename (without .md extension)
+        """
+        if 'filename' in entity and entity['filename']:
+            return entity['filename']
+
+        # Generate filename from name
+        name = entity.get('name', '')
+        if not name:
+            raise ValueError(f"Entity missing both 'filename' and 'name' fields: {entity}")
+
+        # Simple slug generation: lowercase, spaces to hyphens, remove special chars
+        filename = name.lower().replace(' ', '-')
+        filename = re.sub(r'[^a-z0-9-]', '', filename)
+
+        print(f"  ⚠️  Generated filename '{filename}' for {entity_type} '{name}' (missing filename field)", file=sys.stderr)
+        return filename
+
     def populate_from_entities(self, entities_dir: Path, verbose: bool = False) -> None:
         """Populate knowledge base from individual entity JSON files."""
         if verbose:
@@ -96,7 +122,7 @@ class EntityPopulator:
                     print(f"  ⊘ Skipping existing: {thinker['name']}")
                 continue
 
-            filename = thinker['filename'] + '.md'
+            filename = self._ensure_filename(thinker, 'thinker') + '.md'
             filepath = thinkers_dir / filename
 
             if filepath.exists() and not self.force:
@@ -213,7 +239,7 @@ updated: {today}
             concepts_dir = self.kb_dir / 'concepts' / category
             concepts_dir.mkdir(parents=True, exist_ok=True)
 
-            filename = concept['filename'] + '.md'
+            filename = self._ensure_filename(concept, 'concept') + '.md'
             filepath = concepts_dir / filename
 
             if filepath.exists():
@@ -338,7 +364,7 @@ updated: {today}
                     print(f"  ⊘ Skipping existing: {framework['name']}")
                 continue
 
-            filename = framework['filename'] + '.md'
+            filename = self._ensure_filename(framework, 'framework') + '.md'
             filepath = frameworks_dir / filename
 
             if filepath.exists() and not self.force:
@@ -461,7 +487,7 @@ updated: {today}
                     print(f"  ⊘ Skipping existing: {institution['name']}")
                 continue
 
-            filename = institution['filename'] + '.md'
+            filename = self._ensure_filename(institution, 'institution') + '.md'
             filepath = institutions_dir / filename
 
             if filepath.exists() and not self.force:
@@ -560,7 +586,7 @@ updated: {today}
         questions_dir.mkdir(parents=True, exist_ok=True)
 
         for question in questions:
-            filename = question['filename'] + '.md'
+            filename = self._ensure_filename(question, 'question') + '.md'
             filepath = questions_dir / filename
 
             if filepath.exists() and not self.force:
