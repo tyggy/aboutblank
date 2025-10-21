@@ -280,6 +280,9 @@ Examples:
   # Copyedit multiple files
   python copyedit_with_claude.py knowledge_base/transcripts/raw/*.md
 
+  # Copyedit to a specific output directory
+  python copyedit_with_claude.py papers/*.md --output-dir papers/edited
+
   # Use a different model (Sonnet for higher quality)
   python copyedit_with_claude.py transcript.md --model claude-3-5-sonnet-20241022
 
@@ -311,6 +314,12 @@ Batching:
     parser.add_argument(
         '-o', '--output',
         help='Output file (only for single file input)'
+    )
+
+    parser.add_argument(
+        '--output-dir',
+        type=Path,
+        help='Output directory for processed files (creates _edited files in this directory)'
     )
 
     parser.add_argument(
@@ -366,6 +375,10 @@ Batching:
         print(f"\nError initializing Claude API: {e}")
         return 1
 
+    # Create output directory if specified
+    if args.output_dir:
+        args.output_dir.mkdir(parents=True, exist_ok=True)
+
     # Process files
     for file_path in args.files:
         input_file = Path(file_path)
@@ -377,6 +390,11 @@ Batching:
         # Determine output file
         if args.output and len(args.files) == 1:
             output_file = Path(args.output)
+        elif args.output_dir:
+            # Place file in output_dir with _edited suffix
+            stem = input_file.stem
+            suffix = input_file.suffix
+            output_file = args.output_dir / f"{stem}_edited{suffix}"
         else:
             output_file = None
 
