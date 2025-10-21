@@ -19,13 +19,17 @@ from collections import defaultdict
 class EntityNormalizer:
     """Normalize entity names and merge duplicates."""
 
-    def __init__(self, knowledge_base_dir: Path, similarity_threshold: float = 0.85):
+    def __init__(self, knowledge_base_dir: Path, similarity_threshold: float = 0.80):
         """
         Initialize normalizer.
 
         Args:
             knowledge_base_dir: Root directory of knowledge base
             similarity_threshold: Minimum similarity (0-1) to consider entities the same
+                                 Default 0.80 catches common variations like:
+                                 - Christopher/Chris (0.800)
+                                 - Middle initials (0.87-0.90)
+                                 - Accent variations (0.92+)
         """
         self.kb_dir = knowledge_base_dir
         self.similarity_threshold = similarity_threshold
@@ -818,8 +822,8 @@ def main():
     parser.add_argument(
         '--similarity-threshold',
         type=float,
-        default=0.85,
-        help='Similarity threshold for matching (0-1, default: 0.85)'
+        default=0.80,
+        help='Similarity threshold for matching (0-1, default: 0.80)'
     )
     parser.add_argument(
         '--verbose',
