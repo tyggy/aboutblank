@@ -118,30 +118,42 @@ class EntityCrossEnricher:
                     relationships['framework_to_concepts'][fname].add(cname)
                     relationships['concept_to_frameworks'][cname].add(fname)
 
-        # Map thinkers to concepts based on co-occurrence and context
+        # Map thinkers to concepts based on strong contextual signals
+        # NOTE: We use restrictive criteria to avoid over-linking
         for thinker in data.get('thinkers', []):
             tname = thinker['name']
             domains = thinker.get('domains', [])
             context = thinker.get('context', '').lower()
-            thinker_sources = set(thinker.get('sources', []))
+
+            # Get all contexts if available for more thorough checking
+            thinker_contexts = thinker.get('contexts', [])
+            all_thinker_text = context + ' ' + ' '.join(
+                ctx.get('text', '').lower() for ctx in thinker_contexts
+            )
 
             # Find concept mentions
             for concept in data.get('concepts', []):
                 cname = concept['name']
                 ccategory = concept.get('category', '')
-                concept_sources = set(concept.get('sources', []))
 
-                # Link if:
-                # 1. They co-occur in same transcript/source
-                # 2. Domain matches concept category
-                # 3. Concept name appears in thinker context
-                # 4. Thinker name appears in concept context
-                co_occurs = bool(thinker_sources & concept_sources)
+                # Get all concept contexts for thorough checking
+                concept_context = concept.get('context', '').lower()
+                concept_contexts = concept.get('contexts', [])
+                all_concept_text = concept_context + ' ' + ' '.join(
+                    ctx.get('text', '').lower() for ctx in concept_contexts
+                )
+
+                # Only link if there's a STRONG signal:
+                # 1. Concept name appears in thinker's context/contexts
+                # 2. Thinker name appears in concept's context/contexts
+                # 3. Domain matches category AND concept appears in thinker context
+                concept_in_thinker = cname.lower() in all_thinker_text
+                thinker_in_concept = tname.lower() in all_concept_text
                 domain_match = ccategory.lower() in [d.lower() for d in domains] if ccategory else False
-                concept_in_thinker = cname.lower() in context
-                thinker_in_concept = tname.lower() in concept.get('context', '').lower()
+                domain_and_mention = domain_match and cname.lower() in all_thinker_text
 
-                if co_occurs or domain_match or concept_in_thinker or thinker_in_concept:
+                # Link only with strong evidence
+                if concept_in_thinker or thinker_in_concept or domain_and_mention:
                     relationships['thinker_to_concepts'][tname].add(cname)
                     relationships['concept_to_thinkers'][cname].add(tname)
 
