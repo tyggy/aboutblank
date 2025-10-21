@@ -227,49 +227,58 @@ updated: {today}
         # Build sections conditionally
         sections = []
 
-        # Definition - handle synthesized, aggregated, and single contexts
-        synthesized = concept.get('synthesized_overview')
-        contexts = concept.get('contexts')
-        single_context = concept.get('context', '')
+        # Check for deep enrichment first
+        enriched = concept.get('enriched_content')
 
-        if synthesized:
-            sections.append(f"""## Definition
+        if enriched:
+            # Use comprehensive enriched content
+            sections.append(enriched)
+
+        else:
+            # Use standard extraction
+            # Definition - handle synthesized, aggregated, and single contexts
+            synthesized = concept.get('synthesized_overview')
+            contexts = concept.get('contexts')
+            single_context = concept.get('context', '')
+
+            if synthesized:
+                sections.append(f"""## Definition
 
 {synthesized}""")
 
-            if contexts and len(contexts) > 1:
-                perspective_parts = []
-                for ctx in contexts:
-                    source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                    perspective_parts.append(f"**From {source_name}**: {ctx['text']}")
+                if contexts and len(contexts) > 1:
+                    perspective_parts = []
+                    for ctx in contexts:
+                        source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                        perspective_parts.append(f"**From {source_name}**: {ctx['text']}")
 
-                sections.append(f"""## Perspectives from Sources
+                    sections.append(f"""## Perspectives from Sources
 
 {chr(10).join(perspective_parts)}""")
 
-        elif contexts and len(contexts) > 1:
-            # Multiple contexts from different sources (no synthesis yet)
-            definition_parts = []
-            for ctx in contexts:
-                source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
-                definition_parts.append(f"**From {source_name}**: {ctx['text']}")
+            elif contexts and len(contexts) > 1:
+                # Multiple contexts from different sources (no synthesis yet)
+                definition_parts = []
+                for ctx in contexts:
+                    source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                    definition_parts.append(f"**From {source_name}**: {ctx['text']}")
 
-            sections.append(f"""## Definition
+                sections.append(f"""## Definition
 
 {chr(10).join(definition_parts)}""")
-        elif contexts and len(contexts) == 1:
-            # Single context in new format
-            sections.append(f"""## Definition
+            elif contexts and len(contexts) == 1:
+                # Single context in new format
+                sections.append(f"""## Definition
 
 {contexts[0]['text']}""")
-        elif single_context:
-            # Old format: single context string
-            sections.append(f"""## Definition
+            elif single_context:
+                # Old format: single context string
+                sections.append(f"""## Definition
 
 {single_context}""")
 
-        # Category - always include
-        sections.append(f"""## Category
+            # Category - always include (only for non-enriched)
+            sections.append(f"""## Category
 
 - Primary: [[{category.title()}]]""")
 

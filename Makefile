@@ -39,6 +39,7 @@ help:
 	@echo "  make kb-link                      - Inject wiki links into transcripts"
 	@echo "  make kb-enrich                    - Cross-enrich entities with bidirectional links"
 	@echo "  make kb-synthesize                - Synthesize unified entity descriptions from multiple sources"
+	@echo "  make kb-enrich-deep ENTITIES='...' - Deep Wikipedia-level enrichment of specific entities"
 	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link → enrich"
 	@echo "  make kb-build-full                - Full pipeline + synthesis (costs extra API calls)"
 	@echo ""
@@ -260,6 +261,29 @@ kb-synthesize:
 	python tools/synthesize_contexts.py knowledge_base/normalized_entities.json --verbose
 	@echo "✓ Synthesized descriptions created!"
 	@echo "Re-run 'make kb-populate' to update entity pages with synthesis"
+
+kb-enrich-deep:
+	@echo "Deep enrichment of entities (Wikipedia-level)..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
+		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	@if [ -z "$$ENTITIES" ]; then \
+		echo "Error: ENTITIES not specified."; \
+		echo "Usage: make kb-enrich-deep ENTITIES='Morphogenesis \"Cognitive Light Cone\"'"; \
+		exit 1; \
+	fi
+	python tools/enrich_entity_deep.py knowledge_base/normalized_entities.json \
+		--source-dir knowledge_base \
+		--entities $$ENTITIES \
+		--verbose
+	@echo "✓ Deep enrichment complete!"
+	@echo "Re-run 'make kb-populate' to update entity pages"
 
 kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
 
