@@ -400,20 +400,66 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                # IMPORTANT: Use NEW extraction data (has context), not old KB entity
+                # IMPORTANT: Merge with existing entity data, don't replace it
                 existing_info = self.existing_thinkers[existing_match]
-                entity = {
-                    'name': existing_info['name'],  # Use canonical name
-                    'filename': existing_info.get('filename', filename),
-                    'aliases': list(set(aliases + existing_info.get('aliases', []))),
-                    'domains': thinker.get('domains', []),
-                    'context': thinker.get('context', ''),  # ← Keep NEW context!
-                    'sources': [source] if source else [],
-                    'extracted_as': name,
-                    'match_score': score,
-                    'is_new': False
-                }
                 normalized_key = existing_info['name']
+
+                # Check if already in current batch
+                if normalized_key in seen:
+                    # Merge into existing
+                    new_context = thinker.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[normalized_key]:
+                            old_context = seen[normalized_key].get('context', '').strip()
+                            old_source = seen[normalized_key].get('sources', [None])[0]
+                            seen[normalized_key]['contexts'] = []
+                            if old_context:
+                                seen[normalized_key]['contexts'].append({'source': old_source, 'text': old_context})
+                            if 'context' in seen[normalized_key]:
+                                del seen[normalized_key]['context']
+
+                        existing_texts = [c['text'] for c in seen[normalized_key]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[normalized_key]['contexts'].append({'source': source, 'text': new_context})
+
+                    if source and source not in seen[normalized_key].get('sources', []):
+                        seen[normalized_key].setdefault('sources', []).append(source)
+                    continue
+                else:
+                    # First time in batch - merge with existing
+                    entity = {
+                        'name': existing_info['name'],
+                        'filename': existing_info.get('filename', filename),
+                        'aliases': list(set(aliases + existing_info.get('aliases', []))),
+                        'domains': list(set(thinker.get('domains', []) + existing_info.get('domains', []))),
+                        'sources': existing_info.get('sources', []),
+                        'extracted_as': name,
+                        'match_score': score,
+                        'is_new': False
+                    }
+
+                    # Merge contexts
+                    new_context = thinker.get('context', '').strip()
+                    existing_contexts = existing_info.get('contexts', [])
+
+                    if existing_contexts:
+                        entity['contexts'] = existing_contexts.copy()
+                        if new_context:
+                            existing_texts = [c['text'] for c in entity['contexts']]
+                            if new_context not in existing_texts:
+                                entity['contexts'].append({'source': source, 'text': new_context})
+                    elif new_context:
+                        existing_context = existing_info.get('context', '').strip()
+                        if existing_context:
+                            entity['contexts'] = [
+                                {'source': existing_info.get('sources', [None])[0], 'text': existing_context},
+                                {'source': source, 'text': new_context}
+                            ]
+                        else:
+                            entity['context'] = new_context
+
+                    if source and source not in entity['sources']:
+                        entity['sources'].append(source)
             else:
                 # Check for duplicate in current extraction
                 if display_name in seen:
@@ -511,21 +557,95 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                # IMPORTANT: Use NEW extraction data (has context), not old KB entity
-                # The old entity from markdown doesn't have context field
+                # IMPORTANT: Merge with existing entity data, don't replace it
                 existing_info = self.existing_concepts[existing_match]
-                entity = {
-                    'name': existing_info['name'],  # Use canonical name
-                    'filename': existing_info.get('filename', filename),  # Use existing filename
-                    'aliases': list(set(aliases + existing_info.get('aliases', []))),  # Merge aliases
-                    'category': concept.get('category', 'interdisciplinary'),
-                    'context': concept.get('context', ''),  # ← Keep NEW context from extraction!
-                    'sources': [source] if source else [],
-                    'extracted_as': name,
-                    'match_score': score,
-                    'is_new': False  # Matched to existing
-                }
                 normalized_key = existing_info['name']
+
+                # Check if we've already processed this entity in current batch
+                if normalized_key in seen:
+                    # Entity already in seen - merge new context/source into it
+                    if verbose:
+                        print(f"  🔀 Adding context to already-seen '{normalized_key}'")
+
+                    new_context = concept.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[normalized_key]:
+                            # Convert single context to list format
+                            old_context = seen[normalized_key].get('context', '').strip()
+                            old_source = seen[normalized_key].get('sources', [None])[0]
+                            seen[normalized_key]['contexts'] = []
+                            if old_context:
+                                seen[normalized_key]['contexts'].append({
+                                    'source': old_source,
+                                    'text': old_context
+                                })
+                            # Remove single context field
+                            if 'context' in seen[normalized_key]:
+                                del seen[normalized_key]['context']
+
+                        # Add new context if different
+                        existing_texts = [c['text'] for c in seen[normalized_key]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[normalized_key]['contexts'].append({
+                                'source': source,
+                                'text': new_context
+                            })
+
+                    # Track sources
+                    if source and source not in seen[normalized_key].get('sources', []):
+                        seen[normalized_key].setdefault('sources', []).append(source)
+
+                    continue
+                else:
+                    # First time seeing this entity in current batch
+                    # Start with existing data, add new context/source
+                    entity = {
+                        'name': existing_info['name'],
+                        'filename': existing_info.get('filename', filename),
+                        'aliases': list(set(aliases + existing_info.get('aliases', []))),
+                        'category': concept.get('category', existing_info.get('category', 'interdisciplinary')),
+                        'sources': existing_info.get('sources', []),  # Start with existing sources
+                        'extracted_as': name,
+                        'match_score': score,
+                        'is_new': False
+                    }
+
+                    # Handle contexts - merge existing with new
+                    new_context = concept.get('context', '').strip()
+                    existing_contexts = existing_info.get('contexts', [])
+
+                    if existing_contexts:
+                        # Already has contexts array
+                        entity['contexts'] = existing_contexts.copy()
+                        if new_context:
+                            existing_texts = [c['text'] for c in entity['contexts']]
+                            if new_context not in existing_texts:
+                                entity['contexts'].append({
+                                    'source': source,
+                                    'text': new_context
+                                })
+                    elif new_context:
+                        # New extraction has context, start contexts array
+                        existing_context = existing_info.get('context', '').strip()
+                        if existing_context:
+                            # Convert existing single context to array
+                            entity['contexts'] = [
+                                {
+                                    'source': existing_info.get('sources', [None])[0],
+                                    'text': existing_context
+                                },
+                                {
+                                    'source': source,
+                                    'text': new_context
+                                }
+                            ]
+                        else:
+                            # No existing context, just use new one
+                            entity['context'] = new_context
+
+                    # Add new source if not already present
+                    if source and source not in entity['sources']:
+                        entity['sources'].append(source)
             else:
                 # Check for fuzzy match against new entities in current batch
                 seen_match, seen_score = self.find_best_match(name, {
@@ -619,19 +739,64 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                # IMPORTANT: Use NEW extraction data (has context), not old KB entity
+                # IMPORTANT: Merge with existing entity data, don't replace it
                 existing_info = self.existing_frameworks[existing_match]
-                entity = {
-                    'name': existing_info['name'],
-                    'filename': existing_info.get('filename', filename),
-                    'creator': framework.get('creator'),
-                    'context': framework.get('context', ''),  # ← Keep NEW context!
-                    'sources': [source] if source else [],
-                    'extracted_as': name,
-                    'match_score': score,
-                    'is_new': False
-                }
                 normalized_key = existing_info['name']
+
+                if normalized_key in seen:
+                    # Merge into existing
+                    new_context = framework.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[normalized_key]:
+                            old_context = seen[normalized_key].get('context', '').strip()
+                            old_source = seen[normalized_key].get('sources', [None])[0]
+                            seen[normalized_key]['contexts'] = []
+                            if old_context:
+                                seen[normalized_key]['contexts'].append({'source': old_source, 'text': old_context})
+                            if 'context' in seen[normalized_key]:
+                                del seen[normalized_key]['context']
+
+                        existing_texts = [c['text'] for c in seen[normalized_key]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[normalized_key]['contexts'].append({'source': source, 'text': new_context})
+
+                    if source and source not in seen[normalized_key].get('sources', []):
+                        seen[normalized_key].setdefault('sources', []).append(source)
+                    continue
+                else:
+                    # First time in batch
+                    entity = {
+                        'name': existing_info['name'],
+                        'filename': existing_info.get('filename', filename),
+                        'creator': framework.get('creator') or existing_info.get('creator'),
+                        'sources': existing_info.get('sources', []),
+                        'extracted_as': name,
+                        'match_score': score,
+                        'is_new': False
+                    }
+
+                    # Merge contexts
+                    new_context = framework.get('context', '').strip()
+                    existing_contexts = existing_info.get('contexts', [])
+
+                    if existing_contexts:
+                        entity['contexts'] = existing_contexts.copy()
+                        if new_context:
+                            existing_texts = [c['text'] for c in entity['contexts']]
+                            if new_context not in existing_texts:
+                                entity['contexts'].append({'source': source, 'text': new_context})
+                    elif new_context:
+                        existing_context = existing_info.get('context', '').strip()
+                        if existing_context:
+                            entity['contexts'] = [
+                                {'source': existing_info.get('sources', [None])[0], 'text': existing_context},
+                                {'source': source, 'text': new_context}
+                            ]
+                        else:
+                            entity['context'] = new_context
+
+                    if source and source not in entity['sources']:
+                        entity['sources'].append(source)
             else:
                 # Check for fuzzy match against new entities in current batch
                 seen_match, seen_score = self.find_best_match(name, {
@@ -720,18 +885,64 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
+                # IMPORTANT: Merge with existing entity data, don't replace it
                 existing_info = self.existing_institutions[existing_match]
-                entity = {
-                    'name': existing_info['name'],
-                    'filename': existing_info.get('filename', filename),
-                    'type': institution.get('type', 'organization'),
-                    'context': institution.get('context', ''),  # Keep NEW context from extraction
-                    'sources': [source] if source else [],
-                    'extracted_as': name,
-                    'match_score': score,
-                    'is_new': False
-                }
-                normalized_key = existing_match
+                normalized_key = existing_info['name']
+
+                if normalized_key in seen:
+                    # Merge into existing
+                    new_context = institution.get('context', '').strip()
+                    if new_context:
+                        if 'contexts' not in seen[normalized_key]:
+                            old_context = seen[normalized_key].get('context', '').strip()
+                            old_source = seen[normalized_key].get('sources', [None])[0]
+                            seen[normalized_key]['contexts'] = []
+                            if old_context:
+                                seen[normalized_key]['contexts'].append({'source': old_source, 'text': old_context})
+                            if 'context' in seen[normalized_key]:
+                                del seen[normalized_key]['context']
+
+                        existing_texts = [c['text'] for c in seen[normalized_key]['contexts']]
+                        if new_context not in existing_texts:
+                            seen[normalized_key]['contexts'].append({'source': source, 'text': new_context})
+
+                    if source and source not in seen[normalized_key].get('sources', []):
+                        seen[normalized_key].setdefault('sources', []).append(source)
+                    continue
+                else:
+                    # First time in batch
+                    entity = {
+                        'name': existing_info['name'],
+                        'filename': existing_info.get('filename', filename),
+                        'type': institution.get('type') or existing_info.get('type', 'organization'),
+                        'sources': existing_info.get('sources', []),
+                        'extracted_as': name,
+                        'match_score': score,
+                        'is_new': False
+                    }
+
+                    # Merge contexts
+                    new_context = institution.get('context', '').strip()
+                    existing_contexts = existing_info.get('contexts', [])
+
+                    if existing_contexts:
+                        entity['contexts'] = existing_contexts.copy()
+                        if new_context:
+                            existing_texts = [c['text'] for c in entity['contexts']]
+                            if new_context not in existing_texts:
+                                entity['contexts'].append({'source': source, 'text': new_context})
+                    elif new_context:
+                        existing_context = existing_info.get('context', '').strip()
+                        if existing_context:
+                            entity['contexts'] = [
+                                {'source': existing_info.get('sources', [None])[0], 'text': existing_context},
+                                {'source': source, 'text': new_context}
+                            ]
+                        else:
+                            entity['context'] = new_context
+
+                    if source and source not in entity['sources']:
+                        entity['sources'].append(source)
             else:
                 # Check for fuzzy match against new entities in current batch
                 seen_match, seen_score = self.find_best_match(name, {
