@@ -209,21 +209,24 @@ class EntityNormalizer:
                 print(f"💾 Saving {entity_type}...")
 
             for entity in entities:
+                # Ensure complete structure for each entity type
+                entity_data = self._ensure_complete_structure(entity, entity_type)
+
                 # Get filename (already normalized)
-                filename = entity.get('filename', '')
+                filename = entity_data.get('filename', '')
                 if not filename:
                     # Fallback: create from name
-                    name = entity.get('name', entity.get('question', 'unknown'))
+                    name = entity_data.get('name', entity_data.get('question', 'unknown'))
                     filename = re.sub(r'[^a-z0-9\s]', '', name.lower())
                     filename = '-'.join(filename.split())
+                    entity_data['filename'] = filename
 
                 # Add metadata
-                entity_data = entity.copy()
                 entity_data['_metadata'] = {
                     'entity_type': entity_type.rstrip('s'),  # singular form
                     'last_updated': datetime.datetime.now().isoformat(),
-                    'sources_count': len(entity.get('sources', [])),
-                    'contexts_count': len(entity.get('contexts', [])) if 'contexts' in entity else (1 if entity.get('context') else 0)
+                    'sources_count': len(entity_data.get('sources', [])),
+                    'contexts_count': len(entity_data.get('contexts', [])) if 'contexts' in entity_data else (1 if entity_data.get('context') else 0)
                 }
 
                 # Write individual JSON file
@@ -239,6 +242,61 @@ class EntityNormalizer:
                 print(f"  ✓ {len(entities)} {entity_type} saved")
 
         return stats
+
+    def _ensure_complete_structure(self, entity: Dict, entity_type: str) -> Dict:
+        """Ensure entity has all required fields for its type."""
+        # Start with a clean copy
+        clean_entity = {}
+
+        # Common fields for all entity types
+        clean_entity['name'] = entity.get('name', '')
+        clean_entity['filename'] = entity.get('filename', '')
+        clean_entity['aliases'] = entity.get('aliases', [])
+        clean_entity['sources'] = entity.get('sources', [])
+
+        # Handle context(s)
+        if 'contexts' in entity:
+            clean_entity['contexts'] = entity['contexts']
+        elif 'context' in entity:
+            clean_entity['context'] = entity['context']
+
+        # Handle synthesized overview
+        if 'synthesized_overview' in entity:
+            clean_entity['synthesized_overview'] = entity['synthesized_overview']
+
+        # Handle enriched content
+        if 'enriched_content' in entity:
+            clean_entity['enriched_content'] = entity['enriched_content']
+            if 'enrichment_model' in entity:
+                clean_entity['enrichment_model'] = entity['enrichment_model']
+            if 'enrichment_source_count' in entity:
+                clean_entity['enrichment_source_count'] = entity['enrichment_source_count']
+
+        # Type-specific fields
+        if entity_type == 'thinkers':
+            clean_entity['domains'] = entity.get('domains', [])
+            # Remove file_path if it exists (that's for markdown, not JSON)
+
+        elif entity_type == 'concepts':
+            clean_entity['category'] = entity.get('category', 'interdisciplinary')
+
+        elif entity_type == 'frameworks':
+            clean_entity['creator'] = entity.get('creator', [])
+            if isinstance(clean_entity['creator'], str):
+                clean_entity['creator'] = [c.strip() for c in clean_entity['creator'].split(',')] if clean_entity['creator'] else []
+
+        elif entity_type == 'institutions':
+            clean_entity['type'] = entity.get('type', 'organization')
+
+        elif entity_type == 'questions':
+            clean_entity['question'] = entity.get('question', '')
+            clean_entity['category'] = entity.get('category', 'other')
+
+        # Track if it's new or existing
+        if 'is_new' in entity:
+            clean_entity['is_new'] = entity['is_new']
+
+        return clean_entity
 
     def merge_extractions(self, extraction_files: List[Path], verbose: bool = False) -> Dict:
         """
