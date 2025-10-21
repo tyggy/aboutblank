@@ -34,12 +34,19 @@ class EntityPopulator:
             'skipped': 0
         }
 
-    def populate_from_normalized(self, normalized_path: Path, verbose: bool = False) -> None:
-        """Populate knowledge base from normalized entities JSON."""
+    def populate_from_entities(self, entities_dir: Path, verbose: bool = False) -> None:
+        """Populate knowledge base from individual entity JSON files."""
         if verbose:
-            print(f"📖 Loading normalized entities from: {normalized_path}")
+            print(f"📖 Loading entities from: {entities_dir}")
 
-        data = json.loads(normalized_path.read_text(encoding='utf-8'))
+        # Load all entity types
+        data = {
+            'thinkers': self._load_entity_type(entities_dir / 'thinkers', verbose),
+            'concepts': self._load_entity_type(entities_dir / 'concepts', verbose),
+            'frameworks': self._load_entity_type(entities_dir / 'frameworks', verbose),
+            'institutions': self._load_entity_type(entities_dir / 'institutions', verbose),
+            'questions': self._load_entity_type(entities_dir / 'questions', verbose)
+        }
 
         # Process each entity type
         self._populate_thinkers(data.get('thinkers', []), verbose)
@@ -47,6 +54,25 @@ class EntityPopulator:
         self._populate_frameworks(data.get('frameworks', []), verbose)
         self._populate_institutions(data.get('institutions', []), verbose)
         self._populate_questions(data.get('questions', []), verbose)
+
+    def _load_entity_type(self, type_dir: Path, verbose: bool = False) -> List[Dict]:
+        """Load all entities of a specific type from individual JSON files."""
+        entities = []
+
+        if not type_dir.exists():
+            return entities
+
+        for json_file in sorted(type_dir.glob('*.json')):
+            try:
+                entity = json.loads(json_file.read_text(encoding='utf-8'))
+                entities.append(entity)
+            except Exception as e:
+                print(f"⚠️  Error loading {json_file}: {e}", file=sys.stderr)
+
+        if verbose and entities:
+            print(f"  📂 Loaded {len(entities)} from {type_dir.name}/")
+
+        return entities
 
     def _populate_thinkers(self, thinkers: List[Dict], verbose: bool) -> None:
         """Create/update thinker pages."""
@@ -617,11 +643,6 @@ def main():
         description="Populate knowledge base with entity pages"
     )
     parser.add_argument(
-        'normalized_entities',
-        type=Path,
-        help='Normalized entities JSON file'
-    )
-    parser.add_argument(
         '--knowledge-base',
         type=Path,
         default=Path('knowledge_base'),
@@ -641,8 +662,10 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.normalized_entities.exists():
-        print(f"❌ Error: File not found: {args.normalized_entities}", file=sys.stderr)
+    entities_dir = args.knowledge_base / 'entities'
+    if not entities_dir.exists():
+        print(f"❌ Error: Entities directory not found: {entities_dir}", file=sys.stderr)
+        print(f"   Run 'make kb-normalize' first to create entity files.", file=sys.stderr)
         sys.exit(1)
 
     # Initialize populator
@@ -650,13 +673,13 @@ def main():
 
     print("🏗️  Populating Knowledge Base")
     print(f"📁 Knowledge base: {args.knowledge_base}")
-    print(f"📖 Source: {args.normalized_entities}")
+    print(f"📖 Source: {entities_dir}")
     if args.dry_run:
         print("🔍 DRY RUN MODE - No files will be modified")
     print()
 
     # Populate
-    populator.populate_from_normalized(args.normalized_entities, verbose=args.verbose)
+    populator.populate_from_entities(entities_dir, verbose=args.verbose)
 
     # Print summary
     populator.print_summary()

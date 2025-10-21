@@ -162,29 +162,25 @@ Return the enriched article in markdown format with appropriate section headings
 
     def enrich_auto(
         self,
-        normalized_path: Path,
+        entities_dir: Path,
         source_dir: Path,
         min_sources: int = 3,
         min_mentions: int = 5,
-        output_path: Optional[Path] = None,
         verbose: bool = False
     ) -> None:
         """
         Auto-enrich entities based on source material richness.
 
         Args:
-            normalized_path: Path to normalized_entities.json
+            entities_dir: Path to knowledge_base/entities directory
             source_dir: Directory containing source documents
             min_sources: Minimum number of sources to trigger enrichment
             min_mentions: Minimum number of mentions to trigger enrichment
-            output_path: Output path (default: overwrite input)
             verbose: Print progress
         """
         if verbose:
-            print(f"📖 Loading entities from: {normalized_path}")
+            print(f"📖 Loading entities from: {entities_dir}")
             print(f"🎯 Auto-enrichment thresholds: {min_sources}+ sources OR {min_mentions}+ mentions")
-
-        data = json.loads(normalized_path.read_text(encoding='utf-8'))
 
         # Find all source files
         source_files = []
@@ -197,42 +193,47 @@ Return the enriched article in markdown format with appropriate section headings
 
         stats = {'enriched': 0, 'skipped_threshold': 0, 'skipped_existing': 0, 'not_found': 0}
 
-        # Process concepts
-        for concept in data.get('concepts', []):
-            # Skip if already enriched
-            if concept.get('enriched_content'):
-                stats['skipped_existing'] += 1
-                continue
+        # Process all concepts from individual JSON files
+        concepts_dir = entities_dir / 'concepts'
+        if concepts_dir.exists():
+            for json_file in sorted(concepts_dir.glob('*.json')):
+                try:
+                    concept = json.loads(json_file.read_text(encoding='utf-8'))
 
-            # Find mentions
-            mentions = self.find_entity_mentions(concept['name'], source_files)
+                    # Skip if already enriched
+                    if concept.get('enriched_content'):
+                        stats['skipped_existing'] += 1
+                        continue
 
-            if not mentions:
-                stats['not_found'] += 1
-                continue
+                    # Find mentions
+                    mentions = self.find_entity_mentions(concept['name'], source_files)
 
-            # Check if should enrich
-            if not self.should_enrich(concept, mentions, min_sources, min_mentions):
-                if verbose:
-                    unique_sources = len(set(m['file'] for m in mentions))
-                    print(f"  ⊘ Skipping {concept['name']}: {unique_sources} sources, {len(mentions)} mentions (below threshold)")
-                stats['skipped_threshold'] += 1
-                continue
+                    if not mentions:
+                        stats['not_found'] += 1
+                        continue
 
-            # Enrich
-            self.enrich_concept(concept, mentions, verbose)
-            stats['enriched'] += 1
+                    # Check if should enrich
+                    if not self.should_enrich(concept, mentions, min_sources, min_mentions):
+                        if verbose:
+                            unique_sources = len(set(m['file'] for m in mentions))
+                            print(f"  ⊘ Skipping {concept['name']}: {unique_sources} sources, {len(mentions)} mentions (below threshold)")
+                        stats['skipped_threshold'] += 1
+                        continue
+
+                    # Enrich
+                    self.enrich_concept(concept, mentions, verbose)
+                    stats['enriched'] += 1
+
+                    # Save enriched concept back to its JSON file
+                    json_file.write_text(
+                        json.dumps(concept, indent=2, ensure_ascii=False),
+                        encoding='utf-8'
+                    )
+
+                except Exception as e:
+                    print(f"❌ Error processing {json_file}: {e}", file=sys.stderr)
 
         # TODO: Add thinkers, frameworks, institutions
-
-        # Save
-        if output_path is None:
-            output_path = normalized_path
-
-        output_path.write_text(
-            json.dumps(data, indent=2, ensure_ascii=False),
-            encoding='utf-8'
-        )
 
         # Summary
         print()
@@ -244,38 +245,34 @@ Return the enriched article in markdown format with appropriate section headings
         print(f"  ✓ Already enriched: {stats['skipped_existing']}")
         print(f"  ⚠️  No mentions: {stats['not_found']}")
         print()
-        print(f"✅ Saved to: {output_path}")
+        print(f"✅ Saved enriched entities to: {entities_dir}")
         print()
-        print("⚡ IMPORTANT: Enrichment updated the JSON data file.")
+        print("⚡ IMPORTANT: Enrichment updated the entity JSON files.")
         print("   To see enriched content in entity pages, run:")
         print()
         print("   make kb-populate")
         print()
-        print("   This regenerates markdown pages from the enriched JSON.")
+        print("   This regenerates markdown pages from the enriched JSON files.")
         print()
 
     def enrich_selected_entities(
         self,
-        normalized_path: Path,
+        entities_dir: Path,
         source_dir: Path,
         entity_names: List[str],
-        output_path: Optional[Path] = None,
         verbose: bool = False
     ) -> None:
         """
         Enrich selected entities with comprehensive information.
 
         Args:
-            normalized_path: Path to normalized_entities.json
+            entities_dir: Path to knowledge_base/entities directory
             source_dir: Directory containing source documents
             entity_names: List of entity names to enrich
-            output_path: Output path (default: overwrite input)
             verbose: Print progress
         """
         if verbose:
-            print(f"📖 Loading entities from: {normalized_path}")
-
-        data = json.loads(normalized_path.read_text(encoding='utf-8'))
+            print(f"📖 Loading entities from: {entities_dir}")
 
         # Find all source files
         source_files = []
@@ -288,34 +285,39 @@ Return the enriched article in markdown format with appropriate section headings
 
         stats = {'enriched': 0, 'skipped': 0, 'not_found': 0}
 
-        # Process concepts
-        for concept in data.get('concepts', []):
-            if concept['name'] not in entity_names:
-                stats['skipped'] += 1
-                continue
+        # Process concepts from individual JSON files
+        concepts_dir = entities_dir / 'concepts'
+        if concepts_dir.exists():
+            for json_file in sorted(concepts_dir.glob('*.json')):
+                try:
+                    concept = json.loads(json_file.read_text(encoding='utf-8'))
 
-            # Find mentions
-            mentions = self.find_entity_mentions(concept['name'], source_files)
+                    if concept['name'] not in entity_names:
+                        stats['skipped'] += 1
+                        continue
 
-            if not mentions:
-                print(f"  ⚠️  No mentions found for: {concept['name']}")
-                stats['not_found'] += 1
-                continue
+                    # Find mentions
+                    mentions = self.find_entity_mentions(concept['name'], source_files)
 
-            # Enrich
-            self.enrich_concept(concept, mentions, verbose)
-            stats['enriched'] += 1
+                    if not mentions:
+                        print(f"  ⚠️  No mentions found for: {concept['name']}")
+                        stats['not_found'] += 1
+                        continue
+
+                    # Enrich
+                    self.enrich_concept(concept, mentions, verbose)
+                    stats['enriched'] += 1
+
+                    # Save enriched concept back to its JSON file
+                    json_file.write_text(
+                        json.dumps(concept, indent=2, ensure_ascii=False),
+                        encoding='utf-8'
+                    )
+
+                except Exception as e:
+                    print(f"❌ Error processing {json_file}: {e}", file=sys.stderr)
 
         # TODO: Add thinkers, frameworks, institutions
-
-        # Save
-        if output_path is None:
-            output_path = normalized_path
-
-        output_path.write_text(
-            json.dumps(data, indent=2, ensure_ascii=False),
-            encoding='utf-8'
-        )
 
         # Summary
         print()
@@ -326,14 +328,14 @@ Return the enriched article in markdown format with appropriate section headings
         print(f"  ⊘ Skipped: {stats['skipped']}")
         print(f"  ⚠️  No mentions: {stats['not_found']}")
         print()
-        print(f"✅ Saved to: {output_path}")
+        print(f"✅ Saved enriched entities to: {entities_dir}")
         print()
-        print("⚡ IMPORTANT: Enrichment updated the JSON data file.")
+        print("⚡ IMPORTANT: Enrichment updated the entity JSON files.")
         print("   To see enriched content in entity pages, run:")
         print()
         print("   make kb-populate")
         print()
-        print("   This regenerates markdown pages from the enriched JSON.")
+        print("   This regenerates markdown pages from the enriched JSON files.")
         print()
 
 
@@ -342,15 +344,10 @@ def main():
         description="Deep enrichment of entity pages from source documents"
     )
     parser.add_argument(
-        'normalized_entities',
-        type=Path,
-        help='Path to normalized_entities.json'
-    )
-    parser.add_argument(
-        '--source-dir',
+        '--knowledge-base',
         type=Path,
         default=Path('knowledge_base'),
-        help='Directory containing source documents (default: knowledge_base)'
+        help='Knowledge base directory (default: knowledge_base)'
     )
 
     # Mode selection
@@ -381,12 +378,6 @@ def main():
     )
 
     parser.add_argument(
-        '--output',
-        '-o',
-        type=Path,
-        help='Output path (default: overwrite input file)'
-    )
-    parser.add_argument(
         '--api-key',
         help='Anthropic API key (or set ANTHROPIC_API_KEY env var)'
     )
@@ -411,16 +402,18 @@ def main():
         print("Set ANTHROPIC_API_KEY environment variable or use --api-key", file=sys.stderr)
         sys.exit(1)
 
-    if not args.normalized_entities.exists():
-        print(f"❌ Error: File not found: {args.normalized_entities}", file=sys.stderr)
+    entities_dir = args.knowledge_base / 'entities'
+    if not entities_dir.exists():
+        print(f"❌ Error: Entities directory not found: {entities_dir}", file=sys.stderr)
+        print(f"   Run 'make kb-normalize' first to create entity files.", file=sys.stderr)
         sys.exit(1)
 
     # Initialize enricher
     enricher = EntityEnricher(api_key=api_key, model=args.model)
 
     print("🔍 Deep Entity Enrichment")
-    print(f"📁 Source: {args.normalized_entities}")
-    print(f"📚 Sources: {args.source_dir}")
+    print(f"📁 Knowledge base: {args.knowledge_base}")
+    print(f"📂 Entities: {entities_dir}")
 
     if args.auto:
         print(f"🎯 Mode: Auto-enrich (≥{args.min_sources} sources OR ≥{args.min_mentions} mentions)")
@@ -432,19 +425,17 @@ def main():
     try:
         if args.auto:
             enricher.enrich_auto(
-                args.normalized_entities,
-                args.source_dir,
+                entities_dir,
+                args.knowledge_base,  # source_dir
                 min_sources=args.min_sources,
                 min_mentions=args.min_mentions,
-                output_path=args.output,
                 verbose=args.verbose
             )
         else:
             enricher.enrich_selected_entities(
-                args.normalized_entities,
-                args.source_dir,
+                entities_dir,
+                args.knowledge_base,  # source_dir
                 args.entities,
-                output_path=args.output,
                 verbose=args.verbose
             )
     except Exception as e:

@@ -185,6 +185,61 @@ class EntityNormalizer:
 
         return None, 0.0
 
+    def save_entities(self, normalized: Dict, entities_dir: Path, verbose: bool = False) -> Dict:
+        """
+        Save normalized entities as individual JSON files.
+
+        Args:
+            normalized: Dictionary with entity type keys and lists of entities
+            entities_dir: Base directory for entities (e.g., knowledge_base/entities)
+            verbose: Print progress
+
+        Returns:
+            Dictionary with counts of saved entities by type
+        """
+        import datetime
+
+        stats = {}
+
+        for entity_type, entities in normalized.items():
+            type_dir = entities_dir / entity_type
+            type_dir.mkdir(parents=True, exist_ok=True)
+
+            if verbose:
+                print(f"💾 Saving {entity_type}...")
+
+            for entity in entities:
+                # Get filename (already normalized)
+                filename = entity.get('filename', '')
+                if not filename:
+                    # Fallback: create from name
+                    name = entity.get('name', entity.get('question', 'unknown'))
+                    filename = re.sub(r'[^a-z0-9\s]', '', name.lower())
+                    filename = '-'.join(filename.split())
+
+                # Add metadata
+                entity_data = entity.copy()
+                entity_data['_metadata'] = {
+                    'entity_type': entity_type.rstrip('s'),  # singular form
+                    'last_updated': datetime.datetime.now().isoformat(),
+                    'sources_count': len(entity.get('sources', [])),
+                    'contexts_count': len(entity.get('contexts', [])) if 'contexts' in entity else (1 if entity.get('context') else 0)
+                }
+
+                # Write individual JSON file
+                json_path = type_dir / f"{filename}.json"
+                json_path.write_text(
+                    json.dumps(entity_data, indent=2, ensure_ascii=False),
+                    encoding='utf-8'
+                )
+
+            stats[entity_type] = len(entities)
+
+            if verbose:
+                print(f"  ✓ {len(entities)} {entity_type} saved")
+
+        return stats
+
     def merge_extractions(self, extraction_files: List[Path], verbose: bool = False) -> Dict:
         """
         Merge multiple extraction files into normalized database.
@@ -703,12 +758,6 @@ def main():
         help='Knowledge base directory (default: knowledge_base)'
     )
     parser.add_argument(
-        '--output',
-        type=Path,
-        default=Path('knowledge_base/normalized_entities.json'),
-        help='Output file for normalized entities'
-    )
-    parser.add_argument(
         '--similarity-threshold',
         type=float,
         default=0.85,
@@ -738,18 +787,24 @@ def main():
     # Merge and normalize
     normalized = normalizer.merge_extractions(args.extractions, verbose=args.verbose)
 
-    # Save result
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(normalized, indent=2, ensure_ascii=False), encoding='utf-8')
+    # Save result - write individual JSON files per entity
+    entities_dir = args.knowledge_base / 'entities'
+    stats = normalizer.save_entities(normalized, entities_dir, verbose=args.verbose)
 
-    print(f"💾 Saved normalized entities to: {args.output}")
+    print()
+    print("💾 Saved normalized entities:")
+    print(f"   • {stats['thinkers']} thinkers → entities/thinkers/")
+    print(f"   • {stats['concepts']} concepts → entities/concepts/")
+    print(f"   • {stats['frameworks']} frameworks → entities/frameworks/")
+    print(f"   • {stats['institutions']} institutions → entities/institutions/")
+    print(f"   • {stats['questions']} questions → entities/questions/")
     print()
     print("✅ Normalization complete!")
     print()
     print("Next steps:")
-    print(f"  1. Review: {args.output}")
-    print(f"  2. Populate entity pages: python tools/populate_entities.py {args.output}")
-    print(f"  3. Inject links into transcripts: python tools/inject_links.py")
+    print(f"  1. Review individual entities: {entities_dir}/")
+    print(f"  2. Populate entity pages: make kb-populate")
+    print(f"  3. Inject links into transcripts: make kb-link")
 
 
 if __name__ == '__main__':
