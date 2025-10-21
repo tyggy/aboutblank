@@ -399,8 +399,13 @@ updated: {today}
 
         # Creator (if we have one)
         if creator:
-            # Parse multiple creators if comma-separated
-            creators = [c.strip() for c in creator.split(',')]
+            # Handle creator as either string or list
+            if isinstance(creator, list):
+                creators = creator
+            else:
+                # Parse multiple creators if comma-separated string
+                creators = [c.strip() for c in creator.split(',')]
+
             creator_links = '\n'.join(f"- [[{c}]]" for c in creators)
             sections.append(f"""## Creator/Originator
 
@@ -415,8 +420,13 @@ updated: {today}
 
 *Extracted from source material. Expand with theoretical foundations, key principles, and applications as needed.*"""
 
-        # Build frontmatter
-        creator_list = [c.strip() for c in creator.split(',')] if creator else []
+        # Build frontmatter - ensure creator_list is always a list
+        if not creator:
+            creator_list = []
+        elif isinstance(creator, list):
+            creator_list = creator
+        else:
+            creator_list = [c.strip() for c in creator.split(',')]
 
         return f"""---
 type: framework
