@@ -249,6 +249,15 @@ class EntityNormalizer:
 
     def _ensure_complete_structure(self, entity: Dict, entity_type: str) -> Dict:
         """Ensure entity has all required fields for its type."""
+        # DEBUG: Check what's coming in
+        entity_name = entity.get('name', 'unknown')
+        has_context = 'context' in entity
+        has_contexts = 'contexts' in entity
+
+        if entity_type == 'concepts' and not has_context and not has_contexts:
+            print(f"  ⚠️  DEBUG: {entity_name} has no context or contexts!", file=sys.stderr)
+            print(f"     Keys: {list(entity.keys())}", file=sys.stderr)
+
         # Start with a clean copy
         clean_entity = {}
 
@@ -262,7 +271,12 @@ class EntityNormalizer:
         if 'contexts' in entity:
             clean_entity['contexts'] = entity['contexts']
         elif 'context' in entity:
-            clean_entity['context'] = entity['context']
+            context_value = entity['context']
+            # Only copy if not empty
+            if context_value:
+                clean_entity['context'] = context_value
+            else:
+                print(f"  ⚠️  DEBUG: {entity_name} has empty context string", file=sys.stderr)
 
         # Handle synthesized overview
         if 'synthesized_overview' in entity:
