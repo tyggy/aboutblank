@@ -1,7 +1,7 @@
 ---
 type: concept
 aliases: []
-category: [buddhist|cognitive|ai|interdisciplinary]
+category: [buddhist|cognitive|ai|biology|philosophy|systems|interdisciplinary]
 tags: []
 created: {{date}}
 updated: {{date}}

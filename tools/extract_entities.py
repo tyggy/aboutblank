@@ -343,7 +343,14 @@ Guidelines:
 - Prefer full names over nicknames (e.g., "Michael Levin" not "Mike")
 - For concepts, use standard terminology when possible
 - Include brief context (1-2 sentences MAX) for each entity - be concise!
-- Categorize concepts as: buddhist, cognitive, ai, or interdisciplinary
+- Categorize concepts as: buddhist, cognitive, ai, biology, philosophy, systems, or interdisciplinary
+  - buddhist: Buddhist concepts, practices, teachings
+  - cognitive: Cognitive science, neuroscience, psychology
+  - ai: AI/ML concepts, algorithms, computational models
+  - biology: Developmental biology, evolution, morphogenesis
+  - philosophy: Metaphysics, epistemology, ethics, phenomenology
+  - systems: Systems theory, cybernetics, complexity
+  - interdisciplinary: Truly spans multiple domains
 - If a category has no entities, return an empty array: []
 - Prioritize quality over quantity - focus on the most important entities
 
@@ -364,7 +371,7 @@ Return the JSON in this exact format:
     {{
       "name": "Concept Name",
       "aliases": ["Alternative Term"],
-      "category": "buddhist|cognitive|ai|interdisciplinary",
+      "category": "buddhist|cognitive|ai|biology|philosophy|systems|interdisciplinary",
       "context": "Brief description"
     }}
   ],
