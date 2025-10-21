@@ -168,10 +168,10 @@ class EntityPopulator:
 {synthesized}""")
 
         elif contexts and len(contexts) > 1:
-            # Multiple contexts - show as clean paragraphs
+            # Multiple contexts - show as bulleted list
             overview_parts = []
             for ctx in contexts:
-                overview_parts.append(f"{ctx['text']}")
+                overview_parts.append(f"- {ctx['text']}")
 
             sections.append(f"""## Overview
 
@@ -290,10 +290,10 @@ updated: {today}
 {synthesized}""")
 
             elif contexts and len(contexts) > 1:
-                # Multiple contexts - show as clean paragraphs
+                # Multiple contexts - show as bulleted list
                 definition_parts = []
                 for ctx in contexts:
-                    definition_parts.append(f"{ctx['text']}")
+                    definition_parts.append(f"- {ctx['text']}")
 
                 sections.append(f"""## Definition
 
@@ -404,10 +404,10 @@ updated: {today}
 {synthesized}""")
 
         elif contexts and len(contexts) > 1:
-            # Multiple contexts - show as clean paragraphs
+            # Multiple contexts - show as bulleted list
             overview_parts = []
             for ctx in contexts:
-                overview_parts.append(f"{ctx['text']}")
+                overview_parts.append(f"- {ctx['text']}")
 
             sections.append(f"""## Overview
 
@@ -532,10 +532,10 @@ updated: {today}
 {synthesized}""")
 
         elif contexts and len(contexts) > 1:
-            # Multiple contexts - show as clean paragraphs
+            # Multiple contexts - show as bulleted list
             overview_parts = []
             for ctx in contexts:
-                overview_parts.append(f"{ctx['text']}")
+                overview_parts.append(f"- {ctx['text']}")
 
             sections.append(f"""## Overview
 
