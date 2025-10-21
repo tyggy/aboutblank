@@ -211,6 +211,24 @@ kb-normalize:
 	@echo "✓ Normalization complete!"
 	@echo "Review: knowledge_base/entities/"
 
+kb-recategorize:
+	@echo "Recategorizing concepts with improved guidelines..."
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/recategorize_concepts.py --verbose
+	@echo "✓ Recategorization complete!"
+	@echo "Run 'make kb-populate-force' to regenerate entity pages"
+
+kb-recategorize-dry:
+	@echo "Previewing recategorization (dry run)..."
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/recategorize_concepts.py --dry-run --verbose
+
 kb-populate:
 	@echo "Creating entity pages in knowledge base..."
 	@if [ ! -d knowledge_base/entities ]; then \
