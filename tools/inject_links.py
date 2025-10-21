@@ -17,24 +17,48 @@ from collections import defaultdict
 class LinkInjector:
     """Inject wiki-style links into markdown transcripts."""
 
-    def __init__(self, normalized_entities_path: Path, dry_run: bool = False):
+    def __init__(self, entities_dir: Path, dry_run: bool = False):
         """
         Initialize link injector.
 
         Args:
-            normalized_entities_path: Path to normalized entities JSON
+            entities_dir: Path to knowledge_base/entities directory
             dry_run: If True, don't actually write files
         """
         self.dry_run = dry_run
 
-        # Load normalized entities
-        data = json.loads(normalized_entities_path.read_text(encoding='utf-8'))
+        # Load entities from individual JSON files
+        data = self._load_all_entities(entities_dir)
 
         # Build lookup tables for each entity type
         self.entity_lookup = self._build_entity_lookup(data)
 
         # Statistics
         self.stats = defaultdict(int)
+
+    def _load_all_entities(self, entities_dir: Path) -> Dict:
+        """Load all entities from individual JSON files."""
+        data = {
+            'thinkers': [],
+            'concepts': [],
+            'frameworks': [],
+            'institutions': [],
+            'questions': []
+        }
+
+        for entity_type in data.keys():
+            type_dir = entities_dir / entity_type
+            if not type_dir.exists():
+                continue
+
+            for json_file in type_dir.glob('*.json'):
+                try:
+                    entity = json.loads(json_file.read_text(encoding='utf-8'))
+                    data[entity_type].append(entity)
+                except Exception as e:
+                    print(f"⚠️  Error loading {json_file}: {e}", file=sys.stderr)
+
+        return data
 
     def _build_entity_lookup(self, data: Dict) -> Dict[str, Dict]:
         """
@@ -280,10 +304,10 @@ def main():
         help='Transcript files to process'
     )
     parser.add_argument(
-        '--entities',
+        '--knowledge-base',
         type=Path,
-        default=Path('knowledge_base/normalized_entities.json'),
-        help='Normalized entities JSON file (default: knowledge_base/normalized_entities.json)'
+        default=Path('knowledge_base'),
+        help='Knowledge base directory (default: knowledge_base)'
     )
     parser.add_argument(
         '--output-dir',
@@ -304,16 +328,17 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.entities.exists():
-        print(f"❌ Error: Entities file not found: {args.entities}", file=sys.stderr)
-        print("Run entity extraction and normalization first.", file=sys.stderr)
+    entities_dir = args.knowledge_base / 'entities'
+    if not entities_dir.exists():
+        print(f"❌ Error: Entities directory not found: {entities_dir}", file=sys.stderr)
+        print("   Run 'make kb-normalize' first to create entity files.", file=sys.stderr)
         sys.exit(1)
 
     # Initialize injector
-    injector = LinkInjector(args.entities, dry_run=args.dry_run)
+    injector = LinkInjector(entities_dir, dry_run=args.dry_run)
 
     print("🔗 Injecting Wiki Links")
-    print(f"📖 Entities: {args.entities}")
+    print(f"📂 Entities: {entities_dir}")
     print(f"📁 Transcripts: {len(args.transcripts)} file(s)")
     if args.dry_run:
         print("🔍 DRY RUN MODE")

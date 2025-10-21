@@ -113,19 +113,16 @@ Return ONLY the synthesized description, no preamble or explanation."""
 
         return entity
 
-    def process_normalized_file(self, normalized_path: Path, output_path: Optional[Path] = None, verbose: bool = False) -> None:
+    def process_entities_dir(self, entities_dir: Path, verbose: bool = False) -> None:
         """
-        Process normalized entities file, adding synthesized overviews.
+        Process individual entity JSON files, adding synthesized overviews.
 
         Args:
-            normalized_path: Path to normalized_entities.json
-            output_path: Output path (default: overwrite input)
+            entities_dir: Path to knowledge_base/entities directory
             verbose: Print progress
         """
         if verbose:
-            print(f"📖 Loading: {normalized_path}")
-
-        data = json.loads(normalized_path.read_text(encoding='utf-8'))
+            print(f"📖 Loading entities from: {entities_dir}")
 
         stats = {
             'thinkers': 0,
@@ -136,24 +133,29 @@ Return ONLY the synthesized description, no preamble or explanation."""
 
         # Process each entity type
         for entity_type in ['thinkers', 'concepts', 'frameworks', 'institutions']:
-            entities = data.get(entity_type, [])
+            type_dir = entities_dir / entity_type
+            if not type_dir.exists():
+                continue
 
-            if verbose and entities:
+            if verbose:
                 print(f"\n{entity_type.title()}:")
 
-            for entity in entities:
-                if entity.get('contexts') and len(entity['contexts']) > 1:
-                    self.synthesize_entity_file(entity, entity_type.rstrip('s'), verbose)
-                    stats[entity_type] += 1
+            for json_file in sorted(type_dir.glob('*.json')):
+                try:
+                    entity = json.loads(json_file.read_text(encoding='utf-8'))
 
-        # Save output
-        if output_path is None:
-            output_path = normalized_path
+                    if entity.get('contexts') and len(entity['contexts']) > 1:
+                        self.synthesize_entity_file(entity, entity_type.rstrip('s'), verbose)
+                        stats[entity_type] += 1
 
-        output_path.write_text(
-            json.dumps(data, indent=2, ensure_ascii=False),
-            encoding='utf-8'
-        )
+                        # Save updated entity back to file
+                        json_file.write_text(
+                            json.dumps(entity, indent=2, ensure_ascii=False),
+                            encoding='utf-8'
+                        )
+
+                except Exception as e:
+                    print(f"❌ Error processing {json_file}: {e}", file=sys.stderr)
 
         # Print summary
         print()
@@ -164,7 +166,7 @@ Return ONLY the synthesized description, no preamble or explanation."""
             if count > 0:
                 print(f"  {entity_type.title()}: {count} synthesized")
         print()
-        print(f"✅ Saved to: {output_path}")
+        print(f"✅ Saved synthesized entities to: {entities_dir}")
 
 
 def main():
@@ -172,15 +174,10 @@ def main():
         description="Synthesize unified entity descriptions from multiple contexts"
     )
     parser.add_argument(
-        'normalized_entities',
+        '--knowledge-base',
         type=Path,
-        help='Path to normalized_entities.json'
-    )
-    parser.add_argument(
-        '--output',
-        '-o',
-        type=Path,
-        help='Output path (default: overwrite input file)'
+        default=Path('knowledge_base'),
+        help='Knowledge base directory (default: knowledge_base)'
     )
     parser.add_argument(
         '--api-key',
@@ -207,22 +204,24 @@ def main():
         print("Set ANTHROPIC_API_KEY environment variable or use --api-key", file=sys.stderr)
         sys.exit(1)
 
-    if not args.normalized_entities.exists():
-        print(f"❌ Error: File not found: {args.normalized_entities}", file=sys.stderr)
+    entities_dir = args.knowledge_base / 'entities'
+    if not entities_dir.exists():
+        print(f"❌ Error: Entities directory not found: {entities_dir}", file=sys.stderr)
+        print(f"   Run 'make kb-normalize' first to create entity files.", file=sys.stderr)
         sys.exit(1)
 
     # Initialize synthesizer
     synthesizer = ContextSynthesizer(api_key=api_key, model=args.model)
 
     print("🔄 Synthesizing Entity Contexts")
-    print(f"📁 Source: {args.normalized_entities}")
+    print(f"📁 Knowledge base: {args.knowledge_base}")
+    print(f"📂 Entities: {entities_dir}")
     print()
 
-    # Process file
+    # Process entities
     try:
-        synthesizer.process_normalized_file(
-            args.normalized_entities,
-            output_path=args.output,
+        synthesizer.process_entities_dir(
+            entities_dir,
             verbose=args.verbose
         )
     except Exception as e:

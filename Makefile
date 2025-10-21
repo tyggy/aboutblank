@@ -209,22 +209,22 @@ kb-normalize:
 	fi
 	python tools/normalize_entities.py knowledge_base/extractions/*_entities.json --verbose
 	@echo "✓ Normalization complete!"
-	@echo "Review: knowledge_base/normalized_entities.json"
+	@echo "Review: knowledge_base/entities/"
 
 kb-populate:
 	@echo "Creating entity pages in knowledge base..."
-	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
-		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
-	python tools/populate_entities.py knowledge_base/normalized_entities.json --verbose
+	python tools/populate_entities.py --verbose
 	@echo "✓ Entity pages created!"
 	@echo "Open knowledge_base/ in Obsidian to explore"
 
 kb-link:
 	@echo "Injecting wiki links into transcripts and papers..."
-	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
-		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
 	@# Link transcripts
@@ -242,11 +242,11 @@ kb-link:
 
 kb-enrich:
 	@echo "Cross-enriching entity pages..."
-	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
-		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
-	python tools/enrich_entities.py knowledge_base/normalized_entities.json --verbose
+	python tools/enrich_entities.py --verbose
 	@echo "✓ Entity pages enriched with bidirectional links!"
 
 kb-synthesize:
@@ -256,11 +256,11 @@ kb-synthesize:
 		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
 		exit 1; \
 	fi
-	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
-		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
-	python tools/synthesize_contexts.py knowledge_base/normalized_entities.json --verbose
+	python tools/synthesize_contexts.py --verbose
 	@echo "✓ Synthesized descriptions created!"
 	@echo "Re-run 'make kb-populate' to update entity pages with synthesis"
 
@@ -271,8 +271,8 @@ kb-enrich-deep:
 		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
 		exit 1; \
 	fi
-	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
-		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
 	@if [ -z "$$ENTITIES" ]; then \
@@ -280,8 +280,7 @@ kb-enrich-deep:
 		echo "Usage: make kb-enrich-deep ENTITIES='Morphogenesis \"Cognitive Light Cone\"'"; \
 		exit 1; \
 	fi
-	python tools/enrich_entity_deep.py knowledge_base/normalized_entities.json \
-		--source-dir knowledge_base \
+	python tools/enrich_entity_deep.py \
 		--entities $$ENTITIES \
 		--verbose
 	@echo "✓ Deep enrichment complete!"
@@ -294,13 +293,12 @@ kb-enrich-auto:
 		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
 		exit 1; \
 	fi
-	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
-		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+	@if [ ! -d knowledge_base/entities ]; then \
+		echo "Error: entities/ directory not found. Run 'make kb-normalize' first."; \
 		exit 1; \
 	fi
 	@# Allow custom thresholds via environment variables (defaults: 3 sources or 5 mentions)
-	python tools/enrich_entity_deep.py knowledge_base/normalized_entities.json \
-		--source-dir knowledge_base \
+	python tools/enrich_entity_deep.py \
 		--auto \
 		$${MIN_SOURCES:+--min-sources $$MIN_SOURCES} \
 		$${MIN_MENTIONS:+--min-mentions $$MIN_MENTIONS} \

@@ -33,12 +33,19 @@ class EntityCrossEnricher:
         self.dry_run = dry_run
         self.stats = defaultdict(int)
 
-    def enrich_from_normalized(self, normalized_path: Path, verbose: bool = False) -> None:
-        """Enrich entity pages based on normalized entities."""
+    def enrich_from_entities(self, entities_dir: Path, verbose: bool = False) -> None:
+        """Enrich entity pages based on entity JSON files."""
         if verbose:
-            print(f"📖 Loading normalized entities from: {normalized_path}")
+            print(f"📖 Loading entities from: {entities_dir}")
 
-        data = json.loads(normalized_path.read_text(encoding='utf-8'))
+        # Load all entity types
+        data = {
+            'thinkers': self._load_entity_type(entities_dir / 'thinkers', verbose),
+            'concepts': self._load_entity_type(entities_dir / 'concepts', verbose),
+            'frameworks': self._load_entity_type(entities_dir / 'frameworks', verbose),
+            'institutions': self._load_entity_type(entities_dir / 'institutions', verbose),
+            'questions': self._load_entity_type(entities_dir / 'questions', verbose)
+        }
 
         # Build relationship maps
         relationships = self._build_relationship_maps(data, verbose)
@@ -48,6 +55,22 @@ class EntityCrossEnricher:
         self._enrich_concepts(relationships, verbose)
         self._enrich_frameworks(relationships, verbose)
         self._enrich_institutions(relationships, verbose)
+
+    def _load_entity_type(self, type_dir: Path, verbose: bool = False) -> List[Dict]:
+        """Load all entities of a specific type from individual JSON files."""
+        entities = []
+
+        if not type_dir.exists():
+            return entities
+
+        for json_file in sorted(type_dir.glob('*.json')):
+            try:
+                entity = json.loads(json_file.read_text(encoding='utf-8'))
+                entities.append(entity)
+            except Exception as e:
+                print(f"⚠️  Error loading {json_file}: {e}", file=sys.stderr)
+
+        return entities
 
     def _build_relationship_maps(self, data: Dict, verbose: bool) -> Dict:
         """Build maps of relationships between entities."""
@@ -354,11 +377,6 @@ def main():
         description="Cross-enrich entity pages with bidirectional links"
     )
     parser.add_argument(
-        'normalized_entities',
-        type=Path,
-        help='Normalized entities JSON file'
-    )
-    parser.add_argument(
         '--knowledge-base',
         type=Path,
         default=Path('knowledge_base'),
@@ -378,8 +396,10 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.normalized_entities.exists():
-        print(f"❌ Error: File not found: {args.normalized_entities}", file=sys.stderr)
+    entities_dir = args.knowledge_base / 'entities'
+    if not entities_dir.exists():
+        print(f"❌ Error: Entities directory not found: {entities_dir}", file=sys.stderr)
+        print(f"   Run 'make kb-normalize' first to create entity files.", file=sys.stderr)
         sys.exit(1)
 
     # Initialize enricher
@@ -387,13 +407,13 @@ def main():
 
     print("🔗 Cross-Enriching Entity Pages")
     print(f"📁 Knowledge base: {args.knowledge_base}")
-    print(f"📖 Source: {args.normalized_entities}")
+    print(f"📂 Entities: {entities_dir}")
     if args.dry_run:
         print("🔍 DRY RUN MODE")
     print()
 
     # Enrich
-    enricher.enrich_from_normalized(args.normalized_entities, verbose=args.verbose)
+    enricher.enrich_from_entities(entities_dir, verbose=args.verbose)
 
     # Print summary
     enricher.print_summary()
