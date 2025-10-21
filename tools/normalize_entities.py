@@ -249,15 +249,6 @@ class EntityNormalizer:
 
     def _ensure_complete_structure(self, entity: Dict, entity_type: str) -> Dict:
         """Ensure entity has all required fields for its type."""
-        # DEBUG: Check what's coming in
-        entity_name = entity.get('name', 'unknown')
-        has_context = 'context' in entity
-        has_contexts = 'contexts' in entity
-
-        if entity_type == 'concepts' and not has_context and not has_contexts:
-            print(f"  ⚠️  DEBUG: {entity_name} has no context or contexts!", file=sys.stderr)
-            print(f"     Keys: {list(entity.keys())}", file=sys.stderr)
-
         # Start with a clean copy
         clean_entity = {}
 
@@ -275,8 +266,6 @@ class EntityNormalizer:
             # Only copy if not empty
             if context_value:
                 clean_entity['context'] = context_value
-            else:
-                print(f"  ⚠️  DEBUG: {entity_name} has empty context string", file=sys.stderr)
 
         # Handle synthesized overview
         if 'synthesized_overview' in entity:
@@ -411,11 +400,20 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                # Use existing entity data
-                entity = self.existing_thinkers[existing_match].copy()
-                entity['extracted_as'] = name
-                entity['match_score'] = score
-                normalized_key = existing_match
+                # IMPORTANT: Use NEW extraction data (has context), not old KB entity
+                existing_info = self.existing_thinkers[existing_match]
+                entity = {
+                    'name': existing_info['name'],  # Use canonical name
+                    'filename': existing_info.get('filename', filename),
+                    'aliases': list(set(aliases + existing_info.get('aliases', []))),
+                    'domains': thinker.get('domains', []),
+                    'context': thinker.get('context', ''),  # ← Keep NEW context!
+                    'sources': [source] if source else [],
+                    'extracted_as': name,
+                    'match_score': score,
+                    'is_new': False
+                }
+                normalized_key = existing_info['name']
             else:
                 # Check for duplicate in current extraction
                 if display_name in seen:
@@ -513,10 +511,21 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                entity = self.existing_concepts[existing_match].copy()
-                entity['extracted_as'] = name
-                entity['match_score'] = score
-                normalized_key = existing_match
+                # IMPORTANT: Use NEW extraction data (has context), not old KB entity
+                # The old entity from markdown doesn't have context field
+                existing_info = self.existing_concepts[existing_match]
+                entity = {
+                    'name': existing_info['name'],  # Use canonical name
+                    'filename': existing_info.get('filename', filename),  # Use existing filename
+                    'aliases': list(set(aliases + existing_info.get('aliases', []))),  # Merge aliases
+                    'category': concept.get('category', 'interdisciplinary'),
+                    'context': concept.get('context', ''),  # ← Keep NEW context from extraction!
+                    'sources': [source] if source else [],
+                    'extracted_as': name,
+                    'match_score': score,
+                    'is_new': False  # Matched to existing
+                }
+                normalized_key = existing_info['name']
             else:
                 # Check for fuzzy match against new entities in current batch
                 seen_match, seen_score = self.find_best_match(name, {
@@ -610,10 +619,19 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                entity = self.existing_frameworks[existing_match].copy()
-                entity['extracted_as'] = name
-                entity['match_score'] = score
-                normalized_key = existing_match
+                # IMPORTANT: Use NEW extraction data (has context), not old KB entity
+                existing_info = self.existing_frameworks[existing_match]
+                entity = {
+                    'name': existing_info['name'],
+                    'filename': existing_info.get('filename', filename),
+                    'creator': framework.get('creator'),
+                    'context': framework.get('context', ''),  # ← Keep NEW context!
+                    'sources': [source] if source else [],
+                    'extracted_as': name,
+                    'match_score': score,
+                    'is_new': False
+                }
+                normalized_key = existing_info['name']
             else:
                 # Check for fuzzy match against new entities in current batch
                 seen_match, seen_score = self.find_best_match(name, {
@@ -702,9 +720,17 @@ class EntityNormalizer:
             if existing_match:
                 if verbose:
                     print(f"  🔗 Matched '{name}' → existing '{existing_match}' (score: {score:.2f})")
-                entity = self.existing_institutions[existing_match].copy()
-                entity['extracted_as'] = name
-                entity['match_score'] = score
+                existing_info = self.existing_institutions[existing_match]
+                entity = {
+                    'name': existing_info['name'],
+                    'filename': existing_info.get('filename', filename),
+                    'type': institution.get('type', 'organization'),
+                    'context': institution.get('context', ''),  # Keep NEW context from extraction
+                    'sources': [source] if source else [],
+                    'extracted_as': name,
+                    'match_score': score,
+                    'is_new': False
+                }
                 normalized_key = existing_match
             else:
                 # Check for fuzzy match against new entities in current batch
