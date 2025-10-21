@@ -102,12 +102,30 @@ class EntityPopulator:
         # Build sections conditionally
         sections = []
 
-        # Overview - handle both single context and aggregated contexts
+        # Overview - handle synthesized, aggregated, and single contexts
+        synthesized = thinker.get('synthesized_overview')
         contexts = thinker.get('contexts')
         single_context = thinker.get('context', '')
 
-        if contexts and len(contexts) > 1:
-            # Multiple contexts from different sources
+        if synthesized:
+            # Show synthesized overview first
+            sections.append(f"""## Overview
+
+{synthesized}""")
+
+            # Then show individual perspectives
+            if contexts and len(contexts) > 1:
+                perspective_parts = []
+                for ctx in contexts:
+                    source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                    perspective_parts.append(f"**From {source_name}**: {ctx['text']}")
+
+                sections.append(f"""## Perspectives from Sources
+
+{chr(10).join(perspective_parts)}""")
+
+        elif contexts and len(contexts) > 1:
+            # Multiple contexts from different sources (no synthesis yet)
             overview_parts = []
             for ctx in contexts:
                 source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
@@ -209,12 +227,28 @@ updated: {today}
         # Build sections conditionally
         sections = []
 
-        # Definition - handle both single context and aggregated contexts
+        # Definition - handle synthesized, aggregated, and single contexts
+        synthesized = concept.get('synthesized_overview')
         contexts = concept.get('contexts')
         single_context = concept.get('context', '')
 
-        if contexts and len(contexts) > 1:
-            # Multiple contexts from different sources
+        if synthesized:
+            sections.append(f"""## Definition
+
+{synthesized}""")
+
+            if contexts and len(contexts) > 1:
+                perspective_parts = []
+                for ctx in contexts:
+                    source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'
+                    perspective_parts.append(f"**From {source_name}**: {ctx['text']}")
+
+                sections.append(f"""## Perspectives from Sources
+
+{chr(10).join(perspective_parts)}""")
+
+        elif contexts and len(contexts) > 1:
+            # Multiple contexts from different sources (no synthesis yet)
             definition_parts = []
             for ctx in contexts:
                 source_name = Path(ctx['source']).stem if ctx['source'] else 'Unknown'

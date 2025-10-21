@@ -38,7 +38,9 @@ help:
 	@echo "  make kb-populate                  - Create entity pages in knowledge base"
 	@echo "  make kb-link                      - Inject wiki links into transcripts"
 	@echo "  make kb-enrich                    - Cross-enrich entities with bidirectional links"
+	@echo "  make kb-synthesize                - Synthesize unified entity descriptions from multiple sources"
 	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link → enrich"
+	@echo "  make kb-build-full                - Full pipeline + synthesis (costs extra API calls)"
 	@echo ""
 	@echo "Analysis:"
 	@echo "  make analyze                      - Run concept extraction and mapping"
@@ -244,7 +246,24 @@ kb-enrich:
 	python tools/enrich_entities.py knowledge_base/normalized_entities.json --verbose
 	@echo "✓ Entity pages enriched with bidirectional links!"
 
+kb-synthesize:
+	@echo "Synthesizing unified entity descriptions..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	@if [ ! -f knowledge_base/normalized_entities.json ]; then \
+		echo "Error: normalized_entities.json not found. Run 'make kb-normalize' first."; \
+		exit 1; \
+	fi
+	python tools/synthesize_contexts.py knowledge_base/normalized_entities.json --verbose
+	@echo "✓ Synthesized descriptions created!"
+	@echo "Re-run 'make kb-populate' to update entity pages with synthesis"
+
 kb-build: kb-fix-speakers kb-extract kb-normalize kb-populate kb-link kb-enrich
+
+kb-build-full: kb-fix-speakers kb-extract kb-normalize kb-synthesize kb-populate kb-link kb-enrich
 	@echo ""
 	@echo "════════════════════════════════════════════════"
 	@echo "✅ Knowledge Base Build Complete!"
