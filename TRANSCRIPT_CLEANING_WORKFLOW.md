@@ -86,12 +86,14 @@ python tools/copyedit_with_claude.py knowledge_base/transcripts/raw/*_cleaned.md
 ### Model Options:
 
 ```bash
-# Default: Haiku (fast & cheap, ~$0.02-0.05 per 20-min transcript)
+# Default: Haiku (recommended for copyediting - fast & cheap, ~$0.02-0.05 per 20-min transcript)
 python tools/copyedit_with_claude.py transcript.md
 
-# Sonnet (higher quality, ~$0.15-0.30 per 20-min transcript)
+# Sonnet (available but overkill for copyediting, ~$0.15-0.30 per 20-min transcript)
 python tools/copyedit_with_claude.py transcript.md --model claude-sonnet-4-5-20250929
 ```
+
+**Note:** Haiku 4.5 is perfectly capable for copyediting tasks. Save Sonnet for deep enrichment where higher reasoning is needed.
 
 ### Cost Estimates (Haiku):
 - **Input:** $1 per million tokens (~4M characters)
