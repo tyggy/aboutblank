@@ -19,11 +19,11 @@ import re
 class EntityEnricher:
     """Enrich entities with deep, comprehensive information."""
 
-    def __init__(self, api_key: Optional[str] = None, model: str = "claude-3-5-sonnet-20241022"):
+    def __init__(self, api_key: Optional[str] = None, model: str = "claude-sonnet-4-5-20250929"):
         """
         Initialize enricher.
 
-        Note: Uses Sonnet for better quality and can draw on broader knowledge.
+        Note: Uses latest Sonnet 4.5 for better quality and can draw on broader knowledge.
         """
         self.client = Anthropic(api_key=api_key or os.environ.get('ANTHROPIC_API_KEY'))
         self.model = model
@@ -380,8 +380,8 @@ def main():
     )
     parser.add_argument(
         '--model',
-        default='claude-3-5-sonnet-20241022',
-        help='Claude model (default: Sonnet for quality)'
+        default='claude-sonnet-4-5-20250929',
+        help='Claude model (default: Sonnet 4.5 for quality)'
     )
     parser.add_argument(
         '--verbose',

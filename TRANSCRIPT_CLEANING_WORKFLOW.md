@@ -90,7 +90,7 @@ python tools/copyedit_with_claude.py knowledge_base/transcripts/raw/*_cleaned.md
 python tools/copyedit_with_claude.py transcript.md
 
 # Sonnet (higher quality, ~$0.15-0.30 per 20-min transcript)
-python tools/copyedit_with_claude.py transcript.md --model claude-3-5-sonnet-20241022
+python tools/copyedit_with_claude.py transcript.md --model claude-sonnet-4-5-20250929
 ```
 
 ### Cost Estimates (Haiku):

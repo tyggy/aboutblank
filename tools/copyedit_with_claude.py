@@ -284,12 +284,12 @@ Examples:
   python copyedit_with_claude.py papers/*.md --output-dir papers/edited
 
   # Use a different model (Sonnet for higher quality)
-  python copyedit_with_claude.py transcript.md --model claude-3-5-sonnet-20241022
+  python copyedit_with_claude.py transcript.md --model claude-sonnet-4-5-20250929
 
 Models:
   - claude-haiku-4-5-20251001 (default - Claude Haiku 4.5, fastest & cheapest)
   - claude-3-5-haiku-20241022 (Claude 3.5 Haiku, previous version)
-  - claude-3-5-sonnet-20241022 (Claude 3.5 Sonnet, higher quality, more expensive)
+  - claude-sonnet-4-5-20250929 (Claude Sonnet 4.5, highest quality, more expensive)
 
 Cost estimate (Claude Haiku 4.5):
   - Input: $1 per million tokens (~4M characters)
@@ -334,7 +334,7 @@ Batching:
         choices=[
             'claude-haiku-4-5-20251001',
             'claude-3-5-haiku-20241022',
-            'claude-3-5-sonnet-20241022',
+            'claude-sonnet-4-5-20250929',
             'claude-3-opus-20240229'
         ],
         help='Claude model to use (default: Claude Haiku 4.5 for cost-effectiveness)'
