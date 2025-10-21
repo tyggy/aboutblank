@@ -1,0 +1,21 @@
+{
+  "name": "Scale-Free Cognition",
+  "filename": "scalefree-cognition",
+  "aliases": [
+    "Multi-scale cognition",
+    "scale-free cognition",
+    "hierarchical scaling",
+    "fractal properties",
+    "Hierarchical cognition"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.242596",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Dissipative Structures",
+  "filename": "dissipative-structures",
+  "aliases": [
+    "far-from-equilibrium structures"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Ordered structures maintained by continuous energy dissipation",
+  "category": "interdisciplinary",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.242720",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

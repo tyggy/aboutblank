@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-are-bioelectric-prepatterns-used-to-specify-organ",
+  "aliases": [],
+  "sources": [],
+  "context": "Asks about the mechanism by which voltage gradients encode information about what type of structure should form in different body regions.",
+  "question": "How are bioelectric prepatterns used to specify organ identity and location during development?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.291745",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bioelectric Model Of Morphogenesis",
+  "filename": "bioelectric-model-of-morphogenesis",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:26:20.905142",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

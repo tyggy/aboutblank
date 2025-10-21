@@ -1,0 +1,16 @@
+{
+  "name": "Stress-Induced Evolutionary Innovation",
+  "filename": "stress-induced-evolutionary-innovation",
+  "creator": "Günter Wagner and colleagues",
+  "context": "Model explaining how cellular stress responses drive origin of novel cell types and evolutionary transitions.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.783702",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

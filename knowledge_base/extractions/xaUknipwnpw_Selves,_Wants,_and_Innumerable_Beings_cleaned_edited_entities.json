@@ -1,0 +1,289 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology",
+        "Bioengineering",
+        "Philosophy of Mind",
+        "AI"
+      ],
+      "context": "Director of the Allen Discovery Center at Tus University; researches unconventional minds, collective intelligence of cells, and bioelectric code."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Self-As-Self-Telling Story",
+      "aliases": [
+        "Self-Telling"
+      ],
+      "category": "interdisciplinary",
+      "context": "Concept of selves not as permanent objects but as narratives that hold together body and mind components."
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Matter that actively pursues goals and exhibits agency; not passive substrate but active medium with learning capacity."
+    },
+    {
+      "name": "Pheno-Buddhism",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Question of how Buddhist concepts of consciousness and self extend down the organizational scale."
+    },
+    {
+      "name": "Ingressing Mind",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Non-physical patterns in Platonic Space that interface with physical bodies to manifest consciousness."
+    },
+    {
+      "name": "Unconventional Beings",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Diverse forms of life and intelligence beyond traditional biological organisms, including cyborgs and novel digital entities."
+    },
+    {
+      "name": "Collective Intelligence Of Cells",
+      "aliases": [
+        "Cellular Collective"
+      ],
+      "category": "cognitive",
+      "context": "Coordinated goal-pursuing behavior of cell groups that navigates anatomical morphospace and maintains body integrity."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": [
+        "Morph Space"
+      ],
+      "category": "cognitive",
+      "context": "Abstract space of all possible body configurations that cells navigate from fertilized egg to mature organism."
+    },
+    {
+      "name": "Bioelectric Code",
+      "aliases": [],
+      "category": "ai",
+      "context": "Language of electrical signaling patterns in cells that encodes morphological goals and can be read and written to communicate with cellular collectives."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The scale of the largest goal an organism can pursue in space and time; measure of the scope of consciousness and concern."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Not limited to physical movement in 3D space; includes navigation of abstract spaces like transcriptional or physiological state space."
+    },
+    {
+      "name": "Platonic Space Of Forms",
+      "aliases": [
+        "Platonic Space"
+      ],
+      "category": "interdisciplinary",
+      "context": "Non-physical realm where complex behavioral patterns and minds exist; source of goals and competencies in biological and artificial systems."
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework where every organizational layer solves problems and pursues goals in different spaces; explains how selves scale from molecules to organisms."
+    },
+    {
+      "name": "Self-reinforcing illusion",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist-aligned concept describing how embryos and selves are maintained through coordinated agreement of subunits about shared goals."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [
+        "Suffering",
+        "Stress"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist concept of suffering modeled through stress-driven pursuit of goals by cellular collectives."
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Beings capable of suffering and pursuing goals; extends across diverse forms from molecular networks to complex organisms."
+    },
+    {
+      "name": "Compassion",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Active commitment to care for all sentient beings; central to Bodhisattva vow and expanded through enlarged cognitive light cone."
+    },
+    {
+      "name": "Ion Channels",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular structures enabling electrical communication; ancient architecture allowing abstract goals to control body chemistry."
+    },
+    {
+      "name": "Gap Junctions",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular connections enabling electrical signaling; part of ancient electrical network coordinating cell behavior."
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Voltage differences across cell membranes that encode morphological information and can be measured to read cellular collective goals."
+    },
+    {
+      "name": "Stress",
+      "aliases": [
+        "Goal Deviation"
+      ],
+      "category": "cognitive",
+      "context": "Experience of deviation from goal states; drives goal-seeking behavior in cellular collectives and contributes to dukkha."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Property of being a distinct agent with separate goals; emerges at multiple scales and can be redefined through altered electrical coupling."
+    },
+    {
+      "name": "Identity Disorder",
+      "aliases": [
+        "Dissociative Identity Disorder"
+      ],
+      "category": "cognitive",
+      "context": "Multiple personalities in single brain; analogous to identity questions in embryos where multiple selves could arise from one mass."
+    },
+    {
+      "name": "Regenerative Medicine",
+      "aliases": [],
+      "category": "ai",
+      "context": "Application of understanding cellular goals to induce regeneration and reverse developmental processes."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Modeled as cells disconnecting from collective goals; prevented by maintaining electrical coupling to organism-level goals rather than genetic fixes."
+    },
+    {
+      "name": "Ethical Symbiosis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework for mutually beneficial coexistence with diverse beings (biological, artificial, hybrid) through recognition of their goals and care."
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [
+        "Hybrid Beings"
+      ],
+      "category": "ai",
+      "context": "Composites of technology and biological evolution; increasingly relevant as future beings combining algorithms, engineering, and evolved life."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [],
+      "category": "ai",
+      "context": "Life-like systems generated through computational or engineering means; anthrobots and similar constructs without genetic modification."
+    },
+    {
+      "name": "Commissurotomy",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Surgical severing of corpus callosum; creates scenarios where multiple selves or consciousnesses can emerge from single brain."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin",
+      "context": "Systematic model explaining how goals, competency, and intelligence scale across molecular, cellular, tissue, and organism levels."
+    },
+    {
+      "name": "Bioelectric Code Reading and Writing",
+      "creator": "Michael Levin",
+      "context": "Methodology for detecting and communicating with collective intelligence of cells by manipulating ion channels and electrical patterns."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tus University directed by Michael Levin; combines wet lab work in regenerative medicine, bioengineering, and AI with philosophical inquiry."
+    },
+    {
+      "name": "Center For The Study Of Apparent Selves",
+      "type": "research-center",
+      "context": "Collaborating research center studying questions of identity, consciousness, and the nature of selves across domains."
+    },
+    {
+      "name": "Tus University",
+      "type": "university",
+      "context": "Institution hosting the Allen Discovery Center; supports interdisciplinary research in developmental biology and philosophy of mind."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far down the scale of organization do concepts like suffering, goal-seeking, and consciousness extend?",
+      "category": "metaphysics",
+      "context": "Foundational question termed 'Pheno-Buddhism' exploring whether Buddhist concepts of mind apply to cells, molecular networks, and even chemistry."
+    },
+    {
+      "question": "At what point during evolution and embryogenesis does agential quality and responsibility appear?",
+      "category": "metaphysics",
+      "context": "Addresses the need for continuous explanation of how goal-directedness and agency scale from single cells to complex organisms."
+    },
+    {
+      "question": "How many actual selves exist in a particular piece of self-organizing medium?",
+      "category": "metaphysics",
+      "context": "Questions the countability and discreteness of identity in embryos and other collective systems where unity is maintained by shared goals."
+    },
+    {
+      "question": "Where do the goals, preferences, and attachments of novel beings that have never evolved come from?",
+      "category": "metaphysics",
+      "context": "Explores the source of behavior and competencies in constructs like anthrobots and simple algorithms not shaped by natural selection."
+    },
+    {
+      "question": "What is the cognitive glue that allows a collective to reach a group goal?",
+      "category": "epistemology",
+      "context": "Investigates the mechanisms by which shared goals bind individual subunits into new unified beings."
+    },
+    {
+      "question": "How can we ethically relate to and care for a very wide range of unconventional beings in diverse spaces?",
+      "category": "ethics",
+      "context": "Central challenge arising from expanded understanding of minds, consciousness, and sentience across biological, artificial, and hybrid domains."
+    },
+    {
+      "question": "Can we recognize and detect when non-physical patterns are projecting into the physical world through various interfaces?",
+      "category": "epistemology",
+      "context": "Scientific challenge of identifying consciousness or agency expressed through biological bodies, computers, machines, or other media."
+    },
+    {
+      "question": "How should we enlarge our cognitive light cone to include diverse forms of sentient beings?",
+      "category": "ethics",
+      "context": "Buddhist-inspired question about expanding circles of compassion and moral concern to encompass intelligences in non-physical spaces."
+    },
+    {
+      "question": "What is the relationship between physical bodies and non-physical minds or consciousness?",
+      "category": "metaphysics",
+      "context": "Addresses whether consciousness and goals exist in non-physical spaces and interface with physical reality through embodied systems."
+    },
+    {
+      "question": "How can cancer be therapeutically treated without genetic modification by maintaining proper electrical states?",
+      "category": "other",
+      "context": "Practical question addressing whether cancer results from goal misalignment rather than genetic defects, with implications for novel therapies."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md",
+    "title": "Selves, Wants, and Innumerable Beings",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:36:30.058701"
+  }
+}

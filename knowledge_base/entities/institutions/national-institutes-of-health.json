@@ -1,0 +1,15 @@
+{
+  "name": "National Institutes Of Health",
+  "filename": "national-institutes-of-health",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:26:20.925256",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

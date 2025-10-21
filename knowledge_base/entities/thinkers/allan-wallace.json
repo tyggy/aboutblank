@@ -1,0 +1,22 @@
+{
+  "name": "Allan Wallace",
+  "filename": "allan-wallace",
+  "aliases": [
+    "A. Wallace"
+  ],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Scholar bridging Buddhism and neuroscience through contemplative science framework",
+  "domains": [
+    "Contemplative Science",
+    "Buddhist Studies"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.224909",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

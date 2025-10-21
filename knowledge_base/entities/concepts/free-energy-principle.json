@@ -1,0 +1,28 @@
+{
+  "name": "Free Energy Principle",
+  "filename": "free-energy-principle",
+  "aliases": [
+    "free-energy principle",
+    "FEP",
+    "predictive coding",
+    "predictive processing",
+    "variational free energy",
+    "free energy principle",
+    "sense-making",
+    "free energy minimization",
+    "Predictive coding",
+    "active inference framework",
+    "Active inference",
+    "active inference"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.231718",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

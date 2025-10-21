@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "what-determines-which-genotypes-must-be-altered-to",
+  "aliases": [],
+  "sources": [],
+  "context": "Inverse problem in biomedical engineering; paper argues solution requires understanding morphogenetic competencies, not just molecular details.",
+  "question": "What determines which genotypes must be altered to produce specific large-scale anatomical features and functional outcomes?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.295929",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

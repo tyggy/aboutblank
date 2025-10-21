@@ -1,0 +1,17 @@
+{
+  "name": "Sensory Substitution",
+  "filename": "sensory-substitution",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Augmentation of human perception with novel sensory inputs, demonstrating plasticity of embodied cognition.",
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.248466",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

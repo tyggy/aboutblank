@@ -1,0 +1,19 @@
+{
+  "name": "Epigenetic Inheritance",
+  "filename": "epigenetic-inheritance",
+  "aliases": [
+    "Transgenerational epigenetics",
+    "heritable epigenetic variation",
+    "transgenerational epigenetic inheritance"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.231595",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

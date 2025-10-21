@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-we-develop-artificial-neural-networks-whose-output",
+  "aliases": [],
+  "sources": [],
+  "context": "Seeks to replicate evolutionary learning and generalization capacity in machine learning architectures.",
+  "question": "Can we develop artificial neural networks whose output determines machines that solve problems rather than specific solutions?",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.283234",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

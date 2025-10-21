@@ -1,0 +1,17 @@
+{
+  "name": "Plasticity Of Life",
+  "filename": "plasticity-of-life",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md"
+  ],
+  "context": "Demonstrates that organisms and cells can express entirely novel behaviors and capabilities when placed in new contexts without genetic modification.",
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.255724",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

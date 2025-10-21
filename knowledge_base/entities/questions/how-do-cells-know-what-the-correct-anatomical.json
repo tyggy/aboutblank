@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-do-cells-know-what-the-correct-anatomical",
+  "aliases": [],
+  "sources": [],
+  "context": "Central question about the information structure encoding homeostatic setpoints and how distributed cellular collectives store and retrieve pattern memories.",
+  "question": "How do cells know what the correct anatomical configuration should be and measure whether they have reached it?",
+  "category": "epistemology",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.291318",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

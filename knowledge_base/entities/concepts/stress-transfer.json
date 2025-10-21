@@ -1,0 +1,19 @@
+{
+  "name": "Stress Transfer",
+  "filename": "stress-transfer",
+  "aliases": [
+    "stress transduction",
+    "stress transfer",
+    "bidirectional stress flow"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.232924",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

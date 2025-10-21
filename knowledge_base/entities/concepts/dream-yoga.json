@@ -1,0 +1,17 @@
+{
+  "name": "Dream Yoga",
+  "filename": "dream-yoga",
+  "aliases": [
+    "Tibetan Dream Yoga"
+  ],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.251246",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

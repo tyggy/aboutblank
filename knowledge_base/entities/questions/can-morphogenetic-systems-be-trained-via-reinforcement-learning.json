@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-morphogenetic-systems-be-trained-via-reinforcement-learning",
+  "aliases": [],
+  "sources": [],
+  "context": "Untested prediction that tissue collectives could learn to build desired structures through reward and punishment signals rather than direct pathway control.",
+  "question": "Can morphogenetic systems be trained via reinforcement learning for specific morphological outcomes?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.291439",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

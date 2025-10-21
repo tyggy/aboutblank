@@ -1,0 +1,17 @@
+{
+  "name": "Hsp90 Capacitor",
+  "filename": "hsp90-capacitor",
+  "aliases": [
+    "heat shock protein 90"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.242405",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

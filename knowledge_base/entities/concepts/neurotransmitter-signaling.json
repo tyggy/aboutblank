@@ -1,0 +1,19 @@
+{
+  "name": "Neurotransmitter Signaling",
+  "filename": "neurotransmitter-signaling",
+  "aliases": [
+    "chemical neurotransmission"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Use of chemical messengers for long-range and local signaling in development and regeneration.",
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.255918",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

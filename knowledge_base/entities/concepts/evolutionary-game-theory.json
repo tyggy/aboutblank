@@ -1,0 +1,17 @@
+{
+  "name": "Evolutionary Game Theory",
+  "filename": "evolutionary-game-theory",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Framework for understanding evolution through game-theoretic interactions; relevant to understanding scaling of cooperation",
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.249865",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

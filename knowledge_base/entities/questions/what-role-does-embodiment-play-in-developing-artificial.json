@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "what-role-does-embodiment-play-in-developing-artificial",
+  "aliases": [],
+  "sources": [],
+  "context": "Whether AGI requires embodiment in three-dimensional space or if navigation of abstract high-dimensional spaces suffices, with implications for AI design",
+  "question": "What role does embodiment play in developing artificial general intelligence?",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.983896",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

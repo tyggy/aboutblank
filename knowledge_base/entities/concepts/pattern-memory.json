@@ -1,0 +1,22 @@
+{
+  "name": "Pattern Memory",
+  "filename": "pattern-memory",
+  "aliases": [
+    "pattern memory",
+    "anatomical memory",
+    "anatomical setpoint",
+    "morphological memory",
+    "morphogenetic memory",
+    "bioelectric pattern memory"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.248529",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

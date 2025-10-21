@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-machine-learning-principles-and-algorithms-help-explain",
+  "aliases": [],
+  "sources": [],
+  "context": "Asks whether AI learning theory provides explanatory power for understanding biological adaptation and morphogenesis.",
+  "question": "Can machine learning principles and algorithms help explain biological evolution and development?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.301039",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

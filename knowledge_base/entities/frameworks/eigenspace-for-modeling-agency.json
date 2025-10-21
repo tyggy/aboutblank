@@ -1,0 +1,15 @@
+{
+  "name": "Eigenspace For Modeling Agency",
+  "filename": "eigenspace-for-modeling-agency",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:26:20.906206",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

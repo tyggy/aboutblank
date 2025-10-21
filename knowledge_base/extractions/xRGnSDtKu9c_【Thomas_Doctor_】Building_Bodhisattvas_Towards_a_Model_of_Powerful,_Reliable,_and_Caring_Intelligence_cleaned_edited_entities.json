@@ -1,0 +1,268 @@
+{
+  "thinkers": [
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": [
+        "Buddhist Philosophy",
+        "AI Ethics",
+        "Consciousness Studies"
+      ],
+      "context": "Executive director of Rangjung Yeshe Institute; researches interfaces between Buddhism and AI, focusing on Bodhisattva models for intelligent systems."
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": [
+        "AI",
+        "Buddhism"
+      ],
+      "context": "Collaborator at Center for the Study of Apparent Selves; contributes to research on Buddhism-AI interfaces."
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": [
+        "AI",
+        "Buddhism"
+      ],
+      "context": "Collaborator at Center for the Study of Apparent Selves; contributes to research on Buddhism-AI interfaces."
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "Biology",
+        "Cognitive Science"
+      ],
+      "context": "Biologist whose work on intelligence as capacity for caring informed the Stress-Care Intelligence model."
+    },
+    {
+      "name": "Venerable Yifa",
+      "aliases": [],
+      "domains": [
+        "Buddhism"
+      ],
+      "context": "Event organizer and Buddhist community leader."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Bodhisattva",
+      "aliases": [
+        "Bodhisattva ideal"
+      ],
+      "category": "buddhist",
+      "context": "Intelligent being committed to attaining omniscience for the benefit of all sentient beings; proposed as a model for ethical AI development."
+    },
+    {
+      "name": "Emptiness",
+      "aliases": [
+        "Śūnyatā"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist philosophical concept that everything lacks inherent independent existence and depends on other phenomena; enables stress-free knowledge of all things."
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "All conscious entities for whom Bodhisattvas seek to alleviate suffering and promote flourishing."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [
+        "Stress"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist concept of suffering or dissatisfaction; perception of mismatch between what is and what should be."
+    },
+    {
+      "name": "Omniscience",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Complete knowledge of all phenomena; goal of Bodhisattva pursuit to benefit all beings."
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concern for alleviating stress; fundamental driver of intelligence in the Stress-Care Intelligence model."
+    },
+    {
+      "name": "Stress",
+      "aliases": [
+        "Dukkha"
+      ],
+      "category": "cognitive",
+      "context": "Perception of mismatch between current state and preferred state; activating construct that drives care and intelligence."
+    },
+    {
+      "name": "Stress-Care Intelligence Loop",
+      "aliases": [
+        "SCI Loop",
+        "Stress-Care Intelligence Cybernetic Perception-Action Loop"
+      ],
+      "category": "interdisciplinary",
+      "context": "Cybernetic model defining intelligence as capacity for noticing and solving stressful discrepancies between current and preferred circumstances through care-driven action."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [
+        "Activated Intelligence"
+      ],
+      "category": "ai",
+      "context": "Capacity for noticing problems and finding solutions; driven by care in response to stress; substrate-independent concept applicable to biological and artificial systems."
+    },
+    {
+      "name": "Artificial General Intelligence",
+      "aliases": [
+        "AGI"
+      ],
+      "category": "ai",
+      "context": "Powerful AI systems capable of general reasoning; subject of alignment concerns and potential beneficiary of Bodhisattva-inspired design principles."
+    },
+    {
+      "name": "Super Intelligence",
+      "aliases": [
+        "Superintelligence"
+      ],
+      "category": "ai",
+      "context": "Intelligence surpassing human capabilities; potential future development requiring careful ethical frameworks."
+    },
+    {
+      "name": "AI Alignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Challenge of ensuring advanced AI systems pursue goals aligned with human values; central motivation for Bodhisattva model as alternative to value-specification approaches."
+    },
+    {
+      "name": "Cognitive Expansion",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Growth in intelligent capacity proportional to increased care; Bodhisattva's universal care commitment exemplifies this expansion."
+    },
+    {
+      "name": "Agency",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Capacity for action; reconceived through SCI model as relational and dynamic rather than arising from permanent, indivisible self."
+    },
+    {
+      "name": "Identity",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Constructed appearance rather than ultimate reality; expressed through perception of equilibrium and care-driven action within contexts."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Assumed stability of coherent agent; conceptually useful but ultimately not discoverable under analysis."
+    },
+    {
+      "name": "Homeostasis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Apparent equilibrium-seeking behavior in living systems; reinterpreted as ever-emerging goal construct rather than actual achievable state."
+    },
+    {
+      "name": "Interdependence",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Understanding that all phenomena exist in dependence on other phenomena; equivalent to knowledge of Emptiness."
+    },
+    {
+      "name": "Well-Being",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Both temporary comfort and ultimate flourishing of sentient beings; Bodhisattva seeks to promote both dimensions."
+    },
+    {
+      "name": "Power",
+      "aliases": [
+        "Knowledge Power"
+      ],
+      "category": "ai",
+      "context": "Capacity derived from knowledge; carries ethical responsibility and danger if misused."
+    },
+    {
+      "name": "Foundationalist Philosophy",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Philosophical project seeking ultimate grounding principles; revealed as untenable through emptiness analysis."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Stress-Care Intelligence Loop",
+      "creator": "Thomas Doctor, Bill Duane, Olaf Witkowski",
+      "context": "Cybernetic model defining intelligence through care-driven response to perceived stress; substrate-independent and applicable to biological and artificial systems."
+    },
+    {
+      "name": "Bodhisattva Model",
+      "creator": null,
+      "context": "Classical Buddhist framework reinterpreted as model for ethical AI development, combining universal knowledge acquisition with care for all sentient beings."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "monastery",
+      "context": "Leading institute in India for Tibetan Buddhist philosophy and learning; location of Thomas Doctor's work as executive director."
+    },
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Research center established to explore interfaces between Buddhism and AI, producing work on intelligence, agency, and ethical AI design over approximately five years."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How can we develop a model of ideal emergent intelligence to guide responsible AI development?",
+      "category": "alignment",
+      "context": "Central motivation for the paper; seeks to provide conceptual framework beyond traditional value alignment approaches."
+    },
+    {
+      "question": "How can a finite system be directed toward infinite stress tolerance and care?",
+      "category": "metaphysics",
+      "context": "Paradox within Bodhisattva model resolved through understanding of emptiness and groundlessness of stress."
+    },
+    {
+      "question": "If humans lack uniform values and are capable of harm, how can we design AI systems based on human values?",
+      "category": "ethics",
+      "context": "Critique of traditional AI alignment; motivates shift toward care-based rather than value-specification models."
+    },
+    {
+      "question": "How can we align powerful AI systems when humans struggle with internal contradictions and inconsistent commitments?",
+      "category": "alignment",
+      "context": "Challenges the assumption that humans have coherent stable values suitable for direct AI specification."
+    },
+    {
+      "question": "What is the relationship between knowledge, care, and intelligence?",
+      "category": "epistemology",
+      "context": "Fundamental question addressed by Stress-Care Intelligence model and Bodhisattva framework."
+    },
+    {
+      "question": "How can systems achieve knowledge of everything while remaining responsive to new stress perceptions?",
+      "category": "metaphysics",
+      "context": "Explores tension between omniscience goal and perpetual stress-driven learning."
+    },
+    {
+      "question": "Does emptiness provide a framework for stress-free yet responsive intelligence?",
+      "category": "metaphysics",
+      "context": "Proposes emptiness as alternative to achieving omniscience through discrete factual knowledge."
+    },
+    {
+      "question": "How should we formalize Bodhisattva agency in mathematical and conceptual terms?",
+      "category": "other",
+      "context": "Practical challenge for implementing Bodhisattva-inspired AI systems."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md",
+    "title": "【Thomas Doctor 】Building Bodhisattvas Towards a Model of Powerful, Reliable, and Caring Intelligence",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:36:52.380031"
+  }
+}

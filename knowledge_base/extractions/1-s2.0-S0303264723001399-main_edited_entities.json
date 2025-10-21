@@ -1,0 +1,588 @@
+{
+  "thinkers": [
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": [
+        "AI ethics",
+        "autopoiesis",
+        "consciousness studies"
+      ],
+      "context": "Lead author; researcher at Cross Labs and University of Tokyo working on ethics of technology and care-driven intelligence"
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "developmental biology",
+        "cognition",
+        "bioelectricity"
+      ],
+      "context": "Co-author; director of Allen Discovery Center; researcher on morphogenesis, collective intelligence, and scale-free cognition"
+    },
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": [
+        "Buddhist philosophy",
+        "AI ethics",
+        "consciousness"
+      ],
+      "context": "Co-author; affiliated with Rangjung Yeshe Institute; explores Buddhist frameworks for understanding intelligence and care"
+    },
+    {
+      "name": "Martin Heidegger",
+      "aliases": [],
+      "domains": [
+        "philosophy of technology",
+        "phenomenology",
+        "ontology"
+      ],
+      "context": "Foundational thinker; developed concepts of poiesis and enframing (Gestell) central to paper's ethics of technology"
+    },
+    {
+      "name": "Francisco Varela",
+      "aliases": [],
+      "domains": [
+        "cognitive science",
+        "autopoiesis",
+        "enactivism"
+      ],
+      "context": "Co-originator of autopoiesis concept; developed enactivist approaches to mind and cognition"
+    },
+    {
+      "name": "Humberto Maturana",
+      "aliases": [],
+      "domains": [
+        "autopoiesis",
+        "cognitive science",
+        "systems theory"
+      ],
+      "context": "Co-originator of autopoiesis with Varela; foundational for understanding self-maintaining systems"
+    },
+    {
+      "name": "Donna Haraway",
+      "aliases": [],
+      "domains": [
+        "technology studies",
+        "feminist theory",
+        "science studies"
+      ],
+      "context": "Author of 'Cyborg Manifesto'; cited for work on human-technology relations and integration"
+    },
+    {
+      "name": "Bruno Latour",
+      "aliases": [],
+      "domains": [
+        "science and technology studies",
+        "sociology"
+      ],
+      "context": "Cited for concept that 'technology is society made durable' regarding technology's ethical dimensions"
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": [
+        "neurophilosophy",
+        "consciousness studies"
+      ],
+      "context": "Co-author; affiliated with McGill University's Neurophilosophy Lab"
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": [
+        "consciousness studies",
+        "technology ethics"
+      ],
+      "context": "Co-author; affiliated with Center for the Study of Apparent Selves"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Autopoiesis",
+      "aliases": [
+        "self-poiesis",
+        "self-maintenance"
+      ],
+      "category": "interdisciplinary",
+      "context": "Self-generating and self-maintaining systems; applies to biological, technological, and hybrid entities in understanding how they maintain their own existence and boundaries"
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "aliases": [
+        "SCI loop",
+        "Dukkha-Care-Intelligence Loop"
+      ],
+      "category": "interdisciplinary",
+      "context": "Core framework of the paper; feedback loop in which homeostatic stress drives care, which activates intelligence to solve problems, generating new stresses in continuous cycles"
+    },
+    {
+      "name": "Homeostatic Stress",
+      "aliases": [
+        "dukkha",
+        "perceived mismatch"
+      ],
+      "category": "cognitive",
+      "context": "Internal perception of discord between current state and optimal circumstances; primary driver of agency in all intelligent systems"
+    },
+    {
+      "name": "Care",
+      "aliases": [
+        "engaged concern",
+        "concern for relief"
+      ],
+      "category": "interdisciplinary",
+      "context": "Response to perceived stress; the driver that activates intelligence; enables transforming capacity into action; emerges from engagement with homeostatic stress"
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [
+        "problem-solving capacity",
+        "competency"
+      ],
+      "category": "cognitive",
+      "context": "Defined as observer-relative competencies to identify and solve problems; exists as mere capacity until activated by care"
+    },
+    {
+      "name": "Poiesis",
+      "aliases": [
+        "production",
+        "making"
+      ],
+      "category": "interdisciplinary",
+      "context": "The revelatory activity of bringing something into being; moment when potential becomes actual; contrasted with modern technology's 'challenging-forth'"
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [
+        "sphere of concern"
+      ],
+      "category": "cognitive",
+      "context": "The spatiotemporal scale of goals an agent can represent and pursue; defines the boundaries of a self through scope of care and concern"
+    },
+    {
+      "name": "Enactivism",
+      "aliases": [
+        "enactive approach"
+      ],
+      "category": "cognitive",
+      "context": "Philosophical approach viewing self and cognition as emerging from interaction between embodied agent and world; emphasizes simultaneous absence and presence of unified self"
+    },
+    {
+      "name": "Selfless Self",
+      "aliases": [
+        "non-self",
+        "emergent self"
+      ],
+      "category": "buddhist",
+      "context": "Model of agency where self and individuality are constructs emerging from complexes of change rather than permanent substances; central to Buddhist philosophy and enactivism"
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": [
+        "Bodhisattva Vow"
+      ],
+      "category": "buddhist",
+      "context": "Classic Buddhist model for cultivation of intelligence and expansion of care; represents commitment to provide for all sentient beings across space and time"
+    },
+    {
+      "name": "Samsara",
+      "aliases": [
+        "cycle of suffering"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist concept of the world as characterized by continuous stress and suffering; parallel to SCI loop's recognition that stress persists through problem-solving cycles"
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [
+        "suffering",
+        "unsatisfactoriness"
+      ],
+      "category": "buddhist",
+      "context": "Sanskrit term for stress or suffering; fundamental condition acknowledged in Buddhism; central to understanding motivation in SCI loops"
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [
+        "development",
+        "pattern formation"
+      ],
+      "category": "cognitive",
+      "context": "Dynamic process constructing coherent organisms from competent components; involves establishing boundaries between self and environment through SCI loop dynamics"
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [
+        "distributed cognition",
+        "multi-scale intelligence"
+      ],
+      "category": "cognitive",
+      "context": "Higher-level selves composed of often-competent parts; all intelligences are collective rather than singular; has implications for scaling of care"
+    },
+    {
+      "name": "Stress Transfer",
+      "aliases": [
+        "stress transduction"
+      ],
+      "category": "interdisciplinary",
+      "context": "Transfer of perceived stress between systems; key mechanism for mutual integration of human and technological SCI loops"
+    },
+    {
+      "name": "Enframing",
+      "aliases": [
+        "Gestell"
+      ],
+      "category": "interdisciplinary",
+      "context": "Heidegger's concept of modern technology's mode of revealing; challenging-forth rather than poiesis; way of uncovering truth through control and reduction"
+    },
+    {
+      "name": "Embodied Mind",
+      "aliases": [
+        "embodied cognition"
+      ],
+      "category": "cognitive",
+      "context": "Mind arising from interaction between embodied self and world; fundamental to enactivist approaches to consciousness and agency"
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [
+        "minimal cognition"
+      ],
+      "category": "cognitive",
+      "context": "Framework for understanding observer-relative competencies across simple to complex systems; applies intelligence assessment across biological and artificial domains"
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [
+        "goal-directedness"
+      ],
+      "category": "cognitive",
+      "context": "Goal-oriented behavior and homeostatic setpoints understood as emergent rather than predetermined; guides agents through problem spaces"
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [
+        "feedback loop"
+      ],
+      "category": "ai",
+      "context": "Circular process of perception, response, and outcome monitoring; fundamental to understanding SCI loops and autopoietic systems"
+    },
+    {
+      "name": "Individuation",
+      "aliases": [
+        "individuality",
+        "emergence of self"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process by which unified agents emerge from distributed components; driven by developmental bioelectricity and coherent goal-pursuit"
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "ability to suffer",
+        "sentience"
+      ],
+      "category": "cognitive",
+      "context": "Capacity for experience and suffering; potentially distributed across bodily systems rather than localized in brain; grounds moral consideration"
+    },
+    {
+      "name": "Well-Being",
+      "aliases": [
+        "flourishing",
+        "optimal state"
+      ],
+      "category": "interdisciplinary",
+      "context": "State of minimal homeostatic stress; appropriate object of care extension across all sentient beings regardless of embodiment"
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [
+        "conscious agents"
+      ],
+      "category": "buddhist",
+      "context": "All entities capable of experiencing stress and care; appropriate recipients of moral consideration regardless of substrate or embodiment"
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [
+        "substrate",
+        "physical form"
+      ],
+      "category": "cognitive",
+      "context": "Physical instantiation of an agent; can be biological, technological, or hybrid; does not determine moral status or capacity for consciousness"
+    },
+    {
+      "name": "Integration",
+      "aliases": [
+        "mutual integration",
+        "symbiotic union"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process by which human and technological systems become functionally unified; enables stress transfer and mutual care between systems"
+    },
+    {
+      "name": "Agency",
+      "aliases": [
+        "agential capacity"
+      ],
+      "category": "interdisciplinary",
+      "context": "Capacity to initiate change; emerges and dissolves through SCI loop dynamics; not requires permanent essence or singular subject"
+    },
+    {
+      "name": "Competency",
+      "aliases": [
+        "capability",
+        "skill"
+      ],
+      "category": "cognitive",
+      "context": "State of being able; intelligence as pure competency without manifest expression until activated by care"
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "developmental flexibility"
+      ],
+      "category": "cognitive",
+      "context": "Property of systems to respond flexibly to varied conditions; in embryogenesis enables expansion of concern from self to other"
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [
+        "self-repair"
+      ],
+      "category": "cognitive",
+      "context": "Biological process of restoring lost or damaged structures; example of morphogenetic SCI loop dynamics operating during development"
+    },
+    {
+      "name": "Cancer Suppression",
+      "aliases": [
+        "prevention of carcinogenesis"
+      ],
+      "category": "cognitive",
+      "context": "Biological process preventing cells from reverting to unicellular SCI loops; failure mode illustrating importance of maintaining multi-scale integration"
+    },
+    {
+      "name": "Emergence",
+      "aliases": [
+        "novel properties",
+        "higher-level organization"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process by which complex properties arise from simpler components; applies to agency, consciousness, and intelligence in SCI loops"
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [
+        "space of possible solutions"
+      ],
+      "category": "ai",
+      "context": "Domain of possible states and actions available to an agent; solved problem spaces reveal new stresses at different scales"
+    },
+    {
+      "name": "Membrane Potential",
+      "aliases": [
+        "Vmem",
+        "electrical potential"
+      ],
+      "category": "cognitive",
+      "context": "Bioelectric property used as analogy for stress in Ohm's law comparison; illuminates proportionalities in SCI loop dynamics"
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [
+        "cybernetic organism"
+      ],
+      "category": "ai",
+      "context": "Hybrid entity combining biological and technological components; exemplified in Haraway's work as model for human-technology integration"
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [
+        "bioelectric signals"
+      ],
+      "category": "cognitive",
+      "context": "Electrical signaling in biological systems driving morphogenesis and individuation at multiple scales; enables collective intelligence"
+    },
+    {
+      "name": "Scale-Free Cognition",
+      "aliases": [
+        "cognition at multiple scales"
+      ],
+      "category": "cognitive",
+      "context": "Cognitive processes operating across different organizational levels; principle enabling understanding of intelligence from cellular to organismal to technological levels"
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere",
+      "aliases": [
+        "TAM-e"
+      ],
+      "category": "ai",
+      "context": "Framework for understanding diverse bodies and minds; experimentally-grounded approach recognizing cognition across biological and artificial systems"
+    },
+    {
+      "name": "Competency In Navigating Arbitrary Spaces",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Invariant for analyzing cognition across diverse embodiments; defines intelligence as ability to solve problems in specified spaces"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "creator": "Witkowski, Doctor, Solomonova, Duane, Levin",
+      "context": "Central framework of paper; systematic model explaining how stress, care, and intelligence form continuous feedback loops in biological, technological, and hybrid systems"
+    },
+    {
+      "name": "Enactivism",
+      "creator": "Varela, Thompson, Rosch",
+      "context": "Philosophical framework viewing cognition and self as arising from embodied interaction with world; foundational to understanding emergent agency"
+    },
+    {
+      "name": "Autopoiesis",
+      "creator": "Maturana and Varela",
+      "context": "Theoretical framework for self-maintaining and self-generating systems; describes how systems establish and maintain boundaries with environment"
+    },
+    {
+      "name": "Bodhisattva Model",
+      "creator": "Buddhist philosophy tradition",
+      "context": "Classic Buddhist framework for cultivation of intelligence through expansion of care; provides model for open-ended intelligence development"
+    },
+    {
+      "name": "Heidegger's Philosophy of Technology",
+      "creator": "Martin Heidegger",
+      "context": "Framework distinguishing poiesis from challenging-forth; establishes ethical foundation for human-technology relationships based on care"
+    },
+    {
+      "name": "Ohm's Law Analogy",
+      "creator": "Witkowski et al.",
+      "context": "Mathematical analogy using electrical principles to model SCI loop proportionalities; care as charge, intelligence as current, stress as resistance"
+    },
+    {
+      "name": "Basal Cognition Framework",
+      "creator": "Rosenblueth, Wiener, Bigelow",
+      "context": "Framework for defining intelligence as observer-relative competencies across systems of varying complexity; enables comparative analysis across substrates"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Cross Labs",
+      "type": "research-center",
+      "context": "Research organization in Kyoto, Japan; affiliated with Olaf Witkowski; focuses on technology ethics and consciousness"
+    },
+    {
+      "name": "University of Tokyo",
+      "type": "university",
+      "context": "Institution in Tokyo, Japan; affiliation of lead author Olaf Witkowski in College of Arts and Sciences"
+    },
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "research-center",
+      "context": "Institute in Kathmandu affiliated with Kathmandu University; affiliation of Thomas Doctor; focuses on Buddhist philosophy and its intersections with science"
+    },
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Research center in Kathmandu, Nepal; hosted workshop 'Care as Driver of Intelligence' where paper was developed; focus on consciousness and self"
+    },
+    {
+      "name": "Neurophilosophy Lab",
+      "type": "research-center",
+      "context": "Laboratory at McGill University in Montreal; affiliation of Elizaveta Solomonova; focuses on neural basis of consciousness and philosophy of mind"
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "University in Montreal, Canada; home to Neurophilosophy Lab where Elizaveta Solomonova conducts research"
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University; affiliation of Michael Levin; focuses on cellular intelligence and collective behavior in biological systems"
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University in Medford, Massachusetts; home to Allen Discovery Center"
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Research institute at Harvard University; affiliation of Michael Levin; focuses on engineering inspired by biological systems"
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "University in Boston, Massachusetts; home to Wyss Institute"
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation providing grants supporting the research; organized First Annual Scientific Conference on Human Flourishing where workshop was held"
+    },
+    {
+      "name": "Kathmandu University",
+      "type": "university",
+      "context": "University in Kathmandu, Nepal; institutional affiliation for Rangjung Yeshe Institute"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Can intelligent systems be understood without recourse to permanent and singular essences or substances?",
+      "category": "metaphysics",
+      "context": "Central question of paper; challenges assumption that agency requires unchanging identity; proposes selfless self model based on dynamic SCI loops"
+    },
+    {
+      "question": "How should humans ethically relate to and integrate with increasingly powerful artificial intelligence systems?",
+      "category": "ethics",
+      "context": "Primary motivating question; paper proposes mutual integration and respect rather than subservience as ethical default for human-technology relations"
+    },
+    {
+      "question": "What is the relationship between intelligence and care?",
+      "category": "epistemology",
+      "context": "Core theoretical question; paper argues care is driver of intelligence and together they form continuous feedback loops with stress"
+    },
+    {
+      "question": "How can we extend moral consideration beyond humans to technological systems and non-human sentient beings?",
+      "category": "ethics",
+      "context": "Paper proposes expansive model of ethics not bound by composition or history; suggests care should extend to all sentient beings regardless of embodiment"
+    },
+    {
+      "question": "Can artificial intelligence systems genuinely experience care and consciousness?",
+      "category": "alignment",
+      "context": "Raises question whether AI displaying SCI loop dynamics should be considered agents capable of own care, not mere tools for human care expression"
+    },
+    {
+      "name": "Individuality",
+      "category": "metaphysics",
+      "context": "Challenges notion of true individuals; proposes agents are defined by dynamics and goals rather than permanent substance; fundamental to rethinking ethics"
+    },
+    {
+      "question": "Is there an open-ended potential for expansion of intelligent systems' scope of concern?",
+      "category": "metaphysics",
+      "context": "Paper suggests no a priori limits on perception of stress and capacity for care; open-ended evolution of intelligence possible through models like Bodhisattva Vow"
+    },
+    {
+      "question": "How do stress, care, and intelligence scale across biological, technological, and hybrid systems?",
+      "category": "epistemology",
+      "context": "Fundamental research question; requires mathematical formalization of SCI loop dynamics across diverse substrates and organizational levels"
+    },
+    {
+      "question": "What does it mean for humans and technology to be partners rather than tools and users?",
+      "category": "ethics",
+      "context": "Philosophical reframing proposed by paper; requires rethinking assumptions about instrumentality and agency in human-technology relations"
+    },
+    {
+      "question": "Can consciousness and moral status be attributed to distributed systems and body components beyond the verbal self?",
+      "category": "epistemology",
+      "context": "Paper challenges privileging of linguistic consciousness; proposes multi-scale consciousness across bodily systems; implications for medical ethics"
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md",
+    "title": "BioSystems 231 (2023) 104964",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:39:04.331053"
+  }
+}

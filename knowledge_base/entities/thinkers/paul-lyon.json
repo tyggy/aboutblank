@@ -1,0 +1,18 @@
+{
+  "name": "Paul Lyon",
+  "filename": "paul-lyon",
+  "aliases": [
+    "Lyon",
+    "P.L."
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "domains": [],
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.217600",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Perception And Cognition",
+  "filename": "perception-and-cognition",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
+  ],
+  "context": "Methods of understanding and knowing; need to develop new approaches to perceive and cognize factors that are important but difficult to measure.",
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.252673",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

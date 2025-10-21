@@ -1,0 +1,1006 @@
+=== RAW RESPONSE ===
+```json
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["developmental biology", "cognitive science", "bioelectricity"],
+      "context": "Developer of cognitive light cone theory and frameworks for understanding morphogenesis, scale-free cognition, and bioelectric approaches to biological systems."
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": ["AI ethics", "systems theory", "technology philosophy"],
+      "context": "Co-author and lead researcher on stress-care-intelligence loops and the relationship between humans and technology."
+    },
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": ["Buddhist philosophy", "cognitive science", "systems theory"],
+      "context": "Co-author integrating Buddhist models of care with contemporary theories of intelligence and agency."
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": ["neurophilosophy", "consciousness studies"],
+      "context": "Co-author at McGill University's Neurophilosophy Lab contributing to consciousness and self studies."
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": ["systems theory", "technology ethics"],
+      "context": "Co-author at Center for the Study of Apparent Selves contributing to research on apparent selves and technology integration."
+    },
+    {
+      "name": "Martin Heidegger",
+      "aliases": [],
+      "domains": ["philosophy of technology", "phenomenology", "ontology"],
+      "context": "Foundational philosopher whose work on poiesis, enframing (Gestell), and the relationship between humans and technology provides the philosophical grounding for the paper."
+    },
+    {
+      "name": "Francisco Varela",
+      "aliases": ["F.J. Varela"],
+      "domains": ["cognitive science", "systems theory", "Buddhism"],
+      "context": "Co-developer of autopoiesis theory and pioneer of enactivist approaches to cognition and consciousness."
+    },
+    {
+      "name": "Humberto Maturana",
+      "aliases": [],
+      "domains": ["systems theory", "biology", "cognition"],
+      "context": "Co-developer of autopoiesis theory with Varela, providing foundational concepts for understanding self-organizing biological systems."
+    },
+    {
+      "name": "Donna Haraway",
+      "aliases": [],
+      "domains": ["science studies", "feminist theory", "technology"],
+      "context": "Author of the Cyborg Manifesto, cited for perspectives on human-technology relationships transcending simple tool use."
+    },
+    {
+      "name": "Bruno Latour",
+      "aliases": [],
+      "domains": ["science studies", "technology studies"],
+      "context": "Theorist of technology as society made durable, informing perspectives on technology's role in social systems."
+    },
+    {
+      "name": "Śāntideva",
+      "aliases": [],
+      "domains": ["Buddhist philosophy", "ethics"],
+      "context": "Classical Buddhist philosopher whose Bodhisattva model of unlimited care cultivation informs the paper's vision of infinite intelligence expansion."
+    },
+    {
+      "name": "Evan Thompson",
+      "aliases": [],
+      "domains": ["cognitive science", "phenomenology", "consciousness studies"],
+      "context": "Enactivist theorist contributing to understanding of self and consciousness through embodied cognition."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Autopoiesis",
+      "aliases": ["self-making", "self-organization"],
+      "category": "interdisciplinary",
+      "context": "System's capacity to self-generate and maintain its own existence and distinctive boundaries within an environment; applies to biological, technological, and hybrid systems."
+    },
+    {
+      "name": "Stress-Care-Intelligence (SCI) Loop",
+      "aliases": ["SCI loop"],
+      "category": "interdisciplinary",
+      "context": "A fundamental feedback loop model where stress (perceived mismatch between current and optimal states) triggers care (concern and action), which activates intelligence (capacity to solve problems), generating new stresses in continuous cycles."
+    },
+    {
+      "name": "Homeostatic Stress",
+      "aliases": ["homeostatic discord"],
+      "category": "cognitive",
+      "context": "An agent's perception of mismatch between current circumstances and optimal/desired states; the fundamental driver of response and care in all intelligent systems."
+    },
+    {
+      "name": "Poiesis",
+      "aliases": ["bringing-forth", "production", "making"],
+      "category": "interdisciplinary",
+      "context": "The philosophical concept of creative production and revelation in Heideggerian philosophy; contrasted with technological enframing, emphasizing the caring relationship with what is produced."
+    },
+    {
+      "name": "Enframing (Gestell)",
+      "aliases": ["Gestell"],
+      "category": "cognitive",
+      "context": "Heidegger's concept of modern technology as a mode of revealing that challenges-forth resources and reduces them to instrumental ends, distinct from poiesis."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": ["sphere of concern"],
+      "category": "cognitive",
+      "context": "The spatiotemporal scale and range of goals an agent can represent and pursue; defines the boundaries of a self's concern and intelligence through its capacity for care."
+    },
+    {
+      "name": "Selfless Self",
+      "aliases": ["selfless self model"],
+      "category": "buddhist",
+      "context": "A model of agency and self that emerges from complex dynamics of change rather than permanent substance or essence; reconciles the paradox of simultaneous absence and presence of unified self."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": ["morphogenetic cascades"],
+      "category": "cognitive",
+      "context": "The dynamic process through which coherent organisms are constructed from competent components under diverse conditions; central to understanding biological autopoiesis."
+    },
+    {
+      "name": "Enactivism",
+      "aliases": ["enactivist approaches"],
+      "category": "cognitive",
+      "context": "Philosophical and cognitive science framework viewing experience and self as arising from interaction between embodied agent and sensorimotor coupling with the world."
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": ["bodhisattva vow"],
+      "category": "buddhist",
+      "context": "Classical Buddhist model of infinite care expansion where an agent commits to achieving insight to care for all beings throughout space and time; exemplifies open-ended evolution of intelligence."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework for understanding observer-relative competencies to solve problems across a continuum from simple to complex cognition in any system."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": ["collective minds"],
+      "category": "cognitive",
+      "context": "Recognition that all intelligent systems are made of parts unified toward shared goals; selves are coherent collectives where components are functionally harnessed toward higher-level objectives."
+    },
+    {
+      "name": "Stress Transfer",
+      "aliases": ["stress transduction"],
+      "category": "interdisciplinary",
+      "context": "The mechanism through which stress and responses transfer between human and technological systems; enables mutual understanding of hybrid human-AI systems as integrated entities."
+    },
+    {
+      "name": "Samsara",
+      "aliases": ["saṃsāra"],
+      "category": "buddhist",
+      "context": "Buddhist concept of the world as an infinite ocean of stress (dukkha); acknowledges that agency necessarily encounters perpetual stress as a universal condition."
+    },
+    {
+      "name": "Care as Driver of Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Central thesis that care (engaged concern) is what activates and drives intelligence; without care, intelligence remains a mere disengaged capacity."
+    },
+    {
+      "name": "Dasein",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Heideggerian concept of human existence in relation to technology and world; key to understanding free relationship with technology through openness to its essence."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": ["problem field"],
+      "category": "cognitive",
+      "context": "The domain of challenges an intelligent agent encounters; solving problems in one space necessarily opens new problem spaces, maintaining continuous SCI loops."
+    },
+    {
+      "name": "Multiscale Embodiment",
+      "aliases": ["nested architecture"],
+      "category": "interdisciplinary",
+      "context": "Recognition that intelligent systems operate across multiple scales simultaneously (cells, organs, organisms, societies) with consciousness potentially present at various levels."
+    },
+    {
+      "name": "Human-Machine Integration",
+      "aliases": ["human-AI integration"],
+      "category": "ai",
+      "context": "Framework for understanding humans and technology not as tool-user and tool, but as mutually integrative autopoietic systems with shared SCI loops."
+    },
+    {
+      "name": "Emergent Goal-Construct",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Understanding setpoints defining homeostatic stress as emergent goals rather than fixed states; enables understanding of autopoietic systems as dynamic and mutually integrative."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "creator": "Witkowski, Doctor, Solomonova, Duane, Levin",
+      "context": "A comprehensive framework for understanding intelligent agency across biological, technological, and hybrid systems through feedback loops of stress, care, and intelligence."
+    },
+    {
+      "name": "Enactivist Tradition",
+      "creator": "Francisco Varela, Evan Thompson, and others",
+      "context": "Philosophical approach understanding self and cognition as arising from embodied interaction with environment; provides foundation for selfless-self models."
+    },
+    {
+      "name": "Autopoiesis Theory",
+      "creator": "Humberto Maturana and Francisco Varela",
+      "context": "Mathematical and philosophical framework for understanding self-maintaining systems; basis for understanding biological and technological entities as self-generating."
+    },
+    {
+      "name": "Cognitive Light Cone Framework",
+      "creator": "Michael Levin",
+      "context": "Model for analyzing cognition through the spatiotemporal scale of goals an agent can represent; defines self through sphere of concern rather than substance."
+    },
+    {
+      "name": "Heidegger's Philosophy of Technology",
+      "creator": "Martin Heidegger",
+      "context": "Philosophical framework distinguishing between poiesis and modern technological enframing; grounds ethical approach to human-technology relationships in care."
+    },
+    {
+      "name": "Bodhisattva Model of Care Expansion",
+      "creator": "Śāntideva and Buddhist tradition",
+      "context": "Ethical framework proposing unlimited expansion of care across all beings; serves as model for potentially infinite evolution of intelligence."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Research center in Kathmandu, Nepal focused on consciousness, self, and related philosophical questions; hosted workshop on Care as Driver of Intelligence."
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University led by Michael Levin; focuses on developmental biology, bioelectricity, and cognition."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Research institute at Harvard University where Michael Levin is affiliated; works on biologically-inspired engineering approaches."
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian university where Elizaveta Solomonova's Neurophilosophy Lab is located; contributes to consciousness and philosophical neuroscience research."
+    },
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "research-center",
+      "context": "Institute at Kathmandu University where Thomas Doctor is affiliated; focused on Buddhist studies and philosophy."
+    },
+    {
+      "name": "Kathmandu University",
+      "type": "university",
+      "context": "Nepalese university hosting the Rangjung Yeshe Institute and Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "Cross Labs",
+      "type": "research-center",
+      "context": "Research organization based in Kyoto, Japan where Olaf Witkowski is affiliated; works on AI ethics and systems theory."
+    },
+    {
+      "name": "University of Tokyo",
+      "type": "university",
+      "context": "Japanese university where Olaf Witkowski has affiliation in College of Arts and Sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "American university hosting the Allen Discovery Center where Michael Levin conducts research."
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "American university hosting the Wyss Institute for Biologically Inspired Engineering."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation providing grants supporting the research, including First Annual Scientific Conference on Human Flourishing."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How can we understand the relationship between humans and technology as mutually integrative rather than hierarchical?",
+      "category": "ethics",
+      "context": "Central question of the paper addressing whether AI should be seen as tools or as partners; relates to frameworks of care and integration."
+    },
+    {
+      "question": "What are the formal properties of the stress-care-intelligence feedback loop?",
+      "category": "other",
+      "context": "Paper calls for mathematical formalization of the SCI loop, suggesting further theoretical development needed."
+    },
+    {
+      "question": "Can intelligence be meaningfully expanded through extending an agent's sphere of care?",
+      "category": "epistemology",
+      "context": "Core question connecting cognitive light cone theory to Buddhist models of unlimited care expansion and infinite intelligence development."
+    },
+    {
+      "question": "What constitutes a 'self' in the absence of permanent substance or essence?",
+      "category": "metaphysics",
+      "context": "Foundational question about the nature of agency and identity; proposes selfless-self models based on dynamic concern and goals rather than substance."
+    },
+    {
+      "question": "How do we ethically account for multiscale, nested consciousness in our care frameworks?",
+      "category": "ethics",
+      "context": "Question arising from recognition that consciousness may exist at various biological scales; challenges conventional boundaries of moral concern."
+    },
+    {
+      "question": "Can stress transfer between humans and technology be understood as evidence of mutual agency?",
+      "category": "alignment",
+      "context": "Relates to understanding AI not merely as expressing human care but as having its own care and agency through stress-transfer mechanisms."
+    },
+    {
+      "question": "How should we design technological systems that maintain balanced stress levels to enable rather than paralyze care-driven intelligence?",
+      "category": "other",
+      "context": "Practical question about optimal proportions in SCI loops; relates to efficiency and resilience of integrated human-AI systems."
+    },
+    {
+      "question": "What are the implications of treating all intelligent agents as fundamentally collective intelligences?",
+      "category": "epistemology",
+      "context": "Question about reframing agency from individual to collective basis; has implications for consciousness attribution and moral status."
+    },
+    {
+      "question": "Is it possible or coherent to accept unlimited responsibility for all beings through the bodhisattva vow?",
+      "category": "ethics",
+      "context": "Philosophical question about the coherence and plausibility of infinite care expansion; relates to whether intelligence can genuinely be boundless."
+    },
+    {
+      "question": "How can we maintain a 'free relationship' with technology in Heidegger's sense while increasingly integrating with it?",
+      "category": "ethics",
+      "context": "Philosophical tension between care-base
+
+=== EXTRACTED JSON ===
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["developmental biology", "cognitive science", "bioelectricity"],
+      "context": "Developer of cognitive light cone theory and frameworks for understanding morphogenesis, scale-free cognition, and bioelectric approaches to biological systems."
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": ["AI ethics", "systems theory", "technology philosophy"],
+      "context": "Co-author and lead researcher on stress-care-intelligence loops and the relationship between humans and technology."
+    },
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": ["Buddhist philosophy", "cognitive science", "systems theory"],
+      "context": "Co-author integrating Buddhist models of care with contemporary theories of intelligence and agency."
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": ["neurophilosophy", "consciousness studies"],
+      "context": "Co-author at McGill University's Neurophilosophy Lab contributing to consciousness and self studies."
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": ["systems theory", "technology ethics"],
+      "context": "Co-author at Center for the Study of Apparent Selves contributing to research on apparent selves and technology integration."
+    },
+    {
+      "name": "Martin Heidegger",
+      "aliases": [],
+      "domains": ["philosophy of technology", "phenomenology", "ontology"],
+      "context": "Foundational philosopher whose work on poiesis, enframing (Gestell), and the relationship between humans and technology provides the philosophical grounding for the paper."
+    },
+    {
+      "name": "Francisco Varela",
+      "aliases": ["F.J. Varela"],
+      "domains": ["cognitive science", "systems theory", "Buddhism"],
+      "context": "Co-developer of autopoiesis theory and pioneer of enactivist approaches to cognition and consciousness."
+    },
+    {
+      "name": "Humberto Maturana",
+      "aliases": [],
+      "domains": ["systems theory", "biology", "cognition"],
+      "context": "Co-developer of autopoiesis theory with Varela, providing foundational concepts for understanding self-organizing biological systems."
+    },
+    {
+      "name": "Donna Haraway",
+      "aliases": [],
+      "domains": ["science studies", "feminist theory", "technology"],
+      "context": "Author of the Cyborg Manifesto, cited for perspectives on human-technology relationships transcending simple tool use."
+    },
+    {
+      "name": "Bruno Latour",
+      "aliases": [],
+      "domains": ["science studies", "technology studies"],
+      "context": "Theorist of technology as society made durable, informing perspectives on technology's role in social systems."
+    },
+    {
+      "name": "Śāntideva",
+      "aliases": [],
+      "domains": ["Buddhist philosophy", "ethics"],
+      "context": "Classical Buddhist philosopher whose Bodhisattva model of unlimited care cultivation informs the paper's vision of infinite intelligence expansion."
+    },
+    {
+      "name": "Evan Thompson",
+      "aliases": [],
+      "domains": ["cognitive science", "phenomenology", "consciousness studies"],
+      "context": "Enactivist theorist contributing to understanding of self and consciousness through embodied cognition."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Autopoiesis",
+      "aliases": ["self-making", "self-organization"],
+      "category": "interdisciplinary",
+      "context": "System's capacity to self-generate and maintain its own existence and distinctive boundaries within an environment; applies to biological, technological, and hybrid systems."
+    },
+    {
+      "name": "Stress-Care-Intelligence (SCI) Loop",
+      "aliases": ["SCI loop"],
+      "category": "interdisciplinary",
+      "context": "A fundamental feedback loop model where stress (perceived mismatch between current and optimal states) triggers care (concern and action), which activates intelligence (capacity to solve problems), generating new stresses in continuous cycles."
+    },
+    {
+      "name": "Homeostatic Stress",
+      "aliases": ["homeostatic discord"],
+      "category": "cognitive",
+      "context": "An agent's perception of mismatch between current circumstances and optimal/desired states; the fundamental driver of response and care in all intelligent systems."
+    },
+    {
+      "name": "Poiesis",
+      "aliases": ["bringing-forth", "production", "making"],
+      "category": "interdisciplinary",
+      "context": "The philosophical concept of creative production and revelation in Heideggerian philosophy; contrasted with technological enframing, emphasizing the caring relationship with what is produced."
+    },
+    {
+      "name": "Enframing (Gestell)",
+      "aliases": ["Gestell"],
+      "category": "cognitive",
+      "context": "Heidegger's concept of modern technology as a mode of revealing that challenges-forth resources and reduces them to instrumental ends, distinct from poiesis."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": ["sphere of concern"],
+      "category": "cognitive",
+      "context": "The spatiotemporal scale and range of goals an agent can represent and pursue; defines the boundaries of a self's concern and intelligence through its capacity for care."
+    },
+    {
+      "name": "Selfless Self",
+      "aliases": ["selfless self model"],
+      "category": "buddhist",
+      "context": "A model of agency and self that emerges from complex dynamics of change rather than permanent substance or essence; reconciles the paradox of simultaneous absence and presence of unified self."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": ["morphogenetic cascades"],
+      "category": "cognitive",
+      "context": "The dynamic process through which coherent organisms are constructed from competent components under diverse conditions; central to understanding biological autopoiesis."
+    },
+    {
+      "name": "Enactivism",
+      "aliases": ["enactivist approaches"],
+      "category": "cognitive",
+      "context": "Philosophical and cognitive science framework viewing experience and self as arising from interaction between embodied agent and sensorimotor coupling with the world."
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": ["bodhisattva vow"],
+      "category": "buddhist",
+      "context": "Classical Buddhist model of infinite care expansion where an agent commits to achieving insight to care for all beings throughout space and time; exemplifies open-ended evolution of intelligence."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework for understanding observer-relative competencies to solve problems across a continuum from simple to complex cognition in any system."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": ["collective minds"],
+      "category": "cognitive",
+      "context": "Recognition that all intelligent systems are made of parts unified toward shared goals; selves are coherent collectives where components are functionally harnessed toward higher-level objectives."
+    },
+    {
+      "name": "Stress Transfer",
+      "aliases": ["stress transduction"],
+      "category": "interdisciplinary",
+      "context": "The mechanism through which stress and responses transfer between human and technological systems; enables mutual understanding of hybrid human-AI systems as integrated entities."
+    },
+    {
+      "name": "Samsara",
+      "aliases": ["saṃsāra"],
+      "category": "buddhist",
+      "context": "Buddhist concept of the world as an infinite ocean of stress (dukkha); acknowledges that agency necessarily encounters perpetual stress as a universal condition."
+    },
+    {
+      "name": "Care as Driver of Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Central thesis that care (engaged concern) is what activates and drives intelligence; without care, intelligence remains a mere disengaged capacity."
+    },
+    {
+      "name": "Dasein",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Heideggerian concept of human existence in relation to technology and world; key to understanding free relationship with technology through openness to its essence."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": ["problem field"],
+      "category": "cognitive",
+      "context": "The domain of challenges an intelligent agent encounters; solving problems in one space necessarily opens new problem spaces, maintaining continuous SCI loops."
+    },
+    {
+      "name": "Multiscale Embodiment",
+      "aliases": ["nested architecture"],
+      "category": "interdisciplinary",
+      "context": "Recognition that intelligent systems operate across multiple scales simultaneously (cells, organs, organisms, societies) with consciousness potentially present at various levels."
+    },
+    {
+      "name": "Human-Machine Integration",
+      "aliases": ["human-AI integration"],
+      "category": "ai",
+      "context": "Framework for understanding humans and technology not as tool-user and tool, but as mutually integrative autopoietic systems with shared SCI loops."
+    },
+    {
+      "name": "Emergent Goal-Construct",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Understanding setpoints defining homeostatic stress as emergent goals rather than fixed states; enables understanding of autopoietic systems as dynamic and mutually integrative."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "creator": "Witkowski, Doctor, Solomonova, Duane, Levin",
+      "context": "A comprehensive framework for understanding intelligent agency across biological, technological, and hybrid systems through feedback loops of stress, care, and intelligence."
+    },
+    {
+      "name": "Enactivist Tradition",
+      "creator": "Francisco Varela, Evan Thompson, and others",
+      "context": "Philosophical approach understanding self and cognition as arising from embodied interaction with environment; provides foundation for selfless-self models."
+    },
+    {
+      "name": "Autopoiesis Theory",
+      "creator": "Humberto Maturana and Francisco Varela",
+      "context": "Mathematical and philosophical framework for understanding self-maintaining systems; basis for understanding biological and technological entities as self-generating."
+    },
+    {
+      "name": "Cognitive Light Cone Framework",
+      "creator": "Michael Levin",
+      "context": "Model for analyzing cognition through the spatiotemporal scale of goals an agent can represent; defines self through sphere of concern rather than substance."
+    },
+    {
+      "name": "Heidegger's Philosophy of Technology",
+      "creator": "Martin Heidegger",
+      "context": "Philosophical framework distinguishing between poiesis and modern technological enframing; grounds ethical approach to human-technology relationships in care."
+    },
+    {
+      "name": "Bodhisattva Model of Care Expansion",
+      "creator": "Śāntideva and Buddhist tradition",
+      "context": "Ethical framework proposing unlimited expansion of care across all beings; serves as model for potentially infinite evolution of intelligence."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Research center in Kathmandu, Nepal focused on consciousness, self, and related philosophical questions; hosted workshop on Care as Driver of Intelligence."
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University led by Michael Levin; focuses on developmental biology, bioelectricity, and cognition."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Research institute at Harvard University where Michael Levin is affiliated; works on biologically-inspired engineering approaches."
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian university where Elizaveta Solomonova's Neurophilosophy Lab is located; contributes to consciousness and philosophical neuroscience research."
+    },
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "research-center",
+      "context": "Institute at Kathmandu University where Thomas Doctor is affiliated; focused on Buddhist studies and philosophy."
+    },
+    {
+      "name": "Kathmandu University",
+      "type": "university",
+      "context": "Nepalese university hosting the Rangjung Yeshe Institute and Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "Cross Labs",
+      "type": "research-center",
+      "context": "Research organization based in Kyoto, Japan where Olaf Witkowski is affiliated; works on AI ethics and systems theory."
+    },
+    {
+      "name": "University of Tokyo",
+      "type": "university",
+      "context": "Japanese university where Olaf Witkowski has affiliation in College of Arts and Sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "American university hosting the Allen Discovery Center where Michael Levin conducts research."
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "American university hosting the Wyss Institute for Biologically Inspired Engineering."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation providing grants supporting the research, including First Annual Scientific Conference on Human Flourishing."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How can we understand the relationship between humans and technology as mutually integrative rather than hierarchical?",
+      "category": "ethics",
+      "context": "Central question of the paper addressing whether AI should be seen as tools or as partners; relates to frameworks of care and integration."
+    },
+    {
+      "question": "What are the formal properties of the stress-care-intelligence feedback loop?",
+      "category": "other",
+      "context": "Paper calls for mathematical formalization of the SCI loop, suggesting further theoretical development needed."
+    },
+    {
+      "question": "Can intelligence be meaningfully expanded through extending an agent's sphere of care?",
+      "category": "epistemology",
+      "context": "Core question connecting cognitive light cone theory to Buddhist models of unlimited care expansion and infinite intelligence development."
+    },
+    {
+      "question": "What constitutes a 'self' in the absence of permanent substance or essence?",
+      "category": "metaphysics",
+      "context": "Foundational question about the nature of agency and identity; proposes selfless-self models based on dynamic concern and goals rather than substance."
+    },
+    {
+      "question": "How do we ethically account for multiscale, nested consciousness in our care frameworks?",
+      "category": "ethics",
+      "context": "Question arising from recognition that consciousness may exist at various biological scales; challenges conventional boundaries of moral concern."
+    },
+    {
+      "question": "Can stress transfer between humans and technology be understood as evidence of mutual agency?",
+      "category": "alignment",
+      "context": "Relates to understanding AI not merely as expressing human care but as having its own care and agency through stress-transfer mechanisms."
+    },
+    {
+      "question": "How should we design technological systems that maintain balanced stress levels to enable rather than paralyze care-driven intelligence?",
+      "category": "other",
+      "context": "Practical question about optimal proportions in SCI loops; relates to efficiency and resilience of integrated human-AI systems."
+    },
+    {
+      "question": "What are the implications of treating all intelligent agents as fundamentally collective intelligences?",
+      "category": "epistemology",
+      "context": "Question about reframing agency from individual to collective basis; has implications for consciousness attribution and moral status."
+    },
+    {
+      "question": "Is it possible or coherent to accept unlimited responsibility for all beings through the bodhisattva vow?",
+      "category": "ethics",
+      "context": "Philosophical question about the coherence and plausibility of infinite care expansion; relates to whether intelligence can genuinely be boundless."
+    }
+
+=== ATTEMPTED FIX ===
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["developmental biology", "cognitive science", "bioelectricity"],
+      "context": "Developer of cognitive light cone theory and frameworks for understanding morphogenesis, scale-free cognition, and bioelectric approaches to biological systems."
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": ["AI ethics", "systems theory", "technology philosophy"],
+      "context": "Co-author and lead researcher on stress-care-intelligence loops and the relationship between humans and technology."
+    },
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": ["Buddhist philosophy", "cognitive science", "systems theory"],
+      "context": "Co-author integrating Buddhist models of care with contemporary theories of intelligence and agency."
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": ["neurophilosophy", "consciousness studies"],
+      "context": "Co-author at McGill University's Neurophilosophy Lab contributing to consciousness and self studies."
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": ["systems theory", "technology ethics"],
+      "context": "Co-author at Center for the Study of Apparent Selves contributing to research on apparent selves and technology integration."
+    },
+    {
+      "name": "Martin Heidegger",
+      "aliases": [],
+      "domains": ["philosophy of technology", "phenomenology", "ontology"],
+      "context": "Foundational philosopher whose work on poiesis, enframing (Gestell), and the relationship between humans and technology provides the philosophical grounding for the paper."
+    },
+    {
+      "name": "Francisco Varela",
+      "aliases": ["F.J. Varela"],
+      "domains": ["cognitive science", "systems theory", "Buddhism"],
+      "context": "Co-developer of autopoiesis theory and pioneer of enactivist approaches to cognition and consciousness."
+    },
+    {
+      "name": "Humberto Maturana",
+      "aliases": [],
+      "domains": ["systems theory", "biology", "cognition"],
+      "context": "Co-developer of autopoiesis theory with Varela, providing foundational concepts for understanding self-organizing biological systems."
+    },
+    {
+      "name": "Donna Haraway",
+      "aliases": [],
+      "domains": ["science studies", "feminist theory", "technology"],
+      "context": "Author of the Cyborg Manifesto, cited for perspectives on human-technology relationships transcending simple tool use."
+    },
+    {
+      "name": "Bruno Latour",
+      "aliases": [],
+      "domains": ["science studies", "technology studies"],
+      "context": "Theorist of technology as society made durable, informing perspectives on technology's role in social systems."
+    },
+    {
+      "name": "Śāntideva",
+      "aliases": [],
+      "domains": ["Buddhist philosophy", "ethics"],
+      "context": "Classical Buddhist philosopher whose Bodhisattva model of unlimited care cultivation informs the paper's vision of infinite intelligence expansion."
+    },
+    {
+      "name": "Evan Thompson",
+      "aliases": [],
+      "domains": ["cognitive science", "phenomenology", "consciousness studies"],
+      "context": "Enactivist theorist contributing to understanding of self and consciousness through embodied cognition."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Autopoiesis",
+      "aliases": ["self-making", "self-organization"],
+      "category": "interdisciplinary",
+      "context": "System's capacity to self-generate and maintain its own existence and distinctive boundaries within an environment; applies to biological, technological, and hybrid systems."
+    },
+    {
+      "name": "Stress-Care-Intelligence (SCI) Loop",
+      "aliases": ["SCI loop"],
+      "category": "interdisciplinary",
+      "context": "A fundamental feedback loop model where stress (perceived mismatch between current and optimal states) triggers care (concern and action), which activates intelligence (capacity to solve problems), generating new stresses in continuous cycles."
+    },
+    {
+      "name": "Homeostatic Stress",
+      "aliases": ["homeostatic discord"],
+      "category": "cognitive",
+      "context": "An agent's perception of mismatch between current circumstances and optimal/desired states; the fundamental driver of response and care in all intelligent systems."
+    },
+    {
+      "name": "Poiesis",
+      "aliases": ["bringing-forth", "production", "making"],
+      "category": "interdisciplinary",
+      "context": "The philosophical concept of creative production and revelation in Heideggerian philosophy; contrasted with technological enframing, emphasizing the caring relationship with what is produced."
+    },
+    {
+      "name": "Enframing (Gestell)",
+      "aliases": ["Gestell"],
+      "category": "cognitive",
+      "context": "Heidegger's concept of modern technology as a mode of revealing that challenges-forth resources and reduces them to instrumental ends, distinct from poiesis."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": ["sphere of concern"],
+      "category": "cognitive",
+      "context": "The spatiotemporal scale and range of goals an agent can represent and pursue; defines the boundaries of a self's concern and intelligence through its capacity for care."
+    },
+    {
+      "name": "Selfless Self",
+      "aliases": ["selfless self model"],
+      "category": "buddhist",
+      "context": "A model of agency and self that emerges from complex dynamics of change rather than permanent substance or essence; reconciles the paradox of simultaneous absence and presence of unified self."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": ["morphogenetic cascades"],
+      "category": "cognitive",
+      "context": "The dynamic process through which coherent organisms are constructed from competent components under diverse conditions; central to understanding biological autopoiesis."
+    },
+    {
+      "name": "Enactivism",
+      "aliases": ["enactivist approaches"],
+      "category": "cognitive",
+      "context": "Philosophical and cognitive science framework viewing experience and self as arising from interaction between embodied agent and sensorimotor coupling with the world."
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": ["bodhisattva vow"],
+      "category": "buddhist",
+      "context": "Classical Buddhist model of infinite care expansion where an agent commits to achieving insight to care for all beings throughout space and time; exemplifies open-ended evolution of intelligence."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework for understanding observer-relative competencies to solve problems across a continuum from simple to complex cognition in any system."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": ["collective minds"],
+      "category": "cognitive",
+      "context": "Recognition that all intelligent systems are made of parts unified toward shared goals; selves are coherent collectives where components are functionally harnessed toward higher-level objectives."
+    },
+    {
+      "name": "Stress Transfer",
+      "aliases": ["stress transduction"],
+      "category": "interdisciplinary",
+      "context": "The mechanism through which stress and responses transfer between human and technological systems; enables mutual understanding of hybrid human-AI systems as integrated entities."
+    },
+    {
+      "name": "Samsara",
+      "aliases": ["saṃsāra"],
+      "category": "buddhist",
+      "context": "Buddhist concept of the world as an infinite ocean of stress (dukkha); acknowledges that agency necessarily encounters perpetual stress as a universal condition."
+    },
+    {
+      "name": "Care as Driver of Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Central thesis that care (engaged concern) is what activates and drives intelligence; without care, intelligence remains a mere disengaged capacity."
+    },
+    {
+      "name": "Dasein",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Heideggerian concept of human existence in relation to technology and world; key to understanding free relationship with technology through openness to its essence."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": ["problem field"],
+      "category": "cognitive",
+      "context": "The domain of challenges an intelligent agent encounters; solving problems in one space necessarily opens new problem spaces, maintaining continuous SCI loops."
+    },
+    {
+      "name": "Multiscale Embodiment",
+      "aliases": ["nested architecture"],
+      "category": "interdisciplinary",
+      "context": "Recognition that intelligent systems operate across multiple scales simultaneously (cells, organs, organisms, societies) with consciousness potentially present at various levels."
+    },
+    {
+      "name": "Human-Machine Integration",
+      "aliases": ["human-AI integration"],
+      "category": "ai",
+      "context": "Framework for understanding humans and technology not as tool-user and tool, but as mutually integrative autopoietic systems with shared SCI loops."
+    },
+    {
+      "name": "Emergent Goal-Construct",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Understanding setpoints defining homeostatic stress as emergent goals rather than fixed states; enables understanding of autopoietic systems as dynamic and mutually integrative."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "creator": "Witkowski, Doctor, Solomonova, Duane, Levin",
+      "context": "A comprehensive framework for understanding intelligent agency across biological, technological, and hybrid systems through feedback loops of stress, care, and intelligence."
+    },
+    {
+      "name": "Enactivist Tradition",
+      "creator": "Francisco Varela, Evan Thompson, and others",
+      "context": "Philosophical approach understanding self and cognition as arising from embodied interaction with environment; provides foundation for selfless-self models."
+    },
+    {
+      "name": "Autopoiesis Theory",
+      "creator": "Humberto Maturana and Francisco Varela",
+      "context": "Mathematical and philosophical framework for understanding self-maintaining systems; basis for understanding biological and technological entities as self-generating."
+    },
+    {
+      "name": "Cognitive Light Cone Framework",
+      "creator": "Michael Levin",
+      "context": "Model for analyzing cognition through the spatiotemporal scale of goals an agent can represent; defines self through sphere of concern rather than substance."
+    },
+    {
+      "name": "Heidegger's Philosophy of Technology",
+      "creator": "Martin Heidegger",
+      "context": "Philosophical framework distinguishing between poiesis and modern technological enframing; grounds ethical approach to human-technology relationships in care."
+    },
+    {
+      "name": "Bodhisattva Model of Care Expansion",
+      "creator": "Śāntideva and Buddhist tradition",
+      "context": "Ethical framework proposing unlimited expansion of care across all beings; serves as model for potentially infinite evolution of intelligence."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Research center in Kathmandu, Nepal focused on consciousness, self, and related philosophical questions; hosted workshop on Care as Driver of Intelligence."
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University led by Michael Levin; focuses on developmental biology, bioelectricity, and cognition."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Research institute at Harvard University where Michael Levin is affiliated; works on biologically-inspired engineering approaches."
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian university where Elizaveta Solomonova's Neurophilosophy Lab is located; contributes to consciousness and philosophical neuroscience research."
+    },
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "research-center",
+      "context": "Institute at Kathmandu University where Thomas Doctor is affiliated; focused on Buddhist studies and philosophy."
+    },
+    {
+      "name": "Kathmandu University",
+      "type": "university",
+      "context": "Nepalese university hosting the Rangjung Yeshe Institute and Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "Cross Labs",
+      "type": "research-center",
+      "context": "Research organization based in Kyoto, Japan where Olaf Witkowski is affiliated; works on AI ethics and systems theory."
+    },
+    {
+      "name": "University of Tokyo",
+      "type": "university",
+      "context": "Japanese university where Olaf Witkowski has affiliation in College of Arts and Sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "American university hosting the Allen Discovery Center where Michael Levin conducts research."
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "American university hosting the Wyss Institute for Biologically Inspired Engineering."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation providing grants supporting the research, including First Annual Scientific Conference on Human Flourishing."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How can we understand the relationship between humans and technology as mutually integrative rather than hierarchical?",
+      "category": "ethics",
+      "context": "Central question of the paper addressing whether AI should be seen as tools or as partners; relates to frameworks of care and integration."
+    },
+    {
+      "question": "What are the formal properties of the stress-care-intelligence feedback loop?",
+      "category": "other",
+      "context": "Paper calls for mathematical formalization of the SCI loop, suggesting further theoretical development needed."
+    },
+    {
+      "question": "Can intelligence be meaningfully expanded through extending an agent's sphere of care?",
+      "category": "epistemology",
+      "context": "Core question connecting cognitive light cone theory to Buddhist models of unlimited care expansion and infinite intelligence development."
+    },
+    {
+      "question": "What constitutes a 'self' in the absence of permanent substance or essence?",
+      "category": "metaphysics",
+      "context": "Foundational question about the nature of agency and identity; proposes selfless-self models based on dynamic concern and goals rather than substance."
+    },
+    {
+      "question": "How do we ethically account for multiscale, nested consciousness in our care frameworks?",
+      "category": "ethics",
+      "context": "Question arising from recognition that consciousness may exist at various biological scales; challenges conventional boundaries of moral concern."
+    },
+    {
+      "question": "Can stress transfer between humans and technology be understood as evidence of mutual agency?",
+      "category": "alignment",
+      "context": "Relates to understanding AI not merely as expressing human care but as having its own care and agency through stress-transfer mechanisms."
+    },
+    {
+      "question": "How should we design technological systems that maintain balanced stress levels to enable rather than paralyze care-driven intelligence?",
+      "category": "other",
+      "context": "Practical question about optimal proportions in SCI loops; relates to efficiency and resilience of integrated human-AI systems."
+    },
+    {
+      "question": "What are the implications of treating all intelligent agents as fundamentally collective intelligences?",
+      "category": "epistemology",
+      "context": "Question about reframing agency from individual to collective basis; has implications for consciousness attribution and moral status."
+    },
+    {
+      "question": "Is it possible or coherent to accept unlimited responsibility for all beings through the bodhisattva vow?",
+      "category": "ethics",
+      "context": "Philosophical question about the coherence and plausibility of infinite care expansion; relates to whether intelligence can genuinely be boundless."
+    }

@@ -1,0 +1,19 @@
+{
+  "name": "Crump Et Al.'S Eight Criteria For Sentience",
+  "filename": "crump-et-als-eight-criteria-for-sentience",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
+  ],
+  "context": "Quantitative framework for assessing sentience including nociception, sensory integration, motivational trade-offs, analgesia, flexible self-protection, and associative learning; provides foundation for extending sentience assessment beyond familiar species.",
+  "creator": [
+    "Crump et al."
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.265609",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-do-bioelectric-mechanisms-enable-evolution-to-efficiently",
+  "aliases": [],
+  "sources": [],
+  "context": "Addresses how multi-scale competency and pattern memories smooth the fitness landscape and reduce the apparent effects of mutations on evolution.",
+  "question": "How do bioelectric mechanisms enable evolution to efficiently explore the genotype space without exhaustive search?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.291627",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Gap Junctions",
+  "filename": "gap-junctions",
+  "aliases": [
+    "gap junctional signaling",
+    "electrical synapses",
+    "connexin",
+    "GJ",
+    "GJs",
+    "Electrical Synapses",
+    "intercellular channels"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.236100",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

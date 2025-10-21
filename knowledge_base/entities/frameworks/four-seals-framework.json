@@ -1,0 +1,17 @@
+{
+  "name": "Four Seals Framework",
+  "filename": "four-seals-framework",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md"
+  ],
+  "context": "Buddhist framework of four fundamental truths (impermanence, dukkha, emptiness, peace) used as basis for dialogue between Buddhist and scientific perspectives.",
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.260660",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

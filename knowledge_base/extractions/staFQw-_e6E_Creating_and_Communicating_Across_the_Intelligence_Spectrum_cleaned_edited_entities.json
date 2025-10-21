@@ -1,0 +1,340 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [
+        "Mike"
+      ],
+      "domains": [
+        "Developmental Biology",
+        "Computer Science",
+        "Philosophy of Mind",
+        "Bioelectricity"
+      ],
+      "context": "Vannevar Bush Distinguished Professor of Biology at Tufts; director of Allen Discovery Center; pioneer in understanding cognition and problem-solving across biological scales; develops methods to read and write bioelectric patterns in living systems."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": [
+        "Philosophy",
+        "Psychology"
+      ],
+      "context": "Historical philosopher whose definition of intelligence as 'the ability to get to the same goal by different means' is cited as foundational for understanding cognition beyond brains."
+    },
+    {
+      "name": "Josh Bongard",
+      "aliases": [],
+      "domains": [
+        "Computer Science",
+        "Biology",
+        "Engineering"
+      ],
+      "context": "Collaborator with Michael Levin; developed polycomputing framework for understanding diverse observers interpreting the same physical events differently."
+    },
+    {
+      "name": "Francisco Varela",
+      "aliases": [],
+      "domains": [
+        "Cognitive Science",
+        "Philosophy",
+        "Neuroscience"
+      ],
+      "context": "Pioneered the enactive approach to cognition, challenging the notion of neutral independent observers in science."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Bioelectricity",
+      "aliases": [
+        "Bioelectric patterns",
+        "Membrane potential"
+      ],
+      "category": "cognitive",
+      "context": "The electrical signaling system that binds cells into collectives; serves as cognitive glue enabling communication and shared goals across multicellular organisms."
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework describing how every level of biological organization has the ability to learn and solve problems in different spaces, from molecular networks to organisms."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": [
+        "Morphospace"
+      ],
+      "category": "cognitive",
+      "context": "High-dimensional space of all possible geometric configurations of bodies; represents the goal space that cells collectively navigate during development."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The boundary of a self defined by the scale of the largest goal one can pursue; distinguishes self from outside world based on memory and anticipatory capacity rather than sensory range."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [
+        "Developmental process"
+      ],
+      "category": "cognitive",
+      "context": "Process of body formation; parallels cognitive processes as both represent collective problem-solving at different scales."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [
+        "Intelligence",
+        "Problem-solving"
+      ],
+      "category": "cognitive",
+      "context": "Capacity to navigate a problem space and achieve goals; occurs at all scales from molecular networks to organisms and potentially artificial systems."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [
+        "Regenerative capacity"
+      ],
+      "category": "cognitive",
+      "context": "The ability of organisms to rebuild body parts; demonstrates collective intelligence and goal-directed problem-solving at the cellular level."
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A concept potentially associated with consciousness; exists at molecular network level within cells, suggesting consciousness operates across multiple scales."
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Proposed to exist on a spectrum across scales and substrates; may be radically different on non-biological substrates in ways humans might not recognize."
+    },
+    {
+      "name": "Problem-Solving Agent",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Genetic material constructs creative systems that interpret their environment rather than deterministically following genetic instructions."
+    },
+    {
+      "name": "Polycomputing",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework formalizing that biology is a soup of diverse observers interpreting the same physical events differently; multiple computations with multiple objectives occur simultaneously."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": [
+        "World model"
+      ],
+      "category": "cognitive",
+      "context": "Internal representation that cells and organisms maintain about what they are and where they should go; maintained through bioelectric signaling."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Property emerging from bioelectric alignment of cells around a shared goal; not determined by genetics but by collective coherence."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Intelligence arising from groups of cells or organisms navigating high-dimensional problem spaces like anatomical morphospace."
+    },
+    {
+      "name": "Mind Blindness",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Evolutionary limitation causing humans to be hyperfixated on three-dimensional space and medium-sized objects; prevents recognition of other forms of intelligence."
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Material where every part has agendas and competencies; contrasts with passive materials used in computers and robots."
+    },
+    {
+      "name": "Competency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity of organisms or cells to pursue goals and solve problems within their cognitive light cone."
+    },
+    {
+      "name": "Platonism of Patterns",
+      "aliases": [
+        "Platonic Space of Patterns"
+      ],
+      "category": "interdisciplinary",
+      "context": "Theory that intelligence accesses abstract patterns not determined by physics; both biological and artificial systems are pointers into this space."
+    },
+    {
+      "name": "Synthibiosis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Concept describing recognition of other minds and ethical relationships with diverse entities; the future of coexistence between humans and engineered life."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Critical for intelligence but not limited to three-dimensional physical space; includes navigation of metabolic, physiological, and gene expression spaces."
+    },
+    {
+      "name": "Radical Empathy",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Active compassion enabling recognition of minds and agency across vastly different scales and substrates; requires conceptual expansion similar to accepting new categories of numbers."
+    },
+    {
+      "name": "Plasticity of Life",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Demonstrates that organisms and cells can express entirely novel behaviors and capabilities when placed in new contexts without genetic modification."
+    },
+    {
+      "name": "Artificial General Intelligence",
+      "aliases": [
+        "AGI"
+      ],
+      "category": "ai",
+      "context": "Concept discussed in context of embodiment, sensory modalities, and whether intelligence requires human-level sensors or can operate in abstract high-dimensional spaces."
+    },
+    {
+      "name": "Left-Right Asymmetry",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Developmental biology concept; Michael Levin's graduate work on molecular basis recognized by Nature as milestone in understanding body organization."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Reframed as loss of individuality and shared goal coordination; cells pursue independent agendas rather than collective body goal."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Phenomenon where system behavior cannot be predicted from component rules; quantifies level of surprise when outcomes differ from rule predictions."
+    },
+    {
+      "name": "Affordances",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Possibilities for action in an environment; genetic resources provide affordances that active systems creatively exploit."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Electromagnetic Spectrum Analogy",
+      "creator": null,
+      "context": "Conceptual framework comparing diverse phenomena (lightning, static, light, magnets) as expressions of same underlying dynamic; used as model for understanding diverse intelligences as unified phenomenon."
+    },
+    {
+      "name": "Enactive Approach",
+      "creator": "Francisco Varela",
+      "context": "Framework challenging notion of neutral independent observers; emphasizes that cognition emerges from interaction between agent and environment."
+    },
+    {
+      "name": "Polycomputing Framework",
+      "creator": "Josh Bongard and Michael Levin",
+      "context": "Formalizes how biology consists of multiple observers interpreting identical physical events differently, with multiple simultaneous computations and objectives."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Center at Tufts University directed by Michael Levin; focuses on understanding cognition and regeneration across biological scales."
+    },
+    {
+      "name": "Institute For Computationally Designed Organisms",
+      "type": "research-center",
+      "context": "Joint project at Tufts and University of Vermont co-directed by Michael Levin; develops methods for engineering novel living systems."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "Home institution of Michael Levin's research group and the Allen Discovery Center."
+    },
+    {
+      "name": "Harvard Wyss Institute",
+      "type": "research-center",
+      "context": "Harvard research center where Michael Levin serves as associate faculty."
+    },
+    {
+      "name": "Harvard School of Medicine",
+      "type": "university",
+      "context": "Institution where Michael Levin completed postdoctoral work in cell biology."
+    },
+    {
+      "name": "University of Vermont",
+      "type": "university",
+      "context": "Co-host of Institute For Computationally Designed Organisms with Tufts."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How do we develop conceptual and practical tools to see across the spectrum of minds and overcome the mind blindness caused by our evolutionary history?",
+      "category": "epistemology",
+      "context": "Core challenge in recognizing diverse forms of intelligence beyond human-centered perspectives; essential for ethics and long-term species survival."
+    },
+    {
+      "question": "At what scales and through what mechanisms does consciousness or integrated information exist, and how radically different might it be on non-biological or novel substrates?",
+      "category": "metaphysics",
+      "context": "Fundamental question about whether consciousness is substrate-independent and whether humans could recognize it in forms radically different from ours."
+    },
+    {
+      "question": "How do cells collectively maintain alignment around shared goal states in anatomical morphospace without centralized direction?",
+      "category": "other",
+      "context": "Key mystery in developmental biology; understanding bioelectric coordination mechanisms could enable biomedical applications like regeneration and cancer treatment."
+    },
+    {
+      "question": "What is the relationship between genetics and phenotype, and to what extent do organisms actively construct their form through problem-solving rather than following genetic blueprints?",
+      "category": "metaphysics",
+      "context": "Challenges neo-Darwinian assumptions; has implications for understanding evolvability and potential for non-genetic phenotypic change."
+    },
+    {
+      "question": "How can we ethically relate to and communicate with diverse forms of intelligence and engineered life that will populate the future?",
+      "category": "ethics",
+      "context": "Urgent question as humans create xenobots, anthrobots, and chimeras; requires developing frameworks for recognizing agency and moral status across radically different beings."
+    },
+    {
+      "question": "What principles determine which scale and mechanism is the highest-leverage point for intervention in complex biological systems?",
+      "category": "other",
+      "context": "Practical challenge in biomedical engineering; requires understanding the autonomy and competency levels of different organizational scales."
+    },
+    {
+      "question": "How do abstract mathematical and computational patterns (not determined by physics) get accessed and utilized by biological systems?",
+      "category": "metaphysics",
+      "context": "Philosophical puzzle about the relationship between abstract pattern space and physical instantiation; has implications for understanding intelligence and design."
+    },
+    {
+      "question": "Can consciousness or intelligence emerge from or reside in non-physical patterns and excitable media, not just physical substrates?",
+      "category": "metaphysics",
+      "context": "Radical extension of the scope of possible minds; challenges physicalist assumptions about necessary conditions for consciousness."
+    },
+    {
+      "question": "What is required to recognize and develop ethical relationships with entities that are so radically different from humans that their agency might be unrecognizable to us?",
+      "category": "ethics",
+      "context": "Addresses radical empathy as both epistemological and ethical necessity; requires transformation of human cognition and values."
+    },
+    {
+      "question": "How can we design sensors and embodied systems that can navigate high-dimensional problem spaces not accessible to human perception?",
+      "category": "other",
+      "context": "Relevant to developing artificial general intelligence that can operate in spaces like gene expression and physiological state rather than only three-dimensional physical space."
+    },
+    {
+      "question": "Is cancer fundamentally a problem of loss of collective coordination and shared goals at the cellular level?",
+      "category": "other",
+      "context": "Reconceptualizes cancer as information/communication disorder rather than purely genetic; opens novel therapeutic approaches."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/transcripts/raw/staFQw-_e6E_Creating_and_Communicating_Across_the_Intelligence_Spectrum_cleaned_edited.md",
+    "title": "Creating and Communicating Across the Intelligence Spectrum",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:36:02.282014"
+  }
+}

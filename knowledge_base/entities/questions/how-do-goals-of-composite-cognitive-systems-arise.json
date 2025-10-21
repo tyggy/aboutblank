@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-do-goals-of-composite-cognitive-systems-arise",
+  "aliases": [],
+  "sources": [],
+  "context": "Critical for avoiding existential risk from swarm robotics, IoT, and AI systems; essential for understanding emergent goals in multi-scale systems",
+  "question": "How do goals of composite cognitive systems arise and how can they be predicted and controlled?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.943941",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

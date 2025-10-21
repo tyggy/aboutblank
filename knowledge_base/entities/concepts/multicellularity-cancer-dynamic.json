@@ -1,0 +1,17 @@
+{
+  "name": "Multicellularity-Cancer Dynamic",
+  "filename": "multicellularity-cancer-dynamic",
+  "aliases": [],
+  "category": "cognitive",
+  "context": "Tight functional integration increases cooperation but risks goal divergence between whole and parts; balancing cooperation and autonomy",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.774011",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

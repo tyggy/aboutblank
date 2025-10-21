@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-principles-of-morphogenesis-and-developmental-bioelectricity-be",
+  "aliases": [],
+  "sources": [],
+  "context": "Raises questions about controllability and predictability of engineered biological systems.",
+  "question": "Can principles of morphogenesis and developmental bioelectricity be applied to bioengineering chimeric and synthetic organisms?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.279379",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

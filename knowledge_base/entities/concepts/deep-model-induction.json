@@ -1,0 +1,26 @@
+{
+  "name": "Deep Model Induction",
+  "filename": "deep-model-induction",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "The learning process for non-decomposable functions in connectionist models; proposed to describe conditions for evolutionary transitions."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Process of inducing hierarchical deep representations enabling rescaling of problem-solving search space."
+    }
+  ],
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.244291",
+    "sources_count": 1,
+    "contexts_count": 2
+  }
+}

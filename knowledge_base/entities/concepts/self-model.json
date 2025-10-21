@@ -1,0 +1,33 @@
+{
+  "name": "Self-Model",
+  "filename": "self-model",
+  "aliases": [
+    "virtual modeling",
+    "Somatic Story",
+    "counterfactual thought"
+  ],
+  "category": "cognitive",
+  "context": "A story about correct outcomes of cellular co-development to which cells commit; maintains tissue structure, resists cancer and aging, enables regeneration.",
+  "sources": [
+    "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md",
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md",
+      "text": "A story about correct outcomes of cellular co-development to which cells commit; maintains tissue structure, resists cancer and aging, enables regeneration."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Higher-order cognitive process enabling agents to model themselves and external worlds; basis for anxiety and creativity."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.762948",
+    "sources_count": 2,
+    "contexts_count": 2
+  },
+  "synthesized_overview": "# Self-Model\n\nSelf-modeling is a fundamental organizational principle operating across biological and cognitive systems, wherein entities maintain coherent internal representations of themselves and their environments. At the cellular level, this manifests as commitment to developmental pathways that preserve tissue integrity, resist degeneration, and enable regeneration; at the cognitive level, it emerges as a higher-order process enabling agents to reflect on their own states and external worlds. This capacity for self-representation is double-edged—it serves as the foundation for both adaptive creativity and existential anxiety—and represents a critical bridge between biological self-organization and conscious intelligence."
+}

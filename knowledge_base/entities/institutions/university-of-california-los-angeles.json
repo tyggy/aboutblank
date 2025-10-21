@@ -1,0 +1,15 @@
+{
+  "name": "University Of California, Los Angeles",
+  "filename": "university-of-california-los-angeles",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.276866",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

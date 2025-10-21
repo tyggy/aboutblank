@@ -1,0 +1,17 @@
+{
+  "name": "Markov Blankets Approach",
+  "filename": "markov-blankets-approach",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Formal method for defining system boundaries and autonomy; identifies minimal sufficient statistics for conditional independence.",
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.268397",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

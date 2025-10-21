@@ -1,0 +1,15 @@
+{
+  "name": "Tufts University",
+  "filename": "tufts-university",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/xaUknipwnpw_Selves,_Wants,_and_Innumerable_Beings_cleaned_edited.md"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.273363",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

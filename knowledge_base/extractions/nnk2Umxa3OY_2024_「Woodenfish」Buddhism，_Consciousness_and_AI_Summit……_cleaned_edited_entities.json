@@ -1,0 +1,26 @@
+{
+  "thinkers": [],
+  "concepts": [
+    {
+      "name": "Artistic Creation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Mentioned as a phenomenon related to perception beyond sensory experience, potentially relevant to consciousness studies"
+    }
+  ],
+  "frameworks": [],
+  "institutions": [
+    {
+      "name": "Woodenfish Buddhism, Consciousness and AI Summit",
+      "type": "project",
+      "context": "2024 conference addressing Buddhism, consciousness, and artificial intelligence"
+    }
+  ],
+  "questions": [],
+  "_metadata": {
+    "source_file": "knowledge_base/transcripts/raw/nnk2Umxa3OY_2024_「Woodenfish」Buddhism，_Consciousness_and_AI_Summit……_cleaned_edited.md",
+    "title": "2024 「Woodenfish」Buddhism， Consciousness and AI Summit……",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T18:09:29.617510"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Xenbase",
+  "filename": "xenbase",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Database resource providing embryo images and experimental materials for developmental biology research.",
+  "type": "research-center",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.277393",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Deep Learning",
+  "filename": "deep-learning",
+  "aliases": [
+    "Multilevel Model Induction"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.240665",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

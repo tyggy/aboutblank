@@ -1,0 +1,16 @@
+{
+  "name": "Agent-Based Model Of Morphogenesis",
+  "filename": "agent-based-model-of-morphogenesis",
+  "creator": "Michael Levin and Lakshwin Shreesha",
+  "context": "A multiscale computational model examining the impact of stress sharing on cellular collective ability to reach target morphology using cellular automata on 2D grids.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.782971",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

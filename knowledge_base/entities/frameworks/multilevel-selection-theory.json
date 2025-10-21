@@ -1,0 +1,19 @@
+{
+  "name": "Multilevel Selection Theory",
+  "filename": "multilevel-selection-theory",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Theoretical framework explaining evolution across hierarchical biological levels.",
+  "creator": [
+    "David S. Wilson"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.263906",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

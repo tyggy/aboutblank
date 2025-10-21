@@ -1,0 +1,20 @@
+{
+  "name": "Self And Non-Self Recognition",
+  "filename": "self-and-non-self-recognition",
+  "aliases": [
+    "immune identity",
+    "embodied selfhood"
+  ],
+  "category": "interdisciplinary",
+  "context": "Processes by which biological systems distinguish self from environment; fundamental to understanding agency and identity.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.768791",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ship Of Theseus Problem",
+  "filename": "ship-of-theseus-problem",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:26:20.882368",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

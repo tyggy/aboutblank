@@ -1,0 +1,26 @@
+{
+  "name": "Problem Space",
+  "filename": "problem-space",
+  "aliases": [
+    "solution space",
+    "action space",
+    "configuration space",
+    "design space",
+    "Metabolic Space",
+    "anatomical space",
+    "option space",
+    "Anatomical Space",
+    "developmental space",
+    "Morphospace"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.233610",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

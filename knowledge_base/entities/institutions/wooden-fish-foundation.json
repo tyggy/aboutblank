@@ -1,0 +1,17 @@
+{
+  "name": "Wooden Fish Foundation",
+  "filename": "wooden-fish-foundation",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md"
+  ],
+  "context": "Organization hosting 2017 conference on Buddhism and Technology where Bill Dwane and Thomas Doctor connected.",
+  "type": "research-center",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.276253",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

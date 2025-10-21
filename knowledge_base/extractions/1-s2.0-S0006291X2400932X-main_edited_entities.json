@@ -1,0 +1,713 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [
+        "M. Levin"
+      ],
+      "domains": [
+        "developmental biology",
+        "computational biology",
+        "bioengineering",
+        "cognitive science"
+      ],
+      "context": "Leading researcher studying morphogenesis, cellular collectives, and homeostatic mechanisms in biological systems. Develops computational models of collective intelligence."
+    },
+    {
+      "name": "Lakshwin Shreesha",
+      "aliases": [
+        "L. Shreesha"
+      ],
+      "domains": [
+        "computational biology",
+        "evolutionary algorithms"
+      ],
+      "context": "Co-author developing agent-based models of morphogenesis and stress-sharing mechanisms in virtual embryos."
+    },
+    {
+      "name": "Giovanni Pezzulo",
+      "aliases": [
+        "G. Pezzulo"
+      ],
+      "domains": [
+        "computational neuroscience",
+        "systems biology",
+        "downward causation"
+      ],
+      "context": "Researcher on top-down models in biology and regeneration from computational neuroscience perspective."
+    },
+    {
+      "name": "Christopher Fields",
+      "aliases": [],
+      "domains": [
+        "cognitive science",
+        "embodied cognition"
+      ],
+      "context": "Co-author on competency in navigating arbitrary spaces as an invariant for analyzing cognition."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [
+        "K. Friston"
+      ],
+      "domains": [
+        "neuroscience",
+        "consciousness",
+        "free energy principle"
+      ],
+      "context": "Theorist on free energy principle, consciousness, and pattern regulation in biological systems."
+    },
+    {
+      "name": "Mark Solms",
+      "aliases": [],
+      "domains": [
+        "consciousness studies",
+        "neuroscience",
+        "psychoanalysis"
+      ],
+      "context": "Researcher on the hard problem of consciousness and free energy principle approaches to consciousness."
+    },
+    {
+      "name": "Thomas Nagel",
+      "aliases": [],
+      "domains": [
+        "philosophy of mind",
+        "consciousness"
+      ],
+      "context": "Philosopher known for foundational work on subjective experience and consciousness."
+    },
+    {
+      "name": "Norbert Wiener",
+      "aliases": [
+        "N. Wiener"
+      ],
+      "domains": [
+        "cybernetics",
+        "systems theory",
+        "information theory"
+      ],
+      "context": "Founder of cybernetics; contributor to understanding feedback, purpose, and teleonomy in systems."
+    },
+    {
+      "name": "Jakob von Uexküll",
+      "aliases": [],
+      "domains": [
+        "theoretical biology",
+        "phenomenology"
+      ],
+      "context": "Early theorist on Umwelt and the perceptual worlds of organisms."
+    },
+    {
+      "name": "John Hopfield",
+      "aliases": [],
+      "domains": [
+        "neural networks",
+        "physics",
+        "computational systems"
+      ],
+      "context": "Developer of Hopfield networks; contributed to understanding emergent collective computation."
+    },
+    {
+      "name": "Sawyer Manicka",
+      "aliases": [],
+      "domains": [
+        "cognitive science",
+        "developmental biology"
+      ],
+      "context": "Co-author on cognitive lens framework for analyzing cognition in morphogenesis."
+    },
+    {
+      "name": "Poul Lyon",
+      "aliases": [],
+      "domains": [
+        "biophysics",
+        "consciousness",
+        "valence"
+      ],
+      "context": "Researcher on biogenic approach to valence, affect, and value in biological systems."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Dukkha",
+      "aliases": [
+        "stress",
+        "error signal",
+        "homeostatic error"
+      ],
+      "category": "interdisciplinary",
+      "context": "Physiological parameter reflecting distance from homeostatic setpoint; proposed as coordinator for morphogenesis and cellular cooperation mechanism."
+    },
+    {
+      "name": "Stress Sharing",
+      "aliases": [
+        "stress propagation",
+        "stress leakage"
+      ],
+      "category": "interdisciplinary",
+      "context": "Mechanism where stressed cells leak stress molecules to neighbors, enabling collective problem-solving and long-distance cell movement without explicit altruism."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [
+        "morphogenetic process"
+      ],
+      "category": "cognitive",
+      "context": "Process by which groups of cells build and maintain complex anatomical structures; exhibits homeostatic goal-seeking despite perturbations."
+    },
+    {
+      "name": "Anatomical Homeostasis",
+      "aliases": [
+        "morphological homeostasis"
+      ],
+      "category": "cognitive",
+      "context": "System's ability to maintain or reach target anatomical morphology through multiple pathways despite novel circumstances and perturbations."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": [
+        "morphospace"
+      ],
+      "category": "interdisciplinary",
+      "context": "Space of possible anatomical shapes that developmental systems navigate toward specific endpoints with robust reliability."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [
+        "target morphology",
+        "anatomical goal"
+      ],
+      "category": "cognitive",
+      "context": "Target state encoding correct anatomical configuration; cells work to reduce error distance toward this prespecified endpoint."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [
+        "radius of influence",
+        "cognitive horizon"
+      ],
+      "category": "interdisciplinary",
+      "context": "Spatio-temporal distance representing the scale of goal states that an agent's homeostatic mechanisms can pursue; indicates scope of functional concern."
+    },
+    {
+      "name": "Swarm Intelligence",
+      "aliases": [
+        "collective intelligence"
+      ],
+      "category": "ai",
+      "context": "Emergent problem-solving capacity arising from coordination of autonomous agents without centralized control."
+    },
+    {
+      "name": "Regulative Development",
+      "aliases": [
+        "developmental competency",
+        "regulative capacity"
+      ],
+      "category": "cognitive",
+      "context": "Capacity of developing systems to adjust and reach correct outcomes despite perturbations through active homeostatic processes."
+    },
+    {
+      "name": "Bioelectric Prepattern",
+      "aliases": [
+        "bioelectric pattern"
+      ],
+      "category": "interdisciplinary",
+      "context": "Electrical field patterns encoding morphogenetic setpoints; known to exist during frog embryogenesis and guide anatomical patterning."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [
+        "emergent behavior"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process where complex patterns arise from simple local rules executed in parallel; incomplete alone for explaining biological morphogenesis."
+    },
+    {
+      "name": "Stigmergy",
+      "aliases": [
+        "environmental coordination"
+      ],
+      "category": "ai",
+      "context": "Coordination mechanism where agents leave messages in external medium enabling cooperation without explicit communication."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [
+        "coordinated behavior"
+      ],
+      "category": "cognitive",
+      "context": "Functional alignment of cellular activities toward shared morphogenetic goals; can emerge from stress-sharing without requiring explicit altruism."
+    },
+    {
+      "name": "Cellular Competency",
+      "aliases": [
+        "cellular capacity"
+      ],
+      "category": "cognitive",
+      "context": "Innate capacities of cells to modify phenotype and problem-solve; enables regulative development and morphogenetic robustness."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [
+        "regenerative capacity"
+      ],
+      "category": "cognitive",
+      "context": "Biological process of regrowing lost structures; demonstrates homeostatic morphogenetic control in reaching correct endpoint despite damage."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [
+        "cellular autonomy"
+      ],
+      "category": "cognitive",
+      "context": "Individual cells possessing competencies in physiological and metabolic spaces; coordinating toward collective anatomical goals."
+    },
+    {
+      "name": "Agency",
+      "aliases": [
+        "goal-directed behavior"
+      ],
+      "category": "cognitive",
+      "context": "Capacity to pursue goals and effect changes; related to homeostasis and size of cognitive light cone."
+    },
+    {
+      "name": "Neural Decoding",
+      "aliases": [
+        "brain state inference"
+      ],
+      "category": "cognitive",
+      "context": "Attempt to infer mental states or goals from neural activity; parallels challenge of inferring morphogenetic goals from stress patterns."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [
+        "cognitive process"
+      ],
+      "category": "cognitive",
+      "context": "Goal-directed information processing; features of first-person cognition remain inaccessible to external third-person observers."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [
+        "artificial lifeforms",
+        "alife"
+      ],
+      "category": "ai",
+      "context": "Computational study of life-like systems; often omits developmental layer between genotype and phenotype."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "cellular plasticity",
+        "exploratory capacity"
+      ],
+      "category": "cognitive",
+      "context": "Increased willingness of cells to adopt new configurations; heightened by stress signals from neighbors."
+    },
+    {
+      "name": "Attractor State",
+      "aliases": [
+        "energy minimum",
+        "stable configuration"
+      ],
+      "category": "interdisciplinary",
+      "context": "Low-energy configuration toward which systems naturally settle; stress increases temperature, allowing escape from local attractors."
+    },
+    {
+      "name": "Homeostatic Loops",
+      "aliases": [
+        "feedback regulation"
+      ],
+      "category": "cognitive",
+      "context": "Regulatory mechanisms allowing cells to detect error and progressively adjust until within tolerance of setpoint."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [
+        "malignant transformation"
+      ],
+      "category": "cognitive",
+      "context": "Pathological disorder involving pathological restriction of cognitive light cone; cells treat rest of body as external environment."
+    },
+    {
+      "name": "Evo-Devo",
+      "aliases": [
+        "evolutionary developmental biology"
+      ],
+      "category": "interdisciplinary",
+      "context": "Field studying how evolutionary processes interact with developmental mechanisms to generate organismal form."
+    },
+    {
+      "name": "Extended Inheritance",
+      "aliases": [
+        "transgenerational inheritance"
+      ],
+      "category": "interdisciplinary",
+      "context": "Epigenetic mechanisms enabling inheritance of phenotypic traits beyond DNA sequence."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [
+        "unconventional intelligence",
+        "distributed cognition"
+      ],
+      "category": "cognitive",
+      "context": "Goal-directed problem-solving capacities in systems beyond individual brains; includes cellular collectives and artificial systems."
+    },
+    {
+      "name": "Predictive Information",
+      "aliases": [
+        "information predictivity"
+      ],
+      "category": "cognitive",
+      "context": "Information available to external observers enabling prediction of system goals; limited in stress-sharing morphogenesis."
+    },
+    {
+      "name": "Inverse Problem",
+      "aliases": [
+        "reverse engineering"
+      ],
+      "category": "interdisciplinary",
+      "context": "Challenge of inferring system changes needed to reach complex desired outcomes; fundamental to bioengineering."
+    },
+    {
+      "name": "Metamorphosis",
+      "aliases": [
+        "developmental transformation"
+      ],
+      "category": "cognitive",
+      "context": "Large-scale morphogenetic transformation occurring during organismal development."
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [
+        "bioelectric signaling",
+        "Vmem"
+      ],
+      "category": "cognitive",
+      "context": "The use of bioelectric potentials and ion channel activity as a cognitive medium enabling morphogenesis and pattern regulation beyond genetic control."
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [
+        "goal-directedness",
+        "end-directed behavior"
+      ],
+      "category": "interdisciplinary",
+      "context": "The appearance of purposefulness or goal-direction in biological systems without invoking teleology; key concept bridging physics and biology."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [
+        "swarm intelligence",
+        "distributed computation"
+      ],
+      "category": "cognitive",
+      "context": "Emergent intelligence arising from coordination of multiple agents or cells without centralized control; applicable to biological morphogenesis and artificial systems."
+    },
+    {
+      "name": "Homeostasis",
+      "aliases": [
+        "shape homeostasis",
+        "anatomical homeostasis"
+      ],
+      "category": "cognitive",
+      "context": "Maintenance of stable organization at multiple scales; extends classical homeostasis concept to include morphological and anatomical stability."
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "hard problem of consciousness"
+      ],
+      "category": "interdisciplinary",
+      "context": "Subjective experience and awareness; debated relationship to bioelectrical processes and free energy principles in biological systems."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Self-producing, self-organizing systems; theoretical framework for understanding autonomous living systems and their cognitive properties."
+    },
+    {
+      "name": "Competency",
+      "aliases": [
+        "cellular competency",
+        "multiscale competency"
+      ],
+      "category": "cognitive",
+      "context": "The ability of biological entities to navigate problem spaces and achieve goals; viewed as fundamental property across scales from cells to organisms."
+    },
+    {
+      "name": "Individuation",
+      "aliases": [
+        "self-individuation",
+        "scale-free cognition"
+      ],
+      "category": "cognitive",
+      "context": "The process by which a biological entity defines its boundaries and achieves unified agency; driven by developmental bioelectricity."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Influence of higher-level organizational patterns on lower-level components; relevant to understanding how anatomical goals guide molecular processes."
+    },
+    {
+      "name": "Pattern Regulation",
+      "aliases": [
+        "target morphology",
+        "goal shape"
+      ],
+      "category": "cognitive",
+      "context": "The process of achieving and maintaining specific spatial patterns; understood through free energy and predictive dynamics frameworks."
+    },
+    {
+      "name": "Epigenetic Inheritance",
+      "aliases": [
+        "transgenerational inheritance",
+        "extended inheritance"
+      ],
+      "category": "cognitive",
+      "context": "Transmission of phenotypic traits across generations through non-genetic mechanisms; includes stress response inheritance."
+    },
+    {
+      "name": "Umwelt",
+      "aliases": [
+        "perceptual world",
+        "self-centric universe"
+      ],
+      "category": "cognitive",
+      "context": "The subjective perceptual world of an organism; theoretical framework for understanding how different entities experience and interact with their environment."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [],
+      "category": "ai",
+      "context": "Framework where biological agents minimize prediction error through active engagement with environment; related to free energy principle."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [
+        "predictive processing"
+      ],
+      "category": "ai",
+      "context": "Theoretical framework explaining how biological systems minimize variational free energy; connects to consciousness and adaptive behavior."
+    },
+    {
+      "name": "Hard Problem of Consciousness",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The philosophical problem of explaining subjective experience; discussed in relation to bioelectrical and free energy approaches."
+    },
+    {
+      "name": "Stress Response",
+      "aliases": [
+        "cellular stress response"
+      ],
+      "category": "cognitive",
+      "context": "Cellular reactions to environmental challenges; viewed as fundamental adaptive mechanism underlying developmental plasticity."
+    },
+    {
+      "name": "Developmental Memory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Information retained by developmental systems about target morphology; enables adaptive responses to perturbations."
+    },
+    {
+      "name": "Membrane Potential",
+      "aliases": [
+        "Vmem",
+        "bioelectric voltage"
+      ],
+      "category": "cognitive",
+      "context": "Electrical potential across cell membranes; recognized as medium for cellular computation and morphogenetic signaling."
+    },
+    {
+      "name": "Cybernetics",
+      "aliases": [
+        "feedback control",
+        "circular causal systems"
+      ],
+      "category": "interdisciplinary",
+      "context": "Study of control and communication in biological and mechanical systems; foundational for understanding self-organizing systems."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Agent-Based Model Of Morphogenesis",
+      "creator": "Michael Levin, Lakshwin Shreesha",
+      "context": "Computational model simulating multicellular collectives as agents with homeostatic stress dynamics reaching anatomical targets."
+    },
+    {
+      "name": "Genetic Algorithm",
+      "creator": null,
+      "context": "Evolutionary search algorithm iterating through development, selection, and mutation stages to optimize embryo genotypes."
+    },
+    {
+      "name": "Cognitive Light Cone Model",
+      "creator": "Michael Levin",
+      "context": "Framework formalizing functional concern as spatio-temporal distance at which events can stress a system into action."
+    },
+    {
+      "name": "Cellular Neural Networks",
+      "creator": "Leon O. Chua",
+      "context": "Computational model related to discretized lattice structure used for modeling embryonic tissue organization."
+    },
+    {
+      "name": "Cybernetics",
+      "creator": null,
+      "context": "Control theory framework applicable to understanding behavioral policies in cellular collectives navigating problem spaces."
+    },
+    {
+      "name": "Hopfield Networks",
+      "creator": "John Hopfield",
+      "context": "Computational model relevant to understanding stress and geometric frustration in pattern formation systems."
+    },
+    {
+      "name": "Artificial Embryogeny",
+      "creator": null,
+      "context": "Computational model simulating developmental processes; used to study how cellular competency and morphogenetic rules produce adaptive developmental outcomes."
+    },
+    {
+      "name": "Cognitive Lens",
+      "creator": "Sawyer Manicka and Michael Levin",
+      "context": "Primer and framework for conceptual tools to analyze cognition in developmental and regenerative morphogenesis."
+    },
+    {
+      "name": "Copycat Project",
+      "creator": "Douglas Hofstadter and Melanie Mitchell",
+      "context": "Computational model of mental fluidity and analogy-making; explores mechanisms of flexible cognition."
+    },
+    {
+      "name": "Cellular Ising Model",
+      "creator": "Michael Weber and Juan Buceta",
+      "context": "Framework for understanding phase transitions and pattern formation in multicellular environments."
+    },
+    {
+      "name": "Homeostatic Setpoint Model",
+      "creator": null,
+      "context": "Linear-encoding model explaining variability in homeostatic target values during regeneration and development."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Department Of Biology, Tufts University",
+      "type": "university",
+      "context": "Academic department where research on stress-sharing and morphogenesis is conducted."
+    },
+    {
+      "name": "Allen Discovery Center At Tufts University",
+      "type": "research-center",
+      "context": "Research center affiliated with Tufts University investigating morphogenesis and collective biology."
+    },
+    {
+      "name": "Wyss Institute For Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Harvard-affiliated research institute advancing bioengineering and regenerative medicine approaches."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "research-center",
+      "context": "Provided funding support for research through grants including TWCF0606; supports interdisciplinary work on consciousness and fundamental questions."
+    },
+    {
+      "name": "Astonishing Labs",
+      "type": "research-center",
+      "context": "Funding source for Michael Levin's research on bioelectricity and morphogenesis."
+    },
+    {
+      "name": "Bill And Melinda Gates Foundation",
+      "type": "research-center",
+      "context": "Provided funding support for research on developmental biology and related topics."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What mechanisms allow coordination of cell activity toward one consistent morphology?",
+      "category": "other",
+      "context": "Central problem in understanding how multicellular collectives achieve reliable anatomical outcomes from individual cell behaviors."
+    },
+    {
+      "question": "How do homeostatic capabilities of individual cells relate to complex homeostatic setpoints of collectives?",
+      "category": "metaphysics",
+      "context": "Fundamental question of how local homeostatic loops scale to multicellular goal-seeking and morphogenetic control."
+    },
+    {
+      "question": "What is the role of stress sharing as a mechanism for functional cooperation of cells?",
+      "category": "other",
+      "context": "Investigates hypothesis that stress molecules leaking between cells enable coordination without requiring explicit altruism mechanisms."
+    },
+    {
+      "question": "How well does stress sharing work in multiscale systems with emergent behaviors?",
+      "category": "other",
+      "context": "Questions about robustness and dynamics of stress-sharing mechanism in complex biological networks."
+    },
+    {
+      "question": "Can external observers predict target morphogenetic patterns from observation of stress states?",
+      "category": "epistemology",
+      "context": "Explores limits of external observation in inferring system goals; reveals privacy properties of morphogenetic systems."
+    },
+    {
+      "question": "What are the failure modes and optimal intervention strategies for morphogenesis?",
+      "category": "ethics",
+      "context": "Critical for advances in bioengineering, regenerative medicine, and treatment of birth defects."
+    },
+    {
+      "question": "How do modulators of stress response affect tissue replacement and aging?",
+      "category": "other",
+      "context": "Prediction that stress-response mechanisms may target aging processes through cognitive light cone modulation."
+    },
+    {
+      "question": "What is it like to be a stressed or unstressed cell or tissue from a first-person perspective?",
+      "category": "metaphysics",
+      "context": "Explores valence of stress and consciousness-like properties of goal-directed biological agents."
+    },
+    {
+      "question": "How do bioelectric signals enable cells to coordinate morphogenetic patterning independent of genetic instructions?",
+      "category": "epistemology",
+      "context": "Central to understanding developmental bioelectricity as a cognitive medium distinct from genetic and molecular mechanisms."
+    },
+    {
+      "question": "What is the nature of the relationship between cellular cognition and subjective experience or consciousness?",
+      "category": "metaphysics",
+      "context": "Fundamental question about whether cognition at all scales is associated with phenomenal consciousness."
+    },
+    {
+      "question": "How can complex behavioral and morphological goals be encoded and maintained in biological systems without explicit representation?",
+      "category": "epistemology",
+      "context": "Relates to understanding developmental memory and homeostatic setpoints in regeneration."
+    },
+    {
+      "question": "Can principles of morphogenesis and developmental bioelectricity be applied to bioengineering chimeric and synthetic organisms?",
+      "category": "alignment",
+      "context": "Raises questions about controllability and predictability of engineered biological systems."
+    },
+    {
+      "question": "How do individual cells achieve individuation and unified agency within multicellular organisms?",
+      "category": "metaphysics",
+      "context": "Fundamental question about boundaries of biological individuals and selfhood across scales."
+    },
+    {
+      "question": "What is the relationship between stress responses and evolutionary innovation?",
+      "category": "epistemology",
+      "context": "Explores how cellular stress can drive development of novel cell types and morphological features."
+    },
+    {
+      "question": "Can cancer be understood and treated as a scaling problem of cellular identity?",
+      "category": "other",
+      "context": "Novel bioelectric perspective on oncology suggests reframing cancer as loss of proper pattern scaling."
+    },
+    {
+      "question": "How do biological systems maintain anatomical homeostasis despite continuous molecular turnover?",
+      "category": "epistemology",
+      "context": "Central to understanding goal-directed morphogenesis and regeneration."
+    }
+  ],
+  "_metadata": {
+    "source_file": "batched_extraction",
+    "title": "Biochemical and Biophysical Research Communications 731 (2024) 150396",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:38:18.842167",
+    "batches_processed": 2
+  }
+}

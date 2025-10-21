@@ -1,0 +1,15 @@
+{
+  "name": "Enactivism",
+  "filename": "enactivism",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.258998",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

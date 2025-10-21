@@ -1,0 +1,20 @@
+{
+  "name": "Christof Koch",
+  "filename": "christof-koch",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Co-researcher on integrated information measures relevant to consciousness modeling",
+  "domains": [
+    "Neuroscience",
+    "Consciousness Studies"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.225004",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

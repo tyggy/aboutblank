@@ -1,0 +1,16 @@
+{
+  "name": "Multi-Level Bayesian Inference",
+  "filename": "multi-level-bayesian-inference",
+  "creator": "Eörs Szathmáry",
+  "context": "Framework treating major transitions in individuality as structure learning problems in hierarchical Bayesian networks.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.791692",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-the-same-principles-of-memory-remapping-explain",
+  "aliases": [],
+  "sources": [],
+  "context": "Testing whether biological memory remapping insights transfer to AI and robotics research.",
+  "question": "Can the same principles of memory remapping explain skill transfer in embodied robotic systems?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.938882",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-does-evolution-search-the-space-of-behaviorshaping",
+  "aliases": [],
+  "sources": [],
+  "context": "Question about the dimensionality and structure of evolutionary search spaces enabled by competent substrates.",
+  "question": "How does evolution search the space of behavior-shaping signals rather than low-level genetic implementations?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.948076",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

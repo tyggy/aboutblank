@@ -1,0 +1,19 @@
+{
+  "name": "Information Theory Of Individuality",
+  "filename": "information-theory-of-individuality",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Formal information-theoretic approach to defining and characterizing what constitutes a distinct individual or agent",
+  "creator": [
+    "Daniel Krakauer"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.266168",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

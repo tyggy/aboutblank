@@ -1,0 +1,20 @@
+{
+  "name": "Cellular Decision-Making",
+  "filename": "cellular-decision-making",
+  "aliases": [
+    "cell choice",
+    "cellular agency"
+  ],
+  "category": "cognitive",
+  "context": "Individual cells demonstrating adaptive responses to environmental stimuli independent of neural control signals.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.774456",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

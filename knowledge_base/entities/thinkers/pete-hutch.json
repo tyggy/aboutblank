@@ -1,0 +1,22 @@
+{
+  "name": "Pete Hutch",
+  "filename": "pete-hutch",
+  "aliases": [
+    "Peter Hutch"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md"
+  ],
+  "context": "Professor of astrophysics at The Institute For Advanced Study in Princeton, head of interdisciplinary studies program, founded Earth-Life Science Institute.",
+  "domains": [
+    "Astrophysics",
+    "Interdisciplinary Studies"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.219534",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

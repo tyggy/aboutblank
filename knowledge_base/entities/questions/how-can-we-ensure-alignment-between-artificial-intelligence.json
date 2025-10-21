@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-can-we-ensure-alignment-between-artificial-intelligence",
+  "aliases": [],
+  "sources": [],
+  "context": "The AI Alignment Problem; potentially addressed through model of intelligence that puts biological and artificial systems on equal footing.",
+  "question": "How can we ensure alignment between artificial intelligence goals and human values?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.285077",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Scale-Free Cognition",
+  "filename": "scale-free-cognition",
+  "aliases": [
+    "Multi-scale cognition",
+    "scale-free cognition",
+    "hierarchical scaling",
+    "fractal properties",
+    "Hierarchical cognition"
+  ],
+  "category": "cognitive",
+  "context": "Cognitive processes operating across biological scales from molecular to organismal level; cognition not limited to neural tissue.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Cognitive processes operating across biological scales from molecular to organismal level; cognition not limited to neural tissue."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Understanding cognition as operating at multiple hierarchical levels from cells to organisms."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Biological systems exhibiting similar organizational principles across multiple scales from molecular to organismal levels."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.760984",
+    "sources_count": 1,
+    "contexts_count": 3
+  },
+  "synthesized_overview": "Scale-Free Cognition describes cognitive processes that operate across multiple hierarchical biological scales—from molecular to organismal levels—rather than being confined to neural tissue alone. This framework recognizes that biological systems exhibit similar organizational principles and functional patterns across these different scales, suggesting that cognition emerges as a distributed phenomenon throughout living systems. Rather than viewing the mind as localized in the brain, Scale-Free Cognition proposes that cognitive capabilities are fundamentally multi-scalar, with information processing and adaptive responses occurring at cellular, tissue, and whole-organism levels according to comparable structural and functional rules."
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Constructive Neutral Evolution Framework",
+  "filename": "constructive-neutral-evolution-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Model explaining evolutionary change through non-adaptive modifications to developmental control systems.",
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.268024",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

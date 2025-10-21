@@ -1,0 +1,15 @@
+{
+  "name": "Cross Labs",
+  "filename": "cross-labs",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.272341",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

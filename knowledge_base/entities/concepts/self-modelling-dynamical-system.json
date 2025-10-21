@@ -1,0 +1,31 @@
+{
+  "name": "Self-Modelling Dynamical System",
+  "filename": "self-modelling-dynamical-system",
+  "aliases": [
+    "recursive self-representation",
+    "self-modeling dynamical systems"
+  ],
+  "category": "interdisciplinary",
+  "context": "System that forms memories of states it visits, increasing likelihood of visiting those states in future through associative learning",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "System that forms memories of states it visits, increasing likelihood of visiting those states in future through associative learning"
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Capacity of systems to develop internal models of their own behavior enabling learning and optimization."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.771108",
+    "sources_count": 1,
+    "contexts_count": 2
+  },
+  "synthesized_overview": "A self-modelling dynamical system is a system that constructs internal models of its own behavior and states, then uses these memories to inform future actions through associative learning. By developing this capacity for self-reference and recursive modeling, the system can learn from its own patterns and optimize its behavior, creating a feedback loop where visited states become increasingly likely to recur. This process enables the system to adapt and evolve based on its own history rather than external programming alone."
+}

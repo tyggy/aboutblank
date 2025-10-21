@@ -1,0 +1,19 @@
+{
+  "name": "Connectionist Framework For Collective Intelligence",
+  "filename": "connectionist-framework-for-collective-intelligence",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Unified framework showing how connectionist models of cognition and learning from AI apply to biological collective intelligence across scales.",
+  "creator": [
+    "Watson and Levin"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.270582",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

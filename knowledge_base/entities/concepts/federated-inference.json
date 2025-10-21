@@ -1,0 +1,20 @@
+{
+  "name": "Federated Inference",
+  "filename": "federated-inference",
+  "aliases": [
+    "distributed inference",
+    "federated belief sharing"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Inference process distributed across multiple agents or systems",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.242922",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

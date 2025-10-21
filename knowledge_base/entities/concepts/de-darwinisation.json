@@ -1,0 +1,28 @@
+{
+  "name": "De-Darwinisation",
+  "filename": "de-darwinisation",
+  "aliases": [],
+  "category": "interdisciplinary",
+  "context": "Process by which lower-level evolutionary units lose independent replication capability and become dependent on higher-level collective reproduction.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Process by which lower-level evolutionary units lose independent replication capability and become dependent on higher-level collective reproduction."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Process by which collectives at higher levels acquire heritable variation in fitness and become true evolutionary units."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.769780",
+    "sources_count": 1,
+    "contexts_count": 2
+  },
+  "synthesized_overview": "De-Darwinisation is a process in which lower-level evolutionary units (such as individual organisms or genes) lose their independent capacity for replication and become metabolically or reproductively dependent on higher-level collectives. Simultaneously, these collectives acquire heritable variation in fitness and evolve into true evolutionary units in their own right, shifting the primary locus of natural selection to the group level. This represents a fundamental reorganization of evolutionary dynamics, where previously autonomous agents become integrated components of larger systems that themselves become subject to Darwinian processes."
+}

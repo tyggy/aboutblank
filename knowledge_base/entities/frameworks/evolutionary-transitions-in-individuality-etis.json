@@ -1,0 +1,26 @@
+{
+  "name": "Evolutionary Transitions In Individuality (Etis)",
+  "filename": "evolutionary-transitions-in-individuality-etis",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Framework for understanding major transitions where new levels of organization emerge with novel collective properties."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Framework explaining major evolutionary transitions through changes in information flow and level of selection."
+    }
+  ],
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.260320",
+    "sources_count": 1,
+    "contexts_count": 2
+  }
+}

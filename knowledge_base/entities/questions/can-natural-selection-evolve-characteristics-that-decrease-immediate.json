@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-natural-selection-evolve-characteristics-that-decrease-immediate",
+  "aliases": [],
+  "sources": [],
+  "context": "Addresses fundamental tension between short-sighted selection and requirements for evolutionary transitions.",
+  "question": "Can natural selection evolve characteristics that decrease immediate fitness benefit and differentially benefit others?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.940281",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

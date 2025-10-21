@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-should-we-design-ai-systems-to-exhibit",
+  "aliases": [],
+  "sources": [],
+  "context": "Practical question about whether bioelectric principles and distributed coordination can inform artificial intelligence design.",
+  "question": "How should we design AI systems to exhibit goal-directed behavior and embodied cognition comparable to biological systems?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.301095",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

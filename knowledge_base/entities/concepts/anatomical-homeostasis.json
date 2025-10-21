@@ -1,0 +1,24 @@
+{
+  "name": "Anatomical Homeostasis",
+  "filename": "anatomical-homeostasis",
+  "aliases": [
+    "morphological homeostasis",
+    "morphogenetic homeostasis",
+    "anatomical homeostasis",
+    "homeodynamics",
+    "Morphological homeostasis",
+    "homeostatic plasticity",
+    "Anatomical homeostasis",
+    "Morphological Homeostasis"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.227493",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

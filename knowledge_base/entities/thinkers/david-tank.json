@@ -1,0 +1,20 @@
+{
+  "name": "David Tank",
+  "filename": "david-tank",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Co-developer of neural computation models with Hopfield",
+  "domains": [
+    "neural networks",
+    "computational neuroscience"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.222135",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

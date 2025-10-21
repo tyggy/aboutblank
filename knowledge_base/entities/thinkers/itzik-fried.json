@@ -1,0 +1,21 @@
+{
+  "name": "Itzik Fried",
+  "filename": "itzik-fried",
+  "aliases": [
+    "I. Fried"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Neurosurgeon studying brain stimulation and consciousness",
+  "domains": [
+    "neuroscience"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.221000",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

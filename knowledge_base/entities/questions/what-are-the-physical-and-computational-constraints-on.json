@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "what-are-the-physical-and-computational-constraints-on",
+  "aliases": [],
+  "sources": [],
+  "context": "Studies how embodiment in biology, silicon, or other materials constrains what kinds of computation and cognition are possible",
+  "question": "What are the physical and computational constraints on cognition across different substrates?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.303121",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

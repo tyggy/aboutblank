@@ -1,0 +1,19 @@
+{
+  "name": "Major Transitions In Evolution",
+  "filename": "major-transitions-in-evolution",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Classical framework explaining major increases in organizational complexity through evolutionary transitions",
+  "creator": [
+    "John Maynard Smith and Eörs Szathmáry"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.263274",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

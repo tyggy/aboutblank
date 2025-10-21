@@ -1,0 +1,32 @@
+{
+  "name": "Multi-Level Selection",
+  "filename": "multi-level-selection",
+  "aliases": [
+    "Multi-level selection",
+    "Hierarchical Selection",
+    "Hierarchical selection"
+  ],
+  "category": "interdisciplinary",
+  "context": "Selection acting simultaneously at multiple levels of biological organization; framework for understanding how collectives become evolutionary units.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Selection acting simultaneously at multiple levels of biological organization; framework for understanding how collectives become evolutionary units."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Evolutionary mechanism operating at multiple organizational levels simultaneously."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.770014",
+    "sources_count": 1,
+    "contexts_count": 2
+  },
+  "synthesized_overview": "Multi-Level Selection is an evolutionary mechanism in which selection pressures act simultaneously across multiple levels of biological organization—from genes and individuals to groups and ecosystems—allowing collectives to become evolutionary units in their own right. This framework explains how cooperative behaviors and group-level traits can evolve when selection at higher levels outweighs competition at lower levels, fundamentally reshaping our understanding of how complexity and organization emerge in living systems."
+}

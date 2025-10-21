@@ -1,0 +1,19 @@
+{
+  "name": "Ohm'S Law Analogy",
+  "filename": "ohms-law-analogy",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
+  ],
+  "context": "Mathematical analogy using electrical principles to model SCI loop proportionalities; care as charge, intelligence as current, stress as resistance",
+  "creator": [
+    "Witkowski et al."
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.259320",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

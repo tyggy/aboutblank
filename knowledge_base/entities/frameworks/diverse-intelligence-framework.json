@@ -1,0 +1,15 @@
+{
+  "name": "Diverse Intelligence Framework",
+  "filename": "diverse-intelligence-framework",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.259437",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

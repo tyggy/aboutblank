@@ -1,0 +1,22 @@
+{
+  "name": "Oliver Sacks",
+  "filename": "oliver-sacks",
+  "aliases": [
+    "O.W. Sacks"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Neurologist and writer on mind and neurological conditions",
+  "domains": [
+    "neurology",
+    "consciousness"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.221061",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

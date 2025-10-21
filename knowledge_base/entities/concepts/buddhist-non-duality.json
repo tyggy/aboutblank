@@ -1,0 +1,20 @@
+{
+  "name": "Buddhist Non-Duality",
+  "filename": "buddhist-non-duality",
+  "aliases": [
+    "no-self",
+    "anatta"
+  ],
+  "category": "buddhist",
+  "context": "Traditional Buddhist conception of self as process without fixed essence; parallel to Levin's process ontology.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.767613",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

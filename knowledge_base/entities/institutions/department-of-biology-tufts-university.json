@@ -1,0 +1,15 @@
+{
+  "name": "Department Of Biology, Tufts University",
+  "filename": "department-of-biology-tufts-university",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.271626",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

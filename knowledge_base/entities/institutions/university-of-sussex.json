@@ -1,0 +1,15 @@
+{
+  "name": "University Of Sussex",
+  "filename": "university-of-sussex",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.276803",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

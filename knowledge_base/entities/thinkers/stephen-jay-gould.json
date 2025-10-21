@@ -1,0 +1,22 @@
+{
+  "name": "Stephen Jay Gould",
+  "filename": "stephen-jay-gould",
+  "aliases": [
+    "SJ Gould"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Evolutionary theorist; work on ontogeny and phylogeny relevant to developmental evolution.",
+  "domains": [
+    "Evolutionary Biology",
+    "Paleontology"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.226464",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

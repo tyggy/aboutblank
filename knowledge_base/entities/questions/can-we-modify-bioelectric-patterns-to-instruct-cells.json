@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-we-modify-bioelectric-patterns-to-instruct-cells",
+  "aliases": [],
+  "sources": [],
+  "context": "Technical feasibility of rewriting collective intelligence raises questions about autonomy of biological systems and ethical implications of directed morphogenesis",
+  "question": "Can we modify bioelectric patterns to instruct cells to build novel body configurations?",
+  "category": "ethics",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.983758",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "does-the-free-energy-principle-adequately-explain-morphogenesis",
+  "aliases": [],
+  "sources": [],
+  "context": "Evaluates whether variational inference frameworks extend from neuroscience to developmental and evolutionary biology.",
+  "question": "Does the Free Energy Principle adequately explain morphogenesis and pattern formation in biological systems?",
+  "category": "metaphysics",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.297402",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

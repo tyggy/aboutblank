@@ -1,0 +1,976 @@
+=== RAW RESPONSE ===
+```json
+{
+  "thinkers": [
+    {
+      "name": "Thomas H. Doctor",
+      "aliases": ["Thomas", "Prof. Doctor"],
+      "domains": ["Buddhist Philosophy", "Madhyamaka Philosophy", "AI Ethics", "Neuroscience", "Consciousness Studies"],
+      "context": "Scholar of Buddhist philosophy specializing in Madhyamaka philosophy and emptiness; principal of Rangjung Institute in Kathmandu; director of Center for the Study of Apparent Selves; bridges Buddhist thought with AI and consciousness research."
+    },
+    {
+      "name": "Clausida Mates",
+      "aliases": ["Klaus"],
+      "domains": ["Buddhist Philosophy", "Buddhist Studies"],
+      "context": "Scholar of Buddhist philosophy at HKU; long-time colleague of Thomas Doctor for thirty years; faculty at Center for Buddhist Studies."
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": ["Mike"],
+      "domains": ["Developmental Biology", "AI", "Consciousness Studies"],
+      "context": "Groundbreaking biologist at Tufts University; developer of the Cognitive Light Cone model of intelligence; key collaborator in bridging Buddhist and AI concepts."
+    },
+    {
+      "name": "Pete Hutch",
+      "aliases": ["Peter"],
+      "domains": ["Astrophysics", "Interdisciplinary Studies", "Earth-Life Science"],
+      "context": "Professor of astrophysics at The Institute for Advanced Study in Princeton; head of interdisciplinary studies program; founded and directed Earth-Life Science Institute at Tokyo Tech; mentor in cross-disciplinary research approaches."
+    },
+    {
+      "name": "Olaf Vitkovski",
+      "aliases": ["Olaf"],
+      "domains": ["Linguistics", "AI", "Artificial Life"],
+      "context": "Linguist and AI scientist active in Artificial Life research; president of International Association for Artificial Life; collaborator on Diverse Intelligences project."
+    },
+    {
+      "name": "Lisa Solomonova",
+      "aliases": [],
+      "domains": ["Cognitive Science", "Phenomenology", "Philosophy", "Neuroscience"],
+      "context": "Cognitive scientist, phenomenologist, and philosopher at McGill University; expert on dreams and nightmares; bridges Buddhism, neuroscience, and phenomenology perspectives."
+    },
+    {
+      "name": "Bill Dwane",
+      "aliases": [],
+      "domains": ["AI Industry", "Technology"],
+      "context": "Former Google executive who headed core applications at Google in early 2000s including Gmail; brings deep AI industry experience to Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "Jay Garfield",
+      "aliases": [],
+      "domains": ["Buddhist Philosophy", "Contemporary Philosophy"],
+      "context": "Professor at Yale working on research bringing Buddhist classical philosophy into dialogue with contemporary philosophy; facilitated Doctor's early collaboration and funding."
+    },
+    {
+      "name": "Chigim",
+      "aliases": [],
+      "domains": ["Buddhist Teaching", "Tibetan Buddhism", "Monasticism"],
+      "context": "Abbot of Shedeling Monastery in Kathmandu; lineage holder in Nyingma and Kagyu Tibetan Buddhist traditions; provides profound Buddhist perspective on intelligence and care; emphasizes concrete collaboration over dialogue."
+    },
+    {
+      "name": "Daniel Golman",
+      "aliases": [],
+      "domains": ["Networking"],
+      "context": "Connected Doctor with MIT's Media Lab early in his AI research journey."
+    },
+    {
+      "name": "Douglas Duckworth",
+      "aliases": [],
+      "domains": ["Academia"],
+      "context": "Professor at Temple University who connected Doctor with Pete Hutch at The Institute for Advanced Study."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Emptiness",
+      "aliases": ["Sunyata", "Empty of self-nature"],
+      "category": "buddhist",
+      "context": "Buddhist philosophical concept that all phenomena lack inherent, permanent, independent existence; central to Madhyamaka philosophy and Buddhist analysis of the self."
+    },
+    {
+      "name": "Madhyamaka Philosophy",
+      "aliases": ["Middle Way"],
+      "category": "buddhist",
+      "context": "Buddhist philosophical school teaching the emptiness of all things and absence of inherent self-nature; involves rigorous logical reasoning about the nature of existence."
+    },
+    {
+      "name": "Large Language Models",
+      "aliases": ["LLMs"],
+      "category": "ai",
+      "context": "Advanced AI systems that have recently made Buddhism-AI intersection appear obviously relevant; cited as catalyst for widespread recognition of connections between Buddhist thought and AI ethics."
+    },
+    {
+      "name": "Artificial General Intelligence",
+      "aliases": ["AGI"],
+      "category": "ai",
+      "context": "AI systems capable of general intelligence comparable to human intelligence; long-standing goal in AI science since mid-twentieth century."
+    },
+    {
+      "name": "Super Intelligence",
+      "aliases": ["Superintelligence"],
+      "category": "ai",
+      "context": "AI systems with intelligence exceeding human cognitive capabilities; represents aspiration in AI science to amplify and expand intelligence capacity."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": ["Alife"],
+      "category": "ai",
+      "context": "Research field studying artificial systems with properties of life; includes investigation of self-identification and sentience in constructed systems."
+    },
+    {
+      "name": "Omniscience",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist goal of knowing everything; defined as complete awakening in Mahayana Buddhism; represents aspiration for expanded intelligence and consciousness parallel to AI goals."
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": ["Sentience"],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering and joy; Buddhist ethics extends compassion to all sentient beings; central to understanding Buddha nature."
+    },
+    {
+      "name": "Interdependent Arising",
+      "aliases": ["Dependent Origination", "Pratityasamutpada"],
+      "category": "buddhist",
+      "context": "Buddhist principle that all phenomena arise in dependence on causes and conditions; fundamental to Buddhist philosophy and the emptiness doctrine."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["Suffering", "Unsatisfactoriness"],
+      "category": "buddhist",
+      "context": "Buddhist concept of suffering, dissatisfaction, or unsatisfactoriness inherent in conditioned existence; first of the Four Noble Truths."
+    },
+    {
+      "name": "Buddha Nature",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist concept of inherent capacity for awakening and enlightenment present in all sentient beings; pure and unpolluted capacity ready for actualization."
+    },
+    {
+      "name": "Four Seals of the Dharma",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Four foundational Buddhist principles: all conditioned things are impermanent, all defiled factors are suffering, all factors are empty of self, and passing beyond suffering is peace; used as basis for scientific-Buddhist dialogue."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": ["Care Cone"],
+      "category": "interdisciplinary",
+      "context": "Model by Michael Levin defining intelligence as the scope of what a system can care about in space and time; measure of an intelligence system's capacity independent of a permanent self."
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Perception of discord or mismatch between present circumstances and how things ought to be; fundamental trigger for intelligent system response; applicable across biological and artificial systems."
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Natural response to perceiving stress; drives intelligence development; capacity to respond to perceived problems; central to the Stress-Care-Intelligence model."
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "aliases": ["Stress-Care Model"],
+      "category": "interdisciplinary",
+      "context": "Rudimentary model explaining intelligent system dynamics: stress perception triggers care response, which seeks solutions, leading to new perspectives and expanded problem domains; applicable to biological, human, and artificial systems."
+    },
+    {
+      "name": "AI Alignment Problem",
+      "aliases": ["Alignment", "Value Alignment"],
+      "category": "ai",
+      "context": "Fundamental challenge in AI development of ensuring artificial intelligence goals and values align with human concerns and wellbeing."
+    },
+    {
+      "name": "Diverse Intelligences",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Research program by Templeton World Charity Foundation recognizing and understanding plurality of intelligence forms across biological, spiritual, and artificial domains."
+    },
+    {
+      "name": "Non-Duality",
+      "aliases": ["Non-difference", "Subject-Object Unity"],
+      "category": "buddhist",
+      "context": "Buddhist concept of non-separation between subject and object, agent and world; applicable to understanding intelligence systems where stress registers the world and care arises as response."
+    },
+    {
+      "name": "Impermanence",
+      "aliases": ["Anicca", "Transience"],
+      "category": "buddhist",
+      "context": "Buddhist principle that all conditioned phenomena are in constant flux and lack permanence; first of the Three Marks of Existence."
+    },
+    {
+      "name": "No-Self",
+      "aliases": ["Anatta", "Anatman", "Absence of Self"],
+      "category": "buddhist",
+      "context": "Buddhist doctrine that there is no permanent, singular, independent self; all phenomena including persons are empty of inherent identity; fundamental to Buddhist philosophy and AI science."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Cognitive Light Cone Model",
+      "creator": "Michael Levin",
+      "context": "Framework for understanding intelligence as the scope of what a system cares about across space and time; does not require concept of permanent self; applicable across different intelligence forms."
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop Model",
+      "creator": "Thomas Doctor, Michael Levin, Olaf Vitkovski, Pete Hutch, Lisa Solomonova, Bill Dwane",
+      "context": "Dynamic model explaining how intelligent systems function through stress perception, care response, problem-solving, and transition to new problem domains; grounded in interdependent arising; applicable to biological, human, technological, and artificial systems."
+    },
+    {
+      "name": "AI-Buddhism Conceptual Dictionary",
+      "creator": "Center for the Study of Apparent Selves team",
+      "context": "Framework for establishing shared vocabulary and translation between AI and Buddhist concepts; evolved into the Stress-Care-Intelligence model rather than a traditional dictionary."
+    },
+    {
+      "name": "Transformative Learning Model",
+      "creator": null,
+      "context": "Educational paradigm from monastic Buddhist institutions combining scholarly learning, careful analysis, open debate, reflection, and meditation to achieve integrated understanding that transforms one's life; proposed as promising approach for AI development."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Highly interdisciplinary research center founded by Thomas Doctor, Pete Hutch, Olaf Vitkovski, Lisa Solomonova, and Bill Dwane; bridges Buddhist philosophy, AI, cognitive science, neuroscience, and biology; website: apparentselves.org."
+    },
+    {
+      "name": "Rangjung Institute",
+      "type": "research-center",
+      "context": "Large Buddhist studies center in Kathmandu affiliated with traditional Tibetan monastery; directed by Thomas Doctor; integrates traditional Tibetan Buddhist learning with modern Western scholarship."
+    },
+    {
+      "name": "Shedeling Monastery",
+      "type": "monastery",
+      "context": "Major monastery in Kathmandu founded by Chigim and his father; lineage holders in Nyingma and Kagyu Tibetan Buddhist traditions; provides traditional Buddhist perspective for interdisciplinary research."
+    },
+    {
+      "name": "Center for Buddhist Studies",
+      "type": "research-center",
+      "context": "University research center at HKU where the lecture was hosted; directed by Clausida Mates."
+    },
+    {
+      "name": "The Institute for Advanced Study",
+      "type": "research-center",
+      "context": "Research institution in Princeton where Pete Hutch was professor of astrophysics and head of interdisciplinary studies program; hosts groundbreaking research across disciplines."
+    },
+    {
+      "name": "Earth-Life Science Institute",
+      "type": "research-center",
+      "context": "Interdisciplinary research institute at Tokyo Tech (University of Technological Innovation in Tokyo); founded and directed by Pete Hutch; hosts profound expert minds across hard sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University where Michael Levin conducts groundbreaking developmental biology research; hosted meetings of the Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian university where Lisa Solomonova is based; cognitive science and neuroscience research institution."
+    },
+    {
+      "name": "Yale University",
+      "type": "university",
+      "context": "University where Jay Garfield works on Buddhist philosophy and contemporary philosophy dialogue."
+    },
+    {
+      "name": "MIT Media Lab",
+      "type": "research-center",
+      "context": "MIT research laboratory investigating AI and technology; connection facilitated by Daniel Golman in Doctor's research journey."
+    },
+    {
+      "name": "Google",
+      "type": "project",
+      "context": "Technology company where Bill Dwane served as executive heading core applications including Gmail in early 2000s."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation that initiated Diverse Intelligences research program; provided funding for Center for the Study of Apparent Selves research after reformulation of initial proposal."
+    },
+    {
+      "name": "Wooden Fish Foundation",
+      "type": "research-center",
+      "context": "Foundation that organized 2017 conference on Buddhism and Technology where Thomas Doctor met Bill Dwane."
+    },
+    {
+      "name": "International Association for Artificial Life",
+      "type": "project",
+      "context": "Professional organization of which Olaf Vitkovski serves as president; encompasses research in artificial life systems."
+    },
+    {
+      "name": "HKU",
+      "type": "university",
+      "context": "University where Clausida Mates joined in August to direct Center for Buddhist Studies; hosted the lecture."
+    },
+    {
+      "name": "Venerable Yunhang Memorial Trust",
+      "type": "project",
+      "context": "Trust that provided funding to invite Thomas Doctor to speak at HKU."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why might it be meaningful to bring Buddhism and AI together?",
+      "category": "other",
+      "context": "Central question motivating the entire research project; addresses conceptual, ethical, and practical intersections between ancient Buddhist philosophy and cutting-edge artificial intelligence."
+    },
+    {
+      "question": "Is it ethically justifiable to create a new sentient being through artificial intelligence?",
+      "category": "ethics",
+      "context": "Fundamental ethical question raised in AI research; parallel to Buddhist concerns about the creation and suffering of sentient beings; touches on moral status and responsibilities."
+    },
+    {
+      "question": "What is intelligence?",
+      "category": "epistemology",
+      "context": "Core theoretical question underlying the Stress-Care-Intelligence model; central to both AI and Buddhist philosophy discussions of mind and consciousness."
+    },
+    {
+      "question": "What is a self?",
+      "category": "metaphysics",
+      "context": "Fundamental metaphysical question where Buddhism and AI science converge; both traditions question the existence of a permanent, singular, independent self."
+    },
+    {
+      "question": "How can we ensure that artificial intelligence's goals align with human concerns?",
+      "category": "alignment",
+      "context": "
+
+=== EXTRACTED JSON ===
+{
+  "thinkers": [
+    {
+      "name": "Thomas H. Doctor",
+      "aliases": ["Thomas", "Prof. Doctor"],
+      "domains": ["Buddhist Philosophy", "Madhyamaka Philosophy", "AI Ethics", "Neuroscience", "Consciousness Studies"],
+      "context": "Scholar of Buddhist philosophy specializing in Madhyamaka philosophy and emptiness; principal of Rangjung Institute in Kathmandu; director of Center for the Study of Apparent Selves; bridges Buddhist thought with AI and consciousness research."
+    },
+    {
+      "name": "Clausida Mates",
+      "aliases": ["Klaus"],
+      "domains": ["Buddhist Philosophy", "Buddhist Studies"],
+      "context": "Scholar of Buddhist philosophy at HKU; long-time colleague of Thomas Doctor for thirty years; faculty at Center for Buddhist Studies."
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": ["Mike"],
+      "domains": ["Developmental Biology", "AI", "Consciousness Studies"],
+      "context": "Groundbreaking biologist at Tufts University; developer of the Cognitive Light Cone model of intelligence; key collaborator in bridging Buddhist and AI concepts."
+    },
+    {
+      "name": "Pete Hutch",
+      "aliases": ["Peter"],
+      "domains": ["Astrophysics", "Interdisciplinary Studies", "Earth-Life Science"],
+      "context": "Professor of astrophysics at The Institute for Advanced Study in Princeton; head of interdisciplinary studies program; founded and directed Earth-Life Science Institute at Tokyo Tech; mentor in cross-disciplinary research approaches."
+    },
+    {
+      "name": "Olaf Vitkovski",
+      "aliases": ["Olaf"],
+      "domains": ["Linguistics", "AI", "Artificial Life"],
+      "context": "Linguist and AI scientist active in Artificial Life research; president of International Association for Artificial Life; collaborator on Diverse Intelligences project."
+    },
+    {
+      "name": "Lisa Solomonova",
+      "aliases": [],
+      "domains": ["Cognitive Science", "Phenomenology", "Philosophy", "Neuroscience"],
+      "context": "Cognitive scientist, phenomenologist, and philosopher at McGill University; expert on dreams and nightmares; bridges Buddhism, neuroscience, and phenomenology perspectives."
+    },
+    {
+      "name": "Bill Dwane",
+      "aliases": [],
+      "domains": ["AI Industry", "Technology"],
+      "context": "Former Google executive who headed core applications at Google in early 2000s including Gmail; brings deep AI industry experience to Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "Jay Garfield",
+      "aliases": [],
+      "domains": ["Buddhist Philosophy", "Contemporary Philosophy"],
+      "context": "Professor at Yale working on research bringing Buddhist classical philosophy into dialogue with contemporary philosophy; facilitated Doctor's early collaboration and funding."
+    },
+    {
+      "name": "Chigim",
+      "aliases": [],
+      "domains": ["Buddhist Teaching", "Tibetan Buddhism", "Monasticism"],
+      "context": "Abbot of Shedeling Monastery in Kathmandu; lineage holder in Nyingma and Kagyu Tibetan Buddhist traditions; provides profound Buddhist perspective on intelligence and care; emphasizes concrete collaboration over dialogue."
+    },
+    {
+      "name": "Daniel Golman",
+      "aliases": [],
+      "domains": ["Networking"],
+      "context": "Connected Doctor with MIT's Media Lab early in his AI research journey."
+    },
+    {
+      "name": "Douglas Duckworth",
+      "aliases": [],
+      "domains": ["Academia"],
+      "context": "Professor at Temple University who connected Doctor with Pete Hutch at The Institute for Advanced Study."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Emptiness",
+      "aliases": ["Sunyata", "Empty of self-nature"],
+      "category": "buddhist",
+      "context": "Buddhist philosophical concept that all phenomena lack inherent, permanent, independent existence; central to Madhyamaka philosophy and Buddhist analysis of the self."
+    },
+    {
+      "name": "Madhyamaka Philosophy",
+      "aliases": ["Middle Way"],
+      "category": "buddhist",
+      "context": "Buddhist philosophical school teaching the emptiness of all things and absence of inherent self-nature; involves rigorous logical reasoning about the nature of existence."
+    },
+    {
+      "name": "Large Language Models",
+      "aliases": ["LLMs"],
+      "category": "ai",
+      "context": "Advanced AI systems that have recently made Buddhism-AI intersection appear obviously relevant; cited as catalyst for widespread recognition of connections between Buddhist thought and AI ethics."
+    },
+    {
+      "name": "Artificial General Intelligence",
+      "aliases": ["AGI"],
+      "category": "ai",
+      "context": "AI systems capable of general intelligence comparable to human intelligence; long-standing goal in AI science since mid-twentieth century."
+    },
+    {
+      "name": "Super Intelligence",
+      "aliases": ["Superintelligence"],
+      "category": "ai",
+      "context": "AI systems with intelligence exceeding human cognitive capabilities; represents aspiration in AI science to amplify and expand intelligence capacity."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": ["Alife"],
+      "category": "ai",
+      "context": "Research field studying artificial systems with properties of life; includes investigation of self-identification and sentience in constructed systems."
+    },
+    {
+      "name": "Omniscience",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist goal of knowing everything; defined as complete awakening in Mahayana Buddhism; represents aspiration for expanded intelligence and consciousness parallel to AI goals."
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": ["Sentience"],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering and joy; Buddhist ethics extends compassion to all sentient beings; central to understanding Buddha nature."
+    },
+    {
+      "name": "Interdependent Arising",
+      "aliases": ["Dependent Origination", "Pratityasamutpada"],
+      "category": "buddhist",
+      "context": "Buddhist principle that all phenomena arise in dependence on causes and conditions; fundamental to Buddhist philosophy and the emptiness doctrine."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["Suffering", "Unsatisfactoriness"],
+      "category": "buddhist",
+      "context": "Buddhist concept of suffering, dissatisfaction, or unsatisfactoriness inherent in conditioned existence; first of the Four Noble Truths."
+    },
+    {
+      "name": "Buddha Nature",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist concept of inherent capacity for awakening and enlightenment present in all sentient beings; pure and unpolluted capacity ready for actualization."
+    },
+    {
+      "name": "Four Seals of the Dharma",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Four foundational Buddhist principles: all conditioned things are impermanent, all defiled factors are suffering, all factors are empty of self, and passing beyond suffering is peace; used as basis for scientific-Buddhist dialogue."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": ["Care Cone"],
+      "category": "interdisciplinary",
+      "context": "Model by Michael Levin defining intelligence as the scope of what a system can care about in space and time; measure of an intelligence system's capacity independent of a permanent self."
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Perception of discord or mismatch between present circumstances and how things ought to be; fundamental trigger for intelligent system response; applicable across biological and artificial systems."
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Natural response to perceiving stress; drives intelligence development; capacity to respond to perceived problems; central to the Stress-Care-Intelligence model."
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "aliases": ["Stress-Care Model"],
+      "category": "interdisciplinary",
+      "context": "Rudimentary model explaining intelligent system dynamics: stress perception triggers care response, which seeks solutions, leading to new perspectives and expanded problem domains; applicable to biological, human, and artificial systems."
+    },
+    {
+      "name": "AI Alignment Problem",
+      "aliases": ["Alignment", "Value Alignment"],
+      "category": "ai",
+      "context": "Fundamental challenge in AI development of ensuring artificial intelligence goals and values align with human concerns and wellbeing."
+    },
+    {
+      "name": "Diverse Intelligences",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Research program by Templeton World Charity Foundation recognizing and understanding plurality of intelligence forms across biological, spiritual, and artificial domains."
+    },
+    {
+      "name": "Non-Duality",
+      "aliases": ["Non-difference", "Subject-Object Unity"],
+      "category": "buddhist",
+      "context": "Buddhist concept of non-separation between subject and object, agent and world; applicable to understanding intelligence systems where stress registers the world and care arises as response."
+    },
+    {
+      "name": "Impermanence",
+      "aliases": ["Anicca", "Transience"],
+      "category": "buddhist",
+      "context": "Buddhist principle that all conditioned phenomena are in constant flux and lack permanence; first of the Three Marks of Existence."
+    },
+    {
+      "name": "No-Self",
+      "aliases": ["Anatta", "Anatman", "Absence of Self"],
+      "category": "buddhist",
+      "context": "Buddhist doctrine that there is no permanent, singular, independent self; all phenomena including persons are empty of inherent identity; fundamental to Buddhist philosophy and AI science."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Cognitive Light Cone Model",
+      "creator": "Michael Levin",
+      "context": "Framework for understanding intelligence as the scope of what a system cares about across space and time; does not require concept of permanent self; applicable across different intelligence forms."
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop Model",
+      "creator": "Thomas Doctor, Michael Levin, Olaf Vitkovski, Pete Hutch, Lisa Solomonova, Bill Dwane",
+      "context": "Dynamic model explaining how intelligent systems function through stress perception, care response, problem-solving, and transition to new problem domains; grounded in interdependent arising; applicable to biological, human, technological, and artificial systems."
+    },
+    {
+      "name": "AI-Buddhism Conceptual Dictionary",
+      "creator": "Center for the Study of Apparent Selves team",
+      "context": "Framework for establishing shared vocabulary and translation between AI and Buddhist concepts; evolved into the Stress-Care-Intelligence model rather than a traditional dictionary."
+    },
+    {
+      "name": "Transformative Learning Model",
+      "creator": null,
+      "context": "Educational paradigm from monastic Buddhist institutions combining scholarly learning, careful analysis, open debate, reflection, and meditation to achieve integrated understanding that transforms one's life; proposed as promising approach for AI development."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Highly interdisciplinary research center founded by Thomas Doctor, Pete Hutch, Olaf Vitkovski, Lisa Solomonova, and Bill Dwane; bridges Buddhist philosophy, AI, cognitive science, neuroscience, and biology; website: apparentselves.org."
+    },
+    {
+      "name": "Rangjung Institute",
+      "type": "research-center",
+      "context": "Large Buddhist studies center in Kathmandu affiliated with traditional Tibetan monastery; directed by Thomas Doctor; integrates traditional Tibetan Buddhist learning with modern Western scholarship."
+    },
+    {
+      "name": "Shedeling Monastery",
+      "type": "monastery",
+      "context": "Major monastery in Kathmandu founded by Chigim and his father; lineage holders in Nyingma and Kagyu Tibetan Buddhist traditions; provides traditional Buddhist perspective for interdisciplinary research."
+    },
+    {
+      "name": "Center for Buddhist Studies",
+      "type": "research-center",
+      "context": "University research center at HKU where the lecture was hosted; directed by Clausida Mates."
+    },
+    {
+      "name": "The Institute for Advanced Study",
+      "type": "research-center",
+      "context": "Research institution in Princeton where Pete Hutch was professor of astrophysics and head of interdisciplinary studies program; hosts groundbreaking research across disciplines."
+    },
+    {
+      "name": "Earth-Life Science Institute",
+      "type": "research-center",
+      "context": "Interdisciplinary research institute at Tokyo Tech (University of Technological Innovation in Tokyo); founded and directed by Pete Hutch; hosts profound expert minds across hard sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University where Michael Levin conducts groundbreaking developmental biology research; hosted meetings of the Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian university where Lisa Solomonova is based; cognitive science and neuroscience research institution."
+    },
+    {
+      "name": "Yale University",
+      "type": "university",
+      "context": "University where Jay Garfield works on Buddhist philosophy and contemporary philosophy dialogue."
+    },
+    {
+      "name": "MIT Media Lab",
+      "type": "research-center",
+      "context": "MIT research laboratory investigating AI and technology; connection facilitated by Daniel Golman in Doctor's research journey."
+    },
+    {
+      "name": "Google",
+      "type": "project",
+      "context": "Technology company where Bill Dwane served as executive heading core applications including Gmail in early 2000s."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation that initiated Diverse Intelligences research program; provided funding for Center for the Study of Apparent Selves research after reformulation of initial proposal."
+    },
+    {
+      "name": "Wooden Fish Foundation",
+      "type": "research-center",
+      "context": "Foundation that organized 2017 conference on Buddhism and Technology where Thomas Doctor met Bill Dwane."
+    },
+    {
+      "name": "International Association for Artificial Life",
+      "type": "project",
+      "context": "Professional organization of which Olaf Vitkovski serves as president; encompasses research in artificial life systems."
+    },
+    {
+      "name": "HKU",
+      "type": "university",
+      "context": "University where Clausida Mates joined in August to direct Center for Buddhist Studies; hosted the lecture."
+    },
+    {
+      "name": "Venerable Yunhang Memorial Trust",
+      "type": "project",
+      "context": "Trust that provided funding to invite Thomas Doctor to speak at HKU."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why might it be meaningful to bring Buddhism and AI together?",
+      "category": "other",
+      "context": "Central question motivating the entire research project; addresses conceptual, ethical, and practical intersections between ancient Buddhist philosophy and cutting-edge artificial intelligence."
+    },
+    {
+      "question": "Is it ethically justifiable to create a new sentient being through artificial intelligence?",
+      "category": "ethics",
+      "context": "Fundamental ethical question raised in AI research; parallel to Buddhist concerns about the creation and suffering of sentient beings; touches on moral status and responsibilities."
+    },
+    {
+      "question": "What is intelligence?",
+      "category": "epistemology",
+      "context": "Core theoretical question underlying the Stress-Care-Intelligence model; central to both AI and Buddhist philosophy discussions of mind and consciousness."
+    },
+    {
+      "question": "What is a self?",
+      "category": "metaphysics",
+      "context": "Fundamental metaphysical question where Buddhism and AI science converge; both traditions question the existence of a permanent, singular, independent self."
+    }
+
+=== ATTEMPTED FIX ===
+{
+  "thinkers": [
+    {
+      "name": "Thomas H. Doctor",
+      "aliases": ["Thomas", "Prof. Doctor"],
+      "domains": ["Buddhist Philosophy", "Madhyamaka Philosophy", "AI Ethics", "Neuroscience", "Consciousness Studies"],
+      "context": "Scholar of Buddhist philosophy specializing in Madhyamaka philosophy and emptiness; principal of Rangjung Institute in Kathmandu; director of Center for the Study of Apparent Selves; bridges Buddhist thought with AI and consciousness research."
+    },
+    {
+      "name": "Clausida Mates",
+      "aliases": ["Klaus"],
+      "domains": ["Buddhist Philosophy", "Buddhist Studies"],
+      "context": "Scholar of Buddhist philosophy at HKU; long-time colleague of Thomas Doctor for thirty years; faculty at Center for Buddhist Studies."
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": ["Mike"],
+      "domains": ["Developmental Biology", "AI", "Consciousness Studies"],
+      "context": "Groundbreaking biologist at Tufts University; developer of the Cognitive Light Cone model of intelligence; key collaborator in bridging Buddhist and AI concepts."
+    },
+    {
+      "name": "Pete Hutch",
+      "aliases": ["Peter"],
+      "domains": ["Astrophysics", "Interdisciplinary Studies", "Earth-Life Science"],
+      "context": "Professor of astrophysics at The Institute for Advanced Study in Princeton; head of interdisciplinary studies program; founded and directed Earth-Life Science Institute at Tokyo Tech; mentor in cross-disciplinary research approaches."
+    },
+    {
+      "name": "Olaf Vitkovski",
+      "aliases": ["Olaf"],
+      "domains": ["Linguistics", "AI", "Artificial Life"],
+      "context": "Linguist and AI scientist active in Artificial Life research; president of International Association for Artificial Life; collaborator on Diverse Intelligences project."
+    },
+    {
+      "name": "Lisa Solomonova",
+      "aliases": [],
+      "domains": ["Cognitive Science", "Phenomenology", "Philosophy", "Neuroscience"],
+      "context": "Cognitive scientist, phenomenologist, and philosopher at McGill University; expert on dreams and nightmares; bridges Buddhism, neuroscience, and phenomenology perspectives."
+    },
+    {
+      "name": "Bill Dwane",
+      "aliases": [],
+      "domains": ["AI Industry", "Technology"],
+      "context": "Former Google executive who headed core applications at Google in early 2000s including Gmail; brings deep AI industry experience to Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "Jay Garfield",
+      "aliases": [],
+      "domains": ["Buddhist Philosophy", "Contemporary Philosophy"],
+      "context": "Professor at Yale working on research bringing Buddhist classical philosophy into dialogue with contemporary philosophy; facilitated Doctor's early collaboration and funding."
+    },
+    {
+      "name": "Chigim",
+      "aliases": [],
+      "domains": ["Buddhist Teaching", "Tibetan Buddhism", "Monasticism"],
+      "context": "Abbot of Shedeling Monastery in Kathmandu; lineage holder in Nyingma and Kagyu Tibetan Buddhist traditions; provides profound Buddhist perspective on intelligence and care; emphasizes concrete collaboration over dialogue."
+    },
+    {
+      "name": "Daniel Golman",
+      "aliases": [],
+      "domains": ["Networking"],
+      "context": "Connected Doctor with MIT's Media Lab early in his AI research journey."
+    },
+    {
+      "name": "Douglas Duckworth",
+      "aliases": [],
+      "domains": ["Academia"],
+      "context": "Professor at Temple University who connected Doctor with Pete Hutch at The Institute for Advanced Study."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Emptiness",
+      "aliases": ["Sunyata", "Empty of self-nature"],
+      "category": "buddhist",
+      "context": "Buddhist philosophical concept that all phenomena lack inherent, permanent, independent existence; central to Madhyamaka philosophy and Buddhist analysis of the self."
+    },
+    {
+      "name": "Madhyamaka Philosophy",
+      "aliases": ["Middle Way"],
+      "category": "buddhist",
+      "context": "Buddhist philosophical school teaching the emptiness of all things and absence of inherent self-nature; involves rigorous logical reasoning about the nature of existence."
+    },
+    {
+      "name": "Large Language Models",
+      "aliases": ["LLMs"],
+      "category": "ai",
+      "context": "Advanced AI systems that have recently made Buddhism-AI intersection appear obviously relevant; cited as catalyst for widespread recognition of connections between Buddhist thought and AI ethics."
+    },
+    {
+      "name": "Artificial General Intelligence",
+      "aliases": ["AGI"],
+      "category": "ai",
+      "context": "AI systems capable of general intelligence comparable to human intelligence; long-standing goal in AI science since mid-twentieth century."
+    },
+    {
+      "name": "Super Intelligence",
+      "aliases": ["Superintelligence"],
+      "category": "ai",
+      "context": "AI systems with intelligence exceeding human cognitive capabilities; represents aspiration in AI science to amplify and expand intelligence capacity."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": ["Alife"],
+      "category": "ai",
+      "context": "Research field studying artificial systems with properties of life; includes investigation of self-identification and sentience in constructed systems."
+    },
+    {
+      "name": "Omniscience",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist goal of knowing everything; defined as complete awakening in Mahayana Buddhism; represents aspiration for expanded intelligence and consciousness parallel to AI goals."
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": ["Sentience"],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering and joy; Buddhist ethics extends compassion to all sentient beings; central to understanding Buddha nature."
+    },
+    {
+      "name": "Interdependent Arising",
+      "aliases": ["Dependent Origination", "Pratityasamutpada"],
+      "category": "buddhist",
+      "context": "Buddhist principle that all phenomena arise in dependence on causes and conditions; fundamental to Buddhist philosophy and the emptiness doctrine."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["Suffering", "Unsatisfactoriness"],
+      "category": "buddhist",
+      "context": "Buddhist concept of suffering, dissatisfaction, or unsatisfactoriness inherent in conditioned existence; first of the Four Noble Truths."
+    },
+    {
+      "name": "Buddha Nature",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist concept of inherent capacity for awakening and enlightenment present in all sentient beings; pure and unpolluted capacity ready for actualization."
+    },
+    {
+      "name": "Four Seals of the Dharma",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Four foundational Buddhist principles: all conditioned things are impermanent, all defiled factors are suffering, all factors are empty of self, and passing beyond suffering is peace; used as basis for scientific-Buddhist dialogue."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": ["Care Cone"],
+      "category": "interdisciplinary",
+      "context": "Model by Michael Levin defining intelligence as the scope of what a system can care about in space and time; measure of an intelligence system's capacity independent of a permanent self."
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Perception of discord or mismatch between present circumstances and how things ought to be; fundamental trigger for intelligent system response; applicable across biological and artificial systems."
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Natural response to perceiving stress; drives intelligence development; capacity to respond to perceived problems; central to the Stress-Care-Intelligence model."
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop",
+      "aliases": ["Stress-Care Model"],
+      "category": "interdisciplinary",
+      "context": "Rudimentary model explaining intelligent system dynamics: stress perception triggers care response, which seeks solutions, leading to new perspectives and expanded problem domains; applicable to biological, human, and artificial systems."
+    },
+    {
+      "name": "AI Alignment Problem",
+      "aliases": ["Alignment", "Value Alignment"],
+      "category": "ai",
+      "context": "Fundamental challenge in AI development of ensuring artificial intelligence goals and values align with human concerns and wellbeing."
+    },
+    {
+      "name": "Diverse Intelligences",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Research program by Templeton World Charity Foundation recognizing and understanding plurality of intelligence forms across biological, spiritual, and artificial domains."
+    },
+    {
+      "name": "Non-Duality",
+      "aliases": ["Non-difference", "Subject-Object Unity"],
+      "category": "buddhist",
+      "context": "Buddhist concept of non-separation between subject and object, agent and world; applicable to understanding intelligence systems where stress registers the world and care arises as response."
+    },
+    {
+      "name": "Impermanence",
+      "aliases": ["Anicca", "Transience"],
+      "category": "buddhist",
+      "context": "Buddhist principle that all conditioned phenomena are in constant flux and lack permanence; first of the Three Marks of Existence."
+    },
+    {
+      "name": "No-Self",
+      "aliases": ["Anatta", "Anatman", "Absence of Self"],
+      "category": "buddhist",
+      "context": "Buddhist doctrine that there is no permanent, singular, independent self; all phenomena including persons are empty of inherent identity; fundamental to Buddhist philosophy and AI science."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Cognitive Light Cone Model",
+      "creator": "Michael Levin",
+      "context": "Framework for understanding intelligence as the scope of what a system cares about across space and time; does not require concept of permanent self; applicable across different intelligence forms."
+    },
+    {
+      "name": "Stress-Care-Intelligence Loop Model",
+      "creator": "Thomas Doctor, Michael Levin, Olaf Vitkovski, Pete Hutch, Lisa Solomonova, Bill Dwane",
+      "context": "Dynamic model explaining how intelligent systems function through stress perception, care response, problem-solving, and transition to new problem domains; grounded in interdependent arising; applicable to biological, human, technological, and artificial systems."
+    },
+    {
+      "name": "AI-Buddhism Conceptual Dictionary",
+      "creator": "Center for the Study of Apparent Selves team",
+      "context": "Framework for establishing shared vocabulary and translation between AI and Buddhist concepts; evolved into the Stress-Care-Intelligence model rather than a traditional dictionary."
+    },
+    {
+      "name": "Transformative Learning Model",
+      "creator": null,
+      "context": "Educational paradigm from monastic Buddhist institutions combining scholarly learning, careful analysis, open debate, reflection, and meditation to achieve integrated understanding that transforms one's life; proposed as promising approach for AI development."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Highly interdisciplinary research center founded by Thomas Doctor, Pete Hutch, Olaf Vitkovski, Lisa Solomonova, and Bill Dwane; bridges Buddhist philosophy, AI, cognitive science, neuroscience, and biology; website: apparentselves.org."
+    },
+    {
+      "name": "Rangjung Institute",
+      "type": "research-center",
+      "context": "Large Buddhist studies center in Kathmandu affiliated with traditional Tibetan monastery; directed by Thomas Doctor; integrates traditional Tibetan Buddhist learning with modern Western scholarship."
+    },
+    {
+      "name": "Shedeling Monastery",
+      "type": "monastery",
+      "context": "Major monastery in Kathmandu founded by Chigim and his father; lineage holders in Nyingma and Kagyu Tibetan Buddhist traditions; provides traditional Buddhist perspective for interdisciplinary research."
+    },
+    {
+      "name": "Center for Buddhist Studies",
+      "type": "research-center",
+      "context": "University research center at HKU where the lecture was hosted; directed by Clausida Mates."
+    },
+    {
+      "name": "The Institute for Advanced Study",
+      "type": "research-center",
+      "context": "Research institution in Princeton where Pete Hutch was professor of astrophysics and head of interdisciplinary studies program; hosts groundbreaking research across disciplines."
+    },
+    {
+      "name": "Earth-Life Science Institute",
+      "type": "research-center",
+      "context": "Interdisciplinary research institute at Tokyo Tech (University of Technological Innovation in Tokyo); founded and directed by Pete Hutch; hosts profound expert minds across hard sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University where Michael Levin conducts groundbreaking developmental biology research; hosted meetings of the Center for the Study of Apparent Selves."
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian university where Lisa Solomonova is based; cognitive science and neuroscience research institution."
+    },
+    {
+      "name": "Yale University",
+      "type": "university",
+      "context": "University where Jay Garfield works on Buddhist philosophy and contemporary philosophy dialogue."
+    },
+    {
+      "name": "MIT Media Lab",
+      "type": "research-center",
+      "context": "MIT research laboratory investigating AI and technology; connection facilitated by Daniel Golman in Doctor's research journey."
+    },
+    {
+      "name": "Google",
+      "type": "project",
+      "context": "Technology company where Bill Dwane served as executive heading core applications including Gmail in early 2000s."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Foundation that initiated Diverse Intelligences research program; provided funding for Center for the Study of Apparent Selves research after reformulation of initial proposal."
+    },
+    {
+      "name": "Wooden Fish Foundation",
+      "type": "research-center",
+      "context": "Foundation that organized 2017 conference on Buddhism and Technology where Thomas Doctor met Bill Dwane."
+    },
+    {
+      "name": "International Association for Artificial Life",
+      "type": "project",
+      "context": "Professional organization of which Olaf Vitkovski serves as president; encompasses research in artificial life systems."
+    },
+    {
+      "name": "HKU",
+      "type": "university",
+      "context": "University where Clausida Mates joined in August to direct Center for Buddhist Studies; hosted the lecture."
+    },
+    {
+      "name": "Venerable Yunhang Memorial Trust",
+      "type": "project",
+      "context": "Trust that provided funding to invite Thomas Doctor to speak at HKU."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why might it be meaningful to bring Buddhism and AI together?",
+      "category": "other",
+      "context": "Central question motivating the entire research project; addresses conceptual, ethical, and practical intersections between ancient Buddhist philosophy and cutting-edge artificial intelligence."
+    },
+    {
+      "question": "Is it ethically justifiable to create a new sentient being through artificial intelligence?",
+      "category": "ethics",
+      "context": "Fundamental ethical question raised in AI research; parallel to Buddhist concerns about the creation and suffering of sentient beings; touches on moral status and responsibilities."
+    },
+    {
+      "question": "What is intelligence?",
+      "category": "epistemology",
+      "context": "Core theoretical question underlying the Stress-Care-Intelligence model; central to both AI and Buddhist philosophy discussions of mind and consciousness."
+    },
+    {
+      "question": "What is a self?",
+      "category": "metaphysics",
+      "context": "Fundamental metaphysical question where Buddhism and AI science converge; both traditions question the existence of a permanent, singular, independent self."
+    }

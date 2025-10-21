@@ -1,0 +1,955 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology",
+        "Basal Cognition",
+        "Organismic Individuality"
+      ],
+      "context": "Co-author exploring the separation of organismic individuality from genetics and the role of functional integration in biological systems."
+    },
+    {
+      "name": "Richard A. Watson",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Theory",
+        "Connectionism",
+        "Evolutionary Transitions"
+      ],
+      "context": "Lead author developing evolutionary connectionism framework linking evolution to learning theory."
+    },
+    {
+      "name": "Christopher L. Buckley",
+      "aliases": [],
+      "domains": [
+        "Engineering",
+        "Complex Systems"
+      ],
+      "context": "Co-author contributing engineering perspectives to connectionist approaches in evolution."
+    },
+    {
+      "name": "Eörs Szathmáry",
+      "aliases": [
+        "Szathmary"
+      ],
+      "domains": [
+        "Evolutionary Biology",
+        "Major Transitions",
+        "Learning Theory"
+      ],
+      "context": "Foundational theorist on major transitions in evolution and links between evolution and learning."
+    },
+    {
+      "name": "Paul Lyon",
+      "aliases": [],
+      "domains": [
+        "Collective Intelligence",
+        "Basal Cognition"
+      ],
+      "context": "Researcher studying signals that turn societies into individuals through cognitive frameworks."
+    },
+    {
+      "name": "Giovanni Pezzulo",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology",
+        "Morphogenesis",
+        "Cognition"
+      ],
+      "context": "Researcher on morphogenesis, cancer as loss of individuality, and cognitive processes in development."
+    },
+    {
+      "name": "Peter Nonacs",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Biology",
+        "Social Evolution"
+      ],
+      "context": "Editor at UCLA studying social evolution and natural selection."
+    },
+    {
+      "name": "Pierrick Bourrat",
+      "aliases": [],
+      "domains": [
+        "Multi-Level Selection",
+        "Evolutionary Theory"
+      ],
+      "context": "Reviewer and theorist developing frameworks for non-aggregative interactions and multilevel selection."
+    },
+    {
+      "name": "Dániel Czégel",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Connectionism"
+      ],
+      "context": "Researcher contributing to formal links between evolution and learning."
+    },
+    {
+      "name": "Adi Livnat",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Theory"
+      ],
+      "context": "Theorist reviewing work on evolutionary transitions and individuality."
+    },
+    {
+      "name": "Richard Watson",
+      "aliases": [],
+      "domains": [
+        "evolutionary biology",
+        "connectionism",
+        "complexity theory"
+      ],
+      "context": "Primary author developing evolutionary connectionism framework and transitions in individuality theory"
+    },
+    {
+      "name": "David Power",
+      "aliases": [],
+      "domains": [
+        "ecology",
+        "evolutionary dynamics"
+      ],
+      "context": "Developer of ecological adaptation models and Sudoku puzzle solving in ecosystems"
+    },
+    {
+      "name": "Richard Mills",
+      "aliases": [],
+      "domains": [
+        "machine learning",
+        "evolutionary computation"
+      ],
+      "context": "Developer of deep optimization and multi-scale evolutionary search concepts"
+    },
+    {
+      "name": "Christoph Thies",
+      "aliases": [],
+      "domains": [
+        "evolutionary biology",
+        "developmental systems"
+      ],
+      "context": "Co-author refining text and developmental organization concepts"
+    },
+    {
+      "name": "John Hopfield",
+      "aliases": [],
+      "domains": [
+        "neural networks",
+        "computational neuroscience"
+      ],
+      "context": "Developer of Hopfield networks for constraint satisfaction and optimization"
+    },
+    {
+      "name": "David Tank",
+      "aliases": [],
+      "domains": [
+        "neural networks",
+        "computational neuroscience"
+      ],
+      "context": "Co-developer of neural computation models with Hopfield"
+    },
+    {
+      "name": "Chris Buckley",
+      "aliases": [
+        "Buckley, C. L."
+      ],
+      "domains": [
+        "Complex Systems",
+        "Adaptive Networks"
+      ],
+      "context": "Collaborator on optimization in adaptive systems and evolutionary connectionism."
+    },
+    {
+      "name": "David S. Wilson",
+      "aliases": [
+        "Wilson, D. S."
+      ],
+      "domains": [
+        "Evolutionary Biology"
+      ],
+      "context": "Developer of multilevel selection theory, foundational to understanding evolutionary transitions."
+    },
+    {
+      "name": "Martin A. Nowak",
+      "aliases": [
+        "Nowak, M. A."
+      ],
+      "domains": [
+        "Evolutionary Biology",
+        "Game Theory"
+      ],
+      "context": "Researcher on evolutionary dynamics and cooperation."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Evolutionary Transitions in Individuality (ETIs)",
+      "aliases": [
+        "Major Transitions in Evolution"
+      ],
+      "category": "interdisciplinary",
+      "context": "The process by which lower-level evolutionary units combine to form higher-level units of selection, such as the transition from unicellular to multicellular organisms."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Information integration and collective action processes that occur in non-neural biological substrates, enabling substrate-independent algorithmic cognition."
+    },
+    {
+      "name": "Organismic Individuality",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The development and behavior of a whole as a non-decomposable function of component parts; separable from genetic relatedness."
+    },
+    {
+      "name": "Evolutionary Individuality",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The evolution of a whole as a non-decomposable function of the evolution of its parts; defines a unit of selection."
+    },
+    {
+      "name": "Non-Linearly Separable Functions",
+      "aliases": [
+        "Non-decomposable functions"
+      ],
+      "category": "ai",
+      "context": "Functions where the effect of one input changes sign depending on other inputs; foundational concept linking division of labor to machine learning."
+    },
+    {
+      "name": "Integration",
+      "aliases": [
+        "Functional Integration"
+      ],
+      "category": "cognitive",
+      "context": "The organized coordination of components within a system to produce unified behavior and information processing."
+    },
+    {
+      "name": "Collective Action",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Coordinated simultaneous change in multiple variables required to solve non-decomposable functions; requires specific rather than linear movements through state space."
+    },
+    {
+      "name": "Deep Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Neural network learning using multiple hidden layers; proposed as functional equivalent to evolutionary transitions in individuality."
+    },
+    {
+      "name": "Connectionist Learning Models",
+      "aliases": [],
+      "category": "ai",
+      "context": "Distributed networks of simple components whose organization produces emergent cognitive capabilities without centralized control."
+    },
+    {
+      "name": "Unsupervised Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Learning mechanism without centralized control or external teacher; proposed analogue for evolutionary self-organization."
+    },
+    {
+      "name": "Evolutionary Connectionism",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework translating connectionist learning principles into natural selection domain to explain how relationships among evolutionary units become adaptively organized."
+    },
+    {
+      "name": "Genetic Relatedness",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Degree of genetic similarity among interacting components; shown to be neither necessary nor sufficient for organismic individuality."
+    },
+    {
+      "name": "Particle Plasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ability of components to modify phenotype or reproductive behavior in response to context; enables solving of division of labor games."
+    },
+    {
+      "name": "Deep Model Induction",
+      "aliases": [],
+      "category": "ai",
+      "context": "The learning process for non-decomposable functions in connectionist models; proposed to describe conditions for evolutionary transitions."
+    },
+    {
+      "name": "Ecological Scaffolding",
+      "aliases": [
+        "Social Niche Construction"
+      ],
+      "category": "interdisciplinary",
+      "context": "Evolution of traits that alter interaction structure and population organization to facilitate higher-level selection."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Appearance of qualitatively new properties at higher organizational levels not present in lower-level components."
+    },
+    {
+      "name": "Supervenience",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Principle that higher-level properties depend on and are determined by lower-level properties."
+    },
+    {
+      "name": "Multi-Level Selection",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework conceptualizing selection acting simultaneously at multiple organizational levels with different evolutionary outcomes."
+    },
+    {
+      "name": "De-Darwinisation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Loss of independent replication ability in lower-level units as they become integrated into higher-level evolutionary units."
+    },
+    {
+      "name": "Darwinisation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Acquisition of heritable variation in fitness and replication ability by higher-level collectives during evolutionary transitions."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The developmental process by which organismic form emerges; intrinsic to understanding individuality."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Breakdown of individuality through disruption of coordination signals; can be induced or reversed through modification of electrical coordination."
+    },
+    {
+      "name": "Planarian Regeneration",
+      "aliases": [
+        "Planaria"
+      ],
+      "category": "cognitive",
+      "context": "Multicellular organisms exhibiting development and behavior despite genetic heterogeneity and fissioning reproduction."
+    },
+    {
+      "name": "Holobionts",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Candidate higher-level individuals defined by coordinated functional integration and dependencies rather than genetic relatedness."
+    },
+    {
+      "name": "Developmental Bottleneck",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Physical population structure mechanism that implements genetic assortment during transitions to multicellularity."
+    },
+    {
+      "name": "Reciprocal Sign Epistasis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Genetic interaction where the fitness effect of one mutation changes sign depending on background genotype."
+    },
+    {
+      "name": "Hebbian Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Learning rule where connections are modified based on coactivity of connected elements; 'neurons that fire together wire together.'"
+    },
+    {
+      "name": "Associative Memory",
+      "aliases": [],
+      "category": "ai",
+      "context": "Network capability to recall patterns from partial or corrupted stimuli through distributed information storage."
+    },
+    {
+      "name": "Supervised Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Learning with external teacher providing desired output targets; requires system-level feedback."
+    },
+    {
+      "name": "Reinforcement Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Learning driven by reward signals; proposed analogue for evolution by natural selection."
+    },
+    {
+      "name": "Multi-Layer Perceptron",
+      "aliases": [],
+      "category": "ai",
+      "context": "Neural network with hidden layers enabling computation of non-linearly separable functions."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Coordinated behavior among entities; explained by social evolution theory in terms of genetic relatedness."
+    },
+    {
+      "name": "Interdependence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Functional dependencies between components affecting fitness outcomes."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Computational capability emerging from system organization rather than individual component sophistication."
+    },
+    {
+      "name": "Self",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Entity exhibiting integration and collective action capabilities; cognitive rather than genetic definition."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Systems capable of goal-directed behavior and prediction; observed in aneural biological systems."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Algorithmic processes of information integration and decision-making independent of neural substrate."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "Phenotypic Plasticity"
+      ],
+      "category": "cognitive",
+      "context": "Ability to modify phenotype or behavior in response to context; enables solving division of labor games."
+    },
+    {
+      "name": "Associative Learning",
+      "aliases": [
+        "correlation learning"
+      ],
+      "category": "cognitive",
+      "context": "Learning mechanism capturing relationships and regularities between variables, enabling generalization beyond specific past experiences"
+    },
+    {
+      "name": "Self-Modelling Dynamical System",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "System that learns an associative model of its own behavior, creating memory of visited states to bias future dynamics toward visited patterns"
+    },
+    {
+      "name": "Deep Optimization",
+      "aliases": [
+        "deep optimisation"
+      ],
+      "category": "ai",
+      "context": "Optimization process exploiting deep structure to access higher-order variation and fitness components through coordinated multi-unit changes"
+    },
+    {
+      "name": "Collective Character",
+      "aliases": [
+        "collective phenotype"
+      ],
+      "category": "biological",
+      "context": "Properties of a system that emerge from relationships between components and cannot be decomposed into individual component properties"
+    },
+    {
+      "name": "Connectionist Models",
+      "aliases": [
+        "connectionist networks"
+      ],
+      "category": "ai",
+      "context": "Neural network models of cognition based on connections between nodes, exhibiting emergent properties and generalization"
+    },
+    {
+      "name": "Inductive Bias",
+      "aliases": [
+        "bias term"
+      ],
+      "category": "ai",
+      "context": "Assumptions in learning system determining how it generalizes from training data; includes model space and parsimony pressure"
+    },
+    {
+      "name": "Parsimony Pressure",
+      "aliases": [
+        "simplicity bias",
+        "Occam's razor"
+      ],
+      "category": "ai",
+      "context": "Inductive bias favoring simpler models over complex ones; essential for learning generalizable relationships"
+    },
+    {
+      "name": "Deep Structure",
+      "aliases": [
+        "hierarchical structure"
+      ],
+      "category": "interdisciplinary",
+      "context": "Layered interaction architecture with hidden variables; enables computation of non-linearly separable functions and novel adaptive solutions"
+    },
+    {
+      "name": "Coarse-Graining",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Hierarchical representation building where higher levels aggregate lower-level information; enables multi-scale evolution"
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist concept of conflict or suffering reinterpreted as tension in connection dynamics driving energy-reducing relaxation"
+    },
+    {
+      "name": "Evolvability",
+      "aliases": [],
+      "category": "biological",
+      "context": "Capacity to generate adaptive variation; emerges from evolution of deep interaction structures and modularity"
+    },
+    {
+      "name": "Second-Order Traits",
+      "aliases": [],
+      "category": "biological",
+      "context": "Traits affecting relationships between units rather than individual properties; subject to slow evolutionary change"
+    },
+    {
+      "name": "Evo-Devo",
+      "aliases": [
+        "evolutionary developmental biology"
+      ],
+      "category": "biological",
+      "context": "Study of evolution of developmental organization within single evolutionary units"
+    },
+    {
+      "name": "Evo-Eco",
+      "aliases": [
+        "evolutionary ecology"
+      ],
+      "category": "biological",
+      "context": "Evolution of ecological organization where selection acts on individual species within ecological communities"
+    },
+    {
+      "name": "Symmetry Breaking",
+      "aliases": [],
+      "category": "ai",
+      "context": "Process of selecting one representation from multiple equivalent solutions; necessary for learning non-linearly separable functions"
+    },
+    {
+      "name": "Reward Function",
+      "aliases": [],
+      "category": "ai",
+      "context": "Function mapping states to reward values; can operate at system or individual particle level"
+    },
+    {
+      "name": "Attractor State",
+      "aliases": [
+        "dynamical attractor"
+      ],
+      "category": "ai",
+      "context": "Stable state configuration toward which system dynamics converge; basis for model learning through repeated visitation"
+    },
+    {
+      "name": "Major Transitions In Evolution",
+      "aliases": [],
+      "category": "biological",
+      "context": "Framework for understanding major increases in complexity through evolution of new levels of organization"
+    },
+    {
+      "name": "Modularity",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Hierarchical decomposability of systems reflecting modular structure in selective environment; increases evolvability"
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [],
+      "category": "biological",
+      "context": "Bioelectric circuits in development coordinating collective behavior and pattern formation"
+    },
+    {
+      "name": "Scale-Free Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive processes occurring at multiple biological scales through shared principles"
+    },
+    {
+      "name": "Free-Energy Approach To Pattern Regulation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework treating biological regulation as minimization of free energy"
+    },
+    {
+      "name": "Individuation",
+      "aliases": [],
+      "category": "philosophical",
+      "context": "Process of becoming an individual through integrated control and collective character"
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere (TAME)",
+      "aliases": [
+        "TAME"
+      ],
+      "category": "ai",
+      "context": "Framework for understanding diverse bodies and minds using computational principles"
+    },
+    {
+      "name": "Minimal Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive abilities of non-neural biological systems"
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [],
+      "category": "philosophical",
+      "context": "Higher-level properties causally constraining lower-level components; emerges in genuine transitions"
+    },
+    {
+      "name": "Bayesian Inference",
+      "aliases": [],
+      "category": "ai",
+      "context": "Probabilistic framework for updating beliefs from data; applies to structure learning in evolution"
+    },
+    {
+      "name": "Anatomical Homeostasis",
+      "aliases": [],
+      "category": "biological",
+      "context": "Maintenance of body form despite perturbations; relates to basal cognition"
+    },
+    {
+      "name": "Meta-Stability",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Multiple stable states in bioelectric circuits underlying flexible regeneration patterns"
+    },
+    {
+      "name": "Levels-Of-Selection Approach",
+      "aliases": [],
+      "category": "biological",
+      "context": "Framework analyzing evolution at multiple hierarchical levels"
+    },
+    {
+      "name": "Scale-Free Biology",
+      "aliases": [],
+      "category": "biological",
+      "context": "Integration of evolutionary and developmental thinking across biological scales"
+    },
+    {
+      "name": "Connectionist Framework",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Theoretical approach explaining individuality through principles of network learning and organization"
+    },
+    {
+      "name": "Cognitive Lens",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Conceptual framework for analyzing cognition in developmental and evolutionary morphogenesis"
+    },
+    {
+      "name": "Individuality",
+      "aliases": [
+        "Darwinian Individuality"
+      ],
+      "category": "interdisciplinary",
+      "context": "Central concept examining what constitutes an individual organism and the criteria for individuation in evolutionary systems."
+    },
+    {
+      "name": "Developmental Plasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The ability of organisms to modify their phenotype in response to environmental conditions."
+    },
+    {
+      "name": "Extended Inheritance",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Non-genetic transmission of traits affecting evolution and phenotypic inheritance."
+    },
+    {
+      "name": "Developmental Memory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Persistence of developmental constraints and phenotypic correlations across generations."
+    },
+    {
+      "name": "Niche Construction",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Organism modification of their environment affecting their own and future evolution."
+    },
+    {
+      "name": "Evolutionary Transitions in Individuality",
+      "aliases": [
+        "ETIs"
+      ],
+      "category": "interdisciplinary",
+      "context": "Major evolutionary events where lower-level units transition to form higher-level individuals."
+    },
+    {
+      "name": "Multilevel Selection",
+      "aliases": [
+        "Group selection"
+      ],
+      "category": "interdisciplinary",
+      "context": "Evolutionary framework accounting for selection at multiple hierarchical levels."
+    },
+    {
+      "name": "Active Phenotypes",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Phenotypic traits that actively shape an organism's environment and evolutionary context."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Evolutionary Connectionism",
+      "creator": "Richard A. Watson et al.",
+      "context": "Framework linking evolution and learning through connectionist models to explain how relationships among evolutionary units become adaptively organized."
+    },
+    {
+      "name": "Multi-Level Price Approach",
+      "creator": null,
+      "context": "Mathematical framework dividing covariance of character and fitness into between-collective and within-collective selection components."
+    },
+    {
+      "name": "Tudge Model",
+      "creator": null,
+      "context": "Minimal model of two particles with one connection showing how natural selection can evolve plasticity solving non-linearly separable functions."
+    },
+    {
+      "name": "Social Evolution Theory",
+      "creator": null,
+      "context": "General approach explaining social behavior through genetic relatedness and inclusive fitness perspectives."
+    },
+    {
+      "name": "Division of Labour Game",
+      "creator": null,
+      "context": "Game-theoretic framework where fitness depends on context-sensitive complementary roles between individuals."
+    },
+    {
+      "name": "Cognitive notion of Self",
+      "creator": "Michael Levin",
+      "context": "Definition of individuality based on integration and collective action capabilities rather than genetics."
+    },
+    {
+      "name": "Connectionist Framework of Individuality",
+      "creator": "Richard Watson",
+      "context": "Integrates connectionist learning principles with evolution of individuality, resolving chicken-and-egg problem of transitions"
+    },
+    {
+      "name": "Deep Model Induction",
+      "creator": null,
+      "context": "Machine learning framework for learning non-linearly separable functions through deep hierarchical structures"
+    },
+    {
+      "name": "Major Transitions in Evolution",
+      "creator": "John Maynard Smith and Eörs Szathmáry",
+      "context": "Classical framework explaining major increases in organizational complexity through evolutionary transitions"
+    },
+    {
+      "name": "Hopfield Networks",
+      "creator": "John Hopfield",
+      "context": "Neural network model for constraint satisfaction and optimization through symmetric interactions"
+    },
+    {
+      "name": "Multilayer Perceptron",
+      "creator": null,
+      "context": "Deep neural architecture with multiple layers enabling computation of non-linearly separable functions"
+    },
+    {
+      "name": "Lotka-Volterra Dynamics",
+      "creator": null,
+      "context": "Mathematical model of ecological community dynamics used to study evolutionary adaptation"
+    },
+    {
+      "name": "Multilevel Selection Theory",
+      "creator": "David S. Wilson",
+      "context": "Theoretical framework explaining evolution across hierarchical biological levels."
+    },
+    {
+      "name": "Price Equation",
+      "creator": null,
+      "context": "Mathematical framework for analyzing causes of social evolution and multilevel selection."
+    },
+    {
+      "name": "Game Theoretic Approach to Differentiation",
+      "creator": null,
+      "context": "Mathematical treatment of functional role differentiation in transitions to multicellularity."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "University of Southampton",
+      "type": "university",
+      "context": "Institution where Richard A. Watson conducts research on evolutionary transitions and connectionism."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "Institution where Michael Levin conducts research on basal cognition and developmental biology."
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University directed by Michael Levin focusing on developmental biology and organismic individuality."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Harvard-affiliated research center where Michael Levin conducts collaborative research."
+    },
+    {
+      "name": "University of Sussex",
+      "type": "university",
+      "context": "Institution where Christopher L. Buckley conducts research on engineering and informatics approaches to complexity."
+    },
+    {
+      "name": "University of California, Los Angeles",
+      "type": "university",
+      "context": "Institution where Peter Nonacs works on evolutionary biology and social evolution."
+    },
+    {
+      "name": "Macquarie University",
+      "type": "university",
+      "context": "Australian institution where Pierrick Bourrat conducts research on multi-level selection theory."
+    },
+    {
+      "name": "Arizona State University",
+      "type": "university",
+      "context": "Institution where Dániel Czégel conducts research on evolutionary connectionism."
+    },
+    {
+      "name": "University of Haifa",
+      "type": "university",
+      "context": "Israeli institution where Adi Livnat conducts research on evolutionary theory."
+    },
+    {
+      "name": "Frontiers in Ecology and Evolution",
+      "type": "project",
+      "context": "Journal publishing this hypothesis and theory manuscript on evolutionary transitions in individuality."
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting research on connectionism and individuality"
+    },
+    {
+      "name": "MIT Press",
+      "type": "project",
+      "context": "Publisher of Artificial Life Conference proceedings and evolutionary research."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How do multiple short-sighted, self-interested entities organize their relationships with one another to create a new level of individuality?",
+      "category": "other",
+      "context": "Central puzzle of evolutionary transitions: how lower-level selection can favor changes that benefit higher-level units despite opposition to particle interests."
+    },
+    {
+      "question": "What kind of functional relationships between components are needed to make a new individual, and how are they organized?",
+      "category": "other",
+      "context": "First of two core questions for understanding ETIs; requires specifying both structure and organization principles."
+    },
+    {
+      "question": "How does the organization of relationships arise bottom-up without presupposing the higher-level individual?",
+      "category": "other",
+      "context": "Second of two core questions; addresses the circular reasoning problem where adaptation presupposes the unit being explained."
+    },
+    {
+      "question": "Which came first, the higher-level unit of selection required for complex adaptations, or the complex adaptations required to create the higher-level unit?",
+      "category": "other",
+      "context": "The chicken-and-egg problem of ETIs: the circular dependency that existing evolutionary theory cannot resolve."
+    },
+    {
+      "question": "Can evolution be more intelligent than we realized through formal equivalence with learning?",
+      "category": "other",
+      "context": "Fundamental question motivating the connectionist approach to understanding evolutionary organization."
+    },
+    {
+      "question": "How can particles evolve to control and take advantage of collective benefits when division of labor requires context-sensitive phenotypes?",
+      "category": "other",
+      "context": "Problem of understanding the mechanism by which plasticity enables solutions to non-linearly separable functions."
+    },
+    {
+      "question": "Is functional integration more important than genetic relatedness for organismic individuality?",
+      "category": "metaphysics",
+      "context": "Core question about the nature of individuality suggested by evidence that genetic relatedness is neither necessary nor sufficient."
+    },
+    {
+      "question": "How do we distinguish a collection of multiple organisms that is merely complicated from a new level of individuality?",
+      "category": "metaphysics",
+      "context": "Conceptual question about the criteria for recognizing genuine transitions to higher-level individuals."
+    },
+    {
+      "question": "What makes an entity a unit of selection beyond merely exhibiting heritable variation in fitness?",
+      "category": "metaphysics",
+      "context": "Theoretical question about whether heritable fitness variation is sufficient or merely necessary for evolutionary unithood."
+    },
+    {
+      "question": "How can non-decomposable collective characters produce particle fitness differences?",
+      "category": "other",
+      "context": "Technical question about how higher-level organization can causally affect lower-level selection pressures."
+    },
+    {
+      "question": "What kind of interaction structures turn a society into an individual?",
+      "category": "metaphysics",
+      "context": "Core question driving the hypothesis that deep, non-linearly separable functional interactions enable transitions in individuality"
+    },
+    {
+      "question": "How do relationships need to be organized to produce a new level of individuality?",
+      "category": "metaphysics",
+      "context": "Central theoretical question addressed through hypothesis H1 about developmental processes and collective characters"
+    },
+    {
+      "question": "Under what conditions can deep interaction structures computing non-linearly separable functions evolve without presupposing the higher-level evolutionary unit?",
+      "category": "other",
+      "context": "Key question about mechanisms enabling transitions in individuality through bottom-up natural selection"
+    },
+    {
+      "question": "How does reinforcement learning at the level of individual particles change system-level behaviors?",
+      "category": "other",
+      "context": "Addresses equivalence between individual-level and system-level learning and optimization"
+    },
+    {
+      "question": "Can ecological communities evolving under individual-level selection solve complex combinatorial problems?",
+      "category": "other",
+      "context": "Empirical question about system-level optimization emerging from local interactions, demonstrated with Sudoku puzzles"
+    },
+    {
+      "question": "Are the interaction structures necessary for evolutionary individuality, organismic individuality, and computing non-linearly separable functions intimately related?",
+      "category": "metaphysics",
+      "context": "Integrative question connecting evolution, development, and cognition through shared computational principles"
+    },
+    {
+      "question": "What are the necessary and sufficient conditions for the induction of deep models in learning systems?",
+      "category": "other",
+      "context": "Foundational question about model space, training data distribution, and inductive bias in learning"
+    },
+    {
+      "question": "What are the minimal criteria for Darwinian individuality, and are developmental plasticity, niche construction, and extended inheritance necessary?",
+      "category": "metaphysics",
+      "context": "Central to understanding evolutionary units and the nature of biological individuals."
+    },
+    {
+      "question": "How can evolution learn, and what mechanisms enable adaptive change across hierarchical levels?",
+      "category": "epistemology",
+      "context": "Foundational question connecting evolutionary processes to learning and intelligence."
+    },
+    {
+      "question": "Can selfish symbioses effect higher-level selection and evolutionary transitions?",
+      "category": "other",
+      "context": "Explores mechanisms by which cooperation emerges from competitive interactions."
+    },
+    {
+      "question": "What algorithmic principles underlie the evolution of biological organization?",
+      "category": "other",
+      "context": "Seeks universal computational principles explaining evolutionary complexity."
+    }
+  ],
+  "_metadata": {
+    "source_file": "batched_extraction",
+    "title": "published: 28 March 2022",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:46:27.764169",
+    "batches_processed": 3
+  }
+}

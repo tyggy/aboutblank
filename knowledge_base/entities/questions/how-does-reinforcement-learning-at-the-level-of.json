@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-does-reinforcement-learning-at-the-level-of",
+  "aliases": [],
+  "sources": [],
+  "context": "Addresses equivalence between individual-level and system-level learning and optimization",
+  "question": "How does reinforcement learning at the level of individual particles change system-level behaviors?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.289744",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

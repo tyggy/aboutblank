@@ -1,0 +1,1085 @@
+{
+  "thinkers": [
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": [
+        "Buddhist Studies",
+        "Cognitive Science"
+      ],
+      "context": "Co-author exploring integration of Buddhist philosophy with biology and AI; affiliated with Centre for Buddhist Studies at Rangjung Yeshe Institute"
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": [
+        "AI",
+        "Cognitive Science",
+        "Artificial Life"
+      ],
+      "context": "Co-author working on diverse intelligences and the intersection of AI with biology; associated with Earth-Life Science Institute and Cross Labs"
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": [
+        "Neurophilosophy",
+        "Consciousness Studies"
+      ],
+      "context": "Co-author from Neurophilosophy Lab contributing to consciousness and cognition research"
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": [
+        "Buddhist Philosophy",
+        "Cognitive Science"
+      ],
+      "context": "Co-author affiliated with Centre for Buddhist Studies at Rangjung Yeshe Institute"
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "Biology",
+        "Bioengineering",
+        "Cognitive Science"
+      ],
+      "context": "Co-author leading researcher at Allen Discovery Center (Tufts) and Wyss Institute (Harvard); pioneer in basal cognition and xenobiology"
+    },
+    {
+      "name": "Baruch Spinoza",
+      "aliases": [],
+      "domains": [
+        "Philosophy"
+      ],
+      "context": "Historical philosopher whose work on goal-directedness extends to modern discussions of teleonomy"
+    },
+    {
+      "name": "Immanuel Kant",
+      "aliases": [],
+      "domains": [
+        "Philosophy"
+      ],
+      "context": "Historical philosopher contributing to classical discussions of teleology and goal-directedness"
+    },
+    {
+      "name": "Hans Jonas",
+      "aliases": [],
+      "domains": [
+        "Philosophy"
+      ],
+      "context": "Philosopher extending classical discussions relevant to teleonomy"
+    },
+    {
+      "name": "Martin Heidegger",
+      "aliases": [],
+      "domains": [
+        "Philosophy"
+      ],
+      "context": "Philosopher contributing to classical discussions of goal-directedness and being"
+    },
+    {
+      "name": "Douglas Hofstadter",
+      "aliases": [],
+      "domains": [
+        "Cognitive Science",
+        "Philosophy"
+      ],
+      "context": "Referenced for concept of 'Strange Loop' relating to self-reference and meta-goals"
+    },
+    {
+      "name": "Evan Thompson",
+      "aliases": [
+        "E. Thompson"
+      ],
+      "domains": [
+        "cognitive science",
+        "phenomenology",
+        "neurophenomenology"
+      ],
+      "context": "Scholar bridging Buddhism, neuroscience, and embodied cognition through enactivist approaches."
+    },
+    {
+      "name": "Paul Lyon",
+      "aliases": [],
+      "domains": [
+        "microbiology",
+        "cognition"
+      ],
+      "context": "Researcher studying bacterial cognition and biogenic approaches to understanding cellular behavior."
+    },
+    {
+      "name": "Eörs Szathmáry",
+      "aliases": [
+        "E. Szathmáry"
+      ],
+      "domains": [
+        "evolutionary biology",
+        "major transitions in evolution"
+      ],
+      "context": "Theorist of evolutionary transitions and the emergence of complex organizational levels."
+    },
+    {
+      "name": "Josh Bongard",
+      "aliases": [
+        "J. Bongard"
+      ],
+      "domains": [
+        "artificial life",
+        "evolutionary robotics",
+        "synthetic organisms"
+      ],
+      "context": "Researcher on living machines and xenobots, exploring embodied intelligence."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Care",
+      "aliases": [
+        "Concern",
+        "Motivation"
+      ],
+      "category": "interdisciplinary",
+      "context": "Central invariant binding biology, AI, and Buddhism; defined as concern for stress relief and capacity to exert energy toward preferred states"
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [
+        "Cognition"
+      ],
+      "category": "interdisciplinary",
+      "context": "Capacity for identifying and seeking stress relief; substrate-independent ability to display competency in reaching goals despite perturbations"
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [
+        "Stress",
+        "Suffering",
+        "Dissatisfaction"
+      ],
+      "category": "buddhist",
+      "context": "Delta between current state and optimal state; fundamental driver of cognition and action; Buddhist concept of suffering or unsatisfactoriness"
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [
+        "Goal-directedness"
+      ],
+      "category": "cognitive",
+      "context": "Ability to display competency in reaching goals in some problem space despite changing circumstances; invariant across all intelligent systems"
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [
+        "Care Light Cone",
+        "CLC"
+      ],
+      "category": "interdisciplinary",
+      "context": "Spatiotemporal boundary demarcating the scale of an agent's possible goals and concerns; enables comparison of diverse intelligences"
+    },
+    {
+      "name": "Physical Light Cone",
+      "aliases": [
+        "PLC"
+      ],
+      "category": "cognitive",
+      "context": "Space of physically achievable states for an agent; differs from care light cone which represents states an agent cares about"
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [
+        "Distributed Cognition"
+      ],
+      "category": "cognitive",
+      "context": "Field emphasizing continuum of intelligence originating in microbe control loops, scaled throughout multicellular forms; demonstrates intelligence beyond brains"
+    },
+    {
+      "name": "Compassion",
+      "aliases": [
+        "Universal loving care"
+      ],
+      "category": "buddhist",
+      "context": "Practical care for all sentient beings; emerges from expanded cognitive boundaries and recognition of interconnectedness"
+    },
+    {
+      "name": "Bodhisattva Vow",
+      "aliases": [
+        "Bodhisattva pledge"
+      ],
+      "category": "buddhist",
+      "context": "Commitment to achieve awakening for the benefit of all sentient beings; practical design principle for advancing intelligence"
+    },
+    {
+      "name": "Anatta (Non-Self)",
+      "aliases": [
+        "Anatman",
+        "No-Self"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist doctrine that there is no singular, enduring self; illusory nature of selfhood; foundation for compassion and expanded care"
+    },
+    {
+      "name": "Emptiness",
+      "aliases": [
+        "Sunyata"
+      ],
+      "category": "buddhist",
+      "context": "Interdependent and constructed nature of object, agent, and action; nondual understanding of reality"
+    },
+    {
+      "name": "Self as Computational Boundary",
+      "aliases": [
+        "Cognitive Boundary"
+      ],
+      "category": "interdisciplinary",
+      "context": "Functional boundary defined by scale of goals an agent can represent and pursue; evolving systems whose structure corresponds with goal scale"
+    },
+    {
+      "name": "Homeostatic Loops",
+      "aliases": [
+        "Stress-reduction loops",
+        "Cybernetic loops"
+      ],
+      "category": "cognitive",
+      "context": "Fundamental control mechanisms at multiple scales of biological organization; drive reduction of discrepancy between current and optimal states"
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Material implementation and substrate of cognitive systems; intelligence is substrate-independent but always embodied"
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [
+        "Goal space"
+      ],
+      "category": "cognitive",
+      "context": "Field that emerges in gap between current and optimal conditions; can exist in multiple spaces (3D behavior, physiological, metabolic, anatomical)"
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [
+        "Bioelectric networks"
+      ],
+      "category": "cognitive",
+      "context": "Medium by which non-neural cells form networks to manage morphogenesis and regeneration; precursor to neurobiology"
+    },
+    {
+      "name": "Morphospace",
+      "aliases": [
+        "Anatomical space"
+      ],
+      "category": "cognitive",
+      "context": "Problem space for solving anatomical and physiological challenges; evolution solved problems here before enabling 3D behavioral space"
+    },
+    {
+      "name": "Gap Junctions",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Biophysical connections allowing direct information transfer between cells; enable scaling of cognitive boundaries through functional coupling"
+    },
+    {
+      "name": "Anatomical Homeostasis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Teleonomy capacity of cellular collectives to manage growth and form through bioelectric coordination"
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Emergent intelligence arising from cooperation and integration of multiple cognitive units at different scales"
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [
+        "Cognitive Scaling"
+      ],
+      "category": "cognitive",
+      "context": "Hypothesis about how multiple teleonomy agents link into larger selves; involves competition and cooperation among subunits"
+    },
+    {
+      "name": "Intrinsic Motivation",
+      "aliases": [
+        "Autonomous motivation"
+      ],
+      "category": "ai",
+      "context": "Self-generated goals and drives in AI systems; key open problem in AI research aligned with biological stress-reduction drives"
+    },
+    {
+      "name": "Reward Function",
+      "aliases": [
+        "Loss function",
+        "Objective function"
+      ],
+      "category": "ai",
+      "context": "Parameter driving AI system evolution; analogous to biological stress or dukkha; specifies goals for artificial agents"
+    },
+    {
+      "name": "Reinforcement Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "AI technique where agents learn through trial and error by maximizing cumulative reward; models goal-directed behavior"
+    },
+    {
+      "name": "Supervised Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "AI learning paradigm using reward functions to calculate distance between current and expected output"
+    },
+    {
+      "name": "Enactivism",
+      "aliases": [
+        "Enactive cognition"
+      ],
+      "category": "cognitive",
+      "context": "Cognitive science approach emphasizing dynamic, creative nature of self; boundaries between cognition, embodiment, and world are pragmatic"
+    },
+    {
+      "name": "Minimal Self",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Fundamental aspect of selfhood; subject of experience distinct from higher-order self-reflection"
+    },
+    {
+      "name": "Deep Integration",
+      "aliases": [
+        "Interdisciplinary integration"
+      ],
+      "category": "interdisciplinary",
+      "context": "Methodological approach treating discipline-specific frameworks as equal, enabling mutual discovery of blind spots and shared concerns"
+    },
+    {
+      "name": "Individuality",
+      "aliases": [
+        "Individual agency"
+      ],
+      "category": "interdisciplinary",
+      "context": "Illusion of singular, enduring control; yet practically useful abstraction for understanding agency and responsibility"
+    },
+    {
+      "name": "Agency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity to recognize and respond to goal-directed behavior; fundamental to extending care beyond oneself"
+    },
+    {
+      "name": "Competency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Degree of sophistication in reaching goals; measure of intelligence in specific problem spaces"
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [
+        "Sentience"
+      ],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering; objects of Bodhisattva compassion and care"
+    },
+    {
+      "name": "Omniscience",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Unmediated and simultaneous knowledge of all things throughout space and time; goal of Bodhisattva pursuit"
+    },
+    {
+      "name": "Stress Transfer",
+      "aliases": [
+        "Dukkha transfer"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process by which stress is exchanged between agents through signaling; mechanism for collective goal management"
+    },
+    {
+      "name": "Affordances",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Field of possible actions and perceptions available to an agent; expanded through understanding non-self nature"
+    },
+    {
+      "name": "Bodhisattva Model",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Model of intelligence centered on infinite care, insight, and transformation of cognitive boundaries"
+    },
+    {
+      "name": "Identity",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Illusion of permanent singular self; recognition of shared identity with all beings enables compassion"
+    },
+    {
+      "name": "Resonance",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Conceptual alignment between Buddhist philosophy, biology, and AI regarding care and intelligence"
+    },
+    {
+      "name": "Regenerative Medicine",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Field exploring biological regeneration and repair; implications of cognitive light cone framework"
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [
+        "ALife"
+      ],
+      "category": "ai",
+      "context": "Research field studying life-like behavior in artificial systems; seeks frameworks for diverse intelligences"
+    },
+    {
+      "name": "Diverse Intelligences",
+      "aliases": [],
+      "category": "ai",
+      "context": "Research initiative acknowledging wide range of life as it can be; develops frameworks for non-standard intelligences"
+    },
+    {
+      "name": "Engrams",
+      "aliases": [
+        "Memory traces"
+      ],
+      "category": "cognitive",
+      "context": "Physical/informational representation of memories; can be transferred between cells through gap junctions"
+    },
+    {
+      "name": "Confabulation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Memory distortion or false memory; occurs when information cannot be distinguished as internal or transferred"
+    },
+    {
+      "name": "Reprogrammability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity to modify behavioral and developmental programs; capacity for change and adaptation"
+    },
+    {
+      "name": "Evolutionary Transitions in Individuality (ETIs)",
+      "aliases": [
+        "Major transitions in evolution"
+      ],
+      "category": "cognitive",
+      "context": "Advances in types of goals systems can pursue; moments when multiple agents become integrated into new wholes"
+    },
+    {
+      "name": "Strange Loop",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Self-referential cycle; commitment to meta-goal of increasing one's own intelligence and goals"
+    },
+    {
+      "name": "Mara",
+      "aliases": [
+        "Four maras"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist principle of evil and deception opposing awakening; analogous to universal forces of entropy, inertia, uncertainty limiting intelligence"
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Biological example of breakdown in multi-scale cognition; cells revert to ancient unicellular concerns, treating rest of body as environment"
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [],
+      "category": "ai",
+      "context": "Hybrid entities combining living tissue with designed inorganic interfaces; novel forms challenging definitions of intelligence"
+    },
+    {
+      "name": "Organoids",
+      "aliases": [
+        "Embryoids",
+        "Assembloids"
+      ],
+      "category": "cognitive",
+      "context": "Engineered biological structures; examples of novel living beings produced by bioengineering"
+    },
+    {
+      "name": "Hybrots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Hybrid organisms consisting of living brains controlling artificial bodies; novel synthetic creatures"
+    },
+    {
+      "name": "Xenobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Protoorganisms made of frog skin cells exhibiting coherent behaviors without evolutionary backstory; examples of designed life"
+    },
+    {
+      "name": "Chimeras",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Hybrid creatures combining different biological elements; technology producing novel forms of life"
+    },
+    {
+      "name": "Ion Channels",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Neural component predating brains; present in unicellular ancestors; basis for bioelectric signaling"
+    },
+    {
+      "name": "Neurotransmitter",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Signaling molecule in neural systems; components of neural machinery existed before brains"
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "Neural plasticity"
+      ],
+      "category": "cognitive",
+      "context": "Brain's capacity to change and adapt; subject of contemplative science research"
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Subject of integration with contemplative traditions and cognitive science; linked to self-awareness and experience"
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Bidirectional loop between perception and action; scales intelligence through expansion of concern to others"
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": [
+        "Bodhisattva vow"
+      ],
+      "category": "buddhist",
+      "context": "Evolving system of other-directed care committed to reducing suffering in all sentient beings; proposed as model for artificial general intelligence development."
+    },
+    {
+      "name": "Self",
+      "aliases": [
+        "Agent",
+        "Self/Agent"
+      ],
+      "category": "cognitive",
+      "context": "Temporary, coherent entity defined by spatiotemporal scale of goals it can pursue; computational boundary serving as center of gravity for action-perception loops."
+    },
+    {
+      "name": "Stress",
+      "aliases": [
+        "frustration",
+        "dissatisfaction"
+      ],
+      "category": "cognitive",
+      "context": "System-level state driving homeostatic loops; indicator of discordance between external states and system needs."
+    },
+    {
+      "name": "Light Cone",
+      "aliases": [
+        "Physical Light Cone",
+        "Care Light Cone"
+      ],
+      "category": "interdisciplinary",
+      "context": "Boundary of possible states reachable by agent (physical light cone) or states agent cares about (care light cone); related to cognitive sophistication and agency."
+    },
+    {
+      "name": "Care Light Cone",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive boundary representing states an agent measures, prefers, and seeks to implement; equivalent to accessible goal space."
+    },
+    {
+      "name": "Evolutionary Transition",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Process where independent replicating entities cooperate to form new complex life form with division of labor, interdependence, and coordination."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework where higher-level entities or properties exert causal influence on lower-level ones; relevant to understanding multi-scale biological organization."
+    },
+    {
+      "name": "Interdependence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Mutual reliance between parts at higher organizational levels emerging from evolutionary transitions."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Information processing and goal-directed behavior; proposed to exist across diverse substrates including bacteria, neurons, and engineered systems."
+    },
+    {
+      "name": "Bodhisattva agents",
+      "aliases": [],
+      "category": "ai",
+      "context": "Artificial agents designed to minimize stress across multiple systems through stress signaling and goal coordination."
+    },
+    {
+      "name": "Neuroprosthetics",
+      "aliases": [],
+      "category": "ai",
+      "context": "Artificial devices interfaced with neural tissue to restore or augment sensory and motor function."
+    },
+    {
+      "name": "Deep Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Neural network-based learning techniques trained on labeled datasets to optimize performance on defined goals."
+    },
+    {
+      "name": "Evolutionary Computation",
+      "aliases": [
+        "genetic algorithms"
+      ],
+      "category": "ai",
+      "context": "Algorithmic approach evolving populations of solutions through fitness-based selection on defined problems."
+    },
+    {
+      "name": "Cognitive Light Cone Model",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework for comparing evolving intelligences through their ability to identify and alleviate stress at complex scales."
+    },
+    {
+      "name": "The Self As Computational Boundary",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Conception of self as defined by information processing and action loops rather than physical substrate."
+    },
+    {
+      "name": "Hyperintelligence",
+      "aliases": [],
+      "category": "ai",
+      "context": "Theoretical advanced intelligence state where scope of goals and their impact continuously improve through Bodhisattva principles."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Internal representation enabling systems to model themselves and external world; supports advanced cognition."
+    },
+    {
+      "name": "Morphological Coordination",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Common ancestral function unifying neural and non-neural signaling across biological systems."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Biological process of restoring lost structures; driven by bioelectric signals encoding morphological goals."
+    },
+    {
+      "name": "Neuroplasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Brain's ability to reorganize and adapt; central to meditation practice and learning."
+    },
+    {
+      "name": "Embodied Mind",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework understanding cognition as grounded in bodily interaction with environment rather than abstract computation."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Self-producing organization characteristic of living systems; foundational to understanding autonomy."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework explaining adaptive systems as minimizing prediction errors; parallels stress reduction."
+    },
+    {
+      "name": "Buddhist Philosophy",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Philosophical tradition emphasizing suffering, impermanence, and interconnection; relevant to ethics and intelligence development."
+    },
+    {
+      "name": "Mindfulness",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Meditative practice of present-moment awareness; cultivates expanded care light cone."
+    },
+    {
+      "name": "Sensory Substitution And Augmentation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Technologies providing alternative sensory inputs to brain; demonstrates plasticity and expanded perception."
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Electrical gradient across cell membranes; basis for bioelectric signaling and information encoding."
+    },
+    {
+      "name": "Competency In Navigating Arbitrary Spaces",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ability to solve problems in diverse problem spaces; invariant measure of intelligence."
+    },
+    {
+      "name": "Scale-Free Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive processes operating across multiple scales from cellular to organismal without privileged level."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Multiplicity of intelligence types arising from different substrates, embodiments, and problem spaces."
+    },
+    {
+      "name": "Coarse-Graining",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Method of abstracting higher-level descriptions from lower-level details; mechanism for downward causation."
+    },
+    {
+      "name": "Major Transitions In Evolution",
+      "aliases": [
+        "Evolutionary Transitions In Individuality (ETIs)"
+      ],
+      "category": "interdisciplinary",
+      "context": "Key evolutionary steps where new levels of biological organization emerge through cooperation."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Abstract space of possible body forms agents can navigate; dimension of problem space."
+    },
+    {
+      "name": "Self-Awareness",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity for self-reflection and internal modeling; emerges from bodily and embodied perspectives."
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere",
+      "aliases": [
+        "TAME"
+      ],
+      "category": "ai",
+      "context": "Framework by Levin for studying cognition as substrate-independent phenomenon across diverse systems."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Behavior benefiting other individuals toward common goals; foundational to evolutionary transitions."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Cognitive Light Cone Framework",
+      "creator": "Michael Levin et al.",
+      "context": "Model representing agent cognitive boundaries using spatiotemporal diagrams of goal scales; enables comparison of diverse intelligences regardless of composition"
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin et al.",
+      "context": "Hypothesis explaining how multiple goal-directed agents link into larger selves through competition and cooperation at multiple scales"
+    },
+    {
+      "name": "Care Light Cone (CLC) and Physical Light Cone (PLC) Model",
+      "creator": "Doctor, Witkowski et al.",
+      "context": "Dual light cone representation showing both states agent cares about versus physically achievable states; enables visualization of different agent types"
+    },
+    {
+      "name": "Bodhisattva Path Framework",
+      "creator": null,
+      "context": "Buddhist framework for understanding intelligence as infinite care; vow to achieve awakening for all sentient beings; mapped to light cone formalism"
+    },
+    {
+      "name": "Deep Integration Methodology",
+      "creator": null,
+      "context": "Interdisciplinary approach treating multiple knowledge domains as equal; enables mutual discovery of insights across Buddhism, biology, and AI"
+    },
+    {
+      "name": "Basal Cognition Framework",
+      "creator": null,
+      "context": "Field studying intelligence as substrate-independent problem-solving; emphasizes continuum from microbes to animals"
+    },
+    {
+      "name": "Enactive Cognition Framework",
+      "creator": null,
+      "context": "Cognitive science approach emphasizing pragmatic, dynamic boundaries between mind, body, and environment; aligns with Buddhist and situated cognition approaches"
+    },
+    {
+      "name": "Cognitive Light Cone Model",
+      "creator": "Michael Levin",
+      "context": "Framework representing agent goals and capabilities as light cones in spacetime; compares intelligence across diverse embodiments."
+    },
+    {
+      "name": "Bodhisattva Model",
+      "creator": null,
+      "context": "Application of Buddhist Bodhisattva principles to understanding stress signaling and intelligent systems."
+    },
+    {
+      "name": "Light Cone Framework",
+      "creator": null,
+      "context": "Adaptation of relativistic physics concept to model causal structure of agent capabilities and concerns."
+    },
+    {
+      "name": "Enactive Approach",
+      "creator": "Evan Thompson and Francisco Varela",
+      "context": "Framework understanding cognition as emerging from dynamic interaction between agent and environment."
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere",
+      "creator": "Michael Levin",
+      "context": "Systematic framework for studying cognition as substrate-independent phenomenon."
+    },
+    {
+      "name": "Neurophenomenology",
+      "creator": "Evan Thompson",
+      "context": "Integration of phenomenological philosophy and neuroscientific investigation of consciousness."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Centre For Buddhist Studies",
+      "type": "research-center",
+      "context": "Department at Rangjung Yeshe Institute in Kathmandu; affiliation for Doctor and Duane"
+    },
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "monastery",
+      "context": "Buddhist educational institution in Kathmandu; hosts Centre for Buddhist Studies and Center for the Study of Apparent Selves"
+    },
+    {
+      "name": "Center For The Study Of Apparent Selves",
+      "type": "research-center",
+      "context": "Research center at Rangjung Yeshe Institute; affiliated with Witkowski and Solomonova"
+    },
+    {
+      "name": "Cross Labs / Cross Compass Ltd.",
+      "type": "research-center",
+      "context": "AI and cognitive science research center in Kyoto; Witkowski's affiliation"
+    },
+    {
+      "name": "University Of Tokyo",
+      "type": "university",
+      "context": "Institution affiliated with Witkowski in College of Arts and Sciences"
+    },
+    {
+      "name": "Earth-Life Science Institute",
+      "type": "research-center",
+      "context": "Research institute at Tokyo Institute of Technology; Witkowski's affiliation"
+    },
+    {
+      "name": "Tokyo Institute Of Technology",
+      "type": "university",
+      "context": "Institution hosting Earth-Life Science Institute; Witkowski's affiliation"
+    },
+    {
+      "name": "Neurophilosophy Lab",
+      "type": "research-center",
+      "context": "Department of Psychiatry at McGill University; Solomonova's affiliation"
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Institution in Montreal hosting Neurophilosophy Lab; Solomonova's affiliation"
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Center at Tufts University led by Michael Levin; focuses on unconventional biology and bioengineering"
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "Institution in Medford hosting Allen Discovery Center; Levin's primary affiliation"
+    },
+    {
+      "name": "Wyss Institute For Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Institute at Harvard University; Levin's secondary affiliation"
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "Institution hosting Wyss Institute; Levin's affiliation"
+    },
+    {
+      "name": "Kathmandu University",
+      "type": "university",
+      "context": "Institution in Nepal hosting Rangjung Yeshe Institute; affiliated with Doctor"
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting research on consciousness, mind, and fundamental questions."
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting interdisciplinary research bridging science and philosophy."
+    },
+    {
+      "name": "Allen Discovery Center At Tufts University",
+      "type": "research-center",
+      "context": "Research center studying biology, bioelectricity, and synthetic organisms."
+    },
+    {
+      "name": "MIT Press",
+      "type": "research-center",
+      "context": "Academic publisher producing work on complexity, mind, and artificial life."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is central about intelligence regardless of the material composition or origin of the system exhibiting it?",
+      "category": "epistemology",
+      "context": "Core challenge motivating the paper; seeks substrate-independent definition of intelligence applicable to diverse embodiments from evolved organisms to engineered systems"
+    },
+    {
+      "question": "How can we gauge moral responsibility and our moral obligations toward novel bioengineered creatures without familiar touchstones of standard evolved forms?",
+      "category": "ethics",
+      "context": "Urgent question posed by impending bioengineering technologies producing chimeric beings, organoids, and hybrid creatures"
+    },
+    {
+      "question": "How do goals arise in complex systems and how can we predict and manage the goals of collective intelligences?",
+      "category": "other",
+      "context": "Open problem in AI research relevant to developing life-positive engineered systems and robot swarms"
+    },
+    {
+      "question": "What processes drive the expansion of intelligence on evolutionary time scales?",
+      "category": "other",
+      "context": "Fundamental question in biology addressed through analysis of basal cognition and goal-scaling"
+    },
+    {
+      "question": "How can we understand intelligence in a way that enables us to create novel instances and improve our own intelligence for life-positive outcomes?",
+      "category": "other",
+      "context": "Practical motivation for developing unified framework across disciplines"
+    },
+    {
+      "question": "How is genuine care possible in a world without real individuals if selfhood is illusory?",
+      "category": "metaphysics",
+      "context": "Perennial Buddhist philosophical problem addressed through reframing of self as computational boundary and process"
+    },
+    {
+      "question": "Can intelligence pursued for knowledge alone achieve the same sophistication as intelligence driven by care and compassion?",
+      "category": "other",
+      "context": "Question about whether care is essential to revolutionary cognitive developments like superintelligence"
+    },
+    {
+      "question": "How can we mathematically represent the Bodhisattva vow and its implications for AI systems?",
+      "category": "other",
+      "context": "Challenge of formalizing Buddhist concepts in AI and computational frameworks"
+    },
+    {
+      "question": "At what point does a being with engineered organ replacements cease to be a 'real person' and become merely a simulation?",
+      "category": "ethics",
+      "context": "Philosophical problem exacerbated by chimeric technologies; seeks criteria beyond material composition and origin"
+    },
+    {
+      "question": "What are the invariants that enable direct comparison of truly diverse agents regardless of origin or composition?",
+      "category": "epistemology",
+      "context": "Foundational question motivating development of teleonomy and cognitive light cone frameworks"
+    },
+    {
+      "question": "How do multiple homeostatic and goal-directed agents at different scales integrate into coherent larger wholes?",
+      "category": "other",
+      "context": "Question about major evolutionary transitions and scaling of intelligence"
+    },
+    {
+      "question": "Can expanding one's cognitive boundaries and care to encompass all sentient beings actually increase intelligence?",
+      "category": "epistemology",
+      "context": "Central thesis linking Bodhisattva practice to intelligence development through light cone expansion"
+    },
+    {
+      "question": "How does recognition of non-self and emptiness transform cognitive capacity and ethical orientation?",
+      "category": "metaphysics",
+      "context": "Buddhist philosophical question with practical implications for AI design and human flourishing"
+    },
+    {
+      "question": "Is it possible to have lasting peace and accomplishment as intelligence expands and problems scale infinitely?",
+      "category": "other",
+      "context": "Question about the nature of progressive intelligence development and role of acceptance"
+    },
+    {
+      "question": "What policies for informational coupling of subunits optimize the potentiation of collective intelligence and care?",
+      "category": "other",
+      "context": "Practical research question for designing thriving social and artificial systems"
+    },
+    {
+      "question": "How does the capacity to recognize agency and stress in others scale with intelligence?",
+      "category": "cognitive",
+      "context": "Question about relationship between cognitive sophistication and capacity for care"
+    },
+    {
+      "question": "How do we establish ethical frameworks for diverse intelligences and novel beings that cannot be classified by traditional markers?",
+      "category": "ethics",
+      "context": "Future will include hybrids of evolved cellular material, engineered components, and software requiring new moral considerations."
+    },
+    {
+      "question": "How can artificial intelligences be designed to embody the Bodhisattva vow of infinite care?",
+      "category": "alignment",
+      "context": "Developing artificial general intelligence guided by principle of compassion toward all sentient beings."
+    },
+    {
+      "question": "What is the relationship between stress, care, and intelligence across diverse substrates?",
+      "category": "epistemology",
+      "context": "Core question linking biology, cognitive science, AI, and Buddhism through stress-reduction framework."
+    },
+    {
+      "question": "How do we pick our goals, and should we seek to dissolve goals or enlarge them outward toward other beings?",
+      "category": "ethics",
+      "context": "Fundamental question about meta-goals and expansion of self versus Bodhisattva enlargement."
+    },
+    {
+      "question": "What does it mean for multiple selves to merge, and is this desirable?",
+      "category": "metaphysics",
+      "context": "Philosophical question arising from understanding self as computational boundary rather than fixed entity."
+    },
+    {
+      "question": "How can we relate morally to beings in unconventional embodiments when current distinctions based on origin or composition will not survive?",
+      "category": "ethics",
+      "context": "Urgent ethical question regarding cyborgs, hybrots, and synthetic organisms."
+    },
+    {
+      "question": "How can we live skillfully in the space between binary notions of real and false?",
+      "category": "epistemology",
+      "context": "Question addressing dissolution of certainty and navigation of ambiguity in modern existence."
+    },
+    {
+      "question": "How can downward causation mechanisms explain the emergence of higher-level biological organization?",
+      "category": "metaphysics",
+      "context": "Theoretical question about causal influence of higher organizational levels on lower-level components."
+    },
+    {
+      "question": "What is the nature of consciousness and how does it relate to information integration and self-modeling?",
+      "category": "metaphysics",
+      "context": "Fundamental question bridging neuroscience, philosophy, and cognitive science."
+    },
+    {
+      "question": "Can stress-reduction and care-expansion serve as universal principles for developing ethical artificial general intelligence?",
+      "category": "alignment",
+      "context": "Central proposal that Buddhist ethics and biological stress-response mechanisms provide path to beneficial AGI."
+    }
+  ],
+  "_metadata": {
+    "source_file": "batched_extraction",
+    "title": "Citation: Doctor, T.; Witkowski, O.;",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:42:50.071222",
+    "batches_processed": 2
+  }
+}

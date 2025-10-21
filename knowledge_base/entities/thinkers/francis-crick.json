@@ -1,0 +1,20 @@
+{
+  "name": "Francis Crick",
+  "filename": "francis-crick",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Pioneering neuroscientist studying neural correlates of consciousness",
+  "domains": [
+    "neuroscience",
+    "consciousness"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.220618",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

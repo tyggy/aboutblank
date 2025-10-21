@@ -1,0 +1,17 @@
+{
+  "name": "Levels-Of-Selection Approach",
+  "filename": "levels-of-selection-approach",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Framework analyzing evolution at multiple hierarchical levels",
+  "category": "biological",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.247725",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

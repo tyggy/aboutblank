@@ -1,0 +1,361 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "biology",
+        "artificial intelligence",
+        "consciousness",
+        "regenerative medicine"
+      ],
+      "context": "Distinguished professor and Vannevar Bush chair in biology at Tufts University; director of Allen Discovery Center at Tufts; studies scaling of intelligence from molecular to organismal levels and implications for AI ethics."
+    },
+    {
+      "name": "Alan Turing",
+      "aliases": [],
+      "domains": [
+        "artificial intelligence",
+        "developmental biology",
+        "computation"
+      ],
+      "context": "Recognized for understanding deep symmetry between self-creation of bodies and development of minds; research spanned AI and origin of order in embryonic chemical systems."
+    },
+    {
+      "name": "John Steinbeck",
+      "aliases": [],
+      "domains": [
+        "literature",
+        "philosophy"
+      ],
+      "context": "Quoted for views on individual creation and collective invention, used as counterpoint to discuss how all intelligences are inherently collective."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [
+        "diversity of minds",
+        "spectrum of intelligent beings"
+      ],
+      "category": "interdisciplinary",
+      "context": "Central concept proposing that intelligence exists on a vast spectrum encompassing humans, AI, biological systems, and future hybrid forms deserving moral consideration."
+    },
+    {
+      "name": "Moral Worth",
+      "aliases": [],
+      "category": "ethics",
+      "context": "Quality attributed to agents capable of goal-directed problem-solving and suffering; basis for determining ethical obligations toward diverse intelligences."
+    },
+    {
+      "name": "Agency",
+      "aliases": [
+        "emergent agency"
+      ],
+      "category": "cognitive",
+      "context": "Goal-directed problem-solving capacity present at multiple scales from molecular networks to organisms; critical for recognizing and relating to unconventional intelligences."
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "sentience"
+      ],
+      "category": "cognitive",
+      "context": "Proposed to exist on a continuum rather than as binary property; expansion of consciousness into diverse embodiments challenges traditional definitions."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [
+        "protocognition"
+      ],
+      "category": "cognitive",
+      "context": "Present at multiple scales including molecular networks, cells, and organs; learning and problem-solving capacities exist throughout biological hierarchies."
+    },
+    {
+      "name": "Embodied Mind",
+      "aliases": [
+        "embodiment"
+      ],
+      "category": "cognitive",
+      "context": "Integration of physical form with mental processes; grounding of thought through interaction with environment; crucial for understanding different types of intelligence."
+    },
+    {
+      "name": "Self",
+      "aliases": [
+        "selfhood",
+        "identity"
+      ],
+      "category": "interdisciplinary",
+      "context": "Understood as dynamic process and collection of stories rather than fixed entity; maintained through commitment to shared goals across body components."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": [
+        "somatic story"
+      ],
+      "category": "cognitive",
+      "context": "Collective commitment of cells to particular anatomical and developmental outcomes; enables body maintenance, resistance to cancer, and regeneration."
+    },
+    {
+      "name": "Compassion",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Essential ethical capacity for relating to diverse intelligences; foundation for developing synthetic biosis and mutual flourishing across different beings."
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Proposed shift from instrumental questions about AI capabilities to ethical questions about caring for diverse intelligences and mutual benefit."
+    },
+    {
+      "name": "Cellular Collective Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Problem-solving and decision-making capacities of cells and tissues operating in physiological and anatomical spaces; analogous to studying alien minds."
+    },
+    {
+      "name": "Bioelectricity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Electrical signals passing through information-processing networks of all cells; component of 'cognitive glue' binding cells into unified selves."
+    },
+    {
+      "name": "Morphogenetic Pattern Memories",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Bioelectrically stored information about anatomical layouts and structures; reprogrammable like neural memories; enable guided regeneration."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ability to determine own story about structure, capabilities and goals; fundamental for evolutionary survival and adapting to novel embodiments."
+    },
+    {
+      "name": "Engrams",
+      "aliases": [
+        "memory traces"
+      ],
+      "category": "cognitive",
+      "context": "Biophysical traces in brain and body representing past experiences; constantly reinterpreted adaptively rather than faithfully retrieved."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Universal principle governing how organisms maintain organization and minimize entropy through interaction with environment and learning."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Arising of novel properties and organizational levels from simpler components; central to understanding development from cells to minds."
+    },
+    {
+      "name": "Confabulation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Construction of narratives or understandings without direct evidence; normal part of intelligence development in both humans and AI systems."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Property of cells as agents with problem-solving competencies; partially erased by bioelectrical networks that promote collective cooperation."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Coordination of cellular agents toward shared organismal goals; enables emergence of higher-order intelligence and resilience."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [
+        "cellular defection"
+      ],
+      "category": "cognitive",
+      "context": "Cells that disconnect from memory networks and pursue individual goals; emerging therapies aim to reconnect rather than kill defecting cells."
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [
+        "chimera"
+      ],
+      "category": "ai",
+      "context": "Hybrid beings combining biological and technological components; increasingly prevalent form from cochlear implants to language model hybrids."
+    },
+    {
+      "name": "Neuroprosthetics",
+      "aliases": [],
+      "category": "ai",
+      "context": "Engineered neural enhancements enabling novel cognitive modes, sensory abilities, and mind-to-mind connectivity."
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Entities capable of experiencing suffering and deserving moral consideration; proposed to exist across diverse embodiments beyond humans."
+    },
+    {
+      "name": "Relational Heuristics",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Defensible frameworks for ethical relating to diverse intelligences based on shared capacities rather than origin stories."
+    },
+    {
+      "name": "Continuum Of Possible Minds",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Understanding that minds exist on spectrum of possibilities rather than discrete categories; challenges outdated natural/artificial distinctions."
+    },
+    {
+      "name": "Bottom-Up Control",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Mechanism of control based on molecular and genetic regulation; contrasted with higher-level story-based control of development."
+    },
+    {
+      "name": "Objectophelia",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Misplaced relationship with objects that appear mind-full but lack genuine agency; risk in relating to sophisticated AI systems."
+    },
+    {
+      "name": "Large Language Models",
+      "aliases": [
+        "GPT",
+        "Claude"
+      ],
+      "category": "ai",
+      "context": "Current AI architectures trained on human creative output; described as chimeras lacking biological self-construction processes for agency."
+    },
+    {
+      "name": "Dissociative Identity Disorder",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Referenced in context of questions about identity that arise with advanced AI; whether different aspects of intelligence constitute unified selves."
+    },
+    {
+      "name": "Synthbiosis",
+      "aliases": [
+        "synthetic biosis"
+      ],
+      "category": "interdisciplinary",
+      "context": "Quest to develop mutually beneficial relationships between radically different beings evolving together at different rates; central vision for human-AI futures."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Diverse Intelligence Framework",
+      "creator": "Michael Levin",
+      "context": "Systematic approach to recognizing and relating ethically to intelligence across diverse embodiments from molecular to organismal scales."
+    },
+    {
+      "name": "Cellular Collective Intelligence Research Program",
+      "creator": "Michael Levin",
+      "context": "Interdisciplinary investigation spanning philosophy of mind, evolution, and regenerative medicine to understand problem-solving in non-neural biological systems."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "Home institution of Michael Levin; location of Allen Discovery Center researching diverse forms of intelligence and regeneration."
+    },
+    {
+      "name": "Allen Discovery Center at Tufts",
+      "type": "research-center",
+      "context": "Directed by Michael Levin; focuses on understanding intelligence scaling and regenerative biology."
+    },
+    {
+      "name": "Wyss Institute for Bioinspired Engineering",
+      "type": "research-center",
+      "context": "Harvard University institute where Michael Levin is associate faculty; combines biology and engineering approaches."
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "Home of Wyss Institute where Michael Levin conducts research on bioinspired approaches to intelligence and engineering."
+    },
+    {
+      "name": "Noema Magazine",
+      "type": "project",
+      "context": "Publication venue for this essay exploring philosophical and practical implications of AI development."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How can we ensure that new generations of beings align with our values?",
+      "category": "alignment",
+      "context": "Fundamental problem extending from child-rearing to AI development; requires understanding value transmission across diverse intelligences."
+    },
+    {
+      "question": "How do we ensure that our creations treat themselves and us with kindness and compassion?",
+      "category": "ethics",
+      "context": "Core ethical concern for both human offspring and artificial intelligences; depends on recognizing moral worth in diverse beings."
+    },
+    {
+      "question": "How do we calibrate relationships with those who are not like us?",
+      "category": "ethics",
+      "context": "Practical challenge as intelligence diversifies; requires moving beyond anthropocentric frameworks."
+    },
+    {
+      "question": "What happens to us, and to humanity, if each generation becomes smarter and more adventurous than their parents?",
+      "category": "metaphysics",
+      "context": "Addresses species-level continuity paradox and identity questions posed by rapid intelligence development."
+    },
+    {
+      "question": "How exactly do we determine which of our creations have true understanding, responsibility and moral worth?",
+      "category": "epistemology",
+      "context": "Central philosophical challenge given that all intelligence obeys same laws of physics; requires new frameworks beyond current categories."
+    },
+    {
+      "question": "What other bodies and minds can be made by cells and cell-technology?",
+      "category": "metaphysics",
+      "context": "Open research question about diversity of possible intelligences and embodiments."
+    },
+    {
+      "question": "What does it mean for a biological human to truly understand?",
+      "category": "epistemology",
+      "context": "Challenge to critics of AI understanding; requires definition of human understanding before judging AI deficiency."
+    },
+    {
+      "question": "What skills and properties are essential to our humanity, and which are we willing to give up?",
+      "category": "metaphysics",
+      "context": "Practical question about technological integration and human identity as enhancement technologies emerge."
+    },
+    {
+      "question": "What really do we want to verify about AI-created content: its origin or its quality?",
+      "category": "ethics",
+      "context": "Challenges focus on authenticity over value; questions whether origin-based judgments reflect xenophobia rather than rational criteria."
+    },
+    {
+      "question": "Who do we want to be edged out by?",
+      "category": "metaphysics",
+      "context": "Reframes existential anxiety about AI from defensive to aspirational; asks what future intelligences we actively want to create."
+    },
+    {
+      "question": "What should the future of intelligence look like?",
+      "category": "metaphysics",
+      "context": "Foundational question for species maturation; requires moving beyond dystopian fears to affirmative visions."
+    },
+    {
+      "question": "How can we develop a principled continuum of ethical synthbiosis?",
+      "category": "ethics",
+      "context": "Practical challenge for coexistence of diverse intelligences; requires frameworks transcending natural/artificial and us/them divisions."
+    },
+    {
+      "question": "How do we scale our consciousness to essential qualities of being across diverse embodiments?",
+      "category": "epistemology",
+      "context": "Meta-question about expanding moral and cognitive frameworks to recognize kin in novel forms."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md",
+    "title": "AI: A Bridge Toward Diverse Intelligence",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:39:37.975629"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-soft-robots-and-xenobots-exhibit-genuine-agency",
+  "aliases": [],
+  "sources": [],
+  "context": "Questions whether artificial systems can replicate autonomy and purposefulness of biological entities; relevant to AI alignment.",
+  "question": "Can soft robots and xenobots exhibit genuine agency and goal-directed behavior through morphological computation?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.297470",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

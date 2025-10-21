@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-do-cells-collectively-maintain-alignment-around-shared",
+  "aliases": [],
+  "sources": [],
+  "context": "Key mystery in developmental biology; understanding bioelectric coordination mechanisms could enable biomedical applications like regeneration and cancer treatment.",
+  "question": "How do cells collectively maintain alignment around shared goal states in anatomical morphospace without centralized direction?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.299114",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

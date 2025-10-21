@@ -1,0 +1,36 @@
+{
+  "name": "Free-Energy Approach To Pattern Regulation",
+  "filename": "free-energy-approach-to-pattern-regulation",
+  "aliases": [
+    "free energy principle in biology"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Framework treating biological regulation as minimization of free energy"
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Application of free energy principle to understanding morphogenetic pattern formation and organism localization."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Application of free-energy principle to understanding how biological systems maintain stable patterns through minimizing surprise."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Application of free energy minimization principles to explain how biological systems maintain organized patterns."
+    }
+  ],
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.247529",
+    "sources_count": 1,
+    "contexts_count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-can-we-align-powerful-ai-systems-when",
+  "aliases": [],
+  "sources": [],
+  "context": "Challenges the assumption that humans have coherent stable values suitable for direct AI specification.",
+  "question": "How can we align powerful AI systems when humans struggle with internal contradictions and inconsistent commitments?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.302453",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

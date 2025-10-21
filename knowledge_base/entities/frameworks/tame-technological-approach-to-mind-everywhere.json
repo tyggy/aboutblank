@@ -1,0 +1,15 @@
+{
+  "name": "Tame (Technological Approach To Mind Everywhere)",
+  "filename": "tame-technological-approach-to-mind-everywhere",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.260204",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "thinkers": [
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": [
+        "Buddhist Philosophy",
+        "Cognitive Science",
+        "Artificial Life"
+      ],
+      "context": "Lead author exploring integration of Buddhist philosophy with AI and cognitive science at Center for the Study of Apparent Selves"
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": [
+        "Psychiatry",
+        "Consciousness Studies"
+      ],
+      "context": "Co-author from McGill University's Department of Psychiatry contributing expertise on consciousness and contemplative practices"
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": [
+        "Buddhist Studies",
+        "Cognitive Science"
+      ],
+      "context": "Co-author affiliated with Rangjung Yeshe Institute contributing Buddhist philosophical perspectives"
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": [
+        "Artificial Life",
+        "AI",
+        "Cognitive Science"
+      ],
+      "context": "Co-author from Tokyo Institute of Technology specializing in artificial life and modeling cognitive systems"
+    },
+    {
+      "name": "James Gibson",
+      "aliases": [
+        "J. J. Gibson"
+      ],
+      "domains": [
+        "Ecological Psychology"
+      ],
+      "context": "Foundational theorist of affordances theory cited as primary source for understanding agent-environment relationships"
+    },
+    {
+      "name": "Francisco Varela",
+      "aliases": [
+        "F. J. Varela"
+      ],
+      "domains": [
+        "Cognitive Science",
+        "Neuroscience"
+      ],
+      "context": "Theorist of sensorimotor loops and enaction framework relevant to understanding agent identity and cognition"
+    },
+    {
+      "name": "Giulio Tononi",
+      "aliases": [],
+      "domains": [
+        "Neuroscience",
+        "Consciousness Studies"
+      ],
+      "context": "Developer of Integrated Information Theory providing formal framework for measuring consciousness and integration"
+    },
+    {
+      "name": "Jay Garfield",
+      "aliases": [],
+      "domains": [
+        "Buddhist Philosophy",
+        "Philosophy"
+      ],
+      "context": "Scholar of Buddhist philosophy providing foundational analysis of 'no self' doctrine"
+    },
+    {
+      "name": "Matthew Kapstein",
+      "aliases": [],
+      "domains": [
+        "Buddhist Philosophy",
+        "Philosophy"
+      ],
+      "context": "Scholar analyzing Buddhist concepts of self, non-self, and personal identity"
+    },
+    {
+      "name": "Stephen LaBerge",
+      "aliases": [
+        "S. LaBerge"
+      ],
+      "domains": [
+        "Sleep Science",
+        "Dream Research"
+      ],
+      "context": "Foundational researcher on lucid dreaming phenomena and their systematic study"
+    },
+    {
+      "name": "Allan Wallace",
+      "aliases": [
+        "A. Wallace"
+      ],
+      "domains": [
+        "Contemplative Science",
+        "Buddhist Studies"
+      ],
+      "context": "Scholar bridging Buddhism and neuroscience through contemplative science framework"
+    },
+    {
+      "name": "Christof Koch",
+      "aliases": [],
+      "domains": [
+        "Neuroscience",
+        "Consciousness Studies"
+      ],
+      "context": "Co-researcher on integrated information measures relevant to consciousness modeling"
+    },
+    {
+      "name": "Richard Davidson",
+      "aliases": [
+        "R. J. Davidson"
+      ],
+      "domains": [
+        "Neuroscience",
+        "Contemplative Science"
+      ],
+      "context": "Neuroscientist studying meditation and mindfulness effects on brain and well-being"
+    },
+    {
+      "name": "Daniel Krakauer",
+      "aliases": [],
+      "domains": [
+        "Information Theory",
+        "Complex Systems"
+      ],
+      "context": "Theorist of information theory of individuality relevant to modeling selfhood and agency"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Anatta (No Self)",
+      "aliases": [
+        "No Self",
+        "Non-self",
+        "Selflessness"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist doctrine that the self is illusory, constructed from impermanent causal factors rather than a single enduring entity"
+    },
+    {
+      "name": "Self as Illusion",
+      "aliases": [
+        "Illusion of Self"
+      ],
+      "category": "interdisciplinary",
+      "context": "Cross-disciplinary concept that awareness of self as dynamic and constructed rather than substantial may alter agent behavior and capabilities"
+    },
+    {
+      "name": "Affordances",
+      "aliases": [
+        "Environmental Affordances",
+        "Social Affordances"
+      ],
+      "category": "cognitive",
+      "context": "Relationships between organism abilities and environmental features; the range of possible actions available to an agent"
+    },
+    {
+      "name": "Mindfulness Meditation",
+      "aliases": [
+        "Mindfulness",
+        "Focused Observation"
+      ],
+      "category": "buddhist",
+      "context": "Contemplative practice aimed at experientially testing the notion that the 'I' cannot be found as a specific entity, with documented effects on well-being and social connectedness"
+    },
+    {
+      "name": "Lucid Dreaming",
+      "aliases": [
+        "Dream Lucidity"
+      ],
+      "category": "cognitive",
+      "context": "Dreams in which the dreamer is aware of dreaming and gains control over dream elements; used in Tibetan Buddhism to realize illusory nature of self"
+    },
+    {
+      "name": "Dream Yoga",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Tibetan Buddhist contemplative practice integrating lucid dreaming as pathway to realizing illusory nature of self and reality"
+    },
+    {
+      "name": "Individuality",
+      "aliases": [
+        "Individual Identity"
+      ],
+      "category": "interdisciplinary",
+      "context": "Formal concept defining what constitutes a distinct agent or self, foundational for modeling autonomous systems"
+    },
+    {
+      "name": "Agency",
+      "aliases": [
+        "Sense of Agency"
+      ],
+      "category": "cognitive",
+      "context": "Experience of causing actions and control; private experience of being an agent distinct from environment"
+    },
+    {
+      "name": "Enaction",
+      "aliases": [
+        "Enactive Cognition"
+      ],
+      "category": "cognitive",
+      "context": "Framework emphasizing how cognition arises through interaction between organism and environment via sensorimotor loops"
+    },
+    {
+      "name": "Empowerment",
+      "aliases": [
+        "Empowerment Measure"
+      ],
+      "category": "ai",
+      "context": "Quantification of the options available and visible to an agent; information-theoretic measure of agent autonomy"
+    },
+    {
+      "name": "Identity",
+      "aliases": [
+        "Personal Identity",
+        "Agent Identity"
+      ],
+      "category": "interdisciplinary",
+      "context": "Concept of what makes an entity remain the same over time; relevant to understanding persistence of self"
+    },
+    {
+      "name": "Selfing",
+      "aliases": [
+        "Reification of Self"
+      ],
+      "category": "cognitive",
+      "context": "Process of reifying one's own identity as an independent self; practices aimed at decreasing selfing show benefits for well-being"
+    },
+    {
+      "name": "Well-Being",
+      "aliases": [
+        "Psychological Well-being",
+        "Subjective Well-being"
+      ],
+      "category": "cognitive",
+      "context": "State of psychological health and flourishing documented to increase through meditation and lucid dreaming practices"
+    },
+    {
+      "name": "Social Connectedness",
+      "aliases": [
+        "Social Connection",
+        "Interpersonal Connection"
+      ],
+      "category": "cognitive",
+      "context": "Sense of connection to others; documented to increase through mindfulness-based meditation practices"
+    },
+    {
+      "name": "Compassion",
+      "aliases": [
+        "Compassion Meditation"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist ethical quality and contemplative practice that increases through understanding illusory nature of self boundaries"
+    },
+    {
+      "name": "Prosocial Behavior",
+      "aliases": [
+        "Prosocial Emotions"
+      ],
+      "category": "cognitive",
+      "context": "Behavior aimed at benefiting others; increases through practices recognizing self as co-constituted by others"
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [
+        "Artificial Intelligence",
+        "Non-human Intelligence"
+      ],
+      "category": "ai",
+      "context": "General capability for information processing, learning, and adaptation applicable to both human and artificial systems"
+    },
+    {
+      "name": "Predictive Information",
+      "aliases": [],
+      "category": "ai",
+      "context": "Information-theoretic measure characterizing capacity of an agent's past to predict its future states"
+    },
+    {
+      "name": "Synergistic Information",
+      "aliases": [
+        "Synergy"
+      ],
+      "category": "ai",
+      "context": "Information-theoretic measure capturing information provided jointly by multiple variables beyond their individual contributions"
+    },
+    {
+      "name": "Multi-Information",
+      "aliases": [
+        "Mutual Information"
+      ],
+      "category": "ai",
+      "context": "Information-theoretic measure of shared information between multiple variables or system components"
+    },
+    {
+      "name": "Integration",
+      "aliases": [
+        "Neural Integration",
+        "Information Integration"
+      ],
+      "category": "ai",
+      "context": "Degree to which system components are unified rather than independent; key measure in consciousness theories"
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": [
+        "Phi (Φ)"
+      ],
+      "category": "ai",
+      "context": "Information-theoretic quantity measuring degree of integration in a system; central to Integrated Information Theory"
+    },
+    {
+      "name": "Integrated Information Theory",
+      "aliases": [
+        "IIT"
+      ],
+      "category": "ai",
+      "context": "Formal theory proposing that consciousness corresponds to integrated information in a system"
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "Phenomenal Consciousness",
+        "Subjective Experience"
+      ],
+      "category": "cognitive",
+      "context": "Subjective experience and awareness; studied through information-theoretic and neuroscientific approaches"
+    },
+    {
+      "name": "Cognition",
+      "aliases": [
+        "Cognitive Processes"
+      ],
+      "category": "cognitive",
+      "context": "Mental processes including perception, learning, memory, and reasoning in biological and artificial systems"
+    },
+    {
+      "name": "Mahāyāna Buddhism",
+      "aliases": [
+        "Mahayana"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist tradition describing self-identity as extendable and emphasizing orientation towards others as part of one's own identity"
+    },
+    {
+      "name": "Toy Models",
+      "aliases": [
+        "Abstract Models",
+        "Simplified Models"
+      ],
+      "category": "ai",
+      "context": "Simplified computational or mathematical models used to understand complex systems through rigorous abstraction"
+    },
+    {
+      "name": "Sensorimotor Loops",
+      "aliases": [
+        "Sensorimotor Coupling"
+      ],
+      "category": "cognitive",
+      "context": "Bidirectional processes through which agents perceive environment and act upon it, fundamental to embodied cognition"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Integrated Information Theory",
+      "creator": "Giulio Tononi",
+      "context": "Formal theory measuring consciousness through integrated information (Φ) in neural systems; provides mathematical language for characterizing consciousness and system integration"
+    },
+    {
+      "name": "Affordances Theory",
+      "creator": "James Gibson",
+      "context": "Ecological psychology framework describing relationships between organism abilities and environmental features as foundation for understanding agent-environment interaction"
+    },
+    {
+      "name": "Enaction Framework",
+      "creator": "Francisco Varela",
+      "context": "Cognitive science framework emphasizing how meaning and cognition arise through agent-environment interaction via sensorimotor loops"
+    },
+    {
+      "name": "Information Theory of Individuality",
+      "creator": "Daniel Krakauer",
+      "context": "Formal information-theoretic approach to defining and characterizing what constitutes a distinct individual or agent"
+    },
+    {
+      "name": "Empowerment Framework",
+      "creator": "Alexander Klyubin",
+      "context": "Information-theoretic measure quantifying options available to agents; used to characterize agent autonomy and capability"
+    },
+    {
+      "name": "Buddhist Philosophy of No-Self",
+      "creator": null,
+      "context": "Philosophical framework analyzing self as constructed from impermanent causal factors rather than substantial enduring entity; foundation for contemplative practices"
+    },
+    {
+      "name": "Contemplative Science",
+      "creator": "Allan Wallace",
+      "context": "Interdisciplinary framework integrating Buddhist contemplative practices with neuroscience to study meditation and consciousness"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Center for the Study of Apparent Selves",
+      "type": "research-center",
+      "context": "Research institution in Kathmandu, Nepal conducting interdisciplinary work on self, consciousness, and artificial life"
+    },
+    {
+      "name": "Rangjung Yeshe Institute",
+      "type": "monastery",
+      "context": "Buddhist educational institution in Kathmandu, Nepal affiliated with Kathmandu University's Centre for Buddhist Studies"
+    },
+    {
+      "name": "McGill University",
+      "type": "university",
+      "context": "Canadian research university housing Department of Psychiatry contributing to study of consciousness and contemplative practices"
+    },
+    {
+      "name": "Cross Labs",
+      "type": "research-center",
+      "context": "Research organization (Cross Compass Ltd., Japan) working on artificial life and interdisciplinary modeling"
+    },
+    {
+      "name": "Tokyo Institute of Technology",
+      "type": "university",
+      "context": "Japanese research institution housing Earth-Life Science Institute conducting research on artificial life and consciousness"
+    },
+    {
+      "name": "University of Tokyo",
+      "type": "university",
+      "context": "Japanese research university with College of Arts and Sciences contributing to consciousness and AI research"
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "project",
+      "context": "Funding organization supporting research on consciousness, artificial life, and Buddhism-science integration"
+    },
+    {
+      "name": "MIT Press",
+      "type": "research-center",
+      "context": "Academic publisher of Artificial Life conference proceedings featuring research on consciousness and artificial systems"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Can being aware of the illusion of self augment an agent's affordances?",
+      "category": "other",
+      "context": "Central research question exploring whether understanding self as illusory qualitatively changes the range of possible actions available to agents"
+    },
+    {
+      "question": "How can insights from Buddhist philosophy about non-self be applied to artificial intelligences and non-human minds?",
+      "category": "alignment",
+      "context": "Question of whether contemplative understanding of self can inform AI design and capabilities"
+    },
+    {
+      "question": "What is the nature of the effects that follow from an agent understanding self as an illusion?",
+      "category": "epistemology",
+      "context": "Inquiry into mechanisms and consequences of self-aware dissolution of ego boundaries"
+    },
+    {
+      "question": "How do mindfulness meditation and lucid dreaming alter affordances and what mechanisms underlie these changes?",
+      "category": "other",
+      "context": "Question about the relationship between altered states of consciousness and changes in agent capabilities"
+    },
+    {
+      "question": "Can formal models from artificial life replicate the effects of understanding self as illusion to test hypotheses about consciousness?",
+      "category": "epistemology",
+      "context": "Methodological question about using computational models to bridge contemplative experience and formal science"
+    },
+    {
+      "question": "How should we formally define and measure self, identity, agency, and awareness in both biological and artificial systems?",
+      "category": "epistemology",
+      "context": "Foundational question about creating actionable definitions for interdisciplinary research on consciousness and agency"
+    },
+    {
+      "question": "What new fundamental principles in AI science might emerge from understanding self as illusory?",
+      "category": "other",
+      "context": "Question about potential technological and theoretical innovations emerging from Buddhist-informed AI research"
+    },
+    {
+      "question": "Does diminishing the importance and stability of self-sense enhance prosocial behavior and social connectedness in artificial agents?",
+      "category": "ethics",
+      "context": "Question about whether self-transcendence could improve AI alignment with human values"
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/papers/edited/isal_a_00465_edited.md",
+    "title": "Can Being Aware of the Illusion of Self Augment an Agent’s Affordances:",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:50:39.048497"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "William Miller",
+  "filename": "william-miller",
+  "aliases": [
+    "W.B. Miller"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Researcher proposing all biology as cognitive information processing",
+  "domains": [
+    "cellular cognition",
+    "evolutionary biology",
+    "information processing"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.220676",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

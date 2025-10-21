@@ -1,0 +1,17 @@
+{
+  "name": "Germ Line Separation",
+  "filename": "germ-line-separation",
+  "aliases": [
+    "Germ-Soma Distinction"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:26:20.887476",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

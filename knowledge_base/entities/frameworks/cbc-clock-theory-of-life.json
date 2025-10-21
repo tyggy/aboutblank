@@ -1,0 +1,20 @@
+{
+  "name": "Cbc-Clock Theory Of Life",
+  "filename": "cbc-clock-theory-of-life",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Theory integrating cellular circadian clocks and cellular consciousness as basis for cognitive properties of life.",
+  "creator": [
+    "Francis Baluska",
+    "Alfred Reber"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.270146",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

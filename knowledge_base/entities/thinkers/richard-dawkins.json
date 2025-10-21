@@ -1,0 +1,17 @@
+{
+  "name": "Richard Dawkins",
+  "filename": "richard-dawkins",
+  "aliases": [
+    "R. Dawkins"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "domains": [],
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.220841",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

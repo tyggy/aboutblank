@@ -1,0 +1,20 @@
+{
+  "name": "Evolutionary Pivot Model",
+  "filename": "evolutionary-pivot-model",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Framework explaining how ancient bioelectric mechanisms were repurposed across different problem spaces during evolution.",
+  "creator": [
+    "Michael Levin",
+    "Jake Fields"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.269044",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Hebbian Learning",
+  "filename": "hebbian-learning",
+  "aliases": [
+    "Hebbian Rule",
+    "neurons that fire together wire together",
+    "Neurons that Fire Together Wire Together"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.246674",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

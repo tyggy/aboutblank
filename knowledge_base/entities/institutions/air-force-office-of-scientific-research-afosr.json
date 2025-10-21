@@ -1,0 +1,15 @@
+{
+  "name": "Air Force Office Of Scientific Research (Afosr)",
+  "filename": "air-force-office-of-scientific-research-afosr",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:26:20.921181",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

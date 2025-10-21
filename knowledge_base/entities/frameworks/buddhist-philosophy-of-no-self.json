@@ -1,0 +1,17 @@
+{
+  "name": "Buddhist Philosophy Of No-Self",
+  "filename": "buddhist-philosophy-of-no-self",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Philosophical framework analyzing self as constructed from impermanent causal factors rather than substantial enduring entity; foundation for contemplative practices",
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.266360",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

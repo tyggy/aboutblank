@@ -1,0 +1,19 @@
+{
+  "name": "Surprise Minimization Framework",
+  "filename": "surprise-minimization-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Extension of free energy principle describing how agents build internal models by acting to nullify unexpected changes.",
+  "creator": [
+    "Karl Friston"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.264866",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

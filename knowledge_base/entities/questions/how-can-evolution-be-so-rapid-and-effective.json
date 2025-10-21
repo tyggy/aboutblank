@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-can-evolution-be-so-rapid-and-effective",
+  "aliases": [],
+  "sources": [],
+  "context": "Addresses apparent paradox of evolutionary speed; paper argues competency-based search of behavior-shaping signals rather than genotype microstates.",
+  "question": "How can evolution be so rapid and effective at using mutation to address opportunities of form and function despite rugged fitness landscapes?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.295788",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

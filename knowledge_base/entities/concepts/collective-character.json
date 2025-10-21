@@ -1,0 +1,17 @@
+{
+  "name": "Collective Character",
+  "filename": "collective-character",
+  "aliases": [
+    "collective phenotype"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.247020",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

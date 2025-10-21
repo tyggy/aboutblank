@@ -1,0 +1,23 @@
+{
+  "name": "Frank Heylighen",
+  "filename": "frank-heylighen",
+  "aliases": [
+    "F. Heylighen"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Researcher on stigmergy, coordination, and emergent agency",
+  "domains": [
+    "complex systems",
+    "stigmergy",
+    "agency"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.221121",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

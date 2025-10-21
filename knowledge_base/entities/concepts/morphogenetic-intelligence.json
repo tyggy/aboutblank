@@ -1,0 +1,19 @@
+{
+  "name": "Morphogenetic Intelligence",
+  "filename": "morphogenetic-intelligence",
+  "aliases": [
+    "anatomical problem-solving",
+    "developmental cognition",
+    "morphogenetic intelligence"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:26:20.881788",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

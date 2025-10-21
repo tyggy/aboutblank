@@ -1,0 +1,19 @@
+{
+  "name": "Bioelectric Tissue Simulation Engine",
+  "filename": "bioelectric-tissue-simulation-engine",
+  "aliases": [
+    "BETSE"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Computational modeling platform for simulating physiological signaling and emergent morphogenetic patterns.",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.255849",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

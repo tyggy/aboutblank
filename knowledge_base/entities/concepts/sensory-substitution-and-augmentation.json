@@ -1,0 +1,18 @@
+{
+  "name": "Sensory Substitution And Augmentation",
+  "filename": "sensory-substitution-and-augmentation",
+  "aliases": [
+    "brainport",
+    "neural interfaces"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.236853",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

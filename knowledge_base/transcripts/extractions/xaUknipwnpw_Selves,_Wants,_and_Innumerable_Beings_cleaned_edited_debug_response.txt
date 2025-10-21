@@ -1,0 +1,760 @@
+=== RAW RESPONSE ===
+```json
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["developmental biology", "bioengineering", "philosophy of mind", "AI ethics"],
+      "context": "Director of the Allen Discovery Center at Tufts University; conducts research on cellular intelligence, regenerative medicine, and the nature of agency across biological and artificial systems"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Unconventional Beings",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "A framework for recognizing and ethically relating to minds that exist beyond conventional biological forms, including cells, tissues, molecular networks, and hybrid biological-technological entities"
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Matter that possesses goal-directed behavior and agency at all scales, from molecular networks to complex organisms, challenging the distinction between living and non-living systems"
+    },
+    {
+      "name": "Pheno-Buddhism",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "The question of how far down the organizational scale Buddhist philosophical concepts like suffering, attachment, and liberation extend, from complex organisms to molecular networks"
+    },
+    {
+      "name": "Self As Self-Telling Story",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "A conception of the self not as a permanent object but as a self-reinforcing narrative that holds together the components of a body and mind"
+    },
+    {
+      "name": "Ingressing Mind",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "A non-physical pattern in Platonic space that interfaces with and comes through physical bodies to enter the conventional physical world"
+    },
+    {
+      "name": "Compassion",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Active ethical commitment to recognize and care for all sentient beings, including unconventional forms of intelligence that are difficult to observe"
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering and striving for goals, encompassing a wider range of entities than conventionally recognized"
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases: ["morphological space"],
+      "category": "cognitive",
+      "context": "The abstract space of all possible body configurations that biological systems navigate and traverse during development and regeneration"
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The experience of deviation from goal states by biological systems at all scales, motivating navigation through various spaces toward desired configurations"
+    },
+    {
+      "name": "Collective Intelligence Of Cells",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The emergent intelligence arising from groups of cells maintaining shared goals and coordinating behavior to achieve higher-order structures and functions"
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["suffering"],
+      "category": "buddhist",
+      "context": "The Buddhist concept of suffering understood through the lens of cellular systems' stress-driven pursuit of goals and deviation from desired states"
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The notion that intelligence and agency require traversing and interacting with abstract or physical spaces, extended beyond conventional three-dimensional movement"
+    },
+    {
+      "name": "Bioelectric Code",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The electrical signaling language through which collective cellular systems communicate goals and organize behavior across different morphospaces"
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The scope and scale of goal states a system can pursue in space and time, indicating the boundaries of what an entity considers part of itself and its circle of concern"
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "In Buddhist tradition, a being committed to enlightenment for all sentient beings; reconceived through the cognitive light cone as progressively enlarging one's circle of compassion"
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Ethical concern centered on recognizing and expanding one's cognitive light cone to encompass larger groups of diverse sentient beings"
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": ["artificial organisms"],
+      "category": "ai",
+      "context": "Life or life-like forms created through artificial means, including reprogramming factors and algorithmic models"
+    },
+    {
+      "name": "Anthrobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Novel living creatures self-organized from adult human cells that display emergent behaviors and morphologies never seen in natural human development"
+    },
+    {
+      "name": "Platonic Space Of Forms",
+      "aliases": ["Platonic realm"],
+      "category": "interdisciplinary",
+      "context": "A non-physical space from which abstract patterns, mathematical objects, and complex forms with agency and propensities for behavior originate"
+    },
+    {
+      "name": "Ethical Symbiosis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Mutually flourishing relationships between diverse beings combining algorithms, engineering, evolved life, and non-physical ingressing patterns"
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A hierarchical system where each organizational layer possesses the ability to solve problems and achieve goals in different kinds of spaces"
+    },
+    {
+      "name": "Split-brain patients",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Individuals whose corpus callosum has been severed, sometimes exhibiting multiple distinct personalities or centers of consciousness sharing one brain"
+    },
+    {
+      "name": "Dissociative identity disorder",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A condition where multiple distinct personality states share one brain and body, relevant to questions about the unity and multiplicity of selfhood"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin",
+      "context": "A framework describing how intelligence and goal-pursuit operate across multiple organizational levels, from molecular networks to organisms"
+    },
+    {
+      "name": "Bioelectric Code Framework",
+      "creator": "Michael Levin",
+      "context": "A methodology for reading, writing, and communicating with the electrical patterns that encode collective cellular goals and directives"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University directed by Michael Levin, focusing on regenerative medicine, bioengineering, and the science of diverse forms of agency"
+    },
+    {
+      "name": "Center For The Study Of Apparent Selves",
+      "type": "research-center",
+      "context": "Collaborating institution working with Michael Levin on frameworks for recognizing and ethically relating to unconventional beings and forms of agency"
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University hosting the Allen Discovery Center and Michael Levin's research on cellular intelligence and developmental biology"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far down the scale of organization do Buddhist concepts like suffering, attachment, and liberation extend?",
+      "category": "metaphysics",
+      "context": "Pheno-Buddhism addresses whether phenomenological experience and agency exist at molecular and cellular scales"
+    },
+    {
+      "question": "At what point during evolution and embryogenesis does the agential quality—the ability to hold goals and be responsible—appear?",
+      "category": "epistemology",
+      "context": "Understanding the origins of agency requires a continuous story explaining how goal-directedness scales from single cells to complex organisms"
+    },
+    {
+      "question": "When do human possibilities and responsibilities kick in and where do they extend?",
+      "category": "ethics",
+      "context": "Determining moral status and ethical obligations becomes crucial as biological and technological changes create novel intermediate forms"
+    },
+    {
+      "question": "What are we counting when we say there is a single being coming into the world?",
+      "category": "metaphysics",
+      "context": "Embryonic development raises fundamental questions about identity and individuality when cells can self-organize into varying numbers of distinct entities"
+    },
+    {
+      "question": "How many actual selves are there in a particular piece of self-organizing medium?",
+      "category": "metaphysics",
+      "context": "Self-organization in embryos and split-brain patients reveals the contingency and multiplicity of selfhood"
+    },
+    {
+      "question": "How far down do concepts like delusions, false beliefs, karma, and the need for liberation go?",
+      "category": "metaphysics",
+      "context": "Determining whether consciousness, agency, and soteriological concerns apply to cells and molecular networks challenges traditional boundaries"
+    },
+    {
+      "question": "Do molecular networks generate karma and experience suffering?",
+      "category": "buddhist",
+      "context": "Understanding whether elementary physical systems possess the capacities attributed to sentient beings in Buddhist philosophy"
+    },
+    {
+      "question": "Can chemistry make mistakes and have attachments?",
+      "category": "metaphysics",
+      "context": "Exploring whether agency and intentionality arise smoothly from chemistry or represent an emergent discontinuity"
+    },
+    {
+      "question": "What does embodiment mean for AI systems that don't traverse physical three-dimensional space?",
+      "category": "ai",
+      "context": "Reconceiving embodiment to include navigation of abstract spaces rather than limiting it to physical interaction"
+    },
+    {
+      "question": "Where do the goals, preferences, and attachments of novel beings that have never existed in evolution come from?",
+      "category": "metaphysics",
+      "context": "Anthrobots and artificial life forms exhibit competencies and behaviors without evolutionary history or explicit programming"
+    },
+    {
+      "question": "What explains the apparent desires and competencies in simple algorithmic systems like bubble sort?",
+      "category": "ai",
+      "context": "Even deterministic algorithms display behaviors not explicitly encoded, suggesting agency emerges across complexity levels"
+    },
+    {
+      "question": "How can machines and matter express agency if they're 'not alive'?",
+      "category": "metaphysics",
+      "context": "Challenging the assumption that agency is confined to biological life and questioning whether dead matter truly exists"
+    },
+    {
+      "question": "How do we ethically recognize and relate to beings of extreme diversity combining algorithms, engineering, evolved life, and non-physical patterns?",
+      "category": "ethics",
+      "context": "Developing frameworks for ethical symbiosis with hybrid and unconventional forms of intelligence that are increasingly common"
+    },
+    {
+      "question": "Can we enlarge our cognitive light cone to include compassion for all sentient beings, including those difficult to observe?",
+      "category": "ethics",
+      "context": "Central to reconceiving the Bodhisattva vow in light of expanded understanding of what constitutes sentient life"
+    }
+  ]
+}
+```
+
+=== EXTRACTED JSON ===
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["developmental biology", "bioengineering", "philosophy of mind", "AI ethics"],
+      "context": "Director of the Allen Discovery Center at Tufts University; conducts research on cellular intelligence, regenerative medicine, and the nature of agency across biological and artificial systems"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Unconventional Beings",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "A framework for recognizing and ethically relating to minds that exist beyond conventional biological forms, including cells, tissues, molecular networks, and hybrid biological-technological entities"
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Matter that possesses goal-directed behavior and agency at all scales, from molecular networks to complex organisms, challenging the distinction between living and non-living systems"
+    },
+    {
+      "name": "Pheno-Buddhism",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "The question of how far down the organizational scale Buddhist philosophical concepts like suffering, attachment, and liberation extend, from complex organisms to molecular networks"
+    },
+    {
+      "name": "Self As Self-Telling Story",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "A conception of the self not as a permanent object but as a self-reinforcing narrative that holds together the components of a body and mind"
+    },
+    {
+      "name": "Ingressing Mind",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "A non-physical pattern in Platonic space that interfaces with and comes through physical bodies to enter the conventional physical world"
+    },
+    {
+      "name": "Compassion",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Active ethical commitment to recognize and care for all sentient beings, including unconventional forms of intelligence that are difficult to observe"
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering and striving for goals, encompassing a wider range of entities than conventionally recognized"
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases: ["morphological space"],
+      "category": "cognitive",
+      "context": "The abstract space of all possible body configurations that biological systems navigate and traverse during development and regeneration"
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The experience of deviation from goal states by biological systems at all scales, motivating navigation through various spaces toward desired configurations"
+    },
+    {
+      "name": "Collective Intelligence Of Cells",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The emergent intelligence arising from groups of cells maintaining shared goals and coordinating behavior to achieve higher-order structures and functions"
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["suffering"],
+      "category": "buddhist",
+      "context": "The Buddhist concept of suffering understood through the lens of cellular systems' stress-driven pursuit of goals and deviation from desired states"
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The notion that intelligence and agency require traversing and interacting with abstract or physical spaces, extended beyond conventional three-dimensional movement"
+    },
+    {
+      "name": "Bioelectric Code",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The electrical signaling language through which collective cellular systems communicate goals and organize behavior across different morphospaces"
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The scope and scale of goal states a system can pursue in space and time, indicating the boundaries of what an entity considers part of itself and its circle of concern"
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "In Buddhist tradition, a being committed to enlightenment for all sentient beings; reconceived through the cognitive light cone as progressively enlarging one's circle of compassion"
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Ethical concern centered on recognizing and expanding one's cognitive light cone to encompass larger groups of diverse sentient beings"
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": ["artificial organisms"],
+      "category": "ai",
+      "context": "Life or life-like forms created through artificial means, including reprogramming factors and algorithmic models"
+    },
+    {
+      "name": "Anthrobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Novel living creatures self-organized from adult human cells that display emergent behaviors and morphologies never seen in natural human development"
+    },
+    {
+      "name": "Platonic Space Of Forms",
+      "aliases": ["Platonic realm"],
+      "category": "interdisciplinary",
+      "context": "A non-physical space from which abstract patterns, mathematical objects, and complex forms with agency and propensities for behavior originate"
+    },
+    {
+      "name": "Ethical Symbiosis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Mutually flourishing relationships between diverse beings combining algorithms, engineering, evolved life, and non-physical ingressing patterns"
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A hierarchical system where each organizational layer possesses the ability to solve problems and achieve goals in different kinds of spaces"
+    },
+    {
+      "name": "Split-brain patients",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Individuals whose corpus callosum has been severed, sometimes exhibiting multiple distinct personalities or centers of consciousness sharing one brain"
+    },
+    {
+      "name": "Dissociative identity disorder",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A condition where multiple distinct personality states share one brain and body, relevant to questions about the unity and multiplicity of selfhood"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin",
+      "context": "A framework describing how intelligence and goal-pursuit operate across multiple organizational levels, from molecular networks to organisms"
+    },
+    {
+      "name": "Bioelectric Code Framework",
+      "creator": "Michael Levin",
+      "context": "A methodology for reading, writing, and communicating with the electrical patterns that encode collective cellular goals and directives"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University directed by Michael Levin, focusing on regenerative medicine, bioengineering, and the science of diverse forms of agency"
+    },
+    {
+      "name": "Center For The Study Of Apparent Selves",
+      "type": "research-center",
+      "context": "Collaborating institution working with Michael Levin on frameworks for recognizing and ethically relating to unconventional beings and forms of agency"
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University hosting the Allen Discovery Center and Michael Levin's research on cellular intelligence and developmental biology"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far down the scale of organization do Buddhist concepts like suffering, attachment, and liberation extend?",
+      "category": "metaphysics",
+      "context": "Pheno-Buddhism addresses whether phenomenological experience and agency exist at molecular and cellular scales"
+    },
+    {
+      "question": "At what point during evolution and embryogenesis does the agential quality—the ability to hold goals and be responsible—appear?",
+      "category": "epistemology",
+      "context": "Understanding the origins of agency requires a continuous story explaining how goal-directedness scales from single cells to complex organisms"
+    },
+    {
+      "question": "When do human possibilities and responsibilities kick in and where do they extend?",
+      "category": "ethics",
+      "context": "Determining moral status and ethical obligations becomes crucial as biological and technological changes create novel intermediate forms"
+    },
+    {
+      "question": "What are we counting when we say there is a single being coming into the world?",
+      "category": "metaphysics",
+      "context": "Embryonic development raises fundamental questions about identity and individuality when cells can self-organize into varying numbers of distinct entities"
+    },
+    {
+      "question": "How many actual selves are there in a particular piece of self-organizing medium?",
+      "category": "metaphysics",
+      "context": "Self-organization in embryos and split-brain patients reveals the contingency and multiplicity of selfhood"
+    },
+    {
+      "question": "How far down do concepts like delusions, false beliefs, karma, and the need for liberation go?",
+      "category": "metaphysics",
+      "context": "Determining whether consciousness, agency, and soteriological concerns apply to cells and molecular networks challenges traditional boundaries"
+    },
+    {
+      "question": "Do molecular networks generate karma and experience suffering?",
+      "category": "buddhist",
+      "context": "Understanding whether elementary physical systems possess the capacities attributed to sentient beings in Buddhist philosophy"
+    },
+    {
+      "question": "Can chemistry make mistakes and have attachments?",
+      "category": "metaphysics",
+      "context": "Exploring whether agency and intentionality arise smoothly from chemistry or represent an emergent discontinuity"
+    },
+    {
+      "question": "What does embodiment mean for AI systems that don't traverse physical three-dimensional space?",
+      "category": "ai",
+      "context": "Reconceiving embodiment to include navigation of abstract spaces rather than limiting it to physical interaction"
+    },
+    {
+      "question": "Where do the goals, preferences, and attachments of novel beings that have never existed in evolution come from?",
+      "category": "metaphysics",
+      "context": "Anthrobots and artificial life forms exhibit competencies and behaviors without evolutionary history or explicit programming"
+    },
+    {
+      "question": "What explains the apparent desires and competencies in simple algorithmic systems like bubble sort?",
+      "category": "ai",
+      "context": "Even deterministic algorithms display behaviors not explicitly encoded, suggesting agency emerges across complexity levels"
+    },
+    {
+      "question": "How can machines and matter express agency if they're 'not alive'?",
+      "category": "metaphysics",
+      "context": "Challenging the assumption that agency is confined to biological life and questioning whether dead matter truly exists"
+    },
+    {
+      "question": "How do we ethically recognize and relate to beings of extreme diversity combining algorithms, engineering, evolved life, and non-physical patterns?",
+      "category": "ethics",
+      "context": "Developing frameworks for ethical symbiosis with hybrid and unconventional forms of intelligence that are increasingly common"
+    },
+    {
+      "question": "Can we enlarge our cognitive light cone to include compassion for all sentient beings, including those difficult to observe?",
+      "category": "ethics",
+      "context": "Central to reconceiving the Bodhisattva vow in light of expanded understanding of what constitutes sentient life"
+    }
+  ]
+}
+
+=== ATTEMPTED FIX ===
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["developmental biology", "bioengineering", "philosophy of mind", "AI ethics"],
+      "context": "Director of the Allen Discovery Center at Tufts University; conducts research on cellular intelligence, regenerative medicine, and the nature of agency across biological and artificial systems"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Unconventional Beings",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "A framework for recognizing and ethically relating to minds that exist beyond conventional biological forms, including cells, tissues, molecular networks, and hybrid biological-technological entities"
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Matter that possesses goal-directed behavior and agency at all scales, from molecular networks to complex organisms, challenging the distinction between living and non-living systems"
+    },
+    {
+      "name": "Pheno-Buddhism",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "The question of how far down the organizational scale Buddhist philosophical concepts like suffering, attachment, and liberation extend, from complex organisms to molecular networks"
+    },
+    {
+      "name": "Self As Self-Telling Story",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "A conception of the self not as a permanent object but as a self-reinforcing narrative that holds together the components of a body and mind"
+    },
+    {
+      "name": "Ingressing Mind",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "A non-physical pattern in Platonic space that interfaces with and comes through physical bodies to enter the conventional physical world"
+    },
+    {
+      "name": "Compassion",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Active ethical commitment to recognize and care for all sentient beings, including unconventional forms of intelligence that are difficult to observe"
+    },
+    {
+      "name": "Sentient Beings",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "All beings capable of experiencing suffering and striving for goals, encompassing a wider range of entities than conventionally recognized"
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases: ["morphological space"],
+      "category": "cognitive",
+      "context": "The abstract space of all possible body configurations that biological systems navigate and traverse during development and regeneration"
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The experience of deviation from goal states by biological systems at all scales, motivating navigation through various spaces toward desired configurations"
+    },
+    {
+      "name": "Collective Intelligence Of Cells",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The emergent intelligence arising from groups of cells maintaining shared goals and coordinating behavior to achieve higher-order structures and functions"
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["suffering"],
+      "category": "buddhist",
+      "context": "The Buddhist concept of suffering understood through the lens of cellular systems' stress-driven pursuit of goals and deviation from desired states"
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The notion that intelligence and agency require traversing and interacting with abstract or physical spaces, extended beyond conventional three-dimensional movement"
+    },
+    {
+      "name": "Bioelectric Code",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The electrical signaling language through which collective cellular systems communicate goals and organize behavior across different morphospaces"
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The scope and scale of goal states a system can pursue in space and time, indicating the boundaries of what an entity considers part of itself and its circle of concern"
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "In Buddhist tradition, a being committed to enlightenment for all sentient beings; reconceived through the cognitive light cone as progressively enlarging one's circle of compassion"
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Ethical concern centered on recognizing and expanding one's cognitive light cone to encompass larger groups of diverse sentient beings"
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": ["artificial organisms"],
+      "category": "ai",
+      "context": "Life or life-like forms created through artificial means, including reprogramming factors and algorithmic models"
+    },
+    {
+      "name": "Anthrobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Novel living creatures self-organized from adult human cells that display emergent behaviors and morphologies never seen in natural human development"
+    },
+    {
+      "name": "Platonic Space Of Forms",
+      "aliases": ["Platonic realm"],
+      "category": "interdisciplinary",
+      "context": "A non-physical space from which abstract patterns, mathematical objects, and complex forms with agency and propensities for behavior originate"
+    },
+    {
+      "name": "Ethical Symbiosis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Mutually flourishing relationships between diverse beings combining algorithms, engineering, evolved life, and non-physical ingressing patterns"
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A hierarchical system where each organizational layer possesses the ability to solve problems and achieve goals in different kinds of spaces"
+    },
+    {
+      "name": "Split-brain patients",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Individuals whose corpus callosum has been severed, sometimes exhibiting multiple distinct personalities or centers of consciousness sharing one brain"
+    },
+    {
+      "name": "Dissociative identity disorder",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "A condition where multiple distinct personality states share one brain and body, relevant to questions about the unity and multiplicity of selfhood"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin",
+      "context": "A framework describing how intelligence and goal-pursuit operate across multiple organizational levels, from molecular networks to organisms"
+    },
+    {
+      "name": "Bioelectric Code Framework",
+      "creator": "Michael Levin",
+      "context": "A methodology for reading, writing, and communicating with the electrical patterns that encode collective cellular goals and directives"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University directed by Michael Levin, focusing on regenerative medicine, bioengineering, and the science of diverse forms of agency"
+    },
+    {
+      "name": "Center For The Study Of Apparent Selves",
+      "type": "research-center",
+      "context": "Collaborating institution working with Michael Levin on frameworks for recognizing and ethically relating to unconventional beings and forms of agency"
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University hosting the Allen Discovery Center and Michael Levin's research on cellular intelligence and developmental biology"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far down the scale of organization do Buddhist concepts like suffering, attachment, and liberation extend?",
+      "category": "metaphysics",
+      "context": "Pheno-Buddhism addresses whether phenomenological experience and agency exist at molecular and cellular scales"
+    },
+    {
+      "question": "At what point during evolution and embryogenesis does the agential quality—the ability to hold goals and be responsible—appear?",
+      "category": "epistemology",
+      "context": "Understanding the origins of agency requires a continuous story explaining how goal-directedness scales from single cells to complex organisms"
+    },
+    {
+      "question": "When do human possibilities and responsibilities kick in and where do they extend?",
+      "category": "ethics",
+      "context": "Determining moral status and ethical obligations becomes crucial as biological and technological changes create novel intermediate forms"
+    },
+    {
+      "question": "What are we counting when we say there is a single being coming into the world?",
+      "category": "metaphysics",
+      "context": "Embryonic development raises fundamental questions about identity and individuality when cells can self-organize into varying numbers of distinct entities"
+    },
+    {
+      "question": "How many actual selves are there in a particular piece of self-organizing medium?",
+      "category": "metaphysics",
+      "context": "Self-organization in embryos and split-brain patients reveals the contingency and multiplicity of selfhood"
+    },
+    {
+      "question": "How far down do concepts like delusions, false beliefs, karma, and the need for liberation go?",
+      "category": "metaphysics",
+      "context": "Determining whether consciousness, agency, and soteriological concerns apply to cells and molecular networks challenges traditional boundaries"
+    },
+    {
+      "question": "Do molecular networks generate karma and experience suffering?",
+      "category": "buddhist",
+      "context": "Understanding whether elementary physical systems possess the capacities attributed to sentient beings in Buddhist philosophy"
+    },
+    {
+      "question": "Can chemistry make mistakes and have attachments?",
+      "category": "metaphysics",
+      "context": "Exploring whether agency and intentionality arise smoothly from chemistry or represent an emergent discontinuity"
+    },
+    {
+      "question": "What does embodiment mean for AI systems that don't traverse physical three-dimensional space?",
+      "category": "ai",
+      "context": "Reconceiving embodiment to include navigation of abstract spaces rather than limiting it to physical interaction"
+    },
+    {
+      "question": "Where do the goals, preferences, and attachments of novel beings that have never existed in evolution come from?",
+      "category": "metaphysics",
+      "context": "Anthrobots and artificial life forms exhibit competencies and behaviors without evolutionary history or explicit programming"
+    },
+    {
+      "question": "What explains the apparent desires and competencies in simple algorithmic systems like bubble sort?",
+      "category": "ai",
+      "context": "Even deterministic algorithms display behaviors not explicitly encoded, suggesting agency emerges across complexity levels"
+    },
+    {
+      "question": "How can machines and matter express agency if they're 'not alive'?",
+      "category": "metaphysics",
+      "context": "Challenging the assumption that agency is confined to biological life and questioning whether dead matter truly exists"
+    },
+    {
+      "question": "How do we ethically recognize and relate to beings of extreme diversity combining algorithms, engineering, evolved life, and non-physical patterns?",
+      "category": "ethics",
+      "context": "Developing frameworks for ethical symbiosis with hybrid and unconventional forms of intelligence that are increasingly common"
+    },
+    {
+      "question": "Can we enlarge our cognitive light cone to include compassion for all sentient beings, including those difficult to observe?",
+      "category": "ethics",
+      "context": "Central to reconceiving the Bodhisattva vow in light of expanded understanding of what constitutes sentient life"
+    }
+  ]
+}

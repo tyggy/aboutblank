@@ -1,0 +1,16 @@
+{
+  "name": "Goal-Directed Intelligence Model",
+  "filename": "goal-directed-intelligence-model",
+  "creator": null,
+  "context": "Framework defining intelligence as capacity for goal-directed problem-solving in any substrate, measuring sophistication by scale of achievable goals.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.784990",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

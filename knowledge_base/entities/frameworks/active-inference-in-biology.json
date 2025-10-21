@@ -1,0 +1,15 @@
+{
+  "name": "Active Inference In Biology",
+  "filename": "active-inference-in-biology",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:26:20.915762",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

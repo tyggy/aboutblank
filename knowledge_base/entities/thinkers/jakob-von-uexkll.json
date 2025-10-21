@@ -1,0 +1,17 @@
+{
+  "name": "Jakob von Uexküll",
+  "filename": "jakob-von-uexkll",
+  "aliases": [
+    "J.v. Uexk\\u00fcll"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "domains": [],
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.215561",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

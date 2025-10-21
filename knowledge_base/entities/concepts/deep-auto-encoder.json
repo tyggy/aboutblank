@@ -1,0 +1,17 @@
+{
+  "name": "Deep Auto-Encoder",
+  "filename": "deep-auto-encoder",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Neural network compressing high-dimensional input into low-dimensional representation; encodes low-dimensional model of observed samples.",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.255789",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

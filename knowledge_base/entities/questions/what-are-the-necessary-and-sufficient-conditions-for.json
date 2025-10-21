@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "what-are-the-necessary-and-sufficient-conditions-for",
+  "aliases": [],
+  "sources": [],
+  "context": "Foundational question about model space, training data distribution, and inductive bias in learning",
+  "question": "What are the necessary and sufficient conditions for the induction of deep models in learning systems?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.289979",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

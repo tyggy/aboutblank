@@ -1,0 +1,17 @@
+{
+  "name": "Well-Being",
+  "filename": "well-being",
+  "aliases": [],
+  "category": "cognitive",
+  "context": "Psychological state resulting from practices that diminish self-reification",
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.776357",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

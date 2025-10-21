@@ -1,0 +1,17 @@
+{
+  "name": "Mit",
+  "filename": "mit",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Publisher of works on embodied mind and complex systems",
+  "type": "university",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.276650",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

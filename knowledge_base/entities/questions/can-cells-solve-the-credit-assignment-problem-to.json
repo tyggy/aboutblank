@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-cells-solve-the-credit-assignment-problem-to",
+  "aliases": [],
+  "sources": [],
+  "context": "Question about whether living systems can perform reverse-causality inference to attribute phenotypic outcomes to genetic modifications.",
+  "question": "Can cells solve the credit assignment problem to identify which genes to edit for adaptive responses?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.948186",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

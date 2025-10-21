@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "if-humans-lack-uniform-welldefined-values-and-struggle",
+  "aliases": [],
+  "sources": [],
+  "context": "Critiques assumptions underlying typical AI alignment approaches and motivates the need for a different model.",
+  "question": "If humans lack uniform, well-defined values and struggle with internal inconsistencies, how can we develop models of ethical intelligence applicable to humanity as a whole?",
+  "category": "ethics",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.994575",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-do-bioelectric-networks-scale-cell-computation-into",
+  "aliases": [],
+  "sources": [],
+  "context": "Specific biological mechanism question central to understanding how developmental bioelectricity enables cognitive scaling.",
+  "question": "How do bioelectric networks scale cell computation into anatomical homeostasis and regulate morphogenesis?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.290894",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

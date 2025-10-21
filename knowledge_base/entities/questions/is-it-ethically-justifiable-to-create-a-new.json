@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "is-it-ethically-justifiable-to-create-a-new",
+  "aliases": [],
+  "sources": [],
+  "context": "Fundamental ethical concern in AI development; prompted Doctor's initial interest in Buddhism-AI intersection when discovering this was being seriously discussed in AI laboratories.",
+  "question": "Is it ethically justifiable to create a new sentient being through artificial intelligence?",
+  "category": "ethics",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.284453",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

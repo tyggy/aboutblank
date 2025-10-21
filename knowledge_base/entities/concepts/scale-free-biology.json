@@ -1,0 +1,33 @@
+{
+  "name": "Scale-Free Biology",
+  "filename": "scale-free-biology",
+  "aliases": [
+    "scale-invariance in biology",
+    "Multi-scale principles"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Integration of evolutionary and developmental thinking across biological scales"
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Integration of principles explaining biological organization at all scales from molecular to organismal."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Principle that similar organizational and computational principles operate across different scales of biological organization."
+    }
+  ],
+  "category": "biological",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.247802",
+    "sources_count": 1,
+    "contexts_count": 3
+  }
+}

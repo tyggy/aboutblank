@@ -1,0 +1,15 @@
+{
+  "name": "Institute Of Medical Ethics",
+  "filename": "institute-of-medical-ethics",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.277514",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

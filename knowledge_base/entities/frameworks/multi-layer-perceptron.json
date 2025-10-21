@@ -1,0 +1,27 @@
+{
+  "name": "Multi-Layer Perceptron",
+  "filename": "multi-layer-perceptron",
+  "creator": null,
+  "context": "Neural network with hidden layers capable of computing non-linearly separable functions through intermediate representations.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Neural network with hidden layers capable of computing non-linearly separable functions through intermediate representations."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Deep neural network architecture capable of representing non-linearly separable functions through hidden layers; model for understanding collective problem-solving requiring interaction depth."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.786890",
+    "sources_count": 1,
+    "contexts_count": 2
+  },
+  "synthesized_overview": "A Multi-Layer Perceptron is a neural network architecture with hidden layers that enables computation of non-linearly separable functions through intermediate representations, allowing the network to learn complex, non-linear relationships in data. Beyond its technical role in machine learning, it serves as a conceptual model for understanding collective problem-solving systems that require interaction depth and layered processing, making it relevant to frameworks exploring how intelligence emerges through interconnected computational layers."
+}

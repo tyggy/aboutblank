@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-ecological-communities-evolving-under-individuallevel-selection-solve",
+  "aliases": [],
+  "sources": [],
+  "context": "Empirical question about system-level optimization emerging from local interactions, demonstrated with Sudoku puzzles",
+  "question": "Can ecological communities evolving under individual-level selection solve complex combinatorial problems?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.289816",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

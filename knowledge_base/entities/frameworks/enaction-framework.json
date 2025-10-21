@@ -1,0 +1,30 @@
+{
+  "name": "Enaction Framework",
+  "filename": "enaction-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction",
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Theory that cognition arises through dynamic interaction between organism and environment"
+    },
+    {
+      "source": "knowledge_base/papers/edited/isal_a_00465_edited.md",
+      "text": "Cognitive science framework emphasizing how meaning and cognition arise through agent-environment interaction via sensorimotor loops"
+    }
+  ],
+  "creator": [
+    "Varela",
+    "Thompson"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.261947",
+    "sources_count": 2,
+    "contexts_count": 2
+  }
+}

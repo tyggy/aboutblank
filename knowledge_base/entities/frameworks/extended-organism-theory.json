@@ -1,0 +1,15 @@
+{
+  "name": "Extended Organism Theory",
+  "filename": "extended-organism-theory",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:26:20.906499",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Deep Auto-Encoder",
+  "filename": "deep-auto-encoder",
+  "creator": null,
+  "context": "Network architecture compressing high-dimensional input into low-dimensional representation; models how systems achieve coordinated changes across multiple variables.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.791240",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

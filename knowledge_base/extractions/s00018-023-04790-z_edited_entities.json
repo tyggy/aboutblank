@@ -1,0 +1,1380 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "developmental biology",
+        "evolutionary biology",
+        "bioelectricity",
+        "regenerative medicine",
+        "collective intelligence"
+      ],
+      "context": "Director of the Allen Discovery Center at Tufts University; primary author exploring how cellular competency and morphogenetic problem-solving shape evolution."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": [
+        "philosophy",
+        "psychology"
+      ],
+      "context": "Defined intelligence as 'the ability to reach the same goal by different means'; his definition frames the paper's understanding of multiscale competency."
+    },
+    {
+      "name": "Shunryu Suzuki",
+      "aliases": [],
+      "domains": [
+        "philosophy",
+        "Zen Buddhism"
+      ],
+      "context": "Quoted on 'Beginner's Mind' to illustrate how biological systems operate with flexibility rather than hardwired expectations."
+    },
+    {
+      "name": "Douglas Blackiston",
+      "aliases": [],
+      "domains": [
+        "developmental biology",
+        "xenobots"
+      ],
+      "context": "Researcher involved in Xenobot development; provided images demonstrating morphogenetic capabilities of frog cells."
+    },
+    {
+      "name": "Alan Turing",
+      "aliases": [],
+      "domains": [
+        "computer science",
+        "mathematical biology",
+        "artificial intelligence"
+      ],
+      "context": "Pioneering work on intelligence in unconventional embodiments and autopoiesis in biological form during embryogenesis."
+    },
+    {
+      "name": "Charles Darwin",
+      "aliases": [],
+      "domains": [
+        "evolutionary biology"
+      ],
+      "context": "Quoted regarding adaptability and evolution; foundational to discussion of evolutionary mechanisms and the origins of species."
+    },
+    {
+      "name": "Eva Jablonka",
+      "aliases": [],
+      "domains": [
+        "epigenetics",
+        "evolutionary theory"
+      ],
+      "context": "Contributor to understanding epigenetic inheritance and evolutionary transitions in learning and cognition."
+    },
+    {
+      "name": "Stuart Newman",
+      "aliases": [],
+      "domains": [
+        "developmental biology",
+        "evolutionary transitions"
+      ],
+      "context": "Work on dynamical patterning modules and evolutionary transitions in individuality."
+    },
+    {
+      "name": "Chris Fields",
+      "aliases": [],
+      "domains": [
+        "cognitive science",
+        "systems biology"
+      ],
+      "context": "Collaborator on scale-free biology, competency navigation, and multiscale intelligence frameworks."
+    },
+    {
+      "name": "Joshua Bongard",
+      "aliases": [],
+      "domains": [
+        "evolutionary robotics",
+        "synthetic biology"
+      ],
+      "context": "Collaborator on Xenobots, reconfigurable organisms, and evolutionary computation approaches to design."
+    },
+    {
+      "name": "Giovanni Pezzulo",
+      "aliases": [],
+      "domains": [
+        "computational neuroscience",
+        "active inference"
+      ],
+      "context": "Contributor to understanding top-down models, downward causation, and active inference in biological systems."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [
+        "KJ Friston"
+      ],
+      "domains": [
+        "Neuroscience",
+        "Theoretical Biology",
+        "Computational Cognition"
+      ],
+      "context": "Developer of Free Energy Principle and Active Inference frameworks; applies variational methods to understanding biological self-organization."
+    },
+    {
+      "name": "Stuart Kauffman",
+      "aliases": [
+        "SA Kauffman"
+      ],
+      "domains": [
+        "Complex Systems",
+        "Evolutionary Biology",
+        "Systems Theory"
+      ],
+      "context": "Pioneer in Boolean networks and complex adaptive systems; contributes to understanding evolutionary dynamics and emergent properties."
+    },
+    {
+      "name": "Eörs Szathmáry",
+      "aliases": [
+        "E. Szathmáry"
+      ],
+      "domains": [
+        "Evolutionary Biology",
+        "Systems Biology"
+      ],
+      "context": "Co-developer of Evolutionary Transitions in Individuality theory; explores major transitions in evolution and emergence of complexity."
+    },
+    {
+      "name": "Rodney Pfeifer",
+      "aliases": [
+        "R. Pfeifer"
+      ],
+      "domains": [
+        "Robotics",
+        "Artificial Intelligence",
+        "Cognitive Science"
+      ],
+      "context": "Developer of Morphological Computation concept; pioneers embodied AI and bio-inspired robotics."
+    },
+    {
+      "name": "Daniel Dennett",
+      "aliases": [
+        "DC Dennett"
+      ],
+      "domains": [
+        "Philosophy of Mind",
+        "Cognitive Science"
+      ],
+      "context": "Philosopher contributing to minimal intelligence and consciousness theories."
+    },
+    {
+      "name": "Hector Zenil",
+      "aliases": [],
+      "domains": [
+        "Computational Biology",
+        "Information Theory"
+      ],
+      "context": "Researcher on cellular computation and algorithmic information dynamics."
+    },
+    {
+      "name": "Josh Bongard",
+      "aliases": [
+        "JC Bongard"
+      ],
+      "domains": [
+        "Robotics",
+        "Evolutionary Computation",
+        "Systems Biology"
+      ],
+      "context": "Co-developer of xenobots and sim-to-real transfer methods; explores evolved digital and physical systems."
+    },
+    {
+      "name": "Robert Rosen",
+      "aliases": [
+        "W. Robert Rosen"
+      ],
+      "domains": [
+        "Theoretical Biology",
+        "Complex Systems"
+      ],
+      "context": "Contributes to understanding evolvability and spaces of possible organisms."
+    },
+    {
+      "name": "Stephen Jay Gould",
+      "aliases": [
+        "SJ Gould"
+      ],
+      "domains": [
+        "Evolutionary Biology",
+        "Paleontology"
+      ],
+      "context": "Evolutionary theorist; work on ontogeny and phylogeny relevant to developmental evolution."
+    },
+    {
+      "name": "Ned Newman",
+      "aliases": [
+        "SA Newman"
+      ],
+      "domains": [
+        "Developmental Biology",
+        "Evolution"
+      ],
+      "context": "Researcher on morphogenesis, agency in evolution, and Form-Function-Agency theory."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Multiscale Competency Architecture",
+      "aliases": [
+        "MCA"
+      ],
+      "category": "interdisciplinary",
+      "context": "Framework describing how cells, tissues, and organs exhibit problem-solving abilities across physiological, transcriptional, and anatomical spaces."
+    },
+    {
+      "name": "Developmental Plasticity",
+      "aliases": [
+        "Plasticity"
+      ],
+      "category": "cognitive",
+      "context": "Ability of biological systems to adjust to perturbations and accomplish adaptive tasks despite changes in circumstances, genetics, or cell number."
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Biological substrate (cells, tissues) that possesses autonomous capabilities and problem-solving competencies, not passive components."
+    },
+    {
+      "name": "Cellular Competency",
+      "aliases": [
+        "Cell-level competency"
+      ],
+      "category": "cognitive",
+      "context": "Problem-solving and adaptive behavioral capabilities of cells derived from ancestral unicellular organisms."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Problem-solving capacity emerging from coordination of multiple agents (cells, tissues) working toward shared morphogenetic goals."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [
+        "Morphogenetic process"
+      ],
+      "category": "biological",
+      "context": "Developmental process by which cells collectively generate form and function; operates as cybernetic system pursuing homeostatic setpoints."
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [
+        "Bioelectric control"
+      ],
+      "category": "cognitive",
+      "context": "Use of ion channel dynamics and bioelectric networks to compute and coordinate multicellular morphogenetic information independent of gene expression."
+    },
+    {
+      "name": "Cybernetics",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Science of circular control and goal-directed systems; provides framework for understanding feedback mechanisms and multiscale causality in biology."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [
+        "Homeostasis",
+        "Target morphology"
+      ],
+      "category": "cognitive",
+      "context": "Goal state or desired anatomical/physiological configuration that cellular collectives work to achieve and maintain."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [
+        "Regulative Development"
+      ],
+      "category": "biological",
+      "context": "Process by which organisms rebuild missing or damaged structures, achieving correct target morphology despite physiological perturbations."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Study of problem-solving and adaptive behavior in simple systems, from molecular networks to single cells, revealing early evolutionary origins of intelligence."
+    },
+    {
+      "name": "Embodied Mind",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Problem-solving and creativity emerging from physical systems interacting with their environment, not exclusively from top-down planning."
+    },
+    {
+      "name": "Inverse Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Challenge of determining which genetic changes produce desired anatomical outcomes; fundamentally unsolvable in general for complex morphogenesis."
+    },
+    {
+      "name": "Credit Assignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Machine learning problem of attributing credit to specific components for overall system performance; analogous to relating genotypes to phenotypes."
+    },
+    {
+      "name": "Affordances",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capabilities and problem-solving competencies available in biological systems that evolution can exploit for efficient navigation of phenotype space."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Complex large-scale patterns arising from simple local rules; insufficient alone to explain morphogenetic control and evolvability."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Causal influence of higher-level systems on lower-level components; enables control via goal-setting rather than micromanagement of details."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [
+        "Diverse Intelligence",
+        "Multiscale Intelligence"
+      ],
+      "category": "cognitive",
+      "context": "Ability to navigate problem spaces and reach goals by different means; extended here beyond brains to cells, tissues, and organs."
+    },
+    {
+      "name": "Metamorphosis",
+      "aliases": [],
+      "category": "biological",
+      "context": "Developmental transformation of organism form; operates under same morphogenetic competency principles as embryogenesis and regeneration."
+    },
+    {
+      "name": "Cancer Suppression",
+      "aliases": [],
+      "category": "biological",
+      "context": "Maintenance of tissue-level information and prevention of cellular defection; enabled by robust morphogenetic control systems."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Domain in which an agent solves problems; includes physiological, metabolic, transcriptional, anatomical, and behavioral spaces."
+    },
+    {
+      "name": "Reprogrammability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ability of biological systems to modify their behavior and goals without changes to genetic hardware; enabled by bioelectric and other control networks."
+    },
+    {
+      "name": "Baldwin Effect",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Process by which learned or plastic traits become canalized into genetic changes over evolutionary time."
+    },
+    {
+      "name": "Membrane Potential",
+      "aliases": [
+        "Vmem"
+      ],
+      "category": "cognitive",
+      "context": "Electrical charge difference across cell membranes; serves as high-level control parameter for morphogenetic goal-setting."
+    },
+    {
+      "name": "Ion Channels",
+      "aliases": [],
+      "category": "biological",
+      "context": "Protein structures controlling ion flow across membranes; genetic targets enabling manipulation of bioelectric patterns and morphogenetic outcomes."
+    },
+    {
+      "name": "Gap Junctions",
+      "aliases": [],
+      "category": "biological",
+      "context": "Intercellular connections allowing electrical and chemical communication; enable scaling of cellular competencies to tissue and organ levels."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": [
+        "Morphospace"
+      ],
+      "category": "cognitive",
+      "context": "Abstract space of possible body forms; biological systems navigate this space through morphogenetic problem-solving."
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Feedback mechanism where perception of current state drives action toward goal state; fundamental to morphogenetic control."
+    },
+    {
+      "name": "Connectionist Models",
+      "aliases": [],
+      "category": "ai",
+      "context": "Neural network approaches to computation applicable to developmental events; enable understanding of pattern completion and memory in morphogenesis."
+    },
+    {
+      "name": "Cortical Inheritance",
+      "aliases": [],
+      "category": "biological",
+      "context": "Transmission of cytoskeletal patterns across cell divisions independent of DNA; enables stable morphogenetic information storage in unicells."
+    },
+    {
+      "name": "Morphological Computation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Problem-solving performed by body structure and biomechanics rather than explicit neural computation; reduces burden on evolved controller."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Systems capable of predicting future states based on prior experience; implemented by gene-regulatory and protein-interaction networks."
+    },
+    {
+      "name": "Pattern Memory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Bioelectrically encoded representation of target morphology; can be rewritten without genetic change, enabling rapid exploration of morphospace."
+    },
+    {
+      "name": "Self",
+      "aliases": [
+        "Individuality",
+        "Collective Self"
+      ],
+      "category": "interdisciplinary",
+      "context": "Concept of identity and boundary at multiple scales; biological agents recognize and manipulate affordances in characteristic ways."
+    },
+    {
+      "name": "Niche Construction",
+      "aliases": [],
+      "category": "evolutionary",
+      "context": "Developmental mechanism by which organisms shape their own selective environment; contributes to evolvability."
+    },
+    {
+      "name": "Morphogenetic Hacking",
+      "aliases": [
+        "Hacking"
+      ],
+      "category": "interdisciplinary",
+      "context": "Exploitation of biological system competencies through behavior-shaping signals rather than micromanaging underlying mechanisms."
+    },
+    {
+      "name": "Chimeras",
+      "aliases": [],
+      "category": "biological",
+      "context": "Organisms composed of cells from different origins; unpredictability demonstrates collective decision-making in morphogenesis."
+    },
+    {
+      "name": "Xenobots",
+      "aliases": [
+        "Xenobots"
+      ],
+      "category": "biological",
+      "context": "Synthetic organisms derived from frog embryonic cells; exhibit novel behaviors and kinematic self-replication when freed from normal developmental constraints."
+    },
+    {
+      "name": "Hybrots",
+      "aliases": [],
+      "category": "biological",
+      "context": "Hybrid biological-technological constructs; human tracheal cells forming self-motile structures capable of neural wound healing."
+    },
+    {
+      "name": "Evolvability",
+      "aliases": [],
+      "category": "evolutionary",
+      "context": "Property of systems enabling rapid and robust evolutionary change; enhanced by modularity, plasticity, and multiscale competencies."
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Goal-directedness in biological systems explained through naturalistic cybernetic mechanisms; does not require teleology or magic."
+    },
+    {
+      "name": "Virtual Governor",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "High-level control nodes (calcium patterns, membrane potential, tension) that represent complex functions of molecular details without 1:1 mapping."
+    },
+    {
+      "name": "Stress Sharing",
+      "aliases": [],
+      "category": "biological",
+      "context": "Tissue-level mechanism distributing stress across cells; contributes to scaling of cell competencies to larger problem spaces."
+    },
+    {
+      "name": "Engrams",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Physical substrates of memory; shared via gap junctional communication to wipe cellular individuality and enlarge network memory."
+    },
+    {
+      "name": "Neurotransmitter",
+      "aliases": [],
+      "category": "biological",
+      "context": "Chemical signal used in neural and non-neural contexts; exploitable by parasites and other organisms for behavioral manipulation."
+    },
+    {
+      "name": "Ectopic Organ",
+      "aliases": [],
+      "category": "biological",
+      "context": "Organ formed in anatomically abnormal location; demonstrates morphogenetic capability independent of normal developmental context."
+    },
+    {
+      "name": "Planarian Regeneration",
+      "aliases": [
+        "Planaria"
+      ],
+      "category": "biological",
+      "context": "Flatworms exhibiting complete body regeneration, cancer resistance, and apparent immortality; demonstrate extreme morphogenetic competency."
+    },
+    {
+      "name": "Xenopus Development",
+      "aliases": [
+        "Frog development",
+        "Tadpole development"
+      ],
+      "category": "biological",
+      "context": "Model organism used to study morphogenetic control via bioelectric manipulation; demonstrates scalable competency and recruitment."
+    },
+    {
+      "name": "Play the Hand You're Dealt",
+      "aliases": [
+        "PHD"
+      ],
+      "category": "evolutionary",
+      "context": "Principle that successful developmental systems operate effectively with whatever internal and external conditions they encounter."
+    },
+    {
+      "name": "Beginner's Mind",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Approach to morphogenesis emphasizing flexibility and real-time problem-solving rather than assumption of prior states."
+    },
+    {
+      "name": "Evolutionary Intelligence Ratchet",
+      "aliases": [],
+      "category": "evolutionary",
+      "context": "Self-reinforcing process where competency improvements make genomic quality harder to assess, driving further competency evolution."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Buddhist concept of suffering/stress; used metaphorically for system-level error minimization driving morphogenetic regulation."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Spatio-temporal scale of goal states pursued by collective; scales with network complexity, memory, and sensory radius."
+    },
+    {
+      "name": "Bioelectric Prepattern",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Voltage distribution across tissue encoding target morphology; instructive for patterning and functions as counterfactual memory."
+    },
+    {
+      "name": "Perceptual Bistability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Phenomenon where same input produces different outcomes; models stochastic phenotypes from identical genomes in developmental contexts."
+    },
+    {
+      "name": "V-Atpase",
+      "aliases": [],
+      "category": "biological",
+      "context": "Proton pump whose activity controls bioelectric patterns; functionally replaceable by yeast proton pump, illustrating modularity."
+    },
+    {
+      "name": "Modularity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Organization of morphogenetic systems into functional units; enables decomposition of control problems and facilitates evolvability."
+    },
+    {
+      "name": "Bioelectrical Signaling",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Use of ion channel modulation to encode morphogenetic instructions; more abstract and generalizable than molecular signals."
+    },
+    {
+      "name": "Chreods",
+      "aliases": [],
+      "category": "biological",
+      "context": "Developmental pathways treated as collections of regenerative repairs toward homeostatic setpoints."
+    },
+    {
+      "name": "Epigenetic Inheritance",
+      "aliases": [],
+      "category": "biological",
+      "context": "Transmission of heritable changes not encoded in DNA sequence; acknowledged as important but beyond current paper's focus."
+    },
+    {
+      "name": "Bioelectricity",
+      "aliases": [
+        "Bioelectric code",
+        "Membrane potential",
+        "Vmem"
+      ],
+      "category": "cognitive",
+      "context": "Voltage gradients across cell membranes that serve as a collective computational medium for controlling growth, form, and pattern formation independent of genetic instructions."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Process by which biological systems maintain internal models and minimize surprise by actively sampling and modifying their environment through cybernetic control loops."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "Developmental plasticity",
+        "Phenotypic plasticity"
+      ],
+      "category": "cognitive",
+      "context": "The capacity of biological systems to generate multiple phenotypes from the same genotype in response to internal or external perturbations."
+    },
+    {
+      "name": "Cryptic Variation",
+      "aliases": [
+        "Hidden genetic variation"
+      ],
+      "category": "ai",
+      "context": "Mutations and genetic variants whose phenotypic effects are buffered by developmental regulation, maintaining genetic diversity for future adaptation."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [
+        "Self",
+        "Individuation",
+        "Boundaries of self"
+      ],
+      "category": "cognitive",
+      "context": "Fundamental property of biological systems to maintain coherent identity and boundaries through computational mechanisms at multiple scales."
+    },
+    {
+      "name": "Polycomputation",
+      "aliases": [
+        "Multiple interpretations",
+        "Overloading"
+      ],
+      "category": "interdisciplinary",
+      "context": "Using existing biological mechanisms to perform multiple distinct computational functions through different interpretations of the same substrate."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "aliases": [],
+      "category": "ai",
+      "context": "Evolutionary process where changes to developmental control systems create new functions without requiring prior adaptive advantage."
+    },
+    {
+      "name": "Attractor State",
+      "aliases": [
+        "Stable state",
+        "Goal state"
+      ],
+      "category": "interdisciplinary",
+      "context": "Stable configuration toward which biological systems dynamically move, representing a solution in morphological or physiological problem space."
+    },
+    {
+      "name": "Cognitive Scaling",
+      "aliases": [
+        "Scaling of intelligence"
+      ],
+      "category": "cognitive",
+      "context": "Progressive increase in problem-solving capacity across evolutionary time, from molecular to organismal scales."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [
+        "Basal intelligence",
+        "Distributed cognition"
+      ],
+      "category": "cognitive",
+      "context": "Recognition of spectrum of problem-solving and creative capacities across unconventional media beyond nervous systems."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [
+        "Intercellular cooperation",
+        "Componentwise trust"
+      ],
+      "category": "interdisciplinary",
+      "context": "Reliable coordination between biological components enabled by encapsulation of competencies with clear, predictable goal states."
+    },
+    {
+      "name": "Genetic Relatedness",
+      "aliases": [],
+      "category": "ai",
+      "context": "Degree of shared genetic material; does not guarantee cooperation without additional mechanisms like cellular competency."
+    },
+    {
+      "name": "Homeostasis",
+      "aliases": [
+        "Homeodynamics",
+        "Dynamic stability"
+      ],
+      "category": "cognitive",
+      "context": "Maintenance of target physiological states through feedback control, enabling robust development and evolution."
+    },
+    {
+      "name": "Cybernetic Competency",
+      "aliases": [
+        "Feedback control",
+        "Homeostatic regulation"
+      ],
+      "category": "interdisciplinary",
+      "context": "Self-regulating control systems enabling goal-directed behavior at all biological scales."
+    },
+    {
+      "name": "Natural Induction",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework seeking invariant principles between evolutionary processes and learning broadly construed."
+    },
+    {
+      "name": "Lamarckian Effects",
+      "aliases": [
+        "Lamarckian evolution"
+      ],
+      "category": "ai",
+      "context": "Inheritance of acquired characteristics through cellular problem-solving and physiological response to novel stressors."
+    },
+    {
+      "name": "Scale-Free Biology",
+      "aliases": [
+        "Multi-scale principles"
+      ],
+      "category": "interdisciplinary",
+      "context": "Integration of principles explaining biological organization at all scales from molecular to organismal."
+    },
+    {
+      "name": "Goal-Oriented Programming",
+      "aliases": [],
+      "category": "ai",
+      "context": "Programming paradigm specifying desired outcomes rather than implementation details, mirroring biological competency architecture."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": [
+        "Self-organization",
+        "Self-production"
+      ],
+      "category": "interdisciplinary",
+      "context": "Self-maintaining organization of biological systems that define their own boundaries and internal structure."
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": [
+        "Phi",
+        "Integrated information theory"
+      ],
+      "category": "cognitive",
+      "context": "Measure of causal integration in systems; relevant to understanding consciousness and agency."
+    },
+    {
+      "name": "Coarse-Graining",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Abstraction mechanism transforming low-level descriptions into higher-level models for downward causation."
+    },
+    {
+      "name": "Gene Regulatory Networks",
+      "aliases": [
+        "GRN"
+      ],
+      "category": "ai",
+      "context": "Networks of genes and regulatory interactions implementing computational logic for cellular decision-making and memory."
+    },
+    {
+      "name": "Associative Memory",
+      "aliases": [
+        "Conditional associations"
+      ],
+      "category": "cognitive",
+      "context": "Capacity to link stimulus-response pairs, demonstrable in gene regulatory networks and transcriptional systems."
+    },
+    {
+      "name": "Hebbian Learning",
+      "aliases": [
+        "Spike-timing-dependent plasticity"
+      ],
+      "category": "cognitive",
+      "context": "Learning rule where correlated activity strengthens connections, operating at multiple biological scales."
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular consciousness proposed as primary source of biological order; present at fundamental biological scales."
+    },
+    {
+      "name": "Senome",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Sensory-electronic genome; information-processing capacity of cells beyond genetic code."
+    },
+    {
+      "name": "Shape Homeostasis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Maintenance of target morphological states through homeostatic regulation mechanisms."
+    },
+    {
+      "name": "Developmental Memory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Phenotypic correlations reflecting developmental history and constraints on future evolutionary change."
+    },
+    {
+      "name": "Evo-Devo",
+      "aliases": [
+        "Evolutionary developmental biology"
+      ],
+      "category": "ai",
+      "context": "Integration of evolutionary and developmental biology revealing how development enables evolutionary innovation."
+    },
+    {
+      "name": "Evolutionary Connectionism",
+      "aliases": [],
+      "category": "ai",
+      "context": "Framework understanding evolution through connectionist principles and algorithmic organization of biological systems."
+    },
+    {
+      "name": "Evolutionary Individuality",
+      "aliases": [],
+      "category": "ai",
+      "context": "Principles determining levels at which natural selection operates in hierarchy of biological organization."
+    },
+    {
+      "name": "Evolutionary Transitions In Individuality",
+      "aliases": [
+        "ETIs"
+      ],
+      "category": "ai",
+      "context": "Processes by which new levels of biological organization emerge through integration of previously independent units."
+    },
+    {
+      "name": "Extended Inheritance",
+      "aliases": [],
+      "category": "ai",
+      "context": "Transmission of phenotypic traits beyond genetic code through epigenetic, behavioral, and ecological mechanisms."
+    },
+    {
+      "name": "Particle Plasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Adaptive variation at individual particle/component level affecting population-level outcomes."
+    },
+    {
+      "name": "Pleiotropy",
+      "aliases": [
+        "Pleiotropic effects"
+      ],
+      "category": "ai",
+      "context": "Single gene affecting multiple traits, complicating credit assignment in evolution."
+    },
+    {
+      "name": "Morphological Coordination",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ancient ancestral function of cellular signaling coordinating body structure across nervous and non-nervous contexts."
+    },
+    {
+      "name": "Craniofacial Development",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Development of head structures regulated by bioelectric patterns and cellular competency mechanisms."
+    },
+    {
+      "name": "Meta-Stability",
+      "aliases": [
+        "Metastable states"
+      ],
+      "category": "interdisciplinary",
+      "context": "Stochastic transitions between states in bioelectric circuits underlying pattern selection in regeneration."
+    },
+    {
+      "name": "Bioelectric Code",
+      "aliases": [
+        "Electrophiological information"
+      ],
+      "category": "cognitive",
+      "context": "Ancient computational medium using ion channels and voltage gradients for control of growth and anatomical form."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [
+        "Alife"
+      ],
+      "category": "ai",
+      "context": "Field studying life-like behavior in computational systems, relevant to understanding universal principles of agency."
+    },
+    {
+      "name": "Artificial Embryogeny",
+      "aliases": [],
+      "category": "ai",
+      "context": "Computational models of embryonic development used to understand morphogenetic principles."
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere",
+      "aliases": [
+        "TAME"
+      ],
+      "category": "cognitive",
+      "context": "Framework for understanding diverse forms of cognition across different embodiments using technological analysis."
+    },
+    {
+      "name": "Chromatin Computation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Information processing via chromatin structure and epigenetic states in cellular computation."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [
+        "FEP",
+        "Variational Free Energy"
+      ],
+      "category": "interdisciplinary",
+      "context": "Framework proposing that biological systems minimize free energy to maintain homeostasis; unifies thermodynamics, information theory, and cognition."
+    },
+    {
+      "name": "Markov Blankets",
+      "aliases": [],
+      "category": "ai",
+      "context": "Conditional independence structure that defines boundaries of autonomous systems; used to analyze autonomy in biological and artificial systems."
+    },
+    {
+      "name": "Anatomical Homeostasis",
+      "aliases": [
+        "Anatomical Set-point",
+        "Morphostasis"
+      ],
+      "category": "cognitive",
+      "context": "Homeostatic regulation of body form and structure; suggests organisms maintain stable morphologies through goal-directed processes."
+    },
+    {
+      "name": "Associative Learning",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Learning mechanism observable in simple organisms and chemical networks; demonstrates proto-cognitive capabilities in non-neural systems."
+    },
+    {
+      "name": "Agency",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Capacity for goal-directed action and decision-making; extends beyond neural systems to cellular and evolutionary domains."
+    },
+    {
+      "name": "Nonlinearity",
+      "aliases": [
+        "Nonlinear Dynamics"
+      ],
+      "category": "interdisciplinary",
+      "context": "Essential property of biological regulation; enables complex responses, bistability, and emergent control without explicit hierarchical programming."
+    },
+    {
+      "name": "Left-Right Asymmetry",
+      "aliases": [
+        "Chirality",
+        "L-R Asymmetry"
+      ],
+      "category": "cognitive",
+      "context": "Asymmetric body organization controlled by bioelectric and serotonergic signals; occurs before neural development."
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": [
+        "Transmembrane Voltage",
+        "Electrical Potential"
+      ],
+      "category": "cognitive",
+      "context": "Ion-gradient-dependent electrical potential across cell membranes; encodes non-genetic information and enables bioelectric computation."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Loss of anatomical homeostasis; disrupted bioelectric signaling; reversible through bioelectric reprogramming in model systems."
+    },
+    {
+      "name": "Minimal Intelligence",
+      "aliases": [
+        "Proto-Cognition",
+        "Basal Cognition"
+      ],
+      "category": "interdisciplinary",
+      "context": "Cognitive capabilities in non-neural systems; found in bacteria, plants, and developmental morphogenesis."
+    },
+    {
+      "name": "Variational Ecology",
+      "aliases": [],
+      "category": "ai",
+      "context": "Application of variational inference to ecological and consciousness phenomena; connects free energy principle to broader biological systems."
+    },
+    {
+      "name": "Hierarchically Mechanistic Mind",
+      "aliases": [
+        "HMM"
+      ],
+      "category": "cognitive",
+      "context": "Evolutionary systems theory positing hierarchical organization of brain, cognition, and behavior; integrates mechanistic and evolutionary perspectives."
+    },
+    {
+      "name": "Cognitive Lens",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Conceptual framework for analyzing cognition in development and regeneration; enables study of minimal intelligence in morphogenesis."
+    },
+    {
+      "name": "Xenopus Tadpole",
+      "aliases": [
+        "African Clawed Frog"
+      ],
+      "category": "interdisciplinary",
+      "context": "Model organism for studying bioelectric signaling, regeneration, and developmental patterning; used in tumor induction and reversal studies."
+    },
+    {
+      "name": "Soft Robotics",
+      "aliases": [],
+      "category": "ai",
+      "context": "Design and construction of flexible robots inspired by biological morphology; demonstrates morphological computation principles."
+    },
+    {
+      "name": "Reinforcement Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Machine learning paradigm for agents learning through reward signals; applicable to understanding adaptive behavior in biological systems."
+    },
+    {
+      "name": "Integration",
+      "aliases": [
+        "Information Integration"
+      ],
+      "category": "interdisciplinary",
+      "context": "Coordination and unity of bioelectric signals across multicellular aggregates; relates to consciousness and unified agency."
+    },
+    {
+      "name": "Minimal Developmental Computation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Causal network approach to understanding pattern formation; identifies minimal computational requirements for morphogenesis."
+    },
+    {
+      "name": "Free-Energy Approach To Pattern Regulation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Application of free energy principle to understanding morphogenetic pattern formation and organism localization."
+    },
+    {
+      "name": "Evolutionary Transitions In Individuality (ETIs)",
+      "aliases": [
+        "Major Evolutionary Transitions"
+      ],
+      "category": "interdisciplinary",
+      "context": "Theory explaining transitions from solitary to multicellular organization; involves changes in information flow and level of selection."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Variational Autoencoder Architecture",
+      "creator": null,
+      "context": "Machine learning model using compression into generative code; parallels how genomes compress morphogenetic information across reproduction bottleneck."
+    },
+    {
+      "name": "Bow-Tie Architecture",
+      "creator": null,
+      "context": "Bottleneck structure in morphogenetic control exploiting bioelectric, biochemical, and biomechanical modalities as control nodes."
+    },
+    {
+      "name": "Homeostatic Control Loop Model",
+      "creator": null,
+      "context": "Framework treating development, regeneration, metamorphosis, and cancer suppression as manifestations of anatomical homeostasis."
+    },
+    {
+      "name": "Multiscale Polycomputation Framework",
+      "creator": null,
+      "context": "Model of problem-solving occurring simultaneously at multiple organizational scales in biological systems."
+    },
+    {
+      "name": "Baldwin Effect Model",
+      "creator": null,
+      "context": "Framework explaining how learned or physiologically plastic traits become canalized into genetic variation over time."
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin",
+      "context": "Model explaining how hierarchical problem-solving capacities at multiple biological scales enhance evolutionary search efficiency and enable morphological complexity."
+    },
+    {
+      "name": "Active Inference Framework",
+      "creator": null,
+      "context": "Cybernetic framework applied to biological systems for understanding how they minimize surprise through prediction and action."
+    },
+    {
+      "name": "Homeostatic Control Loop",
+      "creator": null,
+      "context": "Feedback mechanism with setpoint, measurement, comparison, and actuation components implementing goal-directed behavior at all scales."
+    },
+    {
+      "name": "Test-Operate-Exit Loop",
+      "creator": null,
+      "context": "Computational structure of homeostatic mechanisms enabling iterative problem-solving toward target states."
+    },
+    {
+      "name": "Facilitated Variation Theory",
+      "creator": null,
+      "context": "Framework describing how developmental mechanisms buffer variation and enable evolvability."
+    },
+    {
+      "name": "Constructive Neutral Evolution Framework",
+      "creator": null,
+      "context": "Model explaining evolutionary change through non-adaptive modifications to developmental control systems."
+    },
+    {
+      "name": "Natural Induction Framework",
+      "creator": null,
+      "context": "Emerging framework seeking universal principles connecting evolutionary and learning processes."
+    },
+    {
+      "name": "Cybernetics",
+      "creator": null,
+      "context": "Mathematical theory of feedback control and self-regulation applicable to biological systems at all scales."
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "creator": null,
+      "context": "Computational paradigm using encapsulated objects with interfaces; mirrored in biological modular competencies."
+    },
+    {
+      "name": "Free Energy Principle",
+      "creator": "Karl Friston",
+      "context": "Theoretical framework proposing biological systems minimize variational free energy; integrates thermodynamics, information theory, and cognition."
+    },
+    {
+      "name": "Active Inference",
+      "creator": "Karl Friston",
+      "context": "Mechanism within free energy principle where agents act to fulfill predictions; explains perception-action loops."
+    },
+    {
+      "name": "Markov Blankets Approach",
+      "creator": null,
+      "context": "Formal method for defining system boundaries and autonomy; identifies minimal sufficient statistics for conditional independence."
+    },
+    {
+      "name": "Hierarchically Mechanistic Mind",
+      "creator": "Badcock, Friston, Ramstead et al.",
+      "context": "Evolutionary systems theory explaining hierarchical organization of brain, cognition, and behavior through mechanistic principles."
+    },
+    {
+      "name": "Variational Ecology",
+      "creator": "Ramstead et al.",
+      "context": "Extension of variational inference to ecological and consciousness phenomena; applies free energy principles broadly."
+    },
+    {
+      "name": "Autopoiesis Theory",
+      "creator": null,
+      "context": "Framework defining living systems as self-producing and self-maintaining; connects to autonomous agency and embodied cognition."
+    },
+    {
+      "name": "Morphological Computation Framework",
+      "creator": "Rodney Pfeifer",
+      "context": "Model explaining how organism morphology and materials perform computational functions, reducing neural processing demands."
+    },
+    {
+      "name": "Cognitive Lens Framework",
+      "creator": "Manicka and Levin",
+      "context": "Conceptual toolkit for analyzing cognition in developmental and regenerative morphogenesis; enables study of minimal intelligence."
+    },
+    {
+      "name": "Minimal Developmental Computation",
+      "creator": "Manicka and Levin",
+      "context": "Causal network approach identifying minimal computational requirements for pattern formation and morphogenesis."
+    },
+    {
+      "name": "Evolutionary Transitions In Individuality Theory",
+      "creator": "Maynard Smith and Szathmáry",
+      "context": "Framework explaining major evolutionary transitions through changes in information flow and level of selection."
+    },
+    {
+      "name": "Waddington's Landscape Model",
+      "creator": "Conrad Waddington",
+      "context": "Conceptual model of development as trajectory through landscape of possible states; connects to chreods and epigenetic regulation."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Center at Tufts University directed by Michael Levin; focuses on morphogenesis, regeneration, and xenobots."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "Host institution for Allen Discovery Center and much of the research discussed in this paper."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Harvard-affiliated institute where Michael Levin holds position; focuses on bio-inspired engineering and regenerative medicine."
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "Host institution for Wyss Institute and related bioengineering research."
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting research including the work presented in this paper on competency and evolutionary innovation."
+    },
+    {
+      "name": "MIT Press",
+      "type": "research-center",
+      "context": "Publisher of major works on evolution, artificial life, and consciousness referenced in bibliography."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are the features of morphogenesis that enable evolution to search difficult phenotype space efficiently despite pleiotropy, degeneracy, and redundancy?",
+      "category": "other",
+      "context": "Central question about evolutionary problem-solving; paper proposes competency and hacking of cellular affordances as key features."
+    },
+    {
+      "question": "How can evolution be so rapid and effective at using mutation to address opportunities of form and function despite rugged fitness landscapes?",
+      "category": "other",
+      "context": "Addresses apparent paradox of evolutionary speed; paper argues competency-based search of behavior-shaping signals rather than genotype microstates."
+    },
+    {
+      "question": "How do we explain the ubiquitous presence of novel capabilities in living things for which no direct selection forces are plausible?",
+      "category": "other",
+      "context": "Asks about adaptation vs. byproducts; paper suggests general-purpose problem-solving machinery creates unexpected capacities."
+    },
+    {
+      "question": "What determines which genotypes must be altered to produce specific large-scale anatomical features and functional outcomes?",
+      "category": "other",
+      "context": "Inverse problem in biomedical engineering; paper argues solution requires understanding morphogenetic competencies, not just molecular details."
+    },
+    {
+      "question": "How is the target morphology or homeostatic setpoint represented and stored in biological systems?",
+      "category": "epistemology",
+      "context": "Fundamental question about biological information; paper proposes bioelectric patterns as primary representational medium."
+    },
+    {
+      "question": "What mechanisms allow cells to scale up from individual competencies to collective problem-solving in larger and more complex problem spaces?",
+      "category": "other",
+      "context": "Question about emergence of higher-level intelligence; paper proposes gap junctions, tissue signaling, and information sharing as mechanisms."
+    },
+    {
+      "question": "How can organisms with extremely variable or messy genomes (like planaria) exhibit superior morphological control compared to organisms with stable genomes?",
+      "category": "other",
+      "context": "Puzzle resolved by evolutionary intelligence ratchet theory and competency-based rather than hardwiring-based development."
+    },
+    {
+      "question": "What is the relationship between cellular plasticity and robustness to cancer, aging, and injury?",
+      "category": "other",
+      "context": "Counter-intuitive question; paper proposes that high morphogenetic competency serves multiple functions through error minimization."
+    },
+    {
+      "question": "How do bioelectric networks store and manipulate morphogenetic memories independent of genetic sequence?",
+      "category": "epistemology",
+      "context": "Questions nature of biological memory; paper demonstrates planarian head-number and head-shape reprogramming via bioelectric circuits."
+    },
+    {
+      "question": "Can evolution exploit physiological and morphogenetic plasticity to bias evolutionary search in adaptive directions?",
+      "category": "other",
+      "context": "Questions whether Baldwin effect applies to developmental plasticity; paper suggests this occurs via competency mechanisms."
+    },
+    {
+      "question": "How do molecular events triggered by a stimulus become expanded into complex nervous system architecture that controls behavior?",
+      "category": "other",
+      "context": "Fundamental question about scaling of biological information across multiple levels of organization from molecular to behavioral."
+    },
+    {
+      "question": "What are the latent spaces of homeodynamic goals at different biological scales, and where do these setpoints originate?",
+      "category": "metaphysics",
+      "context": "Probing the origins and nature of goal states underlying biological computation across diverse scales."
+    },
+    {
+      "question": "How can cells solve the credit assignment problem to determine which genes to modify in response to novel physiological stressors?",
+      "category": "other",
+      "context": "Question about cellular computational mechanisms enabling adaptive response to unprecedented challenges."
+    },
+    {
+      "question": "To what degree does evolution search in the space of behavior-shaping signals versus low-dimensional hardware specifications?",
+      "category": "other",
+      "context": "Fundamental question about the nature of the space evolutionary processes actually explore."
+    },
+    {
+      "question": "How can we detect and measure problem-solving capacities in systems not known for their competency?",
+      "category": "epistemology",
+      "context": "Challenge in identifying intelligence and agency in unexpected biological contexts across model systems."
+    },
+    {
+      "question": "What are the bidirectional relationships between multiscale intelligence and evolutionary processes?",
+      "category": "other",
+      "context": "Question about feedback loops between cognitive scaling and evolutionary innovation."
+    },
+    {
+      "question": "Can cells implement reverse central dogma—determining which genes to edit based on physiological state?",
+      "category": "other",
+      "context": "Whether cellular computation can solve inverse biological engineering problems through transcriptional mechanisms."
+    },
+    {
+      "question": "How do affordances and competencies enable bioengineers and evolution to achieve complex outcomes?",
+      "category": "other",
+      "context": "Question about practical exploitation of biological problem-solving in engineering design."
+    },
+    {
+      "question": "How does cellular competency and bioelectric signaling enable morphogenetic intelligence without centralized neural control?",
+      "category": "epistemology",
+      "context": "Central to understanding non-neural cognition and pattern formation in development and regeneration."
+    },
+    {
+      "question": "Can anatomical homeostasis and morphological goal-directedness be reversed through bioelectric reprogramming?",
+      "category": "metaphysics",
+      "context": "Tests whether developmental patterns are locked or remain fluid; has implications for cancer reversal and regenerative medicine."
+    },
+    {
+      "question": "What is the minimal hardware and computational architecture required for consciousness or minimal intelligence?",
+      "category": "metaphysics",
+      "context": "Bridges AI, cognitive science, and developmental biology; questions boundaries of psychological properties."
+    },
+    {
+      "question": "How do bioelectric networks store and transmit non-genetic patterning information across generations?",
+      "category": "epistemology",
+      "context": "Explores information storage beyond DNA; challenges central dogma and illuminates developmental memory mechanisms."
+    },
+    {
+      "question": "Does the Free Energy Principle adequately explain morphogenesis and pattern formation in biological systems?",
+      "category": "metaphysics",
+      "context": "Evaluates whether variational inference frameworks extend from neuroscience to developmental and evolutionary biology."
+    },
+    {
+      "question": "Can soft robots and xenobots exhibit genuine agency and goal-directed behavior through morphological computation?",
+      "category": "alignment",
+      "context": "Questions whether artificial systems can replicate autonomy and purposefulness of biological entities; relevant to AI alignment."
+    },
+    {
+      "question": "What are the evolutionary advantages of diverse morphological computations across different body plans?",
+      "category": "other",
+      "context": "Explores evolvability and innovation through morphology-based information processing."
+    },
+    {
+      "question": "How do individual cells exhibit associative learning and adaptive behavior in chemical networks?",
+      "category": "metaphysics",
+      "context": "Challenges distinctions between single-cell and multicellular cognition; expands definition of learning."
+    }
+  ],
+  "_metadata": {
+    "source_file": "batched_extraction",
+    "title": "Vol.:(0123456789)",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:53:17.763154",
+    "batches_processed": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Multiscale Polycomputation Framework",
+  "filename": "multiscale-polycomputation-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Model of problem-solving occurring simultaneously at multiple organizational scales in biological systems.",
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.267291",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

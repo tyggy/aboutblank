@@ -1,0 +1,16 @@
+{
+  "name": "Spin-Glass Model",
+  "filename": "spin-glass-model",
+  "creator": "David Sherrington and Scott Kirkpatrick",
+  "context": "Physics model of complex disordered systems; applied to understand emergent properties in biological networks.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.783598",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

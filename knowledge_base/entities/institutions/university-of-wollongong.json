@@ -1,0 +1,15 @@
+{
+  "name": "University Of Wollongong",
+  "filename": "university-of-wollongong",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/BRJ48AU5gP4_[Speaker_Prof._Dr._Thomas_H._Doctor]_Buddhism_and_AI_Collaboration_and_a_New_Model_of_Intelligence_cleaned_edited.md"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.276028",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

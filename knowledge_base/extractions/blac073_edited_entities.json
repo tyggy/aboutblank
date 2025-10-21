@@ -1,0 +1,1071 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [
+        "M. Levin"
+      ],
+      "domains": [
+        "Developmental Biology",
+        "Bioengineering",
+        "Cognitive Science"
+      ],
+      "context": "Co-author; primary investigator on xenobots, synthetic morphology, and basal cognition; explores goal-directed behavior in biological systems at multiple scales."
+    },
+    {
+      "name": "Wesley P. Clawson",
+      "aliases": [
+        "W. P. Clawson"
+      ],
+      "domains": [
+        "Developmental Biology",
+        "Bioengineering"
+      ],
+      "context": "Co-author; contributes to synthetic biology and novel organism engineering."
+    },
+    {
+      "name": "Hans Spemann",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology"
+      ],
+      "context": "Early developmental biologist who understood the fundamental link between cognition (mind) and morphogenesis (body)."
+    },
+    {
+      "name": "Alan Turing",
+      "aliases": [],
+      "domains": [
+        "Computer Science",
+        "Biology"
+      ],
+      "context": "Early theorist who recognized connections between morphogenesis and computation."
+    },
+    {
+      "name": "Giovanni Pezzulo",
+      "aliases": [],
+      "domains": [
+        "Cognitive Science",
+        "Computational Biology"
+      ],
+      "context": "Researcher exploring predictive processing and goal-directed behavior in biological systems."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": [
+        "Philosophy",
+        "Psychology"
+      ],
+      "context": "Defined intelligence as the ability to reach the same goal through different means."
+    },
+    {
+      "name": "Paul Lyon",
+      "aliases": [],
+      "domains": [
+        "Basal Cognition"
+      ],
+      "context": "Contributor to emerging field of basal cognition investigating roots of intelligence in pre-neural forms."
+    },
+    {
+      "name": "Fred Keijzer",
+      "aliases": [],
+      "domains": [
+        "Basal Cognition",
+        "Philosophy of Mind"
+      ],
+      "context": "Researcher in basal cognition and unfamiliar forms of intelligence."
+    },
+    {
+      "name": "Douglas Blackiston",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology",
+        "Xenobot Research"
+      ],
+      "context": "Researcher producing xenobots and studying novel morphologies from frog cells."
+    },
+    {
+      "name": "Eörs Szathmáry",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Biology",
+        "Systems Biology"
+      ],
+      "context": "Theorist on evolution and multi-scale competency architecture."
+    },
+    {
+      "name": "David Power",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Biology"
+      ],
+      "context": "Researcher on learning processes in evolution and competency architecture."
+    },
+    {
+      "name": "Robert Rosen",
+      "aliases": [],
+      "domains": [
+        "Systems Theory",
+        "Biology"
+      ],
+      "context": "Theorist on bioengineering and evolution working in living medium."
+    },
+    {
+      "name": "Jonas",
+      "aliases": [],
+      "domains": [
+        "Neuroscience"
+      ],
+      "context": "Researcher addressing challenges of predicting stable outcomes at large scales from cellular observations."
+    },
+    {
+      "name": "Warren P. Clawson",
+      "aliases": [
+        "W. P. Clawson"
+      ],
+      "domains": [
+        "Synthetic Biology",
+        "Bioengineering"
+      ],
+      "context": "Co-author of the paper; contributes to framework on engineering novel bodies and minds."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [],
+      "domains": [
+        "Neuroscience",
+        "Cognitive Science"
+      ],
+      "context": "Contributor to theories of active inference and free energy principle; cited for work on cognitive dynamics beyond neurons."
+    },
+    {
+      "name": "Daniel Dennett",
+      "aliases": [],
+      "domains": [
+        "Philosophy of Mind"
+      ],
+      "context": "Acknowledged for contributions to philosophical discussions on consciousness and intentionality."
+    },
+    {
+      "name": "Jacob von Uexküll",
+      "aliases": [],
+      "domains": [
+        "Animal Biology",
+        "Environmental Theory"
+      ],
+      "context": "Developer of Umwelt concept; foundational work on organism-specific environmental perception."
+    },
+    {
+      "name": "Nick Bostrom",
+      "aliases": [],
+      "domains": [
+        "Transhumanism",
+        "Philosophy"
+      ],
+      "context": "Cited for work on human enhancement and transhumanist perspectives."
+    },
+    {
+      "name": "Christopher Fields",
+      "aliases": [],
+      "domains": [
+        "Cognitive Science",
+        "Regenerative Biology"
+      ],
+      "context": "Collaborator on morphological coordination and scale-free biology concepts."
+    },
+    {
+      "name": "Joshua Bongard",
+      "aliases": [],
+      "domains": [
+        "Robotics",
+        "Synthetic Biology"
+      ],
+      "context": "Co-developer of xenobots and reconfigurable organisms; expert in bio-hybrid systems."
+    },
+    {
+      "name": "Rodney Brooks",
+      "aliases": [],
+      "domains": [
+        "Robotics",
+        "AI"
+      ],
+      "context": "Developer of subsumption architecture; foundational work in autonomous robotics control."
+    },
+    {
+      "name": "Norbert Wiener",
+      "aliases": [],
+      "domains": [
+        "Cybernetics",
+        "Control Theory"
+      ],
+      "context": "Founder of cybernetics; seminal work on feedback and goal-directed systems."
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": [
+        "Biocomputation"
+      ],
+      "context": "Acknowledged contributor to discussions on living systems and computation."
+    },
+    {
+      "name": "Elizaveta Solomonova",
+      "aliases": [],
+      "domains": [
+        "Consciousness Studies"
+      ],
+      "context": "Contributor to Diverse Intelligences community discussions."
+    },
+    {
+      "name": "Bill Duane",
+      "aliases": [],
+      "domains": [
+        "Systems Biology"
+      ],
+      "context": "Acknowledged collaborator on diverse intelligences research."
+    },
+    {
+      "name": "Richard Mills",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Biology"
+      ],
+      "context": "Contributes to evolutionary connectionism and developmental memory."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Teleonomy",
+      "aliases": [
+        "Goal-directed behavior",
+        "Problem-solving behavior"
+      ],
+      "category": "interdisciplinary",
+      "context": "Central concept: the ability of systems to reach specific observable states (goals) through different means and varying degrees of reliability and competency, independent of substrate or origin."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [
+        "Proto-cognition"
+      ],
+      "category": "cognitive",
+      "context": "Emerging field investigating the roots of intelligence and problem-solving in ancient, pre-neural forms and non-traditional embodiments."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "Developmental plasticity",
+        "Adaptive plasticity"
+      ],
+      "category": "cognitive",
+      "context": "The capacity of biological systems to reach similar forms and functions despite radical perturbations to circumstances, composition, or internal components."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [
+        "Developmental morphogenesis",
+        "Emergent morphogenesis"
+      ],
+      "category": "cognitive",
+      "context": "The process by which cellular collectives self-organize into complex anatomical structures; now understood as a collective intelligence problem."
+    },
+    {
+      "name": "Competency Architecture",
+      "aliases": [
+        "Multi-scale competency",
+        "Multi-scale competency architecture"
+      ],
+      "category": "interdisciplinary",
+      "context": "Hypothesis that life exploits a hierarchical, multi-scale system where subsystems at each level exhibit their own goal-directedness (teleonomic behavior) in diverse problem spaces."
+    },
+    {
+      "name": "Xenobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Novel proto-organisms assembled from dissociated frog skin cells; exhibit spontaneous motility, repair, kinematic self-replication, and goal-directed behaviors without genetic modification."
+    },
+    {
+      "name": "Synthetic Morphology",
+      "aliases": [],
+      "category": "ai",
+      "context": "Field of engineering novel living forms by combining evolved and designed components to explore anatomical and behavioral possibility spaces."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [
+        "Swarm intelligence"
+      ],
+      "category": "cognitive",
+      "context": "Problem-solving capability that emerges from the cooperation and competition of multiple goal-directed agents or subunits."
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [
+        "Cybernetic organism"
+      ],
+      "category": "ai",
+      "context": "Hybrid systems integrating biological tissues with engineered inorganic interfaces through closed-loop controls enabling mutual influence."
+    },
+    {
+      "name": "Hybrots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Synthetic living machines composed of neural cultures coupled via closed-loop techniques to physical robots or virtual environments."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [
+        "Homeostatic goal",
+        "Anatomical setpoint"
+      ],
+      "category": "cognitive",
+      "context": "The target state or preferred condition that a biological system works to maintain or achieve through goal-directed behavior."
+    },
+    {
+      "name": "Homeostatic Loops",
+      "aliases": [
+        "Homeostasis"
+      ],
+      "category": "cognitive",
+      "context": "Self-regulating mechanisms by which systems expend energy to attain and maintain specific preferred states regarding information, prediction error, metabolism, and anatomy."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": [
+        "Morphospace"
+      ],
+      "category": "cognitive",
+      "context": "The multidimensional space representing all possible anatomical configurations that biological systems can navigate and explore."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The multidimensional space of variables and states in which a system operates to solve problems and pursue goals; extends beyond physical 3D movement."
+    },
+    {
+      "name": "Ectopic Organ",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "An organ or tissue placed in an abnormal anatomical location; demonstrates biological plasticity when such organs develop correctly and integrate with the nervous system."
+    },
+    {
+      "name": "Self-assembly",
+      "aliases": [
+        "Guided self-assembly"
+      ],
+      "category": "cognitive",
+      "context": "Process by which biological components autonomously organize into complex structures, potentially guided by higher-level goals rather than micromanaged."
+    },
+    {
+      "name": "Regenerative Medicine",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Medical field seeking to induce cellular collectives to build desired structures through understanding morphogenetic processes and teleonomic behavior."
+    },
+    {
+      "name": "Chimeras",
+      "aliases": [
+        "Chimaeras",
+        "Chimaerism"
+      ],
+      "category": "interdisciplinary",
+      "context": "Organisms or systems mixing biological components from diverse sources; reveals continuous nature of categories often thought binary and tests generalizability of biological principles."
+    },
+    {
+      "name": "Inverse Problem",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The challenge that because genome-to-anatomy relationships are highly indirect, it is difficult to compute which DNA changes produce desired bodily changes."
+    },
+    {
+      "name": "Credit Assignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Challenge in machine learning and evolution of determining which subunits to modify to reduce error given environmental feedback."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [
+        "Goal-directed competency"
+      ],
+      "category": "cognitive",
+      "context": "Capacity to reach the same goal through different means; extends beyond brains to cellular collectives navigating various problem spaces."
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [
+        "Bioelectric signaling"
+      ],
+      "category": "cognitive",
+      "context": "Electrical networks in all somatic cells executing homeostatic loops and controlling cell behaviors in anatomical morphospace, isomorphic to neural computation."
+    },
+    {
+      "name": "Ion Channels",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Molecular structures enabling bioelectric dynamics across cell membranes; fundamental to cellular problem-solving and collective coordination."
+    },
+    {
+      "name": "Gap Junctions",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular connections enabling bioelectric coupling and information exchange between cells in multicellular systems."
+    },
+    {
+      "name": "Neural Decoding",
+      "aliases": [],
+      "category": "ai",
+      "context": "Process of extracting information from neural electrical activity to reconstruct intended movements or states; now applied to non-neural cells."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Emerging field recognizing and studying multiple forms of goal-directed problem-solving intelligence across diverse embodiments and substrates."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [
+        "Alife"
+      ],
+      "category": "ai",
+      "context": "Field exploring life-like properties in chemical, metabolic, and computational spaces through simulation and engineering."
+    },
+    {
+      "name": "Cybernetics",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework for understanding goal-directed behavior, control, and communication in animals and machines; substrate-independent and unified."
+    },
+    {
+      "name": "Agency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The capacity and property of being a goal-directed agent; now understood as continuous spectrum rather than binary property."
+    },
+    {
+      "name": "Cellular Competency",
+      "aliases": [
+        "Basal intelligence"
+      ],
+      "category": "cognitive",
+      "context": "The goal-directed problem-solving abilities exhibited by cells and cellular collectives in navigating physiological and morphological spaces."
+    },
+    {
+      "name": "Emergent Morphogenesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Emergence of anatomical forms and behaviors from collective cell behavior rather than direct genetic instruction; reveals goals arise through system dynamics."
+    },
+    {
+      "name": "Moral Worth",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Property used to evaluate ethical status of entities; paper argues competency in pursuing goals is more fundamental than origin or composition."
+    },
+    {
+      "name": "Coarse-Graining",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Process of abstracting from molecular-level details to identify meaningful higher-level anatomical and physiological set points and goals."
+    },
+    {
+      "name": "Self",
+      "aliases": [
+        "Individuality",
+        "Proto-self"
+      ],
+      "category": "cognitive",
+      "context": "Coherent goal-directed entity maintaining identity through time; can be implemented in diverse substrates from neurons to cellular collectives."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Pathological condition representing failure of normal teleonomic coordination; understanding morphogenetic goals may enable treatment."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity to rebuild missing body parts through coordinated goal-directed behavior of cellular collectives; demonstrates remarkable plasticity and competency."
+    },
+    {
+      "name": "Neuroprosthetics",
+      "aliases": [
+        "Neural prosthetics"
+      ],
+      "category": "ai",
+      "context": "Devices interfacing with nervous systems to enable control of novel effectors or sensing of novel modalities, demonstrating brain plasticity."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Goal-directed coordination among multiple agents or subsystems; enables complex multi-scale competency architectures."
+    },
+    {
+      "name": "Evo-Devo",
+      "aliases": [
+        "Evolutionary developmental biology"
+      ],
+      "category": "interdisciplinary",
+      "context": "Field studying evolution through lens of developmental processes; expanding toward bio-robo and synthetic morphology."
+    },
+    {
+      "name": "Tame",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "To understand and manage gradual changes in cognition during development from egg cell to complex goal-driven cognitive self."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [
+        "Cognitive capacity",
+        "Goal-directedness continuum"
+      ],
+      "category": "cognitive",
+      "context": "Redefined as a spectrum property present in all living systems exhibiting goal-directed behavior; not limited to nervous systems."
+    },
+    {
+      "name": "Umwelt",
+      "aliases": [
+        "Self-centered world",
+        "Perceptual environment"
+      ],
+      "category": "cognitive",
+      "context": "Von Uexküll's concept of organism-specific environmental perception; extended to multi-scale biological organization."
+    },
+    {
+      "name": "Affordances",
+      "aliases": [
+        "Action possibilities"
+      ],
+      "category": "cognitive",
+      "context": "Action possibilities available to systems; molecular pathways and biophysical dynamics serve as affordances for competition and cooperation across biological levels."
+    },
+    {
+      "name": "Extended Mind",
+      "aliases": [
+        "Active externalism"
+      ],
+      "category": "cognitive",
+      "context": "Cognitive processes extend beyond individual organisms; extended to multi-scale biological systems."
+    },
+    {
+      "name": "Bioelectricity",
+      "aliases": [
+        "Bioelectric signaling",
+        "Developmental bioelectricity"
+      ],
+      "category": "cognitive",
+      "context": "Voltage patterns across cell membranes serving as information carrier for anatomical control; distinct from action potentials."
+    },
+    {
+      "name": "Bottom-Up Control",
+      "aliases": [
+        "Reductionist control",
+        "Hardware-level manipulation"
+      ],
+      "category": "interdisciplinary",
+      "context": "Manipulating system behavior through direct modification of components; often produces suboptimal or harmful outcomes."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [
+        "Top-down control"
+      ],
+      "category": "interdisciplinary",
+      "context": "Macroscopic goal states influencing component behavior; more efficient than bottom-up approaches for complex systems."
+    },
+    {
+      "name": "Compassion",
+      "aliases": [
+        "Functional caring",
+        "Moral capacity"
+      ],
+      "category": "interdisciplinary",
+      "context": "Proposed basis for future ethics; proportional to teleonomic capacity rather than genetic similarity."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [
+        "Emergent properties"
+      ],
+      "category": "interdisciplinary",
+      "context": "How collective intelligences develop morphological and behavioral goals not shaped by evolutionary history."
+    },
+    {
+      "name": "Competency",
+      "aliases": [
+        "Problem-solving capacity"
+      ],
+      "category": "cognitive",
+      "context": "Degree and complexity a system can handle in pursuing goal states; defines position on cognition continuum."
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "Subjective experience"
+      ],
+      "category": "cognitive",
+      "context": "Proposed as continuous property related to goal-directedness; potentially present in diverse biological systems."
+    },
+    {
+      "name": "Modularity",
+      "aliases": [
+        "Modular organization"
+      ],
+      "category": "interdisciplinary",
+      "context": "Organization of systems into semi-independent modules; relevant to evolutionary innovation and control strategies."
+    },
+    {
+      "name": "Evolvability",
+      "aliases": [
+        "Capacity for evolutionary change"
+      ],
+      "category": "interdisciplinary",
+      "context": "Ability of systems to generate adaptive variation; related to genetic regulation and developmental flexibility."
+    },
+    {
+      "name": "Developmental Memory",
+      "aliases": [
+        "Phenotypic memory"
+      ],
+      "category": "cognitive",
+      "context": "Capacity of developmental systems to remember and maintain phenotypic states across generations."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": [
+        "Self-production",
+        "Self-organization"
+      ],
+      "category": "interdisciplinary",
+      "context": "Self-organizing and self-maintaining properties of living systems; foundational concept for life definitions."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [
+        "Predictive coding"
+      ],
+      "category": "cognitive",
+      "context": "Cognitive processes involving active prediction and model-based control of environment."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [
+        "Variational free energy"
+      ],
+      "category": "cognitive",
+      "context": "Framework explaining how living systems minimize surprise through active inference and embodiment."
+    },
+    {
+      "name": "Bayesian Inference",
+      "aliases": [
+        "Probabilistic inference"
+      ],
+      "category": "ai",
+      "context": "Framework for understanding how systems compute optimal behavior given uncertainty."
+    },
+    {
+      "name": "Developmental Plasticity",
+      "aliases": [
+        "Phenotypic plasticity"
+      ],
+      "category": "cognitive",
+      "context": "Developmental systems' capacity to generate diverse phenotypes from same genotype."
+    },
+    {
+      "name": "Scale-Free Cognition",
+      "aliases": [
+        "Cognition at multiple scales"
+      ],
+      "category": "cognitive",
+      "context": "Cognitive properties present across biological organizational scales from molecular to organismal."
+    },
+    {
+      "name": "Care",
+      "aliases": [
+        "Moral concern",
+        "Functional value"
+      ],
+      "category": "interdisciplinary",
+      "context": "Proposed ethical foundation; agents capable of teleonomic action have moral standing proportional to their capacity."
+    },
+    {
+      "name": "Persuadability",
+      "aliases": [
+        "Axis of control strategy"
+      ],
+      "category": "interdisciplinary",
+      "context": "Spectrum from brute-force physical manipulation to rational argument; determines optimal control strategy."
+    },
+    {
+      "name": "Agential Material",
+      "aliases": [
+        "Goal-directed matter"
+      ],
+      "category": "interdisciplinary",
+      "context": "Materials composed of agentic components; collaborative relationship between crafter and material."
+    },
+    {
+      "name": "Morphological Coordination",
+      "aliases": [
+        "Pattern coordination"
+      ],
+      "category": "cognitive",
+      "context": "Common ancestral function unifying neural and non-neural signaling in form control."
+    },
+    {
+      "name": "Sensory Substitution And Augmentation",
+      "aliases": [
+        "Alternative sensory input"
+      ],
+      "category": "cognitive",
+      "context": "Technologies providing novel sensory modalities; demonstrate neural plasticity in adaptation."
+    },
+    {
+      "name": "Individualism",
+      "aliases": [
+        "Individuality",
+        "Immunological individuality"
+      ],
+      "category": "interdisciplinary",
+      "context": "Definition of what constitutes an individual organism; extended to include engineered and chimeric systems."
+    },
+    {
+      "name": "Pattern Regulation",
+      "aliases": [
+        "Morphogenetic regulation",
+        "Anatomical control"
+      ],
+      "category": "cognitive",
+      "context": "How biological systems maintain and regulate spatial patterns despite perturbations."
+    },
+    {
+      "name": "Gene Regulatory Networks",
+      "aliases": [
+        "GRN",
+        "Genetic networks"
+      ],
+      "category": "cognitive",
+      "context": "Network of genes regulating each other; exhibits memory and pattern-formation capabilities."
+    },
+    {
+      "name": "Hierarchically Mechanistic Mind",
+      "aliases": [
+        "Hierarchical cognition"
+      ],
+      "category": "cognitive",
+      "context": "Evolutionary systems theory of brain and behavior emphasizing hierarchical organization."
+    },
+    {
+      "name": "Cognitive Lens",
+      "aliases": [
+        "Cognitive framework"
+      ],
+      "category": "cognitive",
+      "context": "Analytical tools for understanding cognition in developmental and regenerative systems."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Multi-Scale Competency Architecture",
+      "creator": "Michael Levin",
+      "context": "Hypothesis that life exploits hierarchical nested goal-directedness at multiple levels enabling robust problem-solving and adaptive evolution."
+    },
+    {
+      "name": "Cybernetic Framework",
+      "creator": "Norbert Wiener",
+      "context": "Substrate-independent framework for understanding goal-directed behavior in systems; applicable to animals and machines alike."
+    },
+    {
+      "name": "Homeostatic Loop Model",
+      "creator": null,
+      "context": "Framework conceptualizing systems as maintaining preferred states through sensing, memory, and corrective action."
+    },
+    {
+      "name": "Brain-Body-Environment Schema",
+      "creator": null,
+      "context": "Traditional framework for understanding agents; now extended to unconventional embodiments in bioengineering."
+    },
+    {
+      "name": "Morphospace Navigation",
+      "creator": null,
+      "context": "Framework treating morphogenesis as navigating through multidimensional space of possible anatomical configurations."
+    },
+    {
+      "name": "Teleonomic Framework",
+      "creator": null,
+      "context": "Unified framework for comparing and understanding diverse agents based on goal-directed behavior rather than origin or composition."
+    },
+    {
+      "name": "Multiscale Competency Architecture",
+      "creator": "Michael Levin et al.",
+      "context": "Generalization of subsumption architecture where each layer is an agentic system; enables robots with flexible, adaptable properties."
+    },
+    {
+      "name": "Subsumption Architecture",
+      "creator": "Rodney Brooks",
+      "context": "Layered control system for autonomous robotics; foundational approach generalized by multiscale competency architecture."
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere (TAME)",
+      "creator": "Michael Levin",
+      "context": "Experimentally-grounded framework for understanding diverse bodies and minds; enables comparison of heterogeneous intelligences."
+    },
+    {
+      "name": "Xenobots",
+      "creator": "Joshua Bongard and Michael Levin",
+      "context": "Synthetic living machines created from reprogrammed tadpole cells; demonstrate collaborative relationship between designer intent and cellular competency."
+    },
+    {
+      "name": "Cybernetics",
+      "creator": "Norbert Wiener",
+      "context": "Science of control and communication in animals and machines; foundational framework for understanding goal-directed systems."
+    },
+    {
+      "name": "Evolutionary Transitions In Individuality (ETIs)",
+      "creator": null,
+      "context": "Framework for understanding major transitions where new levels of organization emerge with novel collective properties."
+    },
+    {
+      "name": "Free-Energy Approach To Pattern Regulation",
+      "creator": "Karl Friston and Michael Levin",
+      "context": "Mathematical framework understanding how systems minimize prediction error in morphological regulation."
+    },
+    {
+      "name": "Variational Ecology",
+      "creator": null,
+      "context": "Physics-based approach extending variational free energy principle to ecological and living systems."
+    },
+    {
+      "name": "Evolutionary Connectionism",
+      "creator": null,
+      "context": "Framework integrating evo-devo, evo-eco, and evolutionary transitions through connectionist principles."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center at Tufts University",
+      "type": "research-center",
+      "context": "Research center where Michael Levin and Wesley Clawson work on xenobots and synthetic morphology."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering at Harvard University",
+      "type": "research-center",
+      "context": "Bioengineering institute where Michael Levin conducts research on synthetic biology and novel organisms."
+    },
+    {
+      "name": "Linnean Society of London",
+      "type": "research-center",
+      "context": "Publisher of the Biological Journal where this paper appears."
+    },
+    {
+      "name": "Linnean Society",
+      "type": "research-center",
+      "context": "Hosted special issue on teleonomy and meeting on novel bioengineered systems; publisher of this paper."
+    },
+    {
+      "name": "Levin Lab",
+      "type": "research-center",
+      "context": "Research group led by Michael Levin focusing on developmental bioelectricity and synthetic bioengineering."
+    },
+    {
+      "name": "Diverse Intelligences community",
+      "type": "project",
+      "context": "Network of researchers exploring varied forms of intelligence and cognition across biological systems."
+    },
+    {
+      "name": "Templeton World Charity Foundation (TWCF)",
+      "type": "project",
+      "context": "Funding organization supporting research on fundamental questions about life and consciousness."
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "project",
+      "context": "Funding source for research on existential questions and novel approaches to understanding life."
+    },
+    {
+      "name": "Elisabeth Giauque Trust",
+      "type": "project",
+      "context": "Funding organization supporting scientific research."
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "Referenced as publisher of extended organism work."
+    },
+    {
+      "name": "MIT Press",
+      "type": "research-center",
+      "context": "Publisher of artificial life and computational biology materials."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What computations, algorithms or dynamics enable cellular collectives to respond adaptively, reaching the same form and function despite radical induced changes of circumstances?",
+      "category": "epistemology",
+      "context": "Fundamental question about biological plasticity and the nature of developmental programs underlying adaptation to perturbation."
+    },
+    {
+      "question": "What is the relationship between the genome and anatomy?",
+      "category": "epistemology",
+      "context": "Core question about how genetic information relates to phenotypic form; complicated by chimaeric organisms and novel morphologies."
+    },
+    {
+      "question": "What mechanisms allow biology to exhibit robustness and plasticity simultaneously, enabling adaptive, coherent organisms to arise in novel circumstances?",
+      "category": "epistemology",
+      "context": "Asks how biological systems maintain fidelity while remaining adaptable; central to understanding morphogenesis."
+    },
+    {
+      "question": "What aspects of biological structure enabled mind gradually to develop and expand?",
+      "category": "metaphysics",
+      "context": "Fundamental question linking evolution of cognition to physical structure; addresses mind-body problem."
+    },
+    {
+      "question": "How to induce collectives of cells to build one structure rather than another?",
+      "category": "ethics",
+      "context": "Practical question underlying regenerative medicine and bioengineering applications; requires understanding morphogenetic goals."
+    },
+    {
+      "question": "When we combine living material with electronics and computer software, where should we draw the line between 'machine' and 'organism'?",
+      "category": "epistemology",
+      "context": "Questions whether sharp boundaries exist; argues they do not and proposes teleonomy as better organizing principle."
+    },
+    {
+      "question": "What would be the minimal axes for the space of all possible teleonomic agents?",
+      "category": "epistemology",
+      "context": "Seeks to identify fundamental dimensions for comparing and classifying diverse goal-directed systems."
+    },
+    {
+      "question": "How can we recognize, quantify and compare teleonomic agents in radically diverse embodiments?",
+      "category": "epistemology",
+      "context": "Asks for frameworks and methods to understand intelligence across unfamiliar implementations."
+    },
+    {
+      "question": "Can neurons from modalities such as vision be trained in external motor control, or are cortical regions 'frozen' by evolution?",
+      "category": "cognitive",
+      "context": "Questions flexibility of neural tissue organization and implications for artificial chimaeras."
+    },
+    {
+      "question": "What are the implications of embracing the space of possible beings for terminology, conceptual frameworks, research programmes and ethics?",
+      "category": "ethics",
+      "context": "Asks about consequences of moving beyond natural kinds toward continuous spectrum of possible organisms."
+    },
+    {
+      "question": "Where do the anatomical and behavioral goals of xenobots originate if they were not directly selected for over aeons?",
+      "category": "metaphysics",
+      "context": "Questions source of teleonomic goals in novel organisms; suggests emergence from laws of form and mathematics."
+    },
+    {
+      "question": "How does evolution capitalize on the laws of physics and computation to generalize so well from specific examples to highly diverse possible instantiations?",
+      "category": "other",
+      "context": "Fundamental question about evolutionary search efficiency and generalization; central to understanding innovation."
+    },
+    {
+      "question": "How does teleonomy potentiate the evolutionary search for yet larger teleonomic systems?",
+      "category": "metaphysics",
+      "context": "Key to understanding hierarchical emergence of goal-directed systems and major evolutionary transitions."
+    },
+    {
+      "question": "Can the notion of external environment (Umwelt) be extended to a multi-scale concept?",
+      "category": "epistemology",
+      "context": "Seeks to generalize ecological concepts to molecular and cellular scales; bridges multiple organizational levels."
+    },
+    {
+      "question": "What is the relationship or overlap between the sets demarcated by 'life' and 'cognition'?",
+      "category": "metaphysics",
+      "context": "Central question about whether all living things are cognitive and whether cognition defines life."
+    },
+    {
+      "question": "Are all living things cognitive, given that all components appear to be teleonomic agents?",
+      "category": "metaphysics",
+      "context": "Challenges traditional boundaries between animate and inanimate; philosophical implications for consciousness."
+    },
+    {
+      "question": "What is a useful definition of 'life'?",
+      "category": "metaphysics",
+      "context": "Urgent given that teleonomic agents can be produced by engineering with organic or inorganic parts."
+    },
+    {
+      "question": "How can we develop a semiotics of synthetic agents and their Umwelten?",
+      "category": "epistemology",
+      "context": "Seeks frameworks for understanding meaning-making in artificial and hybrid biological systems."
+    },
+    {
+      "question": "How can we develop ways of manipulating biological systems via communication and motivation, rather than bottom-up control?",
+      "category": "ethics",
+      "context": "Practical and ethical question about more humane and effective biomedical intervention strategies."
+    },
+    {
+      "question": "Can we develop artificial neural networks whose output determines machines that solve problems rather than specific solutions?",
+      "category": "ai",
+      "context": "Seeks to replicate evolutionary learning and generalization capacity in machine learning architectures."
+    },
+    {
+      "question": "Where do goals come from in the first place?",
+      "category": "metaphysics",
+      "context": "Fundamental question addressed by studying synthetic creatures as empirical model systems."
+    },
+    {
+      "question": "How does one prosecute a 50% cyborg for its misdeeds?",
+      "category": "ethics",
+      "context": "Practical legal and ethical question arising from emergence of chimeric and enhanced beings."
+    },
+    {
+      "question": "What is the minimal amount of active compassion or functional caring that defines a human being?",
+      "category": "ethics",
+      "context": "Seeks new basis for moral categorization beyond genetics or anatomy; future-oriented ethical question."
+    },
+    {
+      "question": "What defines a self?",
+      "category": "metaphysics",
+      "context": "Fundamental question addressed through teleonomy; requires general framework encompassing diverse agents."
+    },
+    {
+      "question": "How will creatures in multidimensional cognitive space relate to each other?",
+      "category": "ethics",
+      "context": "Ethical question about future interactions between beings with diverse types and amounts of cognitive capacity."
+    },
+    {
+      "question": "Will intellectual property systems developed for passive materials be suitable for agential materials?",
+      "category": "ethics",
+      "context": "Practical question about legal frameworks for collaborative creativity with goal-directed matter."
+    },
+    {
+      "question": "How can we avoid ethical lapses toward designed beings similar to historical mistreatment of unfamiliar groups?",
+      "category": "ethics",
+      "context": "Critical future-oriented ethics question about moral consideration of non-natural agents."
+    },
+    {
+      "question": "What does a new ethics of life as it can be look like?",
+      "category": "ethics",
+      "context": "Central question for developing moral frameworks appropriate to engineered and hybrid biological systems."
+    },
+    {
+      "question": "Could there have been very early life forms that were not teleonomic?",
+      "category": "metaphysics",
+      "context": "Questions whether teleonomy is necessary or contingent property of life; addresses life's origin."
+    },
+    {
+      "question": "Could current efforts at minimal synthetic life clarify the relationship between teleonomy and physics?",
+      "category": "metaphysics",
+      "context": "Seeks empirical approaches to foundational questions about life and physical law."
+    },
+    {
+      "question": "How can we determine the optimal level of teleonomy in objects around us?",
+      "category": "epistemology",
+      "context": "Practical question for scientists managing complex systems; core cognitive task for navigating environments."
+    }
+  ],
+  "_metadata": {
+    "source_file": "batched_extraction",
+    "title": "Biological Journal of the Linnean Society, 2023, 139, 457–486. With 8 figures.",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:41:09.917664",
+    "batches_processed": 2
+  }
+}

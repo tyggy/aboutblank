@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-gene-regulatory-networks-be-trained-and-modified",
+  "aliases": [],
+  "sources": [],
+  "context": "Empirical question suggesting new biomedical applications if GRNs exhibit learning capacity.",
+  "question": "Can Gene Regulatory Networks be trained and modified through associative learning approaches?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.291202",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

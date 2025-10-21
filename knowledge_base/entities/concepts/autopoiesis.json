@@ -1,0 +1,23 @@
+{
+  "name": "Autopoiesis",
+  "filename": "autopoiesis",
+  "aliases": [
+    "Organizational closure",
+    "Self-making",
+    "self-organization",
+    "self-making",
+    "self-production",
+    "self-maintaining systems",
+    "emergent order"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.231121",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

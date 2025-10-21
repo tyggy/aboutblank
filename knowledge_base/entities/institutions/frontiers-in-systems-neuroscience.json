@@ -1,0 +1,15 @@
+{
+  "name": "Frontiers In Systems Neuroscience",
+  "filename": "frontiers-in-systems-neuroscience",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "type": "organization",
+  "_metadata": {
+    "entity_type": "institution",
+    "last_updated": "2025-10-20T20:57:54.277330",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

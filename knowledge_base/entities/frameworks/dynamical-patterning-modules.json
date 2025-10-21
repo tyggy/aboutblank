@@ -1,0 +1,19 @@
+{
+  "name": "Dynamical Patterning Modules",
+  "filename": "dynamical-patterning-modules",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Framework integrating physics and genetics to explain morphological development through physical principles and molecular regulation.",
+  "creator": [
+    "Stuart Newman"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.271229",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

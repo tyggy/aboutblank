@@ -1,0 +1,16 @@
+{
+  "name": "Goal-Space Diagram",
+  "filename": "goal-space-diagram",
+  "creator": "Michael Levin",
+  "context": "Spatio-temporal visualization allowing comparison of diverse intelligences by scale of goals they can pursue",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.787660",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

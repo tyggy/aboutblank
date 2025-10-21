@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "if-humans-lack-uniform-values-and-are-capable",
+  "aliases": [],
+  "sources": [],
+  "context": "Critique of traditional AI alignment; motivates shift toward care-based rather than value-specification models.",
+  "question": "If humans lack uniform values and are capable of harm, how can we design AI systems based on human values?",
+  "category": "ethics",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.302390",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

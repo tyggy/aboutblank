@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-well-does-stress-sharing-work-in-multiscale",
+  "aliases": [],
+  "sources": [],
+  "context": "Questions about robustness and dynamics of stress-sharing mechanism in complex biological networks.",
+  "question": "How well does stress sharing work in multiscale systems with emergent behaviors?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.278780",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

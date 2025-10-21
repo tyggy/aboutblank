@@ -1,0 +1,28 @@
+{
+  "name": "Minimal Physicalism",
+  "filename": "minimal-physicalism",
+  "aliases": [
+    "physicalist substrate"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Framework positing minimal physical requirements for cognition and consciousness"
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Philosophical framework proposing consciousness and cognition can emerge from minimal physical substrates across scales."
+    }
+  ],
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.243143",
+    "sources_count": 1,
+    "contexts_count": 2
+  }
+}

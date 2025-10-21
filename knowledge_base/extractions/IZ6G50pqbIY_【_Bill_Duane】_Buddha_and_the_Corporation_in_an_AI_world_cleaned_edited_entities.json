@@ -1,0 +1,348 @@
+{
+  "thinkers": [
+    {
+      "name": "Bill Duane",
+      "aliases": [
+        "B.D."
+      ],
+      "domains": [
+        "AI",
+        "Buddhism",
+        "Corporate Well-Being",
+        "Machine Learning"
+      ],
+      "context": "Engineer and innovator who worked at Google, Amazon, and other tech companies; co-creator of Search Inside Yourself program bridging ancient wisdom and AI ethics; now exploring Human-AI hybrid systems of care."
+    },
+    {
+      "name": "Thomas Doctor",
+      "aliases": [],
+      "domains": [
+        "Consciousness Studies",
+        "Care Theory"
+      ],
+      "context": "Co-founder of Center For The Study Of Apparent Selves; developed the Stress-Care Loop framework connecting care to intelligence."
+    },
+    {
+      "name": "Olaf Witkowski",
+      "aliases": [],
+      "domains": [
+        "Complexity Science",
+        "AI Systems"
+      ],
+      "context": "Co-founder of Center For The Study Of Apparent Selves; collaborating with Bill Duane on Human-AI hybrid systems research at Google X."
+    },
+    {
+      "name": "Lisa Solomon",
+      "aliases": [],
+      "domains": [
+        "Consciousness Studies"
+      ],
+      "context": "Core founding member of Center For The Study Of Apparent Selves."
+    },
+    {
+      "name": "Venerable Akira",
+      "aliases": [],
+      "domains": [
+        "Buddhism"
+      ],
+      "context": "Buddhist teacher acknowledged for organizing the conference and supporting the work."
+    },
+    {
+      "name": "Ajahn Chah",
+      "aliases": [],
+      "domains": [
+        "Buddhism"
+      ],
+      "context": "Forest tradition Buddhist teacher whose lineage Bill Duane trained in for five years."
+    },
+    {
+      "name": "Professor Ting",
+      "aliases": [],
+      "domains": [
+        "Buddhism"
+      ],
+      "context": "Buddhist teacher who inspired Bill Duane through his relationship with his own teachers."
+    },
+    {
+      "name": "U Kyar Kin",
+      "aliases": [],
+      "domains": [
+        "Buddhism",
+        "Myanmar"
+      ],
+      "context": "Early figure in bringing mindfulness and Buddhist practices to broader audiences."
+    },
+    {
+      "name": "Evans",
+      "aliases": [],
+      "domains": [
+        "Neuroscience",
+        "Consciousness"
+      ],
+      "context": "Author of 'The Blind Spot,' addressing limitations of reductionist science and hidden biases in perception and engineering."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mindfulness",
+      "aliases": [
+        "Mindfulness-Based Stress Reduction"
+      ],
+      "category": "buddhist",
+      "context": "Skills-based approach emphasizing self-awareness and self-regulation; first major wave of Buddhism incorporation in Western organizations with benefits but limited systemic impact."
+    },
+    {
+      "name": "Compassion",
+      "aliases": [
+        "Karuna"
+      ],
+      "category": "buddhist",
+      "context": "Central to Buddhist practice; increasingly recognized as critical complement to mindfulness in organizational settings and as driver of intelligent perception."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [
+        "Suffering",
+        "Stress"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist concept of suffering or unsatisfactoriness; Bill's experience of his father's death became catalyst for deeper exploration and transformation."
+    },
+    {
+      "name": "Self-Awareness",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Key skill developed through mindfulness training; foundational capacity to understand one's own internal experience and limitations."
+    },
+    {
+      "name": "Self-Regulation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity to manage one's responses and emotions; core outcome of mindfulness-based interventions in organizations."
+    },
+    {
+      "name": "Neuroplasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Understanding that brain structure and function can be changed through experience and practice; foundational concept enabling Bill's healing journey."
+    },
+    {
+      "name": "Neo-Buddhism",
+      "aliases": [
+        "Secular Buddhism"
+      ],
+      "category": "buddhist",
+      "context": "Adapted form of Buddhism emphasizing neuroscience and psychology; despite limitations, described as utterly healing and transformative for Bill Duane."
+    },
+    {
+      "name": "Care",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Driver of intelligence in the Stress-Care Loop framework; proposed as scale-free concept operating from cellular to super-organizational levels."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Proposed to be driven by care and compassion; contrasted with narrow technical intelligence that misses important causal factors like love and trust."
+    },
+    {
+      "name": "Blind Spot",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Limitation of extrapolatory, reductionist science and engineering; also refers to inner blind spots regarding compassion that manifest in tool-building."
+    },
+    {
+      "name": "Wholesomeness",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Goal of integrating Buddhist wisdom with modern challenges; requires looking beyond narrow domains to broader systemic implications."
+    },
+    {
+      "name": "Well-Being",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Program focus addressing employee mental health, meaning, and purpose; Bill Duane transitioned from engineering executive role to lead this work."
+    },
+    {
+      "name": "Stress",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Initial condition in the Stress-Care Loop; recognition of stress or dukkha can motivate movement toward care and intelligent perception."
+    },
+    {
+      "name": "Me versus We",
+      "aliases": [
+        "Individuality to Interconnection"
+      ],
+      "category": "interdisciplinary",
+      "context": "Shift in perspective from individual self-interest to collective interdependence; key to accessing problem spaces and solutions unavailable from individual perspective."
+    },
+    {
+      "name": "Diseases of Despair",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Rising phenomenon of mental health crises and substance abuse; indicator of societal disconnection from meaning and purpose."
+    },
+    {
+      "name": "Epistemic Vulnerability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Susceptibility to misinformation and manipulation; child epistemic vulnerability rate showing lowest levels despite other social challenges."
+    },
+    {
+      "name": "Attention and Intention Economies",
+      "aliases": [
+        "Attention Economy"
+      ],
+      "category": "ai",
+      "context": "Systems designed to capture and monetize human attention; proposed source of pollution affecting youth spiritual and mental health."
+    },
+    {
+      "name": "Power",
+      "aliases": [
+        "David Power"
+      ],
+      "category": "interdisciplinary",
+      "context": "Structural force in society; disruption from AI reaching middle-class professions; correlation between economic activity and life satisfaction."
+    },
+    {
+      "name": "Large Language Models",
+      "aliases": [
+        "LLMs"
+      ],
+      "category": "ai",
+      "context": "AI systems skilled at perspective-taking and narrative generation; demonstrates capability to expand viewpoint beyond individual interest."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "ai",
+      "context": "Domain of challenges to be solved; organizations with expanded perception and care have greater ability to traverse complex problem spaces."
+    },
+    {
+      "name": "Interdependence",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Fundamental Buddhist principle that all phenomena arise in relation; Bill argues love is the only rational move in realms of true interdependence."
+    },
+    {
+      "name": "Perception and Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Methods of understanding and knowing; need to develop new approaches to perceive and cognize factors that are important but difficult to measure."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Search Inside Yourself",
+      "creator": "Bill Duane and Google",
+      "context": "Program bridging ancient wisdom and cutting-edge technology to foster well-being and ethical AI; first major wave of mindfulness in corporate settings."
+    },
+    {
+      "name": "Stress-Care Loop",
+      "creator": "Thomas Doctor",
+      "context": "Framework proposing that care is a driver of intelligence; stress/dukkha triggers care, leading to intelligent, grief perception; intended as scale-free model applicable across levels."
+    },
+    {
+      "name": "Ajahn Chah Forest Lineage",
+      "creator": "Ajahn Chah",
+      "context": "Buddhist monastic tradition and training lineage; Bill Duane completed five years of teacher training in this tradition."
+    },
+    {
+      "name": "Human-AI Hybrid Systems of Care",
+      "creator": "Bill Duane and Olaf Witkowski",
+      "context": "Experimental approach combining human and artificial intelligence with care as central driver; under development at Google X."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Google",
+      "type": "project",
+      "context": "Major tech company where Bill Duane worked on search infrastructure, Gmail, and well-being initiatives; launched Search Inside Yourself program."
+    },
+    {
+      "name": "Amazon",
+      "type": "project",
+      "context": "Tech company where Bill Duane worked on machine learning and related initiatives."
+    },
+    {
+      "name": "Stanford",
+      "type": "university",
+      "context": "Institution where Bill Duane teaches innovation and AI."
+    },
+    {
+      "name": "White House",
+      "type": "research-center",
+      "context": "Location of workshops on machine learning that Bill Duane participated in."
+    },
+    {
+      "name": "Center For The Study Of Apparent Selves",
+      "type": "research-center",
+      "context": "Organization founded by Thomas Doctor, Olaf Witkowski, and Lisa Solomon; their work redirected Bill Duane's career trajectory."
+    },
+    {
+      "name": "Center For Compassionate Complexity",
+      "type": "research-center",
+      "context": "Newly launched initiative by Bill Duane and Olaf Witkowski to explore problem spaces at intersection of compassion and complexity."
+    },
+    {
+      "name": "Google X",
+      "type": "research-center",
+      "context": "Experimental division of Google (Skunk Works); hired Bill Duane and Olaf Witkowski to research and implement Human-AI hybrid systems of care."
+    },
+    {
+      "name": "Edelman Foundation",
+      "type": "research-center",
+      "context": "Organization that conducted research on trust in government across 28 countries over 20 years showing declining credibility."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How can organizations develop perception and cognition of factors that are important but difficult to measure, such as love, trust, meaning, and purpose?",
+      "category": "ethics",
+      "context": "Central challenge for implementing care-driven systems in organizations; current engineering approaches optimize for measurable metrics while ignoring critical but unmeasurable factors."
+    },
+    {
+      "question": "Can care and compassion genuinely be operationalized as drivers of intelligence in AI systems and organizations?",
+      "category": "alignment",
+      "context": "Bill Duane and collaborators are testing this hypothesis through Human-AI hybrid systems research at Google X."
+    },
+    {
+      "question": "How can we shift from individual self-interest to collective interdependence at organizational and societal scales?",
+      "category": "ethics",
+      "context": "Fundamental transformation needed for organizations to address systemic problems; Bill Duane argues this shift makes previously inaccessible solutions available."
+    },
+    {
+      "question": "What are the long-term systemic impacts of mindfulness and well-being programs in corporate settings?",
+      "category": "ethics",
+      "context": "First wave of Buddhist-inspired corporate programs showed individual benefits but failed to shift entire systems toward better outcomes as intended."
+    },
+    {
+      "question": "Is AI sentience relevant to how we should build and interact with AI systems?",
+      "category": "metaphysics",
+      "context": "Bill Duane argues the question of AI sentience is less important than our relationship to AI; if we interact with it as sentient, that relationship itself becomes powerful."
+    },
+    {
+      "question": "How can we address the blind spots in both reductionist engineering and human perception that prevent organizations from building ethically sound tools?",
+      "category": "epistemology",
+      "context": "Bill identifies alignment between external blind spots of reductionist science and internal blind spots regarding compassion and care as major barrier to ethical AI."
+    },
+    {
+      "question": "Can organizations maintain ethical integrity while developing powerful AI tools without enforcing explicit normative or ethical frameworks?",
+      "category": "ethics",
+      "context": "Current corporate approach leaves ethics 'fuzzy' to avoid religious impositions, but this creates space for systems to operate without explicit moral guidance."
+    },
+    {
+      "question": "What is the relationship between addressing individual well-being and solving systemic societal problems?",
+      "category": "other",
+      "context": "Bill Duane's own healing journey and current work suggest individual transformation may be necessary but not sufficient for systemic change."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md",
+    "title": "【 Bill Duane】 Buddha and the Corporation in an AI world",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:35:29.642057"
+  }
+}

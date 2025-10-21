@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "where-is-memory-physically-stored-if-not-in",
+  "aliases": [],
+  "sources": [],
+  "context": "Challenge to conventional neuroscience; hypothesis that memory distributed across all system components as scratchpad.",
+  "question": "Where is memory physically stored if not in synaptic structures, and what single substrate if any hosts all memories?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.937172",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

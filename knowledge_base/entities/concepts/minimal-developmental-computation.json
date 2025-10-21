@@ -1,0 +1,26 @@
+{
+  "name": "Minimal Developmental Computation",
+  "filename": "minimal-developmental-computation",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Causal network approach to understanding pattern formation; identifies minimal computational requirements for morphogenesis."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Causal network approach to understanding minimal requirements for morphogenetic pattern formation and self-organization."
+    }
+  ],
+  "category": "interdisciplinary",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.254823",
+    "sources_count": 1,
+    "contexts_count": 2
+  }
+}

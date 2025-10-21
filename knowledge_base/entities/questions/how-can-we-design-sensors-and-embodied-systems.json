@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-can-we-design-sensors-and-embodied-systems",
+  "aliases": [],
+  "sources": [],
+  "context": "Relevant to developing artificial general intelligence that can operate in spaces like gene expression and physiological state rather than only three-dimensional physical space.",
+  "question": "How can we design sensors and embodied systems that can navigate high-dimensional problem spaces not accessible to human perception?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.299562",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

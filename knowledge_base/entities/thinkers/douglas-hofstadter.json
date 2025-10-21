@@ -1,0 +1,34 @@
+{
+  "name": "Douglas Hofstadter",
+  "filename": "douglas-hofstadter",
+  "aliases": [
+    "D.R. Hofstadter"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Referenced for concept of 'Strange Loop' relating to self-reference and meta-goals"
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Theorist of strange loops and cognitive models of consciousness"
+    }
+  ],
+  "domains": [
+    "analogy-making",
+    "cognitive science",
+    "Cognitive Science",
+    "Philosophy",
+    "consciousness"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.220054",
+    "sources_count": 1,
+    "contexts_count": 2
+  }
+}

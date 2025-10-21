@@ -1,0 +1,15 @@
+{
+  "name": "Inclusive Fitness Framework",
+  "filename": "inclusive-fitness-framework",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:26:20.910638",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

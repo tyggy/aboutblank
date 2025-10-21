@@ -1,0 +1,17 @@
+{
+  "name": "Goal-Oriented Programming",
+  "filename": "goal-oriented-programming",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Programming paradigm specifying desired outcomes rather than implementation details, mirroring biological competency architecture.",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.254410",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Universal Darwinism As Bayesian Inference",
+  "filename": "universal-darwinism-as-bayesian-inference",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Theoretical framework interpreting evolution, learning, and adaptation as Bayesian inference processes.",
+  "creator": [
+    "James Campbell",
+    "Eörs Szathmáry"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.271154",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

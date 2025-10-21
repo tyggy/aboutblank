@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-we-make-new-autonomous-robotics-via-a",
+  "aliases": [],
+  "sources": [],
+  "context": "Engineering question about distributed agency in robotic systems.",
+  "question": "Can we make new autonomous robotics via a multi-scale competency architecture where each layer is an agent?",
+  "category": "ai",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.932770",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

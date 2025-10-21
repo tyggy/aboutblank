@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "0dcf9712f335d188",
+    "type": "split",
+    "children": [
+      {
+        "id": "75900a3e156e8fca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11b86c39420aa129",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1ca3acdb29191b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3598f1f952788d25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ff6b277c010b60b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f8462f05c018ef20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9db1f7c081bdd9e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4dc8e39b768d1a9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "00725fbbbfb3bf4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81cfef91b7f2b85b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b6e18dda8b7f846a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d823d3ea701f5e1a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aecd24002b28f10b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "11b86c39420aa129",
+  "lastOpenFiles": [
+    "questions/will-intellectual-property-systems-developed-for-passive-materials.md",
+    "questions/why-should-plants-be-denied-the-possibility-of.md",
+    "questions/why-should-functional-or-structural-criteria-be-associated.md",
+    "questions/who-do-we-want-to-be-edged-out.md",
+    "questions/which-came-first-the-higherlevel-unit-of-selection.md",
+    "questions/where-is-the-boundary-between-one-being-and.md",
+    "questions/where-do-the-goals-preferences-and-attachments-of.md",
+    "questions/where-do-the-goals-of-composite-and-distributed.md",
+    "questions/where-do-the-anatomical-and-behavioral-goals-of.md",
+    "questions/when-we-combine-living-material-with-electronics-and.md",
+    "questions/what-would-be-the-minimal-axes-for-the.md",
+    "questions/what-universal-invariants-or-deep-principles-might-underlie.md",
+    "questions/what-skills-and-properties-are-essential-to-our.md",
+    "questions/what-should-the-future-of-intelligence-look-like.md",
+    "questions/what-role-do-different-observers-play-in-determining.md",
+    "questions/what-really-do-we-want-to-verify-about.md",
+    "questions/what-processes-drive-the-expansion-of-intelligence-on.md",
+    "questions/what-principles-govern-the-emergence-of-diverse-forms.md",
+    "questions/what-principles-determine-which-scale-and-mechanism-is.md",
+    "questions/what-policies-for-informational-coupling-of-subunits-optimize.md",
+    "questions/what-other-bodies-and-minds-can-be-made.md",
+    "questions/what-novel-ethical-frameworks-are-needed-for-relating.md",
+    "questions/what-new-fundamental-principles-in-ai-science-might.md",
+    "questions/what-mechanisms-enable-biological-pattern-recognition-and-meaningmaking.md",
+    "questions/what-mechanisms-allow-coordination-of-cell-activity-toward.md",
+    "questions/what-mechanisms-allow-cells-to-scale-up-from.md",
+    "concepts/biological",
+    "entities/questions/what-is-the-structure-of-experience-across-different.json",
+    "entities/questions/how-can-we-ensure-that-cognitive-augmentation-tools.json",
+    "entities/questions/what-are-the-physical-and-computational-constraints-on.json",
+    "entities/questions/how-does-expanding-tool-integration-and-bandwidth-affect.json",
+    "entities/questions/can-we-extend-our-capacity-for-love-and.json",
+    "entities/questions/how-do-we-recover-meaning-and-intention-from.json",
+    "entities/questions/how-should-we-formalize-bodhisattva-agency-in-mathematical.json",
+    "entities/questions/does-emptiness-provide-a-framework-for-stressfree-yet.json",
+    "entities/questions/how-can-systems-achieve-knowledge-of-everything-while.json"
+  ]
+}

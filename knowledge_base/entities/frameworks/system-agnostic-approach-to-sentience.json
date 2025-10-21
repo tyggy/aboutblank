@@ -1,0 +1,16 @@
+{
+  "name": "System-Agnostic Approach To Sentience",
+  "filename": "system-agnostic-approach-to-sentience",
+  "creator": "Levin and Rouleau",
+  "context": "Framework focusing on observable response patterns rather than substrate; enables unified analysis across cybernetics, behavioral science, bioengineering, robotics, and biomedicine.",
+  "sources": [
+    "knowledge_base/papers/edited/Multiple ways to implement and infer sentience_edited.md"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T19:55:58.789375",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

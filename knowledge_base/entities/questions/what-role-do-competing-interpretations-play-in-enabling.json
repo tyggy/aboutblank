@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "what-role-do-competing-interpretations-play-in-enabling",
+  "aliases": [],
+  "sources": [],
+  "context": "Understanding how polycomputation prevents catastrophic forgetting and enables evolutionary ratcheting.",
+  "question": "What role do competing interpretations play in enabling biological innovation and evolutionary flexibility?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.938808",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

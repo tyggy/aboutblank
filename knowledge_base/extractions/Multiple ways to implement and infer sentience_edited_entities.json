@@ -1,0 +1,250 @@
+{
+  "thinkers": [
+    {
+      "name": "Nicolas Rouleau",
+      "aliases": [],
+      "domains": [
+        "Neuroscience",
+        "Bioengineering",
+        "Cognitive Science"
+      ],
+      "context": "Assistant Professor at Wilfrid Laurier University and Tufts University; uses bioengineered tissues to model neural diseases and build minimally cognitive systems."
+    },
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology",
+        "Computer Science",
+        "Behavioral Science",
+        "Cognitive Science"
+      ],
+      "context": "Distinguished Professor at Tufts University and Director of Allen Discovery Center; researches consciousness and cognition across evolved, designed, and hybrid systems."
+    },
+    {
+      "name": "Nick Bostrom",
+      "aliases": [],
+      "domains": [
+        "Philosophy",
+        "AI"
+      ],
+      "context": "Philosopher who developed concepts of substrate independence relevant to consciousness implementation."
+    },
+    {
+      "name": "Frederic Calvo",
+      "aliases": [
+        "Calvo"
+      ],
+      "domains": [
+        "Plant Cognition",
+        "Consciousness Studies"
+      ],
+      "context": "Co-author of original paper on plant sentience that prompted this commentary."
+    },
+    {
+      "name": "Miguel Segundo-Ortín",
+      "aliases": [
+        "Segundo-Ortin"
+      ],
+      "domains": [
+        "Plant Cognition",
+        "Consciousness Studies"
+      ],
+      "context": "Co-author of original paper on plant sentience arguing for plant cognitive capabilities."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "Sentience",
+        "Felt states"
+      ],
+      "category": "cognitive",
+      "context": "The capacity to experience as a subject; central topic examining whether it can be instantiated in diverse biological systems including plants."
+    },
+    {
+      "name": "Animal Sentience",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The capacity of animals to experience subjective states; conventionally attributed based on behavioral patterns analogous to humans."
+    },
+    {
+      "name": "Plant Sentience",
+      "aliases": [
+        "Plant consciousness"
+      ],
+      "category": "cognitive",
+      "context": "Hypothesis that plants possess subjective experience based on goal-directed, anticipatory, and adaptive behaviors similar to animal cognition."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concept that cognitive functions extend beyond neural systems to more fundamental biological and organizational levels."
+    },
+    {
+      "name": "Multiple Realizability",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Philosophical principle that the same function can be implemented by very different physical systems and substrates."
+    },
+    {
+      "name": "Substrate Independence",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The idea that cognitive functions can be achieved without dependence on a particular material or physical medium."
+    },
+    {
+      "name": "Biological Degeneracy",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Principle that structurally dissimilar biological systems can achieve the same functional outcomes through different means."
+    },
+    {
+      "name": "Theory of Mind",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity to attribute mental states to oneself and others; foundational to ascribing sentience by behavioral analogy."
+    },
+    {
+      "name": "Classical Conditioning",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Learning mechanism demonstrated in plants where they learn to avoid neutral stimuli through paired association."
+    },
+    {
+      "name": "Action Potentials",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Electrochemical signaling mechanism found in both animal neurons and plant vascular networks."
+    },
+    {
+      "name": "Neurotransmitter",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Chemical signaling molecules like glutamate used in both animal nervous systems and plants for cellular communication."
+    },
+    {
+      "name": "Blindsight",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Visual responses mediated by subcortical brain regions; example of biological degeneracy in neural function."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Systems that orient based on predicted reinforcements; demonstrated in plant behavior and goal-directed cognition."
+    },
+    {
+      "name": "Risk Assessment",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive capacity to evaluate danger and inform behavioral decisions; observed in both animals and plants."
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Goal-directed behavior in biological systems; framework for understanding purposeful action across diverse substrates."
+    },
+    {
+      "name": "Technological Approach To Mind Everywhere",
+      "aliases": [
+        "TAME"
+      ],
+      "category": "ai",
+      "context": "Framework by Levin for understanding diverse bodies and minds using system-agnostic principles applicable across AI and biology."
+    },
+    {
+      "name": "Synthetic Morphology",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Bioengineering approach to studying cognition through creation of chimaeric and synthetic organisms."
+    },
+    {
+      "name": "Cybernetics",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Study of control and communication systems in machines and organisms; relevant to unified frameworks of consciousness."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "System-Agnostic Approach to Cognition",
+      "creator": "Michael Levin",
+      "context": "Methodological framework that evaluates cognition based on observable behavioral response patterns independent of substrate, applicable across neurobiology, AI, robotics, and materials science."
+    },
+    {
+      "name": "Variational Ecology",
+      "creator": null,
+      "context": "Framework connecting physics of sentient systems to ecological principles; cited as relevant to consciousness research."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Wilfrid Laurier University",
+      "type": "university",
+      "context": "Institution where Nicolas Rouleau holds position in Department of Health Sciences."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "Home to both Rouleau and Levin; hosts Department of Biomedical Engineering and Department of Biology."
+    },
+    {
+      "name": "Allen Discovery Center At Tufts University",
+      "type": "research-center",
+      "context": "Research center directed by Michael Levin investigating consciousness and cognition across biological systems."
+    },
+    {
+      "name": "Wyss Institute For Biologically Inspired Engineering",
+      "type": "research-center",
+      "context": "Harvard-affiliated research institute where Levin conducts work on biologically inspired systems and consciousness."
+    },
+    {
+      "name": "Wellbeing International",
+      "type": "research-center",
+      "context": "Organization that published the journal Animal Sentience and maintains the WBI Studies Repository."
+    },
+    {
+      "name": "Animal Sentience",
+      "type": "project",
+      "context": "Peer-reviewed journal on animal cognition and feeling where this commentary was published."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Can consciousness and sentience be achieved by biological substrates other than nervous tissue?",
+      "category": "metaphysics",
+      "context": "Central question exploring whether plants and other non-neural systems can possess subjective experience."
+    },
+    {
+      "question": "What are the objective criteria for inferring consciousness in systems that differ substantially from humans?",
+      "category": "epistemology",
+      "context": "Addresses the methodological challenge of consistently attributing sentience across diverse organisms without direct measurement."
+    },
+    {
+      "question": "Why should plants be denied the possibility of sentience when they display cognitive behaviors analogous to animals?",
+      "category": "ethics",
+      "context": "Challenges anthropocentric bias in consciousness attribution and questions the logical consistency of current frameworks."
+    },
+    {
+      "question": "How can a unified framework account for consciousness across biological, artificial, and hybrid systems?",
+      "category": "other",
+      "context": "Seeks system-agnostic principles applicable to neurobiology, AI, robotics, and materials science."
+    },
+    {
+      "question": "Is consciousness substrate-independent and multiply realizable across different physical and biological systems?",
+      "category": "metaphysics",
+      "context": "Fundamental question about whether consciousness requires specific neural architecture or can be implemented in diverse ways."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/papers/edited/Multiple ways to implement and infer sentience_edited.md",
+    "title": "Rouleau, Nicolas and Levin, Michael (2023) Multiple ways to implement and infer",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:50:57.824243"
+  }
+}

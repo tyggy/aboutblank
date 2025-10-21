@@ -1,0 +1,21 @@
+{
+  "name": "John Searle",
+  "filename": "john-searle",
+  "aliases": [
+    "J. Searle"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Philosopher addressing consciousness and intentionality",
+  "domains": [
+    "philosophy of mind"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.221421",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

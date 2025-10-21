@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "which-came-first-the-higherlevel-unit-of-selection",
+  "aliases": [],
+  "sources": [],
+  "context": "The chicken-and-egg problem of ETIs: the circular dependency that existing evolutionary theory cannot resolve.",
+  "question": "Which came first, the higher-level unit of selection required for complex adaptations, or the complex adaptations required to create the higher-level unit?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.288884",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

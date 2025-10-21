@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "what-are-the-features-of-morphogenesis-that-enable",
+  "aliases": [],
+  "sources": [],
+  "context": "Central question about evolutionary problem-solving; paper proposes competency and hacking of cellular affordances as key features.",
+  "question": "What are the features of morphogenesis that enable evolution to search difficult phenotype space efficiently despite pleiotropy, degeneracy, and redundancy?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.295725",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

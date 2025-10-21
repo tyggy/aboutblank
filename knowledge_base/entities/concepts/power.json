@@ -1,0 +1,30 @@
+{
+  "name": "Power",
+  "filename": "power",
+  "aliases": [
+    "David Power",
+    "Knowledge Power"
+  ],
+  "sources": [
+    "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md",
+    "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md"
+  ],
+  "contexts": [
+    {
+      "source": "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md",
+      "text": "Structural force in society; disruption from AI reaching middle-class professions; correlation between economic activity and life satisfaction."
+    },
+    {
+      "source": "knowledge_base/transcripts/raw/xRGnSDtKu9c_【Thomas_Doctor_】Building_Bodhisattvas_Towards_a_Model_of_Powerful,_Reliable,_and_Caring_Intelligence_cleaned_edited.md",
+      "text": "Capacity derived from knowledge; carries ethical responsibility and danger if misused."
+    }
+  ],
+  "category": "interdisciplinary",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.252603",
+    "sources_count": 2,
+    "contexts_count": 2
+  }
+}

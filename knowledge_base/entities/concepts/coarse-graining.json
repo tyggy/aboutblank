@@ -1,0 +1,20 @@
+{
+  "name": "Coarse-Graining",
+  "filename": "coarse-graining",
+  "aliases": [
+    "abstraction",
+    "emergent property"
+  ],
+  "category": "interdisciplinary",
+  "context": "Process of simplifying complex system dynamics into higher-level macrovariables like voltage, enabling generalization and modularity",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.773048",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

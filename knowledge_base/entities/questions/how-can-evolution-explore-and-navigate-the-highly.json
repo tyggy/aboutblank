@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-can-evolution-explore-and-navigate-the-highly",
+  "aliases": [],
+  "sources": [],
+  "context": "Core puzzle about how evolutionary search can be rapid and effective given the complexity of the genotype-phenotype map.",
+  "question": "How can evolution explore and navigate the highly rugged search space created by pleiotropy, degeneracy, and redundancy in morphogenesis?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.947199",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

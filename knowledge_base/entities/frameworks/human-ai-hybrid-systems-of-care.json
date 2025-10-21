@@ -1,0 +1,19 @@
+{
+  "name": "Human-Ai Hybrid Systems Of Care",
+  "filename": "human-ai-hybrid-systems-of-care",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
+  ],
+  "context": "Experimental approach combining human and artificial intelligence with care as central driver; under development at Google X.",
+  "creator": [
+    "Bill Duane and Olaf Witkowski"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.266893",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

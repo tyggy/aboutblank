@@ -1,0 +1,27 @@
+{
+  "name": "Basal Cognition",
+  "filename": "basal-cognition",
+  "aliases": [
+    "minimal cognition",
+    "unconventional cognition",
+    "proto-cognition",
+    "scale-free cognition",
+    "Proto-cognition",
+    "minimal agency",
+    "proto-intelligence",
+    "basal cognition",
+    "cellular cognition",
+    "Distributed Cognition",
+    "Information Integration"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.233128",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

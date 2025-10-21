@@ -1,0 +1,19 @@
+{
+  "name": "Contemplative Science",
+  "filename": "contemplative-science",
+  "aliases": [],
+  "sources": [
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "context": "Interdisciplinary framework integrating Buddhist contemplative practices with neuroscience to study meditation and consciousness",
+  "creator": [
+    "Allan Wallace"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.266497",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

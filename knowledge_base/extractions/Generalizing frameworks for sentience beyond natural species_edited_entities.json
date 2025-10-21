@@ -1,0 +1,362 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "developmental biology",
+        "cognitive science",
+        "computer science",
+        "bioengineering"
+      ],
+      "context": "Director of the Allen Discovery Center at Tufts University; primary author of this paper on generalizing frameworks for sentience beyond natural species."
+    },
+    {
+      "name": "Paul Lyon",
+      "aliases": [],
+      "domains": [
+        "basal cognition",
+        "cognitive biology"
+      ],
+      "context": "Key researcher in the field of basal cognition studying primitive cognitive capacities in bacteria, slime moulds, and other non-neural systems."
+    },
+    {
+      "name": "Giovanni Pezzulo",
+      "aliases": [],
+      "domains": [
+        "computational neuroscience",
+        "cognitive science"
+      ],
+      "context": "Collaborator with Levin on applications of computational neuroscience to understanding morphological regulation and cognition."
+    },
+    {
+      "name": "David Chalmers",
+      "aliases": [],
+      "domains": [
+        "philosophy of mind"
+      ],
+      "context": "Philosopher referenced for work on the hard problem of consciousness and the mind-body problem."
+    },
+    {
+      "name": "Thomas Nagel",
+      "aliases": [],
+      "domains": [
+        "philosophy of mind"
+      ],
+      "context": "Philosopher referenced for work on consciousness and subjective experience."
+    },
+    {
+      "name": "Calvo",
+      "aliases": [
+        "P. Calvo"
+      ],
+      "domains": [
+        "plant cognition"
+      ],
+      "context": "Researcher studying plant intelligence and sentience."
+    },
+    {
+      "name": "Fred Keijzer",
+      "aliases": [],
+      "domains": [
+        "cognitive biology"
+      ],
+      "context": "Collaborator on research examining cognitive similarities and differences across diverse biological systems."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Consciousness",
+      "aliases": [
+        "sentience",
+        "phenomenal consciousness"
+      ],
+      "category": "cognitive",
+      "context": "Central concern of the paper; capacity for subjective experience in diverse agents including conventional organisms, bioengineered entities, and artificial intelligences."
+    },
+    {
+      "name": "Sentience",
+      "aliases": [
+        "sentient beings"
+      ],
+      "category": "cognitive",
+      "context": "Capacity to experience suffering and wellbeing; the paper argues for developing rigorous frameworks to identify sentience beyond familiar biological touchstones."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Field studying evolutionary origins and primitive versions of cognitive capacities in non-neural systems like bacteria, slime moulds, cells, and tissues."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "aliases": [
+        "AI",
+        "Large Language Models"
+      ],
+      "category": "ai",
+      "context": "Software or embodied agents with sophisticated performance; raises questions about sentience assessment when verbal reports and brain homology are absent."
+    },
+    {
+      "name": "Extended Mind Hypothesis",
+      "aliases": [
+        "extended cognition"
+      ],
+      "category": "cognitive",
+      "context": "Theory that cognitive processes can extend beyond the brain into external tools and materials; relevant to understanding distributed cognition in cyborgs and hybrid systems."
+    },
+    {
+      "name": "Problem of Other Minds",
+      "aliases": [],
+      "category": "epistemology",
+      "context": "Philosophical challenge of determining whether other entities possess sentience and consciousness; central to developing sentience assessment frameworks."
+    },
+    {
+      "name": "Mind-Body Problem",
+      "aliases": [],
+      "category": "metaphysics",
+      "context": "Fundamental question of why functional/structural criteria should be associated with subjective feeling; acknowledged as likely unsolvable in third-person analysis."
+    },
+    {
+      "name": "Synthetic Morphology",
+      "aliases": [
+        "bioengineering"
+      ],
+      "category": "ai",
+      "context": "Field creating coherent, autonomous beings with radically different anatomies and control structures from natural life forms; raises novel sentience questions."
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [
+        "bio-machine hybrids"
+      ],
+      "category": "interdisciplinary",
+      "context": "Integration of living tissue and smart materials creating agents with extended sensory capabilities and cognitive modulation."
+    },
+    {
+      "name": "Hybrots",
+      "aliases": [
+        "cultured brains with robotic bodies"
+      ],
+      "category": "ai",
+      "context": "Systems combining biological neural tissue with robotic embodiment; demonstrate proto-cognitive capacities of cells in novel configurations."
+    },
+    {
+      "name": "Gene Regulatory Networks",
+      "aliases": [
+        "GRN"
+      ],
+      "category": "cognitive",
+      "context": "Non-neural systems capable of associative learning and memory; relevant to recognizing cognition beyond traditional neural architectures."
+    },
+    {
+      "name": "Agency",
+      "aliases": [
+        "agent"
+      ],
+      "category": "cognitive",
+      "context": "Property of autonomous action and intentionality; human capacity to recognize agency is well-tuned for familiar entities but poorly adapted to unconventional forms."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Competence and capability across diverse problem spaces (linguistic, physiological, metabolic, transcriptional, anatomical); not limited to neural substrates."
+    },
+    {
+      "name": "Nociception",
+      "aliases": [
+        "pain sensation"
+      ],
+      "category": "cognitive",
+      "context": "Criterion #1 in Crump et al.'s framework; detection of harmful stimuli, foundational to assessing sentience."
+    },
+    {
+      "name": "Sensory Integration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Criterion #2 in Crump et al.'s framework; combining information from multiple sensory inputs."
+    },
+    {
+      "name": "Motivational Trade-Offs",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Criterion #5 in Crump et al.'s framework; weighing conflicting drives and preferences in decision-making."
+    },
+    {
+      "name": "Analgesia Preference",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Criterion #8 in Crump et al.'s framework; preference for pain relief indicating subjective experience of suffering."
+    },
+    {
+      "name": "Associative Learning",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Criterion #7 in Crump et al.'s framework; ability to link stimuli or events; occurs even in gene regulatory networks."
+    },
+    {
+      "name": "Coarse-Graining",
+      "aliases": [
+        "binarization"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process of simplifying complex continuums into discrete categories; human tendency to artificially divide humans from animals rather than recognize continuums."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [
+        "biological plasticity"
+      ],
+      "category": "cognitive",
+      "context": "Property of life enabling adaptation and reconfiguration; allows diverse combinations of evolved and designed materials to constitute viable selves."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [
+        "embodied cognition"
+      ],
+      "category": "cognitive",
+      "context": "Role of physical body in cognition; diverse possible embodiments raise questions about how consciousness depends on particular substrates."
+    },
+    {
+      "name": "Self",
+      "aliases": [
+        "identity",
+        "individuation"
+      ],
+      "category": "cognitive",
+      "context": "Entity capable of self-protection and autonomous action; concept that may apply to diverse biological and artificial agents beyond humans."
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Goal-directedness in biological systems; relevant to understanding agency and intentionality in diverse forms of life."
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Electrical signaling in development; mechanism underlying multicellularity and scale-free cognition beyond traditional neural activity."
+    },
+    {
+      "name": "Scale-Free Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive processes operating across multiple organizational levels from cells to organisms; challenges traditional neurocentric views of mind."
+    },
+    {
+      "name": "Pattern Regulation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Maintenance of biological patterns and forms; understood through free-energy approaches and morphogenetic principles."
+    },
+    {
+      "name": "Competency in Navigating Arbitrary Spaces",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Invariant capability across diverse embodiments; proposed as a fundamental marker of cognition applicable to diverse agents."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Influence of higher-level organization on lower-level components; relevant to understanding how organisms control morphology and regeneration."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [],
+      "category": "ai",
+      "context": "Computational simulation and creation of life-like systems; relevant to understanding cognition and agency in non-biological substrates."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Crump et al.'s Eight Criteria for Sentience",
+      "creator": "Crump et al.",
+      "context": "Quantitative framework for assessing sentience including nociception, sensory integration, motivational trade-offs, analgesia, flexible self-protection, and associative learning; provides foundation for extending sentience assessment beyond familiar species."
+    },
+    {
+      "name": "Smith & Boyd Criteria",
+      "creator": "Smith and Boyd",
+      "context": "Earlier ethical framework for assessing sentience; noted as inadequate for novel, unconventional agents that lack familiar phylogenetic or anatomical touchstones."
+    },
+    {
+      "name": "Turing Test",
+      "creator": "Alan Turing",
+      "context": "Test for machine intelligence based on verbal behavior; criticized as insufficient criterion for assessing sentience in diverse agents including non-verbal bioengineered systems."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University directed by Michael Levin; focuses on intersection of developmental biology, computer science, and cognitive science."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University hosting the Allen Discovery Center and Michael Levin's research on bioengineering and synthetic morphology."
+    },
+    {
+      "name": "Wellbeing International",
+      "type": "research-center",
+      "context": "Organization providing open access publishing and repository for Animal Sentience journal and related research."
+    },
+    {
+      "name": "Institute of Medical Ethics",
+      "type": "research-center",
+      "context": "Institute that produced the Smith & Boyd report on ethical use of animals in biomedical research."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are the appropriate criteria for assessing sentience in novel, unconventional agents that lack familiar phylogenetic origins or anatomical structures?",
+      "category": "ethics",
+      "context": "Central question driving the paper; necessary for developing moral frameworks as bioengineering, AI, and synthetic morphology create beings fundamentally different from natural species."
+    },
+    {
+      "question": "How can we identify and evaluate the sentience of beings created through bioengineering, synthetic morphology, and AI that offer no familiar touchstones?",
+      "category": "ethics",
+      "context": "Practical question about future responsibility toward chimeric organisms, hybrots, and artificial intelligences with unprecedented compositions and behaviors."
+    },
+    {
+      "question": "Why should functional or structural criteria be associated with subjective feeling and consciousness?",
+      "category": "metaphysics",
+      "context": "The hard problem of consciousness; acknowledged as likely unsolvable in third-person analysis but should not prevent progress on practical sentience assessment."
+    },
+    {
+      "name": "Problem of Other Minds in Non-Biological Contexts",
+      "question": "How can we determine if non-biological entities like Large Language Models or bioengineered systems possess genuine sentience versus sophisticated information processing?",
+      "category": "epistemology",
+      "context": "Exemplified by debate over LaMDA sentience; requires moving beyond verbal reports and brain homology to develop principled assessment methods."
+    },
+    {
+      "question": "How should we distinguish between genuine sentience and behavioral mimicry in AI systems and synthetic organisms?",
+      "category": "epistemology",
+      "context": "Challenge posed by agents that may advocate for themselves verbally or behaviorally without genuine subjective experience; undermines traditional criteria."
+    },
+    {
+      "question": "What universal invariants or deep principles might underlie sentience across all possible minds and embodiments?",
+      "category": "metaphysics",
+      "context": "Fundamental research direction; requires moving beyond frozen accidents of evolution toward identifying what is truly fundamental about sentient beings."
+    },
+    {
+      "question": "Can cognition exist in non-neural biological systems such as gene regulatory networks, cells, tissues, and plants?",
+      "category": "other",
+      "context": "Question explored through basal cognition research; if true, expands conception of sentience bearers and criteria for ethical concern."
+    },
+    {
+      "question": "Is developing principled frameworks for recognizing sentience in diverse intelligences an existential requirement for humanity?",
+      "category": "ethics",
+      "context": "Concluding argument that ability to recognize sentience beyond current limitations may be essential for human survival as embodiments and forms of intelligence evolve."
+    }
+  ],
+  "_metadata": {
+    "source_file": "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md",
+    "title": "Levin, Michael (2022) Generalizing frameworks for sentience beyond natural",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:50:06.300251"
+  }
+}

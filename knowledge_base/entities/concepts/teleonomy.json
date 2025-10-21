@@ -1,0 +1,30 @@
+{
+  "name": "Teleonomy",
+  "filename": "teleonomy",
+  "aliases": [
+    "goal-seeking",
+    "teleonomic activity",
+    "teleonomy",
+    "teleonomic process",
+    "teleonomic behavior",
+    "Goal-Directed Activity",
+    "goal-oriented control",
+    "Teleonomy",
+    "Teleonomic Functionality",
+    "goal-directed behavior",
+    "Goal-directedness",
+    "goal-directedness",
+    "teleology",
+    "Purpose-driven behavior"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.230850",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

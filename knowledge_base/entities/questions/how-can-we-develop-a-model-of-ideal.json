@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-can-we-develop-a-model-of-ideal",
+  "aliases": [],
+  "sources": [],
+  "context": "Central motivation for the paper; seeks to provide conceptual framework beyond traditional value alignment approaches.",
+  "question": "How can we develop a model of ideal emergent intelligence to guide responsible AI development?",
+  "category": "alignment",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.302181",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

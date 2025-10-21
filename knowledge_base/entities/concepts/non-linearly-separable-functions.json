@@ -1,0 +1,38 @@
+{
+  "name": "Non-Linearly Separable Functions",
+  "filename": "non-linearly-separable-functions",
+  "aliases": [
+    "Role Specialisation",
+    "reciprocal sign epistasis",
+    "Division of Labour Games",
+    "Non-decomposable Functions",
+    "Reproductive Specialisation"
+  ],
+  "category": "ai",
+  "context": "Functions where the effect of one input on output changes sign depending on other inputs; critical for understanding how collectives exhibit fitness differences that don't reduce to particle-level differences.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Functions where the effect of one input on output changes sign depending on other inputs; critical for understanding how collectives exhibit fitness differences that don't reduce to particle-level differences."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Complementary heterogeneous roles adopted by components; critical for creating non-decomposable collective fitness in evolutionary transitions."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Functions where response to one input changes direction based on another input; require deep network architectures and indicate non-decomposable collective intelligence."
+    }
+  ],
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.769647",
+    "sources_count": 1,
+    "contexts_count": 3
+  },
+  "synthesized_overview": "Non-linearly separable functions describe systems where the effect of one input on output changes depending on other inputs—a property that emerges when components adopt complementary heterogeneous roles rather than operating independently. These functions are fundamental to understanding collective intelligence and evolutionary transitions, as they create non-decomposable fitness at the group level that cannot be reduced to individual component behaviors. Their analysis requires deep network architectures and reveals how collectives can exhibit capabilities and adaptive differences that transcend the sum of their parts."
+}

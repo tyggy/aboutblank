@@ -1,0 +1,15 @@
+{
+  "name": "Axis Of Persuadability",
+  "filename": "axis-of-persuadability",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "creator": [],
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:26:20.912052",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

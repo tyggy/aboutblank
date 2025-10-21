@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "how-do-individual-cells-share-information-about-errors",
+  "aliases": [],
+  "sources": [],
+  "context": "Addresses the problem of cooperation without explicit altruism mechanisms in biological systems achieving large-scale problem-solving.",
+  "question": "How do individual cells share information about errors and coordinate toward collective anatomical goals without centralized control?",
+  "category": "other",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:26:20.925813",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

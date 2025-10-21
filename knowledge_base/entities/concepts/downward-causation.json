@@ -1,0 +1,21 @@
+{
+  "name": "Downward Causation",
+  "filename": "downward-causation",
+  "aliases": [
+    "high-level constraint",
+    "top-down causation",
+    "hierarchical control",
+    "pattern completion",
+    "top-down control"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.231384",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

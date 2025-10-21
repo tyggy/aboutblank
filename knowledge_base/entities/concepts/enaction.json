@@ -1,0 +1,30 @@
+{
+  "name": "Enaction",
+  "filename": "enaction",
+  "aliases": [
+    "enactive approach",
+    "Enactive Cognition"
+  ],
+  "sources": [
+    "batched_extraction",
+    "knowledge_base/papers/edited/isal_a_00465_edited.md"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Theory that cognition arises through dynamic interaction between organism and environment"
+    },
+    {
+      "source": "knowledge_base/papers/edited/isal_a_00465_edited.md",
+      "text": "Framework emphasizing how cognition arises through interaction between organism and environment via sensorimotor loops"
+    }
+  ],
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.241137",
+    "sources_count": 2,
+    "contexts_count": 2
+  }
+}

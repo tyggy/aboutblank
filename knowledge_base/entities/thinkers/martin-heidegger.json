@@ -1,0 +1,20 @@
+{
+  "name": "Martin Heidegger",
+  "filename": "martin-heidegger",
+  "aliases": [],
+  "domains": [
+    "philosophy",
+    "philosophy of technology"
+  ],
+  "context": "Foundational thinker on poiesis and technological enframing; argues for caring relationship to technology beyond mere tool use.",
+  "sources": [
+    "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T19:55:58.752988",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

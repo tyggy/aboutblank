@@ -1,0 +1,30 @@
+{
+  "name": "Self-Assembly",
+  "filename": "self-assembly",
+  "aliases": [
+    "self-organization",
+    "spontaneous assembly",
+    "Guided self-assembly"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "contexts": [
+    {
+      "source": "batched_extraction",
+      "text": "Process by which biological components autonomously organize into complex structures, potentially guided by higher-level goals rather than micromanaged."
+    },
+    {
+      "source": "batched_extraction",
+      "text": "Process where components autonomously organize into higher-order structures through local interactions and physical principles."
+    }
+  ],
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.235676",
+    "sources_count": 1,
+    "contexts_count": 2
+  }
+}

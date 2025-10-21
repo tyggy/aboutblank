@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "filename": "can-neurons-from-modalities-such-as-vision-be",
+  "aliases": [],
+  "sources": [],
+  "context": "Questions flexibility of neural tissue organization and implications for artificial chimaeras.",
+  "question": "Can neurons from modalities such as vision be trained in external motor control, or are cortical regions 'frozen' by evolution?",
+  "category": "cognitive",
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "question",
+    "last_updated": "2025-10-20T20:57:54.282028",
+    "sources_count": 0,
+    "contexts_count": 1
+  }
+}

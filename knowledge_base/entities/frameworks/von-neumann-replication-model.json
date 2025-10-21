@@ -1,0 +1,17 @@
+{
+  "name": "Von Neumann Replication Model",
+  "filename": "von-neumann-replication-model",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Self-replication mechanism; referenced for novel kinematic self-replication discovered in xenobots.",
+  "creator": null,
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "framework",
+    "last_updated": "2025-10-20T20:57:54.269423",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

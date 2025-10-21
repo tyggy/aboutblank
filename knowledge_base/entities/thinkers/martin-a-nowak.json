@@ -1,0 +1,22 @@
+{
+  "name": "Martin A. Nowak",
+  "filename": "martin-a-nowak",
+  "aliases": [
+    "Nowak, M. A."
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "context": "Researcher on evolutionary dynamics and cooperation.",
+  "domains": [
+    "Evolutionary Biology",
+    "Game Theory"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.222347",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

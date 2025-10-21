@@ -1,0 +1,18 @@
+{
+  "name": "Cybernetic Perception-Action Loop",
+  "filename": "cybernetic-perceptionaction-loop",
+  "aliases": [
+    "feedback loop",
+    "enactive loop"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.233194",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

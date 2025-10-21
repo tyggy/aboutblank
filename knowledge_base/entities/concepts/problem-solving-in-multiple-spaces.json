@@ -1,0 +1,17 @@
+{
+  "name": "Problem-Solving In Multiple Spaces",
+  "filename": "problem-solving-in-multiple-spaces",
+  "aliases": [],
+  "category": "cognitive",
+  "context": "Agents navigate not just 3D behavioral space but also transcriptional, physiological, and morphological spaces to achieve goals",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.771893",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

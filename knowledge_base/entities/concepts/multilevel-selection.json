@@ -1,0 +1,19 @@
+{
+  "name": "Multi-Level Selection",
+  "filename": "multilevel-selection",
+  "aliases": [
+    "Multi-level selection",
+    "Hierarchical Selection",
+    "Hierarchical selection"
+  ],
+  "sources": [
+    "batched_extraction"
+  ],
+  "category": "interdisciplinary",
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T20:57:54.244523",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

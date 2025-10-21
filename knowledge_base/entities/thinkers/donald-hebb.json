@@ -1,0 +1,15 @@
+{
+  "name": "Donald Hebb",
+  "filename": "donald-hebb",
+  "aliases": [],
+  "sources": [
+    "batched_extraction"
+  ],
+  "domains": [],
+  "_metadata": {
+    "entity_type": "thinker",
+    "last_updated": "2025-10-20T20:57:54.226588",
+    "sources_count": 1,
+    "contexts_count": 0
+  }
+}

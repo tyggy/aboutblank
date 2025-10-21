@@ -1,0 +1,19 @@
+{
+  "name": "Observer-First Perspective",
+  "filename": "observer-first-perspective",
+  "aliases": [
+    "perspectival ontology"
+  ],
+  "category": "interdisciplinary",
+  "context": "View prioritizing observer agency and interpretation over objective substrate; fundamental to living systems.",
+  "sources": [
+    "batched_extraction"
+  ],
+  "is_new": true,
+  "_metadata": {
+    "entity_type": "concept",
+    "last_updated": "2025-10-20T19:55:58.767088",
+    "sources_count": 1,
+    "contexts_count": 1
+  }
+}

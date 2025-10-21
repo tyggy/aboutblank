@@ -1,0 +1,2287 @@
+=== RAW RESPONSE ===
+```json
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["Developmental Biology", "Cognitive Science", "Bioengineering"],
+      "context": "Author of the paper; researcher at Allen Discovery Center, Tufts University; focuses on memory, morphogenesis, and diverse intelligence across biological scales."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": ["Philosophy", "Psychology"],
+      "context": "Proposed that 'thoughts are thinkers'; foundational to Levin's concept of thoughts as active agents."
+    },
+    {
+      "name": "Sigmund Freud",
+      "aliases": [],
+      "domains": ["Psychology", "Psychoanalysis"],
+      "context": "Discussed memory traces being rearranged and re-transcribed according to fresh circumstances."
+    },
+    {
+      "name": "Heinz von Foerster",
+      "aliases": [],
+      "domains": ["Cybernetics", "Cognitive Science"],
+      "context": "Emphasized symmetry between foresight, hindsight, and insight; discussed recognition as dynamic inference process."
+    },
+    {
+      "name": "Daniel C. Dennett",
+      "aliases": [],
+      "domains": ["Philosophy of Mind", "Cognitive Science"],
+      "context": "Mentor to Levin; work relevant to consciousness and self-model discussions."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [],
+      "domains": ["Neuroscience", "Computational Neuroscience"],
+      "context": "Developer of Free Energy Principle; consulted on manuscript."
+    },
+    {
+      "name": "Josh Bongard",
+      "aliases": [],
+      "domains": ["Artificial Life", "Robotics"],
+      "context": "Conducted experiments on robots discovering their own shape and reusing information after damage."
+    },
+    {
+      "name": "David Glanzman",
+      "aliases": [],
+      "domains": ["Neuroscience", "Memory Research"],
+      "context": "Conducted memory transfer experiments with Aplysia nervous tissue extracts."
+    },
+    {
+      "name": "Eva Jablonka",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Epigenetics"],
+      "context": "Contributed to manuscript discussion on evolutionary mechanisms."
+    },
+    {
+      "name": "Stuart Kauffman",
+      "aliases": [],
+      "domains": ["Complex Systems", "Evolutionary Biology"],
+      "context": "Consulted on manuscript; relevant to complexity and self-organization discussions."
+    },
+    {
+      "name": "Donald Hoffman",
+      "aliases": [],
+      "domains": ["Perception Science", "Cognitive Science"],
+      "context": "Interface Theory of Perception; illustrates evolution's minimal emphasis on veridical perception."
+    },
+    {
+      "name": "Ricard Solé",
+      "aliases": [],
+      "domains": ["Complex Systems", "Collective Intelligence"],
+      "context": "Described ant colonies as 'liquid brains' with shifting connectivity patterns."
+    },
+    {
+      "name": "Mark Solms",
+      "aliases": [],
+      "domains": ["Neuroscience", "Consciousness Studies"],
+      "context": "Proposed consciousness relates to uncertainty about outside world; consulted on manuscript."
+    },
+    {
+      "name": "Anil Seth",
+      "aliases": [],
+      "domains": ["Neuroscience", "Consciousness Studies"],
+      "context": "Consulted on manuscript; relevant to consciousness discussions."
+    },
+    {
+      "name": "Susan Lindquist",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Genetics"],
+      "context": "Developed concepts of Constructive Neutral Evolution and paradox of robustness."
+    },
+    {
+      "name": "Chris Fields",
+      "aliases": [],
+      "domains": ["Theoretical Biology", "Information Theory"],
+      "context": "Provided insights on boundary thinking and shared semantics; consulted on manuscript."
+    },
+    {
+      "name": "Steve Frank",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Genetics"],
+      "context": "Co-developed concepts of Constructive Neutral Evolution and paradox of robustness."
+    },
+    {
+      "name": "Carlos Gershenson",
+      "aliases": [],
+      "domains": ["Complex Systems", "Self-Organization"],
+      "context": "Consulted on manuscript; relevant to complex systems discussions."
+    },
+    {
+      "name": "Thomas Nagel",
+      "aliases": [],
+      "domains": ["Philosophy of Mind", "Consciousness"],
+      "context": "Proposed 'what it is like to be' framework; referenced for understanding subjective experience."
+    },
+    {
+      "name": "John Vervaeke",
+      "aliases": [],
+      "domains": ["Cognitive Science", "Philosophy"],
+      "context": "Consulted on manuscript; relevant to cognition and meaning-making discussions."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mnemonic Improvisation",
+      "aliases": ["Memory Remapping"],
+      "category": "cognitive",
+      "context": "Dynamic ability to rewrite and remap information (e.g., memories) onto new media and new contexts at behavioral, genetic, and physiological levels."
+    },
+    {
+      "name": "Confabulation",
+      "aliases": ["Creative Reinterpretation"],
+      "category": "cognitive",
+      "context": "Active modification and reinterpretation of memories and beliefs to preserve psychological coherence; occurs at molecular to behavioral levels."
+    },
+    {
+      "name": "Persistence Paradox",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The logical puzzle that if an organism doesn't change it dies out, but if it changes, the original self ceases to exist."
+    },
+    {
+      "name": "Epistemic Vulnerability",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The fundamental uncertainty and vulnerability of biological substrates to mutation, aging, decay, and external hacking; driver of adaptive architecture."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [],
+      "category": "ai",
+      "context": "Framework for understanding how systems minimize surprise and maintain coherent models of self and environment through active inference."
+    },
+    {
+      "name": "Anatta (Non-Self)",
+      "aliases": ["Non-Self", "Non-Duality of Self"],
+      "category": "buddhist",
+      "context": "Buddhist and Indic conception that the Self is not a static thing but a process; related to Process Philosophy solutions to the Persistence Paradox."
+    },
+    {
+      "name": "Thoughts As Agents",
+      "aliases": ["Active Information Structures"],
+      "category": "interdisciplinary",
+      "context": "Conceptualization of thoughts and memories as active entities that facilitate their own transformation across cognitive architectures."
+    },
+    {
+      "name": "Bowtie Architecture",
+      "aliases": ["Compression-Expansion Architecture"],
+      "category": "ai",
+      "context": "Information architecture featuring low-dimensional compressed medium with active decoding and context-sensitive interpretation; found in development and machine learning autoencoders."
+    },
+    {
+      "name": "Polycomputation",
+      "aliases": ["Multi-Observer Interpretation"],
+      "category": "cognitive",
+      "context": "Observer-first framework where same physical processes can be interpreted as computing different functions by different observers; ubiquitous in biological systems."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": ["Minimal Cognition"],
+      "category": "cognitive",
+      "context": "Cognitive capacities present at subcellular and cellular levels; problem-solving competencies that emerge from biological necessity."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [],
+      "category": "ai",
+      "context": "Emerging field seeking symmetries among agents regardless of composition, spatiotemporal scale, or origin; explores relationship between life and cognition."
+    },
+    {
+      "name": "Engrams",
+      "aliases": ["Memory Traces", "Memory Patterns"],
+      "category": "cognitive",
+      "context": "Physical or informational traces left by past neural or biological activity; interpreted dynamically rather than simply read out."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": ["Developmental Pattern Formation"],
+      "category": "cognitive",
+      "context": "Process of biological form generation and body organization; guided by bioelectric patterns and involves adaptive reinterpretation of genetic information."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": ["Adaptive Flexibility"],
+      "category": "cognitive",
+      "context": "Capacity of biological systems to modify structure and function in response to novel circumstances and changing internal/external conditions."
+    },
+    {
+      "name": "Agency",
+      "aliases": ["Agential Property"],
+      "category": "interdisciplinary",
+      "context": "Property of systems to have causally important effects through reinterpretation and meaningful response to signals; ontologically real for patterns and information structures."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": ["Self-Representation"],
+      "category": "cognitive",
+      "context": "Internal model that a system maintains about itself; continuously constructed and updated to preserve perceived autonomy and coherence."
+    },
+    {
+      "name": "Pattern Memory",
+      "aliases": ["Bioelectric Pattern", "Morphogenetic Memory"],
+      "category": "cognitive",
+      "context": "Large-scale biological patterns encoding information about body structure and organization; can be transferred between organisms and remapped."
+    },
+    {
+      "name": "Biosemiotics",
+      "aliases": ["Biological Meaning-Making"],
+      "category": "cognitive",
+      "context": "Study of how meaning is created and interpreted among and within biological agents; concerned with signs, significance, and interpretation."
+    },
+    {
+      "name": "Interface Theory of Perception",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that perception evolved not for veridical representation but as an adaptive interface; prioritizes fitness over accuracy."
+    },
+    {
+      "name": "Inpainting",
+      "aliases": ["Pattern Completion"],
+      "category": "cognitive",
+      "context": "Process by which brain fills in missing perceptual information based on surrounding context; editing both current and past sensory data."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Systems that predict incoming stimuli and modify interpretation accordingly; demonstrate active reconstruction of experience."
+    },
+    {
+      "name": "Heterophenomenology",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Approach to understanding subjective experience by examining observable behavior and reports while remaining agnostic about inner reality."
+    },
+    {
+      "name": "Metamorphosis",
+      "aliases": ["Radical Developmental Transformation"],
+      "category": "cognitive",
+      "context": "Process of drastic remodeling of body and nervous system (e.g., caterpillar to butterfly) while maintaining some memories and learning."
+    },
+    {
+      "name": "Planarian Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity of planarian flatworms to regenerate entire organisms from tiny fragments while maintaining or remapping memories and body plan."
+    },
+    {
+      "name": "Xenobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Spontaneously emergent living robots created from frog embryo cells; exhibit novel forms and behaviors beyond genetic programming."
+    },
+    {
+      "name": "Anthrobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Living robots created from human cells; demonstrate adaptability and problem-solving in novel embodiments."
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": ["Bioelectric Potential", "Resting Potential"],
+      "category": "cognitive",
+      "context": "Electrical gradient across cell membranes; encodes large-scale morphogenetic information and can trigger complex patterning responses."
+    },
+    {
+      "name": "Regulative Development",
+      "aliases": ["Epimorphic Development"],
+      "category": "cognitive",
+      "context": "Developmental capacity to produce normal outcomes despite variation in initial conditions; involves remapping and reinterpretation."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": ["Body Form Space"],
+      "category": "cognitive",
+      "context": "Abstract space of possible body forms and configurations; non-neural cells navigate this space using problem-solving competencies analogous to neural navigation of 3D space."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "High-level goal state or target condition that biological systems work to maintain; guides lower-level physiological processes."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": ["Top-Down Causation"],
+      "category": "interdisciplinary",
+      "context": "Causal influence of higher-level patterns and properties on lower-level components; relevant to how morphogenetic goals guide molecular events."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["Suffering", "Unsatisfactoriness"],
+      "category": "buddhist",
+      "context": "Buddhist concept of fundamental unsatisfactoriness of conditioned existence; passes through developmental compression/expansion cycles."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [],
+      "category": "ai",
+      "context": "Process by which agents actively modify their environment and perception to minimize surprise and resolve uncertainty."
+    },
+    {
+      "name": "Self As Process",
+      "aliases": ["Process Philosophy of Self"],
+      "category": "interdisciplinary",
+      "context": "Conception of self as dynamic process rather than static entity; continuously maintained by agents under energy and time constraints."
+    },
+    {
+      "name": "Consciousness As Uncertainty",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Hypothesis that consciousness relates to dealing with uncertainty about both external world and internal states and memories."
+    },
+    {
+      "name": "Affordances",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Properties or potentials of environment and internal components that agents can exploit; hacked and reused by biological systems."
+    },
+    {
+      "name": "Strange Loop",
+      "aliases": ["Self-Reference", "Self-Reification"],
+      "category": "interdisciplinary",
+      "context": "Self-referential causal loops through which patterns maintain and reinforce their own existence and boundaries."
+    },
+    {
+      "name": "Computational Boundary Of Self",
+      "aliases": ["Cognitive Boundary", "Self-Boundary"],
+      "category": "cognitive",
+      "context": "Dynamically maintained boundary between self and non-self; continuously adjusted based on integrated information and interpretation."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": ["Distributed Cognition", "Swarm Intelligence"],
+      "category": "cognitive",
+      "context": "Intelligence arising from collective behavior of multiple agents (neurons, cells, organisms); implemented through multi-scale interactions."
+    },
+    {
+      "name": "Senome",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Complete set of sensory and informational resources available to a system; can be exploited for memory and pattern interpretation."
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": ["Phi (Φ)"],
+      "category": "ai",
+      "context": "Measure of integrated information in systems; potentially increased by memory formation, relevant to self-coherence."
+    },
+    {
+      "name": "Reservoir Computing",
+      "aliases": [],
+      "category": "ai",
+      "context": "Machine learning approach using dynamical systems with many degrees of freedom; models how biological structures interpret information on the fly."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Evolutionary mechanism where robustness mechanisms hide genetic variation from selection, enabling evolution of adaptive competencies."
+    },
+    {
+      "name": "Evo-Eco",
+      "aliases": ["Evolutionary Ecology"],
+      "category": "cognitive",
+      "context": "Framework combining r vs. K selection strategies with morphogenetic/cognitive plasticity as strategic parameter."
+    },
+    {
+      "name": "Associative Memory",
+      "aliases": ["Associative Learning"],
+      "category": "cognitive",
+      "context": "Memory linking distinct experiences or stimuli; emerges at collective scale and helps reify organism as unified agent."
+    },
+    {
+      "name": "Virtual Governor",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concept related to cybernetic control mechanisms; maintains homeostasis and coherence of system despite variable components."
+    },
+    {
+      "name": "Federated Inference",
+      "aliases": ["Collective Belief-Sharing"],
+      "category": "interdisciplinary",
+      "context": "Process where multiple agents share and propagate beliefs or interpretations; memories resonate across multiple cognizers."
+    },
+    {
+      "name": "Metastable Pattern",
+      "aliases": ["Persistent Dynamic Pattern"],
+      "category": "cognitive",
+      "context": "Temporarily stable pattern in excitable medium that maintains coherence without fixed substrate; model for minimal selfhood."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Abstract space of possible states and configurations relevant to an agent's problem-solving; navigated through intelligent adaptation."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": ["Embodied Mind", "Enactive Cognition"],
+      "category": "cognitive",
+      "context": "Concept that cognition is fundamentally tied to bodily form and interaction; different embodiments require remapping of meanings."
+    },
+    {
+      "name": "Enactive Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Philosophical approach emphasizing role of action and perception in cognition; related to epistemic vulnerability."
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [],
+      "category": "ai",
+      "context": "Feedback loop where perception guides action which modifies environment and perception; fundamental to intelligent systems."
+    },
+    {
+      "name": "Competency",
+      "aliases": ["Problem-Solving Capacity"],
+      "category": "cognitive",
+      "context": "Ability to reach same goal by different means as necessary; observable capacity for adaptive achievement."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": ["Morphological Restoration"],
+      "category": "cognitive",
+      "context": "Process of restoring lost body parts or entire organisms; demonstrates remapping capacity and regulative development."
+    },
+    {
+      "name": "Emergence",
+      "aliases": ["Emergent Property"],
+      "category": "interdisciplinary",
+      "context": "Property arising from collective interactions that is not present in individual components; relevant to mind and self."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": ["Cognitive Competency"],
+      "category": "cognitive",
+      "context": "Publicly observable degree of competency at reaching same goal by different means; depends on perspective of observer."
+    },
+    {
+      "name": "Radical Embodied Cognitive Science",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework emphasizing body and action as fundamental to cognition; rejects disembodied computation models."
+    },
+    {
+      "name": "Heterarchy",
+      "aliases": ["Circular Hierarchy"],
+      "category": "interdisciplinary",
+      "context": "System of mutual influence where elements relate cyclically without clear hierarchical ordering; applies to thought and agency."
+    },
+    {
+      "name": "Stigmergic Note",
+      "aliases": ["Stigmergy"],
+      "category": "cognitive",
+      "context": "Information left in environment or substrate by past agent; enables indirect coordination and communication across time."
+    },
+    {
+      "name": "Selflet",
+      "aliases": ["Temporal Slice of Self"],
+      "category": "cognitive",
+      "context": "Discrete temporal slice or frame of conscious experience; approximately few hundred milliseconds thick; communicates with other selflets via memories."
+    },
+    {
+      "name": "4D Physiology",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Approach studying physiology across spatial and temporal dimensions; emerging tool for testing hypotheses about pattern-based cognition."
+    },
+    {
+      "name": "Perceptual Control Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that behavior is controlled through maintaining sensory input at desired reference levels; relevant to goal-directed adaptation."
+    },
+    {
+      "name": "Predictive Processing",
+      "aliases": ["Prediction Error Minimization"],
+      "category": "cognitive",
+      "context": "Framework where brain minimizes prediction errors; involves active reinterpretation similar to downward causation in development."
+    },
+    {
+      "name": "Extended Evolutionary Synthesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Expanded evolutionary framework incorporating developmental plasticity, epigenetics, and inheritance of acquired traits."
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Mathematical study of competitive and cooperative dynamics; relevant to communication and conflict between agents."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular dysfunction threatening self-maintenance; represents vulnerability requiring adaptive reinterpretation and repair mechanisms."
+    },
+    {
+      "name": "Anterograde Amnesia",
+      "aliases": ["Forward-Looking Memory Loss"],
+      "category": "cognitive",
+      "context": "Inability to form new memories; patients use external notepads demonstrating remapping of memory function to different substrates."
+    },
+    {
+      "name": "Commissurotomy",
+      "aliases": ["Split-Brain Surgery"],
+      "category": "cognitive",
+      "context": "Surgical separation of corpus callosum; produces confabulation as brain hemispheres interpret each other's actions."
+    },
+    {
+      "name": "Ectopic Organ Formation",
+      "aliases": ["Ectopic Induction"],
+      "category": "cognitive",
+      "context": "Spontaneous formation of organs in novel locations due to bioelectric or biochemical signals; demonstrates interpretive plasticity."
+    },
+    {
+      "name": "Infotaxis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Active seeking of information and novelty to overcome maladaptive over-fitting to current models."
+    },
+    {
+      "name": "Polymixis",
+      "aliases": ["Polyploidy"],
+      "category": "cognitive",
+      "context": "Cells with varying chromosome numbers; develop normally despite genetic variation through adaptive interpretation."
+    },
+    {
+      "name": "Individuality",
+      "aliases": ["Individual Agent", "Living Individual"],
+      "category": "interdisciplinary",
+      "context": "Property of being a coherent, self-maintaining entity; exists at multiple scales from cells to lineages."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": ["Self-Making", "Self-Production"],
+      "category": "interdisciplinary",
+      "context": "Process by which systems produce and maintain themselves; related to emergence of autopoietic perspectives and agency."
+    },
+    {
+      "name": "Tulpamancy",
+      "aliases": ["Tulpa"],
+      "category": "cognitive",
+      "context": "Practice of creating persistent thoughtforms through concentrated attention; represents metastable patterns with agency."
+    },
+    {
+      "name": "Dissociative Identity Disorder",
+      "aliases": ["Multiple Personality Disorder"],
+      "category": "cognitive",
+      "context": "Condition involving multiple distinct personalities; exemplifies extreme continuity of thoughts as agents with increasing autonomy."
+    },
+    {
+      "name": "Credit Assignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Problem of determining which actions led to outcomes; relevant to how stress responses are attributed across physiological systems."
+    },
+    {
+      "name": "Modular Subroutines",
+      "aliases": ["Modular Functions"],
+      "category": "cognitive",
+      "context": "Reusable functional modules called as needed; biological systems swap different modules to achieve same goals under different constraints."
+    },
+    {
+      "name": "Dynamical Systems",
+      "aliases": [],
+      "category": "ai",
+      "context": "Mathematical systems describing time-dependent behavior; used to model cognition and memory without static storage."
+    },
+    {
+      "name": "Integrated Stress Response",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Coordinated physiological response to stress across multiple systems; demonstrates credit assignment and adaptive interpretation."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Free Energy Principle",
+      "creator": "Karl Friston",
+      "context": "Framework for understanding how biological systems minimize surprise and model uncertainty; central to understanding adaptive reinterpretation."
+    },
+    {
+      "name": "Bowtie Architecture",
+      "creator": null,
+      "context": "Information compression model with bottleneck hub; found in development, autoencoders, and communication; enables creative reinterpretation."
+    },
+    {
+      "name": "Process Philosophy",
+      "creator": null,
+      "context": "Philosophical framework viewing reality as fundamentally process rather than substance; solution to Persistence Paradox."
+    },
+    {
+      "name": "Interface Theory of Perception",
+      "creator": "Donald Hoffman",
+      "context": "Theory that perception evolved as adaptive interface rather than for veridical representation of reality."
+    },
+    {
+      "name": "Polycomputing",
+      "creator": null,
+      "context": "Observer-first framework where same physical processes compute different functions depending on interpretation perspective."
+    },
+    {
+      "name": "Collective Intelligence Framework",
+      "creator": null,
+      "context": "Framework analyzing how cognition emerges from multi-scale interactions of minimal agents with competing and cooperating agendas."
+    },
+    {
+      "name": "Diverse Intelligence Paradigm",
+      "creator": null,
+      "context": "Emerging research program seeking symmetries in cognition across different substrates, scales, and origins."
+    },
+    {
+      "name": "Biosemiotics",
+      "creator": null,
+      "context": "Framework studying how biological systems create and interpret meaning; concerned with signs and significance in living systems."
+    },
+    {
+      "name": "Extended Evolutionary Synthesis",
+      "creator": null,
+      "context": "Evolutionary framework incorporating developmental plasticity, epigenetics, and inheritance mechanisms beyond standard neo-Darwinism."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "creator": "Susan Lindquist, Steve Frank",
+      "context": "Framework explaining robustness through neutral drift and competency mechanisms; hides genetic variation from selection."
+    },
+    {
+      "name": "Reservoir Computing",
+      "creator": null,
+      "context": "Machine learning approach using dynamical systems for on-the-fly computation; models biological interpretation of information."
+    },
+    {
+      "name": "Perceptual Control Theory",
+      "creator": null,
+      "context": "Framework where organisms control behavior through maintaining sensory input at reference levels rather than executing commands."
+    },
+    {
+      "name": "Predictive Processing",
+      "creator": null,
+      "context": "Framework where brain minimizes prediction errors through active reinterpretation; models adaptive cognition and development."
+    },
+    {
+      "name": "Heterophenomenology",
+      "creator": null,
+      "context": "Method for studying subjective experience through behavioral examination while remaining neutral about inner reality."
+    },
+    {
+      "name": "Enactive Cognition",
+      "creator": null,
+      "context": "Framework emphasizing cognition emerges from embodied interaction; related to epistemic vulnerability concept."
+    },
+    {
+      "name": "Cybernetic Perspective",
+      "creator": null,
+      "context": "Framework understanding self-regulation and feedback loops; relevant to homeostasis and boundary maintenance."
+    },
+    {
+      "name": "Radical Embodied Cognitive Science",
+      "creator": null,
+      "context": "Framework rejecting disembodied computation; emphasizes body and action as fundamental to cognition."
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "creator": null,
+      "context": "Mathematical framework analyzing competitive and cooperative dynamics; relevant to agent interactions and communication."
+    },
+    {
+      "name": "Downward Causation Framework",
+      "creator": null,
+      "context": "Framework understanding how higher-level patterns causally influence lower-level components in hierarchical systems."
+    },
+    {
+      "name": "Autopoietic Theory",
+      "creator": null,
+      "context": "Framework describing self-making systems and emergence of autonomous perspectives; relevant to minimal agency."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University where Michael Levin conducts research on developmental biology, morphogenesis, and diverse intelligence."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University housing the Allen Discovery Center; location of Michael Levin's Department of Biology."
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting Levin's research (Grant 62212) on fundamental questions in biology and cognition."
+    },
+    {
+      "name": "Air Force Office of Scientific Research (AFOSR)",
+      "type": "research-center",
+      "context": "Funding organization supporting Levin's research on Cognitive & Computational Neuroscience (Award FA9550-22-1-0465)."
+    },
+    {
+      "name": "Levin Lab",
+      "type": "research-center",
+      "context": "Research laboratory led by Michael Levin; collaborators contributed to discussions on memory, morphogenesis, and artificial life."
+    }
+  ],
+  "questions": [
+    {
+      "question": "If a species must change to survive but change destroys the original self, how does identity persist?",
+      "category": "metaphysics",
+      "context": "The Persistence Paradox; fundamental question driving exploration of self as process rather than substance."
+    },
+    {
+      "question": "How are memories stored, encoded, and remapped across radically different neural and bodily substrates?",
+      "category": "epistemology",
+      "context": "Core puzzle of memory transfer across metamorphosis, regeneration, and transplantation; challenges conventional substrate-specific storage models."
+    },
+    {
+      "question": "What mechanisms enable memories to preserve salience while adapting to completely different embodiments and environments?",
+      "category": "epistemology",
+      "context": "Question of how high-level wisdom generalizes across embodiments versus low-level details being specific to original form."
+    },
+    {
+      "question": "How can biological systems develop normally despite extreme variation in internal parts (polyploidy, missing cells, mutations)?",
+      "category": "metaphysics",
+      "context": "Paradox of robustness; questions how genetic details determine phenotypes if systems are indifferent to genetic variation."
+    },
+    {
+      "question": "What underlying parameters determine where species fall on the spectrum of morphological and cognitive plasticity?",
+      "category": "other",
+      "context": "Research question about evolution of competency mechanisms; relevant to understanding Planarian vs. C. elegans variation."
+    },
+    {
+      "question": "Are memories and information structures active agents with genuine agency, or only passive data structures?",
+      "category": "metaphysics",
+      "context": "Questions the boundary between data and computation; explores whether thoughts can be thinkers."
+    },
+    {
+      "question": "Does consciousness arise from managing constant self-construction and reinterpretation of internal states?",
+      "category": "other",
+      "context":
+
+=== EXTRACTED JSON ===
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["Developmental Biology", "Cognitive Science", "Bioengineering"],
+      "context": "Author of the paper; researcher at Allen Discovery Center, Tufts University; focuses on memory, morphogenesis, and diverse intelligence across biological scales."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": ["Philosophy", "Psychology"],
+      "context": "Proposed that 'thoughts are thinkers'; foundational to Levin's concept of thoughts as active agents."
+    },
+    {
+      "name": "Sigmund Freud",
+      "aliases": [],
+      "domains": ["Psychology", "Psychoanalysis"],
+      "context": "Discussed memory traces being rearranged and re-transcribed according to fresh circumstances."
+    },
+    {
+      "name": "Heinz von Foerster",
+      "aliases": [],
+      "domains": ["Cybernetics", "Cognitive Science"],
+      "context": "Emphasized symmetry between foresight, hindsight, and insight; discussed recognition as dynamic inference process."
+    },
+    {
+      "name": "Daniel C. Dennett",
+      "aliases": [],
+      "domains": ["Philosophy of Mind", "Cognitive Science"],
+      "context": "Mentor to Levin; work relevant to consciousness and self-model discussions."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [],
+      "domains": ["Neuroscience", "Computational Neuroscience"],
+      "context": "Developer of Free Energy Principle; consulted on manuscript."
+    },
+    {
+      "name": "Josh Bongard",
+      "aliases": [],
+      "domains": ["Artificial Life", "Robotics"],
+      "context": "Conducted experiments on robots discovering their own shape and reusing information after damage."
+    },
+    {
+      "name": "David Glanzman",
+      "aliases": [],
+      "domains": ["Neuroscience", "Memory Research"],
+      "context": "Conducted memory transfer experiments with Aplysia nervous tissue extracts."
+    },
+    {
+      "name": "Eva Jablonka",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Epigenetics"],
+      "context": "Contributed to manuscript discussion on evolutionary mechanisms."
+    },
+    {
+      "name": "Stuart Kauffman",
+      "aliases": [],
+      "domains": ["Complex Systems", "Evolutionary Biology"],
+      "context": "Consulted on manuscript; relevant to complexity and self-organization discussions."
+    },
+    {
+      "name": "Donald Hoffman",
+      "aliases": [],
+      "domains": ["Perception Science", "Cognitive Science"],
+      "context": "Interface Theory of Perception; illustrates evolution's minimal emphasis on veridical perception."
+    },
+    {
+      "name": "Ricard Solé",
+      "aliases": [],
+      "domains": ["Complex Systems", "Collective Intelligence"],
+      "context": "Described ant colonies as 'liquid brains' with shifting connectivity patterns."
+    },
+    {
+      "name": "Mark Solms",
+      "aliases": [],
+      "domains": ["Neuroscience", "Consciousness Studies"],
+      "context": "Proposed consciousness relates to uncertainty about outside world; consulted on manuscript."
+    },
+    {
+      "name": "Anil Seth",
+      "aliases": [],
+      "domains": ["Neuroscience", "Consciousness Studies"],
+      "context": "Consulted on manuscript; relevant to consciousness discussions."
+    },
+    {
+      "name": "Susan Lindquist",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Genetics"],
+      "context": "Developed concepts of Constructive Neutral Evolution and paradox of robustness."
+    },
+    {
+      "name": "Chris Fields",
+      "aliases": [],
+      "domains": ["Theoretical Biology", "Information Theory"],
+      "context": "Provided insights on boundary thinking and shared semantics; consulted on manuscript."
+    },
+    {
+      "name": "Steve Frank",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Genetics"],
+      "context": "Co-developed concepts of Constructive Neutral Evolution and paradox of robustness."
+    },
+    {
+      "name": "Carlos Gershenson",
+      "aliases": [],
+      "domains": ["Complex Systems", "Self-Organization"],
+      "context": "Consulted on manuscript; relevant to complex systems discussions."
+    },
+    {
+      "name": "Thomas Nagel",
+      "aliases": [],
+      "domains": ["Philosophy of Mind", "Consciousness"],
+      "context": "Proposed 'what it is like to be' framework; referenced for understanding subjective experience."
+    },
+    {
+      "name": "John Vervaeke",
+      "aliases": [],
+      "domains": ["Cognitive Science", "Philosophy"],
+      "context": "Consulted on manuscript; relevant to cognition and meaning-making discussions."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mnemonic Improvisation",
+      "aliases": ["Memory Remapping"],
+      "category": "cognitive",
+      "context": "Dynamic ability to rewrite and remap information (e.g., memories) onto new media and new contexts at behavioral, genetic, and physiological levels."
+    },
+    {
+      "name": "Confabulation",
+      "aliases": ["Creative Reinterpretation"],
+      "category": "cognitive",
+      "context": "Active modification and reinterpretation of memories and beliefs to preserve psychological coherence; occurs at molecular to behavioral levels."
+    },
+    {
+      "name": "Persistence Paradox",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The logical puzzle that if an organism doesn't change it dies out, but if it changes, the original self ceases to exist."
+    },
+    {
+      "name": "Epistemic Vulnerability",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The fundamental uncertainty and vulnerability of biological substrates to mutation, aging, decay, and external hacking; driver of adaptive architecture."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [],
+      "category": "ai",
+      "context": "Framework for understanding how systems minimize surprise and maintain coherent models of self and environment through active inference."
+    },
+    {
+      "name": "Anatta (Non-Self)",
+      "aliases": ["Non-Self", "Non-Duality of Self"],
+      "category": "buddhist",
+      "context": "Buddhist and Indic conception that the Self is not a static thing but a process; related to Process Philosophy solutions to the Persistence Paradox."
+    },
+    {
+      "name": "Thoughts As Agents",
+      "aliases": ["Active Information Structures"],
+      "category": "interdisciplinary",
+      "context": "Conceptualization of thoughts and memories as active entities that facilitate their own transformation across cognitive architectures."
+    },
+    {
+      "name": "Bowtie Architecture",
+      "aliases": ["Compression-Expansion Architecture"],
+      "category": "ai",
+      "context": "Information architecture featuring low-dimensional compressed medium with active decoding and context-sensitive interpretation; found in development and machine learning autoencoders."
+    },
+    {
+      "name": "Polycomputation",
+      "aliases": ["Multi-Observer Interpretation"],
+      "category": "cognitive",
+      "context": "Observer-first framework where same physical processes can be interpreted as computing different functions by different observers; ubiquitous in biological systems."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": ["Minimal Cognition"],
+      "category": "cognitive",
+      "context": "Cognitive capacities present at subcellular and cellular levels; problem-solving competencies that emerge from biological necessity."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [],
+      "category": "ai",
+      "context": "Emerging field seeking symmetries among agents regardless of composition, spatiotemporal scale, or origin; explores relationship between life and cognition."
+    },
+    {
+      "name": "Engrams",
+      "aliases": ["Memory Traces", "Memory Patterns"],
+      "category": "cognitive",
+      "context": "Physical or informational traces left by past neural or biological activity; interpreted dynamically rather than simply read out."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": ["Developmental Pattern Formation"],
+      "category": "cognitive",
+      "context": "Process of biological form generation and body organization; guided by bioelectric patterns and involves adaptive reinterpretation of genetic information."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": ["Adaptive Flexibility"],
+      "category": "cognitive",
+      "context": "Capacity of biological systems to modify structure and function in response to novel circumstances and changing internal/external conditions."
+    },
+    {
+      "name": "Agency",
+      "aliases": ["Agential Property"],
+      "category": "interdisciplinary",
+      "context": "Property of systems to have causally important effects through reinterpretation and meaningful response to signals; ontologically real for patterns and information structures."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": ["Self-Representation"],
+      "category": "cognitive",
+      "context": "Internal model that a system maintains about itself; continuously constructed and updated to preserve perceived autonomy and coherence."
+    },
+    {
+      "name": "Pattern Memory",
+      "aliases": ["Bioelectric Pattern", "Morphogenetic Memory"],
+      "category": "cognitive",
+      "context": "Large-scale biological patterns encoding information about body structure and organization; can be transferred between organisms and remapped."
+    },
+    {
+      "name": "Biosemiotics",
+      "aliases": ["Biological Meaning-Making"],
+      "category": "cognitive",
+      "context": "Study of how meaning is created and interpreted among and within biological agents; concerned with signs, significance, and interpretation."
+    },
+    {
+      "name": "Interface Theory of Perception",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that perception evolved not for veridical representation but as an adaptive interface; prioritizes fitness over accuracy."
+    },
+    {
+      "name": "Inpainting",
+      "aliases": ["Pattern Completion"],
+      "category": "cognitive",
+      "context": "Process by which brain fills in missing perceptual information based on surrounding context; editing both current and past sensory data."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Systems that predict incoming stimuli and modify interpretation accordingly; demonstrate active reconstruction of experience."
+    },
+    {
+      "name": "Heterophenomenology",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Approach to understanding subjective experience by examining observable behavior and reports while remaining agnostic about inner reality."
+    },
+    {
+      "name": "Metamorphosis",
+      "aliases": ["Radical Developmental Transformation"],
+      "category": "cognitive",
+      "context": "Process of drastic remodeling of body and nervous system (e.g., caterpillar to butterfly) while maintaining some memories and learning."
+    },
+    {
+      "name": "Planarian Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity of planarian flatworms to regenerate entire organisms from tiny fragments while maintaining or remapping memories and body plan."
+    },
+    {
+      "name": "Xenobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Spontaneously emergent living robots created from frog embryo cells; exhibit novel forms and behaviors beyond genetic programming."
+    },
+    {
+      "name": "Anthrobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Living robots created from human cells; demonstrate adaptability and problem-solving in novel embodiments."
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": ["Bioelectric Potential", "Resting Potential"],
+      "category": "cognitive",
+      "context": "Electrical gradient across cell membranes; encodes large-scale morphogenetic information and can trigger complex patterning responses."
+    },
+    {
+      "name": "Regulative Development",
+      "aliases": ["Epimorphic Development"],
+      "category": "cognitive",
+      "context": "Developmental capacity to produce normal outcomes despite variation in initial conditions; involves remapping and reinterpretation."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": ["Body Form Space"],
+      "category": "cognitive",
+      "context": "Abstract space of possible body forms and configurations; non-neural cells navigate this space using problem-solving competencies analogous to neural navigation of 3D space."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "High-level goal state or target condition that biological systems work to maintain; guides lower-level physiological processes."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": ["Top-Down Causation"],
+      "category": "interdisciplinary",
+      "context": "Causal influence of higher-level patterns and properties on lower-level components; relevant to how morphogenetic goals guide molecular events."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["Suffering", "Unsatisfactoriness"],
+      "category": "buddhist",
+      "context": "Buddhist concept of fundamental unsatisfactoriness of conditioned existence; passes through developmental compression/expansion cycles."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [],
+      "category": "ai",
+      "context": "Process by which agents actively modify their environment and perception to minimize surprise and resolve uncertainty."
+    },
+    {
+      "name": "Self As Process",
+      "aliases": ["Process Philosophy of Self"],
+      "category": "interdisciplinary",
+      "context": "Conception of self as dynamic process rather than static entity; continuously maintained by agents under energy and time constraints."
+    },
+    {
+      "name": "Consciousness As Uncertainty",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Hypothesis that consciousness relates to dealing with uncertainty about both external world and internal states and memories."
+    },
+    {
+      "name": "Affordances",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Properties or potentials of environment and internal components that agents can exploit; hacked and reused by biological systems."
+    },
+    {
+      "name": "Strange Loop",
+      "aliases": ["Self-Reference", "Self-Reification"],
+      "category": "interdisciplinary",
+      "context": "Self-referential causal loops through which patterns maintain and reinforce their own existence and boundaries."
+    },
+    {
+      "name": "Computational Boundary Of Self",
+      "aliases": ["Cognitive Boundary", "Self-Boundary"],
+      "category": "cognitive",
+      "context": "Dynamically maintained boundary between self and non-self; continuously adjusted based on integrated information and interpretation."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": ["Distributed Cognition", "Swarm Intelligence"],
+      "category": "cognitive",
+      "context": "Intelligence arising from collective behavior of multiple agents (neurons, cells, organisms); implemented through multi-scale interactions."
+    },
+    {
+      "name": "Senome",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Complete set of sensory and informational resources available to a system; can be exploited for memory and pattern interpretation."
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": ["Phi (Φ)"],
+      "category": "ai",
+      "context": "Measure of integrated information in systems; potentially increased by memory formation, relevant to self-coherence."
+    },
+    {
+      "name": "Reservoir Computing",
+      "aliases": [],
+      "category": "ai",
+      "context": "Machine learning approach using dynamical systems with many degrees of freedom; models how biological structures interpret information on the fly."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Evolutionary mechanism where robustness mechanisms hide genetic variation from selection, enabling evolution of adaptive competencies."
+    },
+    {
+      "name": "Evo-Eco",
+      "aliases": ["Evolutionary Ecology"],
+      "category": "cognitive",
+      "context": "Framework combining r vs. K selection strategies with morphogenetic/cognitive plasticity as strategic parameter."
+    },
+    {
+      "name": "Associative Memory",
+      "aliases": ["Associative Learning"],
+      "category": "cognitive",
+      "context": "Memory linking distinct experiences or stimuli; emerges at collective scale and helps reify organism as unified agent."
+    },
+    {
+      "name": "Virtual Governor",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concept related to cybernetic control mechanisms; maintains homeostasis and coherence of system despite variable components."
+    },
+    {
+      "name": "Federated Inference",
+      "aliases": ["Collective Belief-Sharing"],
+      "category": "interdisciplinary",
+      "context": "Process where multiple agents share and propagate beliefs or interpretations; memories resonate across multiple cognizers."
+    },
+    {
+      "name": "Metastable Pattern",
+      "aliases": ["Persistent Dynamic Pattern"],
+      "category": "cognitive",
+      "context": "Temporarily stable pattern in excitable medium that maintains coherence without fixed substrate; model for minimal selfhood."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Abstract space of possible states and configurations relevant to an agent's problem-solving; navigated through intelligent adaptation."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": ["Embodied Mind", "Enactive Cognition"],
+      "category": "cognitive",
+      "context": "Concept that cognition is fundamentally tied to bodily form and interaction; different embodiments require remapping of meanings."
+    },
+    {
+      "name": "Enactive Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Philosophical approach emphasizing role of action and perception in cognition; related to epistemic vulnerability."
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [],
+      "category": "ai",
+      "context": "Feedback loop where perception guides action which modifies environment and perception; fundamental to intelligent systems."
+    },
+    {
+      "name": "Competency",
+      "aliases": ["Problem-Solving Capacity"],
+      "category": "cognitive",
+      "context": "Ability to reach same goal by different means as necessary; observable capacity for adaptive achievement."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": ["Morphological Restoration"],
+      "category": "cognitive",
+      "context": "Process of restoring lost body parts or entire organisms; demonstrates remapping capacity and regulative development."
+    },
+    {
+      "name": "Emergence",
+      "aliases": ["Emergent Property"],
+      "category": "interdisciplinary",
+      "context": "Property arising from collective interactions that is not present in individual components; relevant to mind and self."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": ["Cognitive Competency"],
+      "category": "cognitive",
+      "context": "Publicly observable degree of competency at reaching same goal by different means; depends on perspective of observer."
+    },
+    {
+      "name": "Radical Embodied Cognitive Science",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework emphasizing body and action as fundamental to cognition; rejects disembodied computation models."
+    },
+    {
+      "name": "Heterarchy",
+      "aliases": ["Circular Hierarchy"],
+      "category": "interdisciplinary",
+      "context": "System of mutual influence where elements relate cyclically without clear hierarchical ordering; applies to thought and agency."
+    },
+    {
+      "name": "Stigmergic Note",
+      "aliases": ["Stigmergy"],
+      "category": "cognitive",
+      "context": "Information left in environment or substrate by past agent; enables indirect coordination and communication across time."
+    },
+    {
+      "name": "Selflet",
+      "aliases": ["Temporal Slice of Self"],
+      "category": "cognitive",
+      "context": "Discrete temporal slice or frame of conscious experience; approximately few hundred milliseconds thick; communicates with other selflets via memories."
+    },
+    {
+      "name": "4D Physiology",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Approach studying physiology across spatial and temporal dimensions; emerging tool for testing hypotheses about pattern-based cognition."
+    },
+    {
+      "name": "Perceptual Control Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that behavior is controlled through maintaining sensory input at desired reference levels; relevant to goal-directed adaptation."
+    },
+    {
+      "name": "Predictive Processing",
+      "aliases": ["Prediction Error Minimization"],
+      "category": "cognitive",
+      "context": "Framework where brain minimizes prediction errors; involves active reinterpretation similar to downward causation in development."
+    },
+    {
+      "name": "Extended Evolutionary Synthesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Expanded evolutionary framework incorporating developmental plasticity, epigenetics, and inheritance of acquired traits."
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Mathematical study of competitive and cooperative dynamics; relevant to communication and conflict between agents."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular dysfunction threatening self-maintenance; represents vulnerability requiring adaptive reinterpretation and repair mechanisms."
+    },
+    {
+      "name": "Anterograde Amnesia",
+      "aliases": ["Forward-Looking Memory Loss"],
+      "category": "cognitive",
+      "context": "Inability to form new memories; patients use external notepads demonstrating remapping of memory function to different substrates."
+    },
+    {
+      "name": "Commissurotomy",
+      "aliases": ["Split-Brain Surgery"],
+      "category": "cognitive",
+      "context": "Surgical separation of corpus callosum; produces confabulation as brain hemispheres interpret each other's actions."
+    },
+    {
+      "name": "Ectopic Organ Formation",
+      "aliases": ["Ectopic Induction"],
+      "category": "cognitive",
+      "context": "Spontaneous formation of organs in novel locations due to bioelectric or biochemical signals; demonstrates interpretive plasticity."
+    },
+    {
+      "name": "Infotaxis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Active seeking of information and novelty to overcome maladaptive over-fitting to current models."
+    },
+    {
+      "name": "Polymixis",
+      "aliases": ["Polyploidy"],
+      "category": "cognitive",
+      "context": "Cells with varying chromosome numbers; develop normally despite genetic variation through adaptive interpretation."
+    },
+    {
+      "name": "Individuality",
+      "aliases": ["Individual Agent", "Living Individual"],
+      "category": "interdisciplinary",
+      "context": "Property of being a coherent, self-maintaining entity; exists at multiple scales from cells to lineages."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": ["Self-Making", "Self-Production"],
+      "category": "interdisciplinary",
+      "context": "Process by which systems produce and maintain themselves; related to emergence of autopoietic perspectives and agency."
+    },
+    {
+      "name": "Tulpamancy",
+      "aliases": ["Tulpa"],
+      "category": "cognitive",
+      "context": "Practice of creating persistent thoughtforms through concentrated attention; represents metastable patterns with agency."
+    },
+    {
+      "name": "Dissociative Identity Disorder",
+      "aliases": ["Multiple Personality Disorder"],
+      "category": "cognitive",
+      "context": "Condition involving multiple distinct personalities; exemplifies extreme continuity of thoughts as agents with increasing autonomy."
+    },
+    {
+      "name": "Credit Assignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Problem of determining which actions led to outcomes; relevant to how stress responses are attributed across physiological systems."
+    },
+    {
+      "name": "Modular Subroutines",
+      "aliases": ["Modular Functions"],
+      "category": "cognitive",
+      "context": "Reusable functional modules called as needed; biological systems swap different modules to achieve same goals under different constraints."
+    },
+    {
+      "name": "Dynamical Systems",
+      "aliases": [],
+      "category": "ai",
+      "context": "Mathematical systems describing time-dependent behavior; used to model cognition and memory without static storage."
+    },
+    {
+      "name": "Integrated Stress Response",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Coordinated physiological response to stress across multiple systems; demonstrates credit assignment and adaptive interpretation."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Free Energy Principle",
+      "creator": "Karl Friston",
+      "context": "Framework for understanding how biological systems minimize surprise and model uncertainty; central to understanding adaptive reinterpretation."
+    },
+    {
+      "name": "Bowtie Architecture",
+      "creator": null,
+      "context": "Information compression model with bottleneck hub; found in development, autoencoders, and communication; enables creative reinterpretation."
+    },
+    {
+      "name": "Process Philosophy",
+      "creator": null,
+      "context": "Philosophical framework viewing reality as fundamentally process rather than substance; solution to Persistence Paradox."
+    },
+    {
+      "name": "Interface Theory of Perception",
+      "creator": "Donald Hoffman",
+      "context": "Theory that perception evolved as adaptive interface rather than for veridical representation of reality."
+    },
+    {
+      "name": "Polycomputing",
+      "creator": null,
+      "context": "Observer-first framework where same physical processes compute different functions depending on interpretation perspective."
+    },
+    {
+      "name": "Collective Intelligence Framework",
+      "creator": null,
+      "context": "Framework analyzing how cognition emerges from multi-scale interactions of minimal agents with competing and cooperating agendas."
+    },
+    {
+      "name": "Diverse Intelligence Paradigm",
+      "creator": null,
+      "context": "Emerging research program seeking symmetries in cognition across different substrates, scales, and origins."
+    },
+    {
+      "name": "Biosemiotics",
+      "creator": null,
+      "context": "Framework studying how biological systems create and interpret meaning; concerned with signs and significance in living systems."
+    },
+    {
+      "name": "Extended Evolutionary Synthesis",
+      "creator": null,
+      "context": "Evolutionary framework incorporating developmental plasticity, epigenetics, and inheritance mechanisms beyond standard neo-Darwinism."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "creator": "Susan Lindquist, Steve Frank",
+      "context": "Framework explaining robustness through neutral drift and competency mechanisms; hides genetic variation from selection."
+    },
+    {
+      "name": "Reservoir Computing",
+      "creator": null,
+      "context": "Machine learning approach using dynamical systems for on-the-fly computation; models biological interpretation of information."
+    },
+    {
+      "name": "Perceptual Control Theory",
+      "creator": null,
+      "context": "Framework where organisms control behavior through maintaining sensory input at reference levels rather than executing commands."
+    },
+    {
+      "name": "Predictive Processing",
+      "creator": null,
+      "context": "Framework where brain minimizes prediction errors through active reinterpretation; models adaptive cognition and development."
+    },
+    {
+      "name": "Heterophenomenology",
+      "creator": null,
+      "context": "Method for studying subjective experience through behavioral examination while remaining neutral about inner reality."
+    },
+    {
+      "name": "Enactive Cognition",
+      "creator": null,
+      "context": "Framework emphasizing cognition emerges from embodied interaction; related to epistemic vulnerability concept."
+    },
+    {
+      "name": "Cybernetic Perspective",
+      "creator": null,
+      "context": "Framework understanding self-regulation and feedback loops; relevant to homeostasis and boundary maintenance."
+    },
+    {
+      "name": "Radical Embodied Cognitive Science",
+      "creator": null,
+      "context": "Framework rejecting disembodied computation; emphasizes body and action as fundamental to cognition."
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "creator": null,
+      "context": "Mathematical framework analyzing competitive and cooperative dynamics; relevant to agent interactions and communication."
+    },
+    {
+      "name": "Downward Causation Framework",
+      "creator": null,
+      "context": "Framework understanding how higher-level patterns causally influence lower-level components in hierarchical systems."
+    },
+    {
+      "name": "Autopoietic Theory",
+      "creator": null,
+      "context": "Framework describing self-making systems and emergence of autonomous perspectives; relevant to minimal agency."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University where Michael Levin conducts research on developmental biology, morphogenesis, and diverse intelligence."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University housing the Allen Discovery Center; location of Michael Levin's Department of Biology."
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting Levin's research (Grant 62212) on fundamental questions in biology and cognition."
+    },
+    {
+      "name": "Air Force Office of Scientific Research (AFOSR)",
+      "type": "research-center",
+      "context": "Funding organization supporting Levin's research on Cognitive & Computational Neuroscience (Award FA9550-22-1-0465)."
+    },
+    {
+      "name": "Levin Lab",
+      "type": "research-center",
+      "context": "Research laboratory led by Michael Levin; collaborators contributed to discussions on memory, morphogenesis, and artificial life."
+    }
+  ],
+  "questions": [
+    {
+      "question": "If a species must change to survive but change destroys the original self, how does identity persist?",
+      "category": "metaphysics",
+      "context": "The Persistence Paradox; fundamental question driving exploration of self as process rather than substance."
+    },
+    {
+      "question": "How are memories stored, encoded, and remapped across radically different neural and bodily substrates?",
+      "category": "epistemology",
+      "context": "Core puzzle of memory transfer across metamorphosis, regeneration, and transplantation; challenges conventional substrate-specific storage models."
+    },
+    {
+      "question": "What mechanisms enable memories to preserve salience while adapting to completely different embodiments and environments?",
+      "category": "epistemology",
+      "context": "Question of how high-level wisdom generalizes across embodiments versus low-level details being specific to original form."
+    },
+    {
+      "question": "How can biological systems develop normally despite extreme variation in internal parts (polyploidy, missing cells, mutations)?",
+      "category": "metaphysics",
+      "context": "Paradox of robustness; questions how genetic details determine phenotypes if systems are indifferent to genetic variation."
+    },
+    {
+      "question": "What underlying parameters determine where species fall on the spectrum of morphological and cognitive plasticity?",
+      "category": "other",
+      "context": "Research question about evolution of competency mechanisms; relevant to understanding Planarian vs. C. elegans variation."
+    },
+    {
+      "question": "Are memories and information structures active agents with genuine agency, or only passive data structures?",
+      "category": "metaphysics",
+      "context": "Questions the boundary between data and computation; explores whether thoughts can be thinkers."
+    }
+
+=== ATTEMPTED FIX ===
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": ["Developmental Biology", "Cognitive Science", "Bioengineering"],
+      "context": "Author of the paper; researcher at Allen Discovery Center, Tufts University; focuses on memory, morphogenesis, and diverse intelligence across biological scales."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": ["Philosophy", "Psychology"],
+      "context": "Proposed that 'thoughts are thinkers'; foundational to Levin's concept of thoughts as active agents."
+    },
+    {
+      "name": "Sigmund Freud",
+      "aliases": [],
+      "domains": ["Psychology", "Psychoanalysis"],
+      "context": "Discussed memory traces being rearranged and re-transcribed according to fresh circumstances."
+    },
+    {
+      "name": "Heinz von Foerster",
+      "aliases": [],
+      "domains": ["Cybernetics", "Cognitive Science"],
+      "context": "Emphasized symmetry between foresight, hindsight, and insight; discussed recognition as dynamic inference process."
+    },
+    {
+      "name": "Daniel C. Dennett",
+      "aliases": [],
+      "domains": ["Philosophy of Mind", "Cognitive Science"],
+      "context": "Mentor to Levin; work relevant to consciousness and self-model discussions."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [],
+      "domains": ["Neuroscience", "Computational Neuroscience"],
+      "context": "Developer of Free Energy Principle; consulted on manuscript."
+    },
+    {
+      "name": "Josh Bongard",
+      "aliases": [],
+      "domains": ["Artificial Life", "Robotics"],
+      "context": "Conducted experiments on robots discovering their own shape and reusing information after damage."
+    },
+    {
+      "name": "David Glanzman",
+      "aliases": [],
+      "domains": ["Neuroscience", "Memory Research"],
+      "context": "Conducted memory transfer experiments with Aplysia nervous tissue extracts."
+    },
+    {
+      "name": "Eva Jablonka",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Epigenetics"],
+      "context": "Contributed to manuscript discussion on evolutionary mechanisms."
+    },
+    {
+      "name": "Stuart Kauffman",
+      "aliases": [],
+      "domains": ["Complex Systems", "Evolutionary Biology"],
+      "context": "Consulted on manuscript; relevant to complexity and self-organization discussions."
+    },
+    {
+      "name": "Donald Hoffman",
+      "aliases": [],
+      "domains": ["Perception Science", "Cognitive Science"],
+      "context": "Interface Theory of Perception; illustrates evolution's minimal emphasis on veridical perception."
+    },
+    {
+      "name": "Ricard Solé",
+      "aliases": [],
+      "domains": ["Complex Systems", "Collective Intelligence"],
+      "context": "Described ant colonies as 'liquid brains' with shifting connectivity patterns."
+    },
+    {
+      "name": "Mark Solms",
+      "aliases": [],
+      "domains": ["Neuroscience", "Consciousness Studies"],
+      "context": "Proposed consciousness relates to uncertainty about outside world; consulted on manuscript."
+    },
+    {
+      "name": "Anil Seth",
+      "aliases": [],
+      "domains": ["Neuroscience", "Consciousness Studies"],
+      "context": "Consulted on manuscript; relevant to consciousness discussions."
+    },
+    {
+      "name": "Susan Lindquist",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Genetics"],
+      "context": "Developed concepts of Constructive Neutral Evolution and paradox of robustness."
+    },
+    {
+      "name": "Chris Fields",
+      "aliases": [],
+      "domains": ["Theoretical Biology", "Information Theory"],
+      "context": "Provided insights on boundary thinking and shared semantics; consulted on manuscript."
+    },
+    {
+      "name": "Steve Frank",
+      "aliases": [],
+      "domains": ["Evolutionary Biology", "Genetics"],
+      "context": "Co-developed concepts of Constructive Neutral Evolution and paradox of robustness."
+    },
+    {
+      "name": "Carlos Gershenson",
+      "aliases": [],
+      "domains": ["Complex Systems", "Self-Organization"],
+      "context": "Consulted on manuscript; relevant to complex systems discussions."
+    },
+    {
+      "name": "Thomas Nagel",
+      "aliases": [],
+      "domains": ["Philosophy of Mind", "Consciousness"],
+      "context": "Proposed 'what it is like to be' framework; referenced for understanding subjective experience."
+    },
+    {
+      "name": "John Vervaeke",
+      "aliases": [],
+      "domains": ["Cognitive Science", "Philosophy"],
+      "context": "Consulted on manuscript; relevant to cognition and meaning-making discussions."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mnemonic Improvisation",
+      "aliases": ["Memory Remapping"],
+      "category": "cognitive",
+      "context": "Dynamic ability to rewrite and remap information (e.g., memories) onto new media and new contexts at behavioral, genetic, and physiological levels."
+    },
+    {
+      "name": "Confabulation",
+      "aliases": ["Creative Reinterpretation"],
+      "category": "cognitive",
+      "context": "Active modification and reinterpretation of memories and beliefs to preserve psychological coherence; occurs at molecular to behavioral levels."
+    },
+    {
+      "name": "Persistence Paradox",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The logical puzzle that if an organism doesn't change it dies out, but if it changes, the original self ceases to exist."
+    },
+    {
+      "name": "Epistemic Vulnerability",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The fundamental uncertainty and vulnerability of biological substrates to mutation, aging, decay, and external hacking; driver of adaptive architecture."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [],
+      "category": "ai",
+      "context": "Framework for understanding how systems minimize surprise and maintain coherent models of self and environment through active inference."
+    },
+    {
+      "name": "Anatta (Non-Self)",
+      "aliases": ["Non-Self", "Non-Duality of Self"],
+      "category": "buddhist",
+      "context": "Buddhist and Indic conception that the Self is not a static thing but a process; related to Process Philosophy solutions to the Persistence Paradox."
+    },
+    {
+      "name": "Thoughts As Agents",
+      "aliases": ["Active Information Structures"],
+      "category": "interdisciplinary",
+      "context": "Conceptualization of thoughts and memories as active entities that facilitate their own transformation across cognitive architectures."
+    },
+    {
+      "name": "Bowtie Architecture",
+      "aliases": ["Compression-Expansion Architecture"],
+      "category": "ai",
+      "context": "Information architecture featuring low-dimensional compressed medium with active decoding and context-sensitive interpretation; found in development and machine learning autoencoders."
+    },
+    {
+      "name": "Polycomputation",
+      "aliases": ["Multi-Observer Interpretation"],
+      "category": "cognitive",
+      "context": "Observer-first framework where same physical processes can be interpreted as computing different functions by different observers; ubiquitous in biological systems."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": ["Minimal Cognition"],
+      "category": "cognitive",
+      "context": "Cognitive capacities present at subcellular and cellular levels; problem-solving competencies that emerge from biological necessity."
+    },
+    {
+      "name": "Diverse Intelligence",
+      "aliases": [],
+      "category": "ai",
+      "context": "Emerging field seeking symmetries among agents regardless of composition, spatiotemporal scale, or origin; explores relationship between life and cognition."
+    },
+    {
+      "name": "Engrams",
+      "aliases": ["Memory Traces", "Memory Patterns"],
+      "category": "cognitive",
+      "context": "Physical or informational traces left by past neural or biological activity; interpreted dynamically rather than simply read out."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": ["Developmental Pattern Formation"],
+      "category": "cognitive",
+      "context": "Process of biological form generation and body organization; guided by bioelectric patterns and involves adaptive reinterpretation of genetic information."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": ["Adaptive Flexibility"],
+      "category": "cognitive",
+      "context": "Capacity of biological systems to modify structure and function in response to novel circumstances and changing internal/external conditions."
+    },
+    {
+      "name": "Agency",
+      "aliases": ["Agential Property"],
+      "category": "interdisciplinary",
+      "context": "Property of systems to have causally important effects through reinterpretation and meaningful response to signals; ontologically real for patterns and information structures."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": ["Self-Representation"],
+      "category": "cognitive",
+      "context": "Internal model that a system maintains about itself; continuously constructed and updated to preserve perceived autonomy and coherence."
+    },
+    {
+      "name": "Pattern Memory",
+      "aliases": ["Bioelectric Pattern", "Morphogenetic Memory"],
+      "category": "cognitive",
+      "context": "Large-scale biological patterns encoding information about body structure and organization; can be transferred between organisms and remapped."
+    },
+    {
+      "name": "Biosemiotics",
+      "aliases": ["Biological Meaning-Making"],
+      "category": "cognitive",
+      "context": "Study of how meaning is created and interpreted among and within biological agents; concerned with signs, significance, and interpretation."
+    },
+    {
+      "name": "Interface Theory of Perception",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that perception evolved not for veridical representation but as an adaptive interface; prioritizes fitness over accuracy."
+    },
+    {
+      "name": "Inpainting",
+      "aliases": ["Pattern Completion"],
+      "category": "cognitive",
+      "context": "Process by which brain fills in missing perceptual information based on surrounding context; editing both current and past sensory data."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Systems that predict incoming stimuli and modify interpretation accordingly; demonstrate active reconstruction of experience."
+    },
+    {
+      "name": "Heterophenomenology",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Approach to understanding subjective experience by examining observable behavior and reports while remaining agnostic about inner reality."
+    },
+    {
+      "name": "Metamorphosis",
+      "aliases": ["Radical Developmental Transformation"],
+      "category": "cognitive",
+      "context": "Process of drastic remodeling of body and nervous system (e.g., caterpillar to butterfly) while maintaining some memories and learning."
+    },
+    {
+      "name": "Planarian Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Capacity of planarian flatworms to regenerate entire organisms from tiny fragments while maintaining or remapping memories and body plan."
+    },
+    {
+      "name": "Xenobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Spontaneously emergent living robots created from frog embryo cells; exhibit novel forms and behaviors beyond genetic programming."
+    },
+    {
+      "name": "Anthrobots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Living robots created from human cells; demonstrate adaptability and problem-solving in novel embodiments."
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": ["Bioelectric Potential", "Resting Potential"],
+      "category": "cognitive",
+      "context": "Electrical gradient across cell membranes; encodes large-scale morphogenetic information and can trigger complex patterning responses."
+    },
+    {
+      "name": "Regulative Development",
+      "aliases": ["Epimorphic Development"],
+      "category": "cognitive",
+      "context": "Developmental capacity to produce normal outcomes despite variation in initial conditions; involves remapping and reinterpretation."
+    },
+    {
+      "name": "Anatomical Morphospace",
+      "aliases": ["Body Form Space"],
+      "category": "cognitive",
+      "context": "Abstract space of possible body forms and configurations; non-neural cells navigate this space using problem-solving competencies analogous to neural navigation of 3D space."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "High-level goal state or target condition that biological systems work to maintain; guides lower-level physiological processes."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": ["Top-Down Causation"],
+      "category": "interdisciplinary",
+      "context": "Causal influence of higher-level patterns and properties on lower-level components; relevant to how morphogenetic goals guide molecular events."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": ["Suffering", "Unsatisfactoriness"],
+      "category": "buddhist",
+      "context": "Buddhist concept of fundamental unsatisfactoriness of conditioned existence; passes through developmental compression/expansion cycles."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [],
+      "category": "ai",
+      "context": "Process by which agents actively modify their environment and perception to minimize surprise and resolve uncertainty."
+    },
+    {
+      "name": "Self As Process",
+      "aliases": ["Process Philosophy of Self"],
+      "category": "interdisciplinary",
+      "context": "Conception of self as dynamic process rather than static entity; continuously maintained by agents under energy and time constraints."
+    },
+    {
+      "name": "Consciousness As Uncertainty",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Hypothesis that consciousness relates to dealing with uncertainty about both external world and internal states and memories."
+    },
+    {
+      "name": "Affordances",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Properties or potentials of environment and internal components that agents can exploit; hacked and reused by biological systems."
+    },
+    {
+      "name": "Strange Loop",
+      "aliases": ["Self-Reference", "Self-Reification"],
+      "category": "interdisciplinary",
+      "context": "Self-referential causal loops through which patterns maintain and reinforce their own existence and boundaries."
+    },
+    {
+      "name": "Computational Boundary Of Self",
+      "aliases": ["Cognitive Boundary", "Self-Boundary"],
+      "category": "cognitive",
+      "context": "Dynamically maintained boundary between self and non-self; continuously adjusted based on integrated information and interpretation."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": ["Distributed Cognition", "Swarm Intelligence"],
+      "category": "cognitive",
+      "context": "Intelligence arising from collective behavior of multiple agents (neurons, cells, organisms); implemented through multi-scale interactions."
+    },
+    {
+      "name": "Senome",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Complete set of sensory and informational resources available to a system; can be exploited for memory and pattern interpretation."
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": ["Phi (Φ)"],
+      "category": "ai",
+      "context": "Measure of integrated information in systems; potentially increased by memory formation, relevant to self-coherence."
+    },
+    {
+      "name": "Reservoir Computing",
+      "aliases": [],
+      "category": "ai",
+      "context": "Machine learning approach using dynamical systems with many degrees of freedom; models how biological structures interpret information on the fly."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Evolutionary mechanism where robustness mechanisms hide genetic variation from selection, enabling evolution of adaptive competencies."
+    },
+    {
+      "name": "Evo-Eco",
+      "aliases": ["Evolutionary Ecology"],
+      "category": "cognitive",
+      "context": "Framework combining r vs. K selection strategies with morphogenetic/cognitive plasticity as strategic parameter."
+    },
+    {
+      "name": "Associative Memory",
+      "aliases": ["Associative Learning"],
+      "category": "cognitive",
+      "context": "Memory linking distinct experiences or stimuli; emerges at collective scale and helps reify organism as unified agent."
+    },
+    {
+      "name": "Virtual Governor",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concept related to cybernetic control mechanisms; maintains homeostasis and coherence of system despite variable components."
+    },
+    {
+      "name": "Federated Inference",
+      "aliases": ["Collective Belief-Sharing"],
+      "category": "interdisciplinary",
+      "context": "Process where multiple agents share and propagate beliefs or interpretations; memories resonate across multiple cognizers."
+    },
+    {
+      "name": "Metastable Pattern",
+      "aliases": ["Persistent Dynamic Pattern"],
+      "category": "cognitive",
+      "context": "Temporarily stable pattern in excitable medium that maintains coherence without fixed substrate; model for minimal selfhood."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Abstract space of possible states and configurations relevant to an agent's problem-solving; navigated through intelligent adaptation."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": ["Embodied Mind", "Enactive Cognition"],
+      "category": "cognitive",
+      "context": "Concept that cognition is fundamentally tied to bodily form and interaction; different embodiments require remapping of meanings."
+    },
+    {
+      "name": "Enactive Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Philosophical approach emphasizing role of action and perception in cognition; related to epistemic vulnerability."
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [],
+      "category": "ai",
+      "context": "Feedback loop where perception guides action which modifies environment and perception; fundamental to intelligent systems."
+    },
+    {
+      "name": "Competency",
+      "aliases": ["Problem-Solving Capacity"],
+      "category": "cognitive",
+      "context": "Ability to reach same goal by different means as necessary; observable capacity for adaptive achievement."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": ["Morphological Restoration"],
+      "category": "cognitive",
+      "context": "Process of restoring lost body parts or entire organisms; demonstrates remapping capacity and regulative development."
+    },
+    {
+      "name": "Emergence",
+      "aliases": ["Emergent Property"],
+      "category": "interdisciplinary",
+      "context": "Property arising from collective interactions that is not present in individual components; relevant to mind and self."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": ["Cognitive Competency"],
+      "category": "cognitive",
+      "context": "Publicly observable degree of competency at reaching same goal by different means; depends on perspective of observer."
+    },
+    {
+      "name": "Radical Embodied Cognitive Science",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework emphasizing body and action as fundamental to cognition; rejects disembodied computation models."
+    },
+    {
+      "name": "Heterarchy",
+      "aliases": ["Circular Hierarchy"],
+      "category": "interdisciplinary",
+      "context": "System of mutual influence where elements relate cyclically without clear hierarchical ordering; applies to thought and agency."
+    },
+    {
+      "name": "Stigmergic Note",
+      "aliases": ["Stigmergy"],
+      "category": "cognitive",
+      "context": "Information left in environment or substrate by past agent; enables indirect coordination and communication across time."
+    },
+    {
+      "name": "Selflet",
+      "aliases": ["Temporal Slice of Self"],
+      "category": "cognitive",
+      "context": "Discrete temporal slice or frame of conscious experience; approximately few hundred milliseconds thick; communicates with other selflets via memories."
+    },
+    {
+      "name": "4D Physiology",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Approach studying physiology across spatial and temporal dimensions; emerging tool for testing hypotheses about pattern-based cognition."
+    },
+    {
+      "name": "Perceptual Control Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that behavior is controlled through maintaining sensory input at desired reference levels; relevant to goal-directed adaptation."
+    },
+    {
+      "name": "Predictive Processing",
+      "aliases": ["Prediction Error Minimization"],
+      "category": "cognitive",
+      "context": "Framework where brain minimizes prediction errors; involves active reinterpretation similar to downward causation in development."
+    },
+    {
+      "name": "Extended Evolutionary Synthesis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Expanded evolutionary framework incorporating developmental plasticity, epigenetics, and inheritance of acquired traits."
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Mathematical study of competitive and cooperative dynamics; relevant to communication and conflict between agents."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cellular dysfunction threatening self-maintenance; represents vulnerability requiring adaptive reinterpretation and repair mechanisms."
+    },
+    {
+      "name": "Anterograde Amnesia",
+      "aliases": ["Forward-Looking Memory Loss"],
+      "category": "cognitive",
+      "context": "Inability to form new memories; patients use external notepads demonstrating remapping of memory function to different substrates."
+    },
+    {
+      "name": "Commissurotomy",
+      "aliases": ["Split-Brain Surgery"],
+      "category": "cognitive",
+      "context": "Surgical separation of corpus callosum; produces confabulation as brain hemispheres interpret each other's actions."
+    },
+    {
+      "name": "Ectopic Organ Formation",
+      "aliases": ["Ectopic Induction"],
+      "category": "cognitive",
+      "context": "Spontaneous formation of organs in novel locations due to bioelectric or biochemical signals; demonstrates interpretive plasticity."
+    },
+    {
+      "name": "Infotaxis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Active seeking of information and novelty to overcome maladaptive over-fitting to current models."
+    },
+    {
+      "name": "Polymixis",
+      "aliases": ["Polyploidy"],
+      "category": "cognitive",
+      "context": "Cells with varying chromosome numbers; develop normally despite genetic variation through adaptive interpretation."
+    },
+    {
+      "name": "Individuality",
+      "aliases": ["Individual Agent", "Living Individual"],
+      "category": "interdisciplinary",
+      "context": "Property of being a coherent, self-maintaining entity; exists at multiple scales from cells to lineages."
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": ["Self-Making", "Self-Production"],
+      "category": "interdisciplinary",
+      "context": "Process by which systems produce and maintain themselves; related to emergence of autopoietic perspectives and agency."
+    },
+    {
+      "name": "Tulpamancy",
+      "aliases": ["Tulpa"],
+      "category": "cognitive",
+      "context": "Practice of creating persistent thoughtforms through concentrated attention; represents metastable patterns with agency."
+    },
+    {
+      "name": "Dissociative Identity Disorder",
+      "aliases": ["Multiple Personality Disorder"],
+      "category": "cognitive",
+      "context": "Condition involving multiple distinct personalities; exemplifies extreme continuity of thoughts as agents with increasing autonomy."
+    },
+    {
+      "name": "Credit Assignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Problem of determining which actions led to outcomes; relevant to how stress responses are attributed across physiological systems."
+    },
+    {
+      "name": "Modular Subroutines",
+      "aliases": ["Modular Functions"],
+      "category": "cognitive",
+      "context": "Reusable functional modules called as needed; biological systems swap different modules to achieve same goals under different constraints."
+    },
+    {
+      "name": "Dynamical Systems",
+      "aliases": [],
+      "category": "ai",
+      "context": "Mathematical systems describing time-dependent behavior; used to model cognition and memory without static storage."
+    },
+    {
+      "name": "Integrated Stress Response",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Coordinated physiological response to stress across multiple systems; demonstrates credit assignment and adaptive interpretation."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Free Energy Principle",
+      "creator": "Karl Friston",
+      "context": "Framework for understanding how biological systems minimize surprise and model uncertainty; central to understanding adaptive reinterpretation."
+    },
+    {
+      "name": "Bowtie Architecture",
+      "creator": null,
+      "context": "Information compression model with bottleneck hub; found in development, autoencoders, and communication; enables creative reinterpretation."
+    },
+    {
+      "name": "Process Philosophy",
+      "creator": null,
+      "context": "Philosophical framework viewing reality as fundamentally process rather than substance; solution to Persistence Paradox."
+    },
+    {
+      "name": "Interface Theory of Perception",
+      "creator": "Donald Hoffman",
+      "context": "Theory that perception evolved as adaptive interface rather than for veridical representation of reality."
+    },
+    {
+      "name": "Polycomputing",
+      "creator": null,
+      "context": "Observer-first framework where same physical processes compute different functions depending on interpretation perspective."
+    },
+    {
+      "name": "Collective Intelligence Framework",
+      "creator": null,
+      "context": "Framework analyzing how cognition emerges from multi-scale interactions of minimal agents with competing and cooperating agendas."
+    },
+    {
+      "name": "Diverse Intelligence Paradigm",
+      "creator": null,
+      "context": "Emerging research program seeking symmetries in cognition across different substrates, scales, and origins."
+    },
+    {
+      "name": "Biosemiotics",
+      "creator": null,
+      "context": "Framework studying how biological systems create and interpret meaning; concerned with signs and significance in living systems."
+    },
+    {
+      "name": "Extended Evolutionary Synthesis",
+      "creator": null,
+      "context": "Evolutionary framework incorporating developmental plasticity, epigenetics, and inheritance mechanisms beyond standard neo-Darwinism."
+    },
+    {
+      "name": "Constructive Neutral Evolution",
+      "creator": "Susan Lindquist, Steve Frank",
+      "context": "Framework explaining robustness through neutral drift and competency mechanisms; hides genetic variation from selection."
+    },
+    {
+      "name": "Reservoir Computing",
+      "creator": null,
+      "context": "Machine learning approach using dynamical systems for on-the-fly computation; models biological interpretation of information."
+    },
+    {
+      "name": "Perceptual Control Theory",
+      "creator": null,
+      "context": "Framework where organisms control behavior through maintaining sensory input at reference levels rather than executing commands."
+    },
+    {
+      "name": "Predictive Processing",
+      "creator": null,
+      "context": "Framework where brain minimizes prediction errors through active reinterpretation; models adaptive cognition and development."
+    },
+    {
+      "name": "Heterophenomenology",
+      "creator": null,
+      "context": "Method for studying subjective experience through behavioral examination while remaining neutral about inner reality."
+    },
+    {
+      "name": "Enactive Cognition",
+      "creator": null,
+      "context": "Framework emphasizing cognition emerges from embodied interaction; related to epistemic vulnerability concept."
+    },
+    {
+      "name": "Cybernetic Perspective",
+      "creator": null,
+      "context": "Framework understanding self-regulation and feedback loops; relevant to homeostasis and boundary maintenance."
+    },
+    {
+      "name": "Radical Embodied Cognitive Science",
+      "creator": null,
+      "context": "Framework rejecting disembodied computation; emphasizes body and action as fundamental to cognition."
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "creator": null,
+      "context": "Mathematical framework analyzing competitive and cooperative dynamics; relevant to agent interactions and communication."
+    },
+    {
+      "name": "Downward Causation Framework",
+      "creator": null,
+      "context": "Framework understanding how higher-level patterns causally influence lower-level components in hierarchical systems."
+    },
+    {
+      "name": "Autopoietic Theory",
+      "creator": null,
+      "context": "Framework describing self-making systems and emergence of autonomous perspectives; relevant to minimal agency."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Research center at Tufts University where Michael Levin conducts research on developmental biology, morphogenesis, and diverse intelligence."
+    },
+    {
+      "name": "Tufts University",
+      "type": "university",
+      "context": "University housing the Allen Discovery Center; location of Michael Levin's Department of Biology."
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting Levin's research (Grant 62212) on fundamental questions in biology and cognition."
+    },
+    {
+      "name": "Air Force Office of Scientific Research (AFOSR)",
+      "type": "research-center",
+      "context": "Funding organization supporting Levin's research on Cognitive & Computational Neuroscience (Award FA9550-22-1-0465)."
+    },
+    {
+      "name": "Levin Lab",
+      "type": "research-center",
+      "context": "Research laboratory led by Michael Levin; collaborators contributed to discussions on memory, morphogenesis, and artificial life."
+    }
+  ],
+  "questions": [
+    {
+      "question": "If a species must change to survive but change destroys the original self, how does identity persist?",
+      "category": "metaphysics",
+      "context": "The Persistence Paradox; fundamental question driving exploration of self as process rather than substance."
+    },
+    {
+      "question": "How are memories stored, encoded, and remapped across radically different neural and bodily substrates?",
+      "category": "epistemology",
+      "context": "Core puzzle of memory transfer across metamorphosis, regeneration, and transplantation; challenges conventional substrate-specific storage models."
+    },
+    {
+      "question": "What mechanisms enable memories to preserve salience while adapting to completely different embodiments and environments?",
+      "category": "epistemology",
+      "context": "Question of how high-level wisdom generalizes across embodiments versus low-level details being specific to original form."
+    },
+    {
+      "question": "How can biological systems develop normally despite extreme variation in internal parts (polyploidy, missing cells, mutations)?",
+      "category": "metaphysics",
+      "context": "Paradox of robustness; questions how genetic details determine phenotypes if systems are indifferent to genetic variation."
+    },
+    {
+      "question": "What underlying parameters determine where species fall on the spectrum of morphological and cognitive plasticity?",
+      "category": "other",
+      "context": "Research question about evolution of competency mechanisms; relevant to understanding Planarian vs. C. elegans variation."
+    },
+    {
+      "question": "Are memories and information structures active agents with genuine agency, or only passive data structures?",
+      "category": "metaphysics",
+      "context": "Questions the boundary between data and computation; explores whether thoughts can be thinkers."
+    }

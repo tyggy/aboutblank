@@ -1,0 +1,1541 @@
+{
+  "thinkers": [
+    {
+      "name": "Michael Levin",
+      "aliases": [],
+      "domains": [
+        "Developmental Biology",
+        "Cognitive Science",
+        "Bioengineering",
+        "Philosophy of Mind"
+      ],
+      "context": "Primary author proposing the TAME framework for understanding diverse minds in unconventional substrates, working at Allen Discovery Center at Tufts University and Wyss Institute at Harvard."
+    },
+    {
+      "name": "Eva Jablonka",
+      "aliases": [],
+      "domains": [
+        "Evolutionary Biology",
+        "Cognitive Science"
+      ],
+      "context": "Editor of the paper, affiliated with Tel Aviv University."
+    },
+    {
+      "name": "Paul Lyon",
+      "aliases": [],
+      "domains": [
+        "Basal Cognition",
+        "Philosophy of Biology"
+      ],
+      "context": "Cited for work on less conservative definitions of cognition and diverse capacities for learning."
+    },
+    {
+      "name": "Giovanni Pezzulo",
+      "aliases": [],
+      "domains": [
+        "Cognitive Science",
+        "Active Inference"
+      ],
+      "context": "Co-author with Levin on morphogenesis and cognitive scaling, contributing to theoretical foundations of TAME."
+    },
+    {
+      "name": "Francis Baluska",
+      "aliases": [],
+      "domains": [
+        "Plant Cognition",
+        "Basal Cognition"
+      ],
+      "context": "Contributor to understanding diverse minds in unconventional material implementations."
+    },
+    {
+      "name": "Daniel Dennett",
+      "aliases": [],
+      "domains": [
+        "Philosophy of Mind"
+      ],
+      "context": "Originator of the Intentional Stance concept, which TAME builds upon and makes more explicit."
+    },
+    {
+      "name": "David Chalmers",
+      "aliases": [],
+      "domains": [
+        "Philosophy of Consciousness"
+      ],
+      "context": "Associated with the 'Hard Problem' of consciousness, referenced in discussion of phenomenal consciousness."
+    },
+    {
+      "name": "William James",
+      "aliases": [],
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "context": "Referenced for his definition of minimal mentality: 'fixed ends with varying means' as a test for goal-directed systems."
+    },
+    {
+      "name": "Denis Noble",
+      "aliases": [],
+      "domains": [
+        "systems biology"
+      ],
+      "context": "Cited regarding the problem of privileging molecular biology as the sole level of explanation."
+    },
+    {
+      "name": "Karl Friston",
+      "aliases": [
+        "K. Friston",
+        "K. J. Friston"
+      ],
+      "domains": [
+        "neuroscience",
+        "computational neuroscience"
+      ],
+      "context": "Referenced for free energy principle and surprise minimization framework applicable to homeostatic systems."
+    },
+    {
+      "name": "Fred Keijzer",
+      "aliases": [],
+      "domains": [
+        "philosophy of cognitive science",
+        "neuroscience"
+      ],
+      "context": "Cited for work on nervous systems as spatial organizers and evolution of neural function from bioelectric circuits."
+    },
+    {
+      "name": "Aisun Tseng",
+      "aliases": [],
+      "domains": [
+        "developmental biology"
+      ],
+      "context": "Collaborator on research regarding alternative developmental pathways in regeneration."
+    },
+    {
+      "name": "Douglas Blackiston",
+      "aliases": [],
+      "domains": [
+        "developmental biology",
+        "bioelectricity"
+      ],
+      "context": "Collaborator on research with tadpoles and eye regeneration in novel locations."
+    },
+    {
+      "name": "Erin Switzer",
+      "aliases": [],
+      "domains": [
+        "developmental biology"
+      ],
+      "context": "Collaborator on research regarding embryonic development and organ rearrangement."
+    },
+    {
+      "name": "David Power",
+      "aliases": [],
+      "domains": [
+        "cognitive science",
+        "evolution"
+      ],
+      "context": "Referenced for work on multi-scale competency and credit assignment in evolutionary learning."
+    },
+    {
+      "name": "Eörs Szathmáry",
+      "aliases": [],
+      "domains": [
+        "evolutionary biology",
+        "complexity"
+      ],
+      "context": "Cited for work on major transitions in evolution and game theory in biological interactions."
+    },
+    {
+      "name": "Nick Bostrom",
+      "aliases": [],
+      "domains": [
+        "AI safety",
+        "existential risk"
+      ],
+      "context": "Author cited for work on superintelligence and existential risks from advanced AI systems"
+    },
+    {
+      "name": "Thomas Nagel",
+      "aliases": [
+        "T. Nagel"
+      ],
+      "domains": [
+        "philosophy of mind"
+      ],
+      "context": "Philosopher referenced for the question 'What is it like to be' regarding subjective experience"
+    },
+    {
+      "name": "Giovanni Pezzolo",
+      "aliases": [
+        "G. Pezzolo"
+      ],
+      "domains": [
+        "cognitive science",
+        "active inference"
+      ],
+      "context": "Collaborator on active inference and predictive processing frameworks"
+    },
+    {
+      "name": "Christopher Fields",
+      "aliases": [
+        "C. Fields"
+      ],
+      "domains": [
+        "systems biology",
+        "consciousness"
+      ],
+      "context": "Researcher on cellular computation and cognitive architectures"
+    },
+    {
+      "name": "Joshua Bongard",
+      "aliases": [
+        "J. Bongard"
+      ],
+      "domains": [
+        "robotics",
+        "artificial life"
+      ],
+      "context": "Collaborator on synthetic living organisms and xenobots"
+    },
+    {
+      "name": "Robert Rosen",
+      "aliases": [],
+      "domains": [
+        "theoretical biology",
+        "anticipatory systems"
+      ],
+      "context": "Theorist whose (M,R) framework and anticipatory systems theory inform TAME development"
+    },
+    {
+      "name": "Dennis Noble",
+      "aliases": [
+        "D. Noble"
+      ],
+      "domains": [
+        "systems biology",
+        "biophysics"
+      ],
+      "context": "Proposes theory of biological relativity and no privileged level of causation in biological systems."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Technological Approach to Mind Everywhere",
+      "aliases": [
+        "TAME"
+      ],
+      "category": "interdisciplinary",
+      "context": "A framework for understanding and manipulating cognition in unconventional substrates, formalizing a non-binary, empirically-based approach to embodied mind."
+    },
+    {
+      "name": "Basal Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Recognition of diverse capacities for learning, adaptation, and problem-solving in single cells, plants, tissues, and swarms beyond conventional animal cognition."
+    },
+    {
+      "name": "Embodied Mind",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The view that minds are dependent on a highly plastic material substrate that changes both during evolution and within an individual's lifetime."
+    },
+    {
+      "name": "Morphogenesis",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "The developmental process by which cells cooperate to build complex structures; proposed as an example of basal cognition and collective intelligence."
+    },
+    {
+      "name": "Developmental Bioelectricity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Pre-neural use of ion channels and gap junctions to scale up cell-level feedback loops into anatomical homeostasis and coordinate collective behavior."
+    },
+    {
+      "name": "Animal Sentience",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Viewed as an instance of collective intelligence of cell groups, arising from dynamics that manifest in similar ways across numerous substrates."
+    },
+    {
+      "name": "Consciousness",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Discussed as likely dependent on understanding cognition; emphasis on testable, empirical approaches rather than phenomenal consciousness alone."
+    },
+    {
+      "name": "Agency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The capacity to pursue goals and serve as a locus for credit assignment; exists on a continuum rather than as a binary property."
+    },
+    {
+      "name": "Self",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Defined as an integrated system capable of pursuing goals, owning compound memories, and serving as subject of rewards; malleable across an agent's lifetime."
+    },
+    {
+      "name": "Plasticity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The degree to which bodies, brains, and minds can change and adapt during an individual's lifetime, independent of evolutionary timescales."
+    },
+    {
+      "name": "Gradualism",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The philosophical commitment that advanced minds arise continuously from humble proto-cognitive systems with no bright line separating true cognition from physics."
+    },
+    {
+      "name": "Teleonomy",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Goal-directedness or purpose-like behavior in biological systems; fundamental to understanding agency and scaling of selves."
+    },
+    {
+      "name": "Homeostasis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The minimal component of agency; the ability to execute feedback loops comparing current state to setpoints and adjusting via effectors."
+    },
+    {
+      "name": "Homeostasis and Homeodynamics",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Expansion of basic homeostatic mechanisms to include dynamic, adaptive regulation at multiple scales."
+    },
+    {
+      "name": "Anatomical Homeostasis",
+      "aliases": [],
+      "context": "The ability of living systems to adjust and remodel to specific target morphologies through feedback loops.",
+      "category": "cognitive"
+    },
+    {
+      "name": "Multi-Scale Competency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The architecture of biological systems enabling competent problem-solving at multiple scales of organization."
+    },
+    {
+      "name": "Evolvability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The capacity of biological systems to evolve and adapt; potentiated by multi-scale competency and plasticity."
+    },
+    {
+      "name": "Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Process by which organisms rebuild lost or damaged structures; demonstrates cognitive capacities in morphogenetic space."
+    },
+    {
+      "name": "Synthetic Morphology",
+      "aliases": [],
+      "category": "ai",
+      "context": "Engineering approach to creating novel body forms and cognitive systems through bioengineering."
+    },
+    {
+      "name": "Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Defined as the degree of competency in navigating any space toward desirable regions while avoiding local minima; observer-dependent."
+    },
+    {
+      "name": "Competency",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The ability of a system or component to solve problems effectively within its domain or space."
+    },
+    {
+      "name": "Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Functional computations between perception and action enabling agents to span wider temporal ranges through memory and prediction."
+    },
+    {
+      "name": "Collective Intelligence",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The emergent intelligence arising from interactions of multiple competent subunits or agents."
+    },
+    {
+      "name": "Problem Space",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The space of possible states or configurations that an agent navigates; includes behavioral, transcriptional, physiological, and morphogenetic spaces."
+    },
+    {
+      "name": "Morphospace",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The space of possible anatomical forms and configurations that agents can navigate during development and evolution."
+    },
+    {
+      "name": "Gene Regulatory Networks",
+      "aliases": [
+        "GRNs"
+      ],
+      "category": "cognitive",
+      "context": "Networks of genes controlling each other; shown to exhibit learning capacity and problem-solving in transcriptional space."
+    },
+    {
+      "name": "Planarian Regeneration",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Regenerative capacity of planaria to rebuild entire organisms from fragments; demonstrates memory transfer and cognitive plasticity."
+    },
+    {
+      "name": "Metamorphosis",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Radical biological remodeling during organism's lifetime (e.g., caterpillar to butterfly) while maintaining cognitive continuity."
+    },
+    {
+      "name": "Dukkha",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Stress or suffering as a system-level response to deviation from goals; proposed as the glue binding agency and enabling cognitive scaling."
+    },
+    {
+      "name": "Stress as Error Signal",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "System-level stress response indicating difference between current state and desired setpoint, enabling homeostatic regulation."
+    },
+    {
+      "name": "Persuadability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The degree to which a system's behavior can be modified through increasingly sophisticated interventions, from physical rewiring to rational argument."
+    },
+    {
+      "name": "Intentional Stance",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework treating properties as observer-dependent and empirically testable; basis for TAME's practical approach to agency."
+    },
+    {
+      "name": "Downward Causation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Higher-level system constraints affecting lower-level components' behavior; enables multi-scale agency and problem-solving."
+    },
+    {
+      "name": "Cybernetics",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Study of control and communication in systems; foundational to understanding goal-directed activity and feedback loops."
+    },
+    {
+      "name": "Cybernetic Perception-Action Loop",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Feedback system integrating perception, goal representation, action, and correction to achieve goal states."
+    },
+    {
+      "name": "Chimeras",
+      "aliases": [],
+      "category": "ai",
+      "context": "Bioengineered organisms combining evolved and designed material, software, and biological components in novel configurations."
+    },
+    {
+      "name": "Hybrots",
+      "aliases": [],
+      "category": "ai",
+      "context": "Hybrid systems where animal brains are functionally connected to robotic bodies instead of biological ones."
+    },
+    {
+      "name": "Cyborg",
+      "aliases": [],
+      "category": "ai",
+      "context": "Integration of biological and mechanical/electronic components into a unified system."
+    },
+    {
+      "name": "Artificial Life",
+      "aliases": [],
+      "category": "ai",
+      "context": "Creation of embodied cognitive systems in diverse chimeric architectures combining evolved and designed materials."
+    },
+    {
+      "name": "Identity",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Continuity of self across biological and cognitive changes; relates to dissociative identity disorder and split-brain phenomena."
+    },
+    {
+      "name": "Extended Mind",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concept that mind extends beyond brain into body and external tools; relevant to understanding multi-scale agency."
+    },
+    {
+      "name": "Active Inference",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework where agents act to confirm predictions and minimize surprise rather than merely responding to stimuli."
+    },
+    {
+      "name": "Associative Learning",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ability to learn associations between stimuli; one marker of cognitive capacity that ramps up through evolution."
+    },
+    {
+      "name": "Engrams",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Molecular or physical substrates of memory; can be transferred between individuals or remapped onto new neural tissue."
+    },
+    {
+      "name": "Credit Assignment Problem",
+      "aliases": [],
+      "category": "ai",
+      "context": "Problem of determining which actions or components deserve reward or punishment; central to understanding agency."
+    },
+    {
+      "name": "Self-Model",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Internal model an agent constructs of itself and its body; enables somatotopic mapping and self-awareness."
+    },
+    {
+      "name": "Umwelt",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "An organism's subjective perceptual world; unique to each agent based on its embodiment and capacities."
+    },
+    {
+      "name": "Evolutionary Transitions in Individuality",
+      "aliases": [
+        "ETIs"
+      ],
+      "category": "cognitive",
+      "context": "Major transitions where new levels of organization and integration emerge, enabling new forms of agency."
+    },
+    {
+      "name": "Extended Inheritance",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Non-genetic inheritance mechanisms including epigenetic and cultural transmission of information."
+    },
+    {
+      "name": "Bottom-Up Control",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Control through manipulation of physical hardware or low-level components; least sophisticated intervention strategy."
+    },
+    {
+      "name": "Commissurotomy",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Surgical procedure cutting connections between brain hemispheres; reveals plasticity of integrated selves."
+    },
+    {
+      "name": "Individuality",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Quality of being a distinct, bounded agent with integrated goal-pursuit and memory systems."
+    },
+    {
+      "name": "Computational Boundary of Self",
+      "aliases": [
+        "Cognitive Light Cone"
+      ],
+      "category": "cognitive",
+      "context": "The spatio-temporal extent of states an agent can represent, care about, and work toward; defines cognitive scope."
+    },
+    {
+      "name": "The Self As Computational Boundary",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Concept that selfhood is defined by the boundary of computational integration and goal-pursuit scope."
+    },
+    {
+      "name": "Homeostatic Loops",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Basic feedback cycles comparing state to setpoint and generating corrective actions."
+    },
+    {
+      "name": "Homeostatic Setpoint",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Target state or configuration toward which a homeostatic system works; varies across scales and contexts."
+    },
+    {
+      "name": "Anatomical Target",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Specific morphological goal state that cells cooperate to achieve and maintain during development and regeneration."
+    },
+    {
+      "name": "Cognitive Scaling",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Process by which cognitive capacities increase through scaling mechanisms that bind sub-agents into larger coherent systems."
+    },
+    {
+      "name": "Axis of Persuadability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Continuum representing how systems can be influenced from brute physical rewiring to rational argument."
+    },
+    {
+      "name": "Sensory Substitution",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Augmentation of human perception with novel sensory inputs, demonstrating plasticity of embodied cognition."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Systems capable of prediction and forward planning; component of cognitive sophistication."
+    },
+    {
+      "name": "Pattern Memory",
+      "aliases": [
+        "bioelectric pattern memory"
+      ],
+      "category": "cognitive",
+      "context": "Experience-dependent, rewritable information stored in bioelectric patterns that specifies target anatomy independent of current configuration."
+    },
+    {
+      "name": "Membrane Potential",
+      "aliases": [
+        "Vmem",
+        "voltage",
+        "bioelectric voltage"
+      ],
+      "category": "cognitive",
+      "context": "The electrical potential difference across cell membranes that encodes information and coordinates cellular behavior during development."
+    },
+    {
+      "name": "Ion Channels",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Proteins that regulate the movement of ions across cell membranes and form the hardware basis for bioelectric computation."
+    },
+    {
+      "name": "Gap Junctions",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Protein channels that enable direct electrical and metabolic communication between adjacent cells, forming the basis for collective computation."
+    },
+    {
+      "name": "Bioelectric Prepattern",
+      "aliases": [
+        "bioelectric pattern"
+      ],
+      "category": "cognitive",
+      "context": "Spatial voltage distributions that instruct cells about their role in forming specific organs or body structures."
+    },
+    {
+      "name": "Bioelectrical Signaling",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Communication and information processing through bioelectric states that regulate gene expression and cell behavior during development."
+    },
+    {
+      "name": "Counterfactual Representation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Information that represents what should happen under hypothetical conditions rather than current observable states."
+    },
+    {
+      "name": "Confabulation",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "False memory of what correct anatomy should be, encoded in bioelectric patterns that guide cells toward nonexistent configurations."
+    },
+    {
+      "name": "Coarse-Graining",
+      "aliases": [
+        "abstraction"
+      ],
+      "category": "interdisciplinary",
+      "context": "The process by which systems ignore low-level variation in components and respond to collective macrovariables."
+    },
+    {
+      "name": "Cancer",
+      "aliases": [
+        "tumorigenesis"
+      ],
+      "category": "cognitive",
+      "context": "Proposed as reversal of the scaling process; cells reverting to unicellular-like goals by disconnecting from bioelectric collective."
+    },
+    {
+      "name": "Cancer Suppression",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Maintenance of multicellular identity through bioelectric connectivity that prevents cells from reverting to autonomous growth."
+    },
+    {
+      "name": "Left-Right Asymmetry",
+      "aliases": [
+        "laterality"
+      ],
+      "category": "cognitive",
+      "context": "Functional specialization of left versus right body sides, mediated by bioelectric gradients."
+    },
+    {
+      "name": "Perceptual Bistability",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The ability of systems to shift between two different stable representations or modes of organization."
+    },
+    {
+      "name": "Emergence",
+      "aliases": [
+        "emergent property"
+      ],
+      "category": "interdisciplinary",
+      "context": "The appearance of novel properties at higher levels of organization not reducible to lower-level components."
+    },
+    {
+      "name": "Meta-Stability",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The property of systems maintaining multiple distinct stable states that can transition between each other."
+    },
+    {
+      "name": "Integration",
+      "aliases": [
+        "spatial integration"
+      ],
+      "category": "cognitive",
+      "context": "The binding together of information from spatially distributed sources into coherent system-level representations."
+    },
+    {
+      "name": "Modularity",
+      "aliases": [
+        "modular organization"
+      ],
+      "category": "interdisciplinary",
+      "context": "The organization of systems into semi-autonomous components that can be deployed in various contexts."
+    },
+    {
+      "name": "Neurotransmitter",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Chemical signaling molecules used not only in neurons but also in developmental bioelectric control of morphogenesis."
+    },
+    {
+      "name": "Trophic Memory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Long-term memory of wound location in growing structures, causing regenerative patterns to repeat at damaged sites."
+    },
+    {
+      "name": "Infotaxis",
+      "aliases": [],
+      "category": "ai",
+      "context": "Navigation toward sources of information; a goal-directed behavior observed in biological systems."
+    },
+    {
+      "name": "Reinforcement Learning",
+      "aliases": [],
+      "category": "ai",
+      "context": "Learning mechanism using rewards and punishments that could apply to training morphogenetic systems toward specific outcomes."
+    },
+    {
+      "name": "Free Energy Principle",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Framework proposing that biological systems minimize free energy or prediction error through homeostatic regulation."
+    },
+    {
+      "name": "Cognitive Light Cone",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The range of spatial, temporal, and complexity scales over which an agent can perceive, remember, and act."
+    },
+    {
+      "name": "Embodiment",
+      "aliases": [
+        "embodied cognition"
+      ],
+      "category": "cognitive",
+      "context": "The idea that cognition depends on and is shaped by the properties of a physical body interacting with its environment."
+    },
+    {
+      "name": "Inverse Problem",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "The difficulty of determining what control signals would produce a desired outcome in complex systems."
+    },
+    {
+      "name": "Cooperation",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Coordinated action among multiple agents toward common goals; enhanced by bioelectric coupling that prevents defection."
+    },
+    {
+      "name": "Reward Function",
+      "aliases": [],
+      "category": "ai",
+      "context": "A specification of what outcomes are desirable; proposed as a way to train tissues toward specific morphological states."
+    },
+    {
+      "name": "Pleiotropy",
+      "aliases": [
+        "pleiotropic effect"
+      ],
+      "category": "interdisciplinary",
+      "context": "The phenomenon where single mutations have multiple phenotypic effects, complicating evolution and genetic control."
+    },
+    {
+      "name": "Modulatory Architecture",
+      "aliases": [
+        "Multiscale Competency Architecture"
+      ],
+      "category": "interdisciplinary",
+      "context": "Organizational design where nested levels are themselves homeostatic agents, enabling error correction and efficient evolution."
+    },
+    {
+      "name": "Associative Memory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "The ability to link arbitrary actions with distant rewards through delay lines and temporal integration."
+    },
+    {
+      "name": "Regenerative Medicine",
+      "aliases": [
+        "biomedical engineering"
+      ],
+      "category": "interdisciplinary",
+      "context": "Field seeking to harness understanding of regeneration and developmental bioelectricity for clinical applications."
+    },
+    {
+      "name": "TAME",
+      "aliases": [
+        "Technological Approach To Mind Everywhere"
+      ],
+      "category": "interdisciplinary",
+      "context": "Framework for understanding cognition and consciousness as substrate-independent properties of biological and synthetic systems with goal-directed behavior"
+    },
+    {
+      "name": "Bioelectricity",
+      "aliases": [
+        "bioelectric signaling",
+        "membrane potential"
+      ],
+      "category": "cognitive",
+      "context": "Electrical gradients across cell membranes that encode morphogenetic information and enable multi-scale cognitive processes"
+    },
+    {
+      "name": "Membrane Potential (Vmem)",
+      "aliases": [
+        "electrical potential",
+        "resting potential"
+      ],
+      "category": "cognitive",
+      "context": "Voltage gradient across cell membranes critical for encoding morphogenetic information and supporting consciousness at multiple scales"
+    },
+    {
+      "name": "Panpsychism",
+      "aliases": [
+        "mind everywhere"
+      ],
+      "category": "interdisciplinary",
+      "context": "Philosophical view that mind is widespread in nature; TAME offers a non-traditional variant based on causal structure rather than inevitable presence"
+    },
+    {
+      "name": "Isomorphism Between Cognition And Morphogenesis",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Correspondence between learning/cognitive processes and developmental/morphogenetic processes at bioelectric level"
+    },
+    {
+      "name": "Problem Of Other Minds",
+      "aliases": [],
+      "category": "epistemology",
+      "context": "Epistemic challenge of knowing consciousness in other systems; TAME suggests this applies even to parts of single organisms"
+    },
+    {
+      "name": "Theory Of Mind",
+      "aliases": [
+        "mentalizing",
+        "mind-reading"
+      ],
+      "category": "cognitive",
+      "context": "Ability to model mental states of other agents; TAME suggests this mechanism operates at multiple scales"
+    },
+    {
+      "name": "Heterophenomenology",
+      "aliases": [],
+      "category": "epistemology",
+      "context": "Method for studying consciousness through objective observation of reports and behavior; can be extended through sensory substitution technology"
+    },
+    {
+      "name": "Sensory Substitution And Augmentation",
+      "aliases": [
+        "sensory plasticity",
+        "neuroprosthetics"
+      ],
+      "category": "cognitive",
+      "context": "Technology enabling novel sensory channels into nervous system; demonstrates continuity between first and third person perspectives"
+    },
+    {
+      "name": "Neuroprosthetics",
+      "aliases": [
+        "neural implants",
+        "brain-computer interfaces"
+      ],
+      "category": "ai",
+      "context": "Devices that interface with nervous system; enable study of consciousness through direct cognitive architecture modification"
+    },
+    {
+      "name": "Competency Without Comprehension",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Ability to perform complex functions without explicit understanding; characterizes biological reproduction versus designed creation"
+    },
+    {
+      "name": "Well-Being",
+      "aliases": [
+        "flourishing",
+        "welfare"
+      ],
+      "category": "interdisciplinary",
+      "context": "Goal of social organization; optimal binding policies must balance individual and collective well-being"
+    },
+    {
+      "name": "Empowerment",
+      "aliases": [
+        "cognitive capacity expansion",
+        "freedom"
+      ],
+      "category": "cognitive",
+      "context": "Increased capacity for goal-pursuit and control; distinct from loss of identity in collectivism"
+    },
+    {
+      "name": "Multicellularity-Cancer Dynamic",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Balance between tight functional integration enabling collective cognition and preservation of subunit goals"
+    },
+    {
+      "name": "Free-Energy Approach To Pattern Regulation",
+      "aliases": [
+        "free energy principle",
+        "variational approaches"
+      ],
+      "category": "cognitive",
+      "context": "Framework treating pattern formation as optimization process; compatible with TAME"
+    },
+    {
+      "name": "Integrated Information",
+      "aliases": [
+        "phi",
+        "information integration"
+      ],
+      "category": "cognitive",
+      "context": "Measure of consciousness based on how much integrated information a system generates across spatiotemporal scales"
+    },
+    {
+      "name": "Causal Power",
+      "aliases": [
+        "causal density",
+        "causal emergence"
+      ],
+      "category": "interdisciplinary",
+      "context": "Degree to which system causally influences its environment; relevant to measuring consciousness"
+    },
+    {
+      "name": "Bioelectric Code",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "System of bioelectric patterns encoding body plan information; ancient computational medium"
+    },
+    {
+      "name": "Autopoiesis",
+      "aliases": [
+        "self-making",
+        "self-organization"
+      ],
+      "category": "cognitive",
+      "context": "Property of living systems maintaining themselves through internal processes; defines living cognition"
+    },
+    {
+      "name": "Interface Theory Of Perception",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Theory that perception is interface rather than veridical representation of reality"
+    },
+    {
+      "name": "Sim-To-Real Transfer",
+      "aliases": [
+        "simulation to reality transfer"
+      ],
+      "category": "ai",
+      "context": "Process of transferring designs from simulation to physical implementation"
+    },
+    {
+      "name": "Super Intelligence",
+      "aliases": [
+        "superintelligence",
+        "artificial superintelligence"
+      ],
+      "category": "ai",
+      "context": "Hypothetical AI systems vastly exceeding human cognitive capacity; raises alignment concerns"
+    },
+    {
+      "name": "Dissociative Identity Disorder",
+      "aliases": [
+        "multiple personality disorder"
+      ],
+      "category": "cognitive",
+      "context": "Psychological condition involving multiple distinct cognitive identities; illustrates multiplicity within single organism"
+    },
+    {
+      "name": "Morphological Coordination",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Common ancestral function unifying neural and non-neural signaling in pattern formation"
+    },
+    {
+      "name": "Niche Construction",
+      "aliases": [
+        "ecological engineering"
+      ],
+      "category": "cognitive",
+      "context": "Process by which organisms modify their environment; relevant to understanding multi-species cognition"
+    },
+    {
+      "name": "Care",
+      "aliases": [
+        "concern",
+        "attentiveness"
+      ],
+      "category": "buddhist",
+      "context": "Buddhist and ethical value relevant to treating all sentient beings with moral consideration"
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Framework for understanding evolution through game-theoretic interactions; relevant to understanding scaling of cooperation"
+    },
+    {
+      "name": "Major Transitions In Evolution",
+      "aliases": [
+        "major transitions"
+      ],
+      "category": "cognitive",
+      "context": "Key evolutionary innovations including multicellularity; involves reorganization of cognitive structures"
+    },
+    {
+      "name": "Bayesian Inference",
+      "aliases": [
+        "Bayesian framework"
+      ],
+      "category": "cognitive",
+      "context": "Probabilistic reasoning framework; morphogenesis can be understood as Bayesian pattern inference"
+    },
+    {
+      "name": "Glutamate Signaling",
+      "aliases": [
+        "glutamatergic signaling"
+      ],
+      "category": "cognitive",
+      "context": "Neurotransmitter-based signaling; occurs in diverse organisms including non-neuronal systems"
+    },
+    {
+      "name": "Xenopus Development",
+      "aliases": [
+        "African clawed frog development"
+      ],
+      "category": "cognitive",
+      "context": "Model organism for studying developmental biology and bioelectric signaling"
+    },
+    {
+      "name": "Scale-Free Cognition",
+      "aliases": [],
+      "category": "cognitive",
+      "context": "Cognitive processes showing similar properties across multiple scales of organization"
+    },
+    {
+      "name": "Cellular Intelligence",
+      "aliases": [
+        "cell cognition"
+      ],
+      "category": "cognitive",
+      "context": "Intelligent behavior and problem-solving in individual cells and unicellular organisms"
+    },
+    {
+      "name": "Individuation",
+      "aliases": [
+        "individuation of self"
+      ],
+      "category": "cognitive",
+      "context": "Process by which distinct cognitive entities emerge and maintain identity boundaries"
+    },
+    {
+      "name": "Organoids",
+      "aliases": [
+        "miniaturized organs"
+      ],
+      "category": "cognitive",
+      "context": "Lab-grown tissue structures; raise ethical questions about cognitive capacity and moral status"
+    },
+    {
+      "name": "Soft Robotics",
+      "aliases": [
+        "soft robots"
+      ],
+      "category": "ai",
+      "context": "Robots with flexible bodies; relevant to understanding embodied cognition in artificial systems"
+    },
+    {
+      "name": "Pattern Regulation",
+      "aliases": [
+        "pattern formation",
+        "morphogenetic regulation"
+      ],
+      "category": "cognitive",
+      "context": "Biological processes maintaining and regenerating species-specific anatomical patterns."
+    },
+    {
+      "name": "Developmental Memory",
+      "aliases": [
+        "epigenetic memory",
+        "pattern memory"
+      ],
+      "category": "cognitive",
+      "context": "Information retained across developmental stages allowing organisms to achieve correct morphology."
+    },
+    {
+      "name": "Homeodynamics",
+      "aliases": [
+        "dynamic homeostasis"
+      ],
+      "category": "cognitive",
+      "context": "Extended homeostatic framework incorporating predictive regulation and brain-centered control."
+    },
+    {
+      "name": "Intrinsic Motivation",
+      "aliases": [
+        "autonomous motivation"
+      ],
+      "category": "cognitive",
+      "context": "Internal drives for action and learning independent of external rewards."
+    },
+    {
+      "name": "Predictive Processing",
+      "aliases": [
+        "prediction error minimization"
+      ],
+      "category": "cognitive",
+      "context": "Framework where brain generates predictions about sensory input and acts to minimize prediction errors."
+    },
+    {
+      "name": "Variational Ecology",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Physics-based approach to consciousness integrating variational principles with ecological dynamics."
+    },
+    {
+      "name": "Memory Through Metamorphosis",
+      "aliases": [
+        "metamorphic memory",
+        "memory persistence"
+      ],
+      "category": "cognitive",
+      "context": "Retention of learned information across radical developmental transformations."
+    },
+    {
+      "name": "Epigenetic Inheritance",
+      "aliases": [
+        "transgenerational epigenetics"
+      ],
+      "category": "cognitive",
+      "context": "Inheritance of phenotypic traits through non-genetic mechanisms across generations."
+    },
+    {
+      "name": "Xenopus Tadpole",
+      "aliases": [
+        "tadpole",
+        "Xenopus laevis"
+      ],
+      "category": "cognitive",
+      "context": "Amphibian model organism used in developmental biology and regeneration studies."
+    },
+    {
+      "name": "Craniofacial Development",
+      "aliases": [
+        "head patterning",
+        "facial development"
+      ],
+      "category": "cognitive",
+      "context": "Developmental processes generating head and facial structures."
+    },
+    {
+      "name": "Bodhisattva",
+      "aliases": [],
+      "category": "buddhist",
+      "context": "Buddhist concept of enlightened being committed to helping all sentient beings."
+    },
+    {
+      "name": "Tame Framework",
+      "aliases": [],
+      "category": "interdisciplinary",
+      "context": "Theoretical framework proposed in paper integrating consciousness, cognition, and biology."
+    },
+    {
+      "name": "Evolutionary Connectionism",
+      "aliases": [
+        "connectionist evolution"
+      ],
+      "category": "ai",
+      "context": "Algorithmic principles underlying evolution of biological organization across scales."
+    },
+    {
+      "name": "Evolutionary Transitions in Individuality (ETIs)",
+      "aliases": [
+        "transitions in individuality",
+        "evolutionary transitions"
+      ],
+      "category": "interdisciplinary",
+      "context": "Process by which new levels of biological organization emerge through evolution."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Technological Approach to Mind Everywhere",
+      "creator": "Michael Levin",
+      "context": "Comprehensive framework for recognizing, studying, and comparing diverse intelligences across material substrates and origins, grounded in empirical approaches to agency and gradualist philosophy."
+    },
+    {
+      "name": "Intentional Stance",
+      "creator": "Daniel Dennett",
+      "context": "Philosophical framework treating mental properties as observer-dependent; TAME makes this more explicit through engineering-focused prediction and control."
+    },
+    {
+      "name": "Active Inference",
+      "creator": null,
+      "context": "Framework where agents minimize prediction error through action; can be integrated as dimension in TAME's space of possible agents."
+    },
+    {
+      "name": "TAME Framework",
+      "creator": "Michael Levin",
+      "context": "Theoretical framework proposing that morphogenesis and cognition share fundamental principles of homeostatic loops, pattern memory, and multi-scale competency."
+    },
+    {
+      "name": "Hopfield Networks",
+      "creator": "John Hopfield",
+      "context": "Artificial neural network model used to conceptualize how bioelectric circuits store and retrieve pattern memories as attractor states."
+    },
+    {
+      "name": "Free Energy Principle",
+      "creator": "Karl Friston",
+      "context": "Framework proposing biological systems minimize prediction error; applied to homeostatic regulation across scales."
+    },
+    {
+      "name": "Surprise Minimization Framework",
+      "creator": "Karl Friston",
+      "context": "Extension of free energy principle describing how agents build internal models by acting to nullify unexpected changes."
+    },
+    {
+      "name": "Anticipatory Systems",
+      "creator": "Robert Rosen",
+      "context": "Theory of systems that model future states and act predictively; (M,R) framework being integrated into TAME development"
+    },
+    {
+      "name": "Cognitive Lens",
+      "creator": "Santosh Manicka and Michael Levin",
+      "context": "Analytical framework for understanding cognition in developmental and regenerative morphogenesis"
+    },
+    {
+      "name": "Predictive Processing",
+      "creator": null,
+      "context": "Cognitive framework positing brain generates predictions and acts to minimize prediction errors."
+    },
+    {
+      "name": "Maslow's Hierarchy of Needs",
+      "creator": null,
+      "context": "Motivational theory describing hierarchical preferences and goals systems pursue at various scales."
+    },
+    {
+      "name": "Systems Biology",
+      "creator": "Dennis Noble",
+      "context": "Approach studying biological systems as integrated wholes with no privileged causal level."
+    },
+    {
+      "name": "Bioelectric Regulation",
+      "creator": "Michael Levin",
+      "context": "Framework understanding morphogenesis and pattern formation through bioelectric information."
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Allen Discovery Center at Tufts University",
+      "type": "research-center",
+      "context": "Institution where Michael Levin conducts research on developmental biology and novel embodied cognitive systems."
+    },
+    {
+      "name": "Wyss Institute for Biologically Inspired Engineering at Harvard University",
+      "type": "research-center",
+      "context": "Institution supporting interdisciplinary research on bioengineering and embodied cognition where Levin contributes."
+    },
+    {
+      "name": "Tel Aviv University",
+      "type": "university",
+      "context": "Affiliation of Eva Jablonka, editor of the paper, contributing to evolutionary biology and cognitive science perspectives."
+    },
+    {
+      "name": "Frontiers in Systems Neuroscience",
+      "type": "project",
+      "context": "Journal publishing this foundational paper on mind everywhere and diverse cognitive systems."
+    },
+    {
+      "name": "Xenbase",
+      "type": "research-center",
+      "context": "Database resource providing embryo images and experimental materials for developmental biology research."
+    },
+    {
+      "name": "Levin Lab",
+      "type": "research-center",
+      "context": "Research group led by Michael Levin studying bioelectric signaling, regeneration, and consciousness"
+    },
+    {
+      "name": "Diverse Intelligences Community",
+      "type": "research-center",
+      "context": "Collaborative community studying cognition across diverse biological systems"
+    },
+    {
+      "name": "Allen Discovery Center",
+      "type": "research-center",
+      "context": "Funded by Paul G. Allen Frontiers Group; supports research on TAME framework"
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "type": "research-center",
+      "context": "Funding organization supporting research on consciousness and fundamental questions"
+    },
+    {
+      "name": "John Templeton Foundation",
+      "type": "research-center",
+      "context": "Philanthropic organization funding research on consciousness and existential questions"
+    },
+    {
+      "name": "Harvard University",
+      "type": "university",
+      "context": "Academic institution referenced in published works on extended organisms."
+    },
+    {
+      "name": "University of Oklahoma",
+      "type": "university",
+      "context": "Institution where dissertation on consciousness in commissurotomy patients was conducted."
+    },
+    {
+      "name": "MIT Press",
+      "type": "university",
+      "context": "Publisher of works on artificial life and evolutionary transitions."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How do the activities of competent, lower-level agents give rise to a multiscale Self that is truly more than the sum of its parts?",
+      "category": "metaphysics",
+      "context": "Addresses the fundamental problem of scaling and unification central to understanding cognition at multiple levels of organization."
+    },
+    {
+      "question": "What invariants enable a Self to persist and be recognizable despite drastic changes in its material substrate?",
+      "category": "metaphysics",
+      "context": "Critical for understanding identity and continuity across metamorphosis, regeneration, and developmental plasticity."
+    },
+    {
+      "question": "Can truly diverse intelligences be recognized, compared, and understood across different material implementations?",
+      "category": "epistemology",
+      "context": "Core challenge motivating TAME framework development to handle minds beyond conventional animal models."
+    },
+    {
+      "question": "What is the correct level of Agency for any given system and how can it be determined empirically?",
+      "category": "epistemology",
+      "context": "Practical question driving experimental research through assessment of prediction and control capabilities."
+    },
+    {
+      "question": "How do bioelectric networks scale cell computation into anatomical homeostasis and regulate morphogenesis?",
+      "category": "other",
+      "context": "Specific biological mechanism question central to understanding how developmental bioelectricity enables cognitive scaling."
+    },
+    {
+      "question": "How can we understand consciousness without falling into unproductive debates about the 'Hard Problem'?",
+      "category": "epistemology",
+      "context": "Proposes empirical, functionalist approaches to consciousness tied to teleonomy and third-person investigation of cognition."
+    },
+    {
+      "question": "What novel ethical frameworks are needed for relating to artificially created beings with no familiar phylogenetic touchstone?",
+      "category": "ethics",
+      "context": "Urgent question as bioengineering creates chimeric and synthetic organisms whose moral status is unclear."
+    },
+    {
+      "question": "How can memories and cognitive capacities persist through radical biological remodeling?",
+      "category": "other",
+      "context": "Explores mechanisms of memory transfer and cognitive continuity across metamorphosis and regeneration events."
+    },
+    {
+      "question": "Can Gene Regulatory Networks be trained and modified through associative learning approaches?",
+      "category": "other",
+      "context": "Empirical question suggesting new biomedical applications if GRNs exhibit learning capacity."
+    },
+    {
+      "question": "What defines the computational boundary and scope of goals that constitute a Self?",
+      "category": "metaphysics",
+      "context": "Central definitional question for TAME framework; answers determine how diverse agents can be classified and compared."
+    },
+    {
+      "question": "How do cells know what the correct anatomical configuration should be and measure whether they have reached it?",
+      "category": "epistemology",
+      "context": "Central question about the information structure encoding homeostatic setpoints and how distributed cellular collectives store and retrieve pattern memories."
+    },
+    {
+      "question": "How can bioelectric pattern memories be edited or rewritten without changing the genome?",
+      "category": "other",
+      "context": "Explores whether changing the setpoint for anatomical homeostasis is possible through manipulation of bioelectric states rather than genetic engineering."
+    },
+    {
+      "question": "Can morphogenetic systems be trained via reinforcement learning for specific morphological outcomes?",
+      "category": "other",
+      "context": "Untested prediction that tissue collectives could learn to build desired structures through reward and punishment signals rather than direct pathway control."
+    },
+    {
+      "question": "How does the scaling of homeostatic loops enable larger Selves to emerge from smaller competent modules?",
+      "category": "metaphysics",
+      "context": "Asks how gap junctional connectivity and bioelectric networks bind individual cellular agents into coherent larger organisms with expanded cognitive boundaries."
+    },
+    {
+      "question": "What is the mechanistic basis for how consciousness arises at different scales of biological organization?",
+      "category": "metaphysics",
+      "context": "Explores whether consciousness exists in various degrees across non-neural tissues and how embodied goal-directed systems generate subjective experience."
+    },
+    {
+      "question": "How do bioelectric mechanisms enable evolution to efficiently explore the genotype space without exhaustive search?",
+      "category": "other",
+      "context": "Addresses how multi-scale competency and pattern memories smooth the fitness landscape and reduce the apparent effects of mutations on evolution."
+    },
+    {
+      "question": "Can cancer be understood and potentially reversed by restoring bioelectric connectivity rather than genetic correction?",
+      "category": "ethics",
+      "context": "Proposes that cancer cells reverting to unicellular behavior could be re-integrated into multicellular Selves through physiological rather than genetic intervention."
+    },
+    {
+      "question": "How are bioelectric prepatterns used to specify organ identity and location during development?",
+      "category": "other",
+      "context": "Asks about the mechanism by which voltage gradients encode information about what type of structure should form in different body regions."
+    },
+    {
+      "question": "How does consciousness scale with system complexity and integration?",
+      "category": "metaphysics",
+      "context": "TAME proposes consciousness exists on a continuum; understanding scaling mechanisms is critical for predicting consciousness in novel systems"
+    },
+    {
+      "question": "What are the minimal physical requirements for consciousness to exist?",
+      "category": "metaphysics",
+      "context": "TAME suggests causal structure and cybernetic properties matter more than substrate; challenges finding true zero on consciousness scale"
+    },
+    {
+      "question": "How can we study consciousness from first-person perspective without changing the observing self?",
+      "category": "epistemology",
+      "context": "Standard third-person investigation cannot answer what consciousness IS; fusion experiments enable first-person study but create composite Self"
+    },
+    {
+      "question": "Where do the goals of composite and distributed systems come from?",
+      "category": "metaphysics",
+      "context": "Critical for AI safety and understanding swarm robotics; TAME emphasizes need for mature science of goal emergence"
+    },
+    {
+      "question": "What is the nature of the boundary between self and other?",
+      "category": "metaphysics",
+      "context": "Technology reveals first/third-person perspective is continuum; cognitive boundaries are variable and can be experimentally modified"
+    },
+    {
+      "question": "How can bioethics adapt to recognize consciousness in radically different architectures?",
+      "category": "ethics",
+      "context": "Binary folk categories (evolved/designed, machine/organism) no longer valid; need ethical framework for diverse possible minds"
+    },
+    {
+      "question": "What is the relationship between morphogenesis and cognition?",
+      "category": "metaphysics",
+      "context": "TAME proposes isomorphism between developmental pattern formation and cognitive processes"
+    },
+    {
+      "question": "Can consciousness exist without centralized processing?",
+      "category": "metaphysics",
+      "context": "TAME framework suggests consciousness can be highly distributed and multi-scale"
+    },
+    {
+      "question": "How do we balance individual identity with collective cognition in scaled-up Selves?",
+      "category": "ethics",
+      "context": "Fundamental question for social organization; seeking optimal binding policies that preserve individuality while enabling cooperation"
+    },
+    {
+      "question": "Can the morphogenetic code be cracked to revolutionize regenerative medicine?",
+      "category": "other",
+      "context": "Major research goal with moral imperative; understanding bioelectric control of anatomy could enable dramatic therapeutic advances"
+    },
+    {
+      "question": "Is there discontinuity or continuity in consciousness during radical cognitive architecture changes?",
+      "category": "metaphysics",
+      "context": "TAME takes null hypothesis as continuity; questions whether metamorphosis or brain modification induce sharp consciousness transitions"
+    },
+    {
+      "question": "What can anesthesia reveal about the neural basis of consciousness?",
+      "category": "metaphysics",
+      "context": "Gap junction blockade eliminates consciousness while preserving cellular integrity; suggests consciousness depends on coordination rather than individual function"
+    },
+    {
+      "question": "How do bioengineered novel selves raise moral responsibility?",
+      "category": "ethics",
+      "context": "Humans moving from creation via 'competency without comprehension' to rational design with comprehension; requires new ethical frameworks"
+    },
+    {
+      "question": "How can consciousness be understood as a continuum rather than a binary property?",
+      "category": "metaphysics",
+      "context": "Central to reconceptualizing consciousness across biological scales from single cells to organisms."
+    },
+    {
+      "question": "What is the relationship between bioelectric patterns and morphogenetic information?",
+      "category": "epistemology",
+      "context": "Fundamental to understanding how biological systems encode and regulate developmental patterns."
+    },
+    {
+      "question": "How do lower-level biological components contribute to higher-level cognitive capabilities?",
+      "category": "epistemology",
+      "context": "Addresses relationship between downward causation and emergence in biological systems."
+    },
+    {
+      "question": "Can consciousness be attributed to systems beyond brains and neurons?",
+      "category": "metaphysics",
+      "context": "Questions whether consciousness extends to cells, tissues, and even non-neural biological systems."
+    },
+    {
+      "question": "How can regenerating organisms maintain identity and memory across radical developmental changes?",
+      "category": "metaphysics",
+      "context": "Challenges conventional understanding of self and memory through bioelectric mechanisms."
+    },
+    {
+      "question": "What defines the boundaries of a cognitive agent?",
+      "category": "epistemology",
+      "context": "Questions whether individual cells, organisms, or collective systems should be considered separate agents."
+    },
+    {
+      "question": "How do evolutionary transitions in individuality occur at the biological level?",
+      "category": "other",
+      "context": "Explores mechanisms by which new levels of biological organization emerge through evolution."
+    },
+    {
+      "question": "Can artificial systems be designed to achieve consciousness through bioelectric or similar mechanisms?",
+      "category": "alignment",
+      "context": "Relevant to creating artificial minds and understanding requirements for machine consciousness."
+    }
+  ],
+  "_metadata": {
+    "source_file": "batched_extraction",
+    "title": "published: 24 March 2022",
+    "model": "claude-haiku-4-5-20251001",
+    "extraction_date": "2025-10-20T20:49:35.571016",
+    "batches_processed": 4
+  }
+}
