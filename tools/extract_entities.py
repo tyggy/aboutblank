@@ -23,7 +23,10 @@ class EntityExtractor:
         """Initialize with API key and model."""
         self.client = Anthropic(api_key=api_key or os.environ.get('ANTHROPIC_API_KEY'))
         self.model = model
-        self.max_tokens = 4096
+        # Increase max_tokens for comprehensive extraction
+        # 16384 tokens ≈ 65k characters - enough for rich papers/talks
+        # Claude Haiku 4.5 supports up to 8192 output tokens
+        self.max_tokens = 8192
         self.output_dir = output_dir or Path('knowledge_base/extractions')
         self.tracking_file = self.output_dir / '_extraction_tracking.json'
         self.tracking_data = self._load_tracking()
@@ -142,6 +145,11 @@ class EntityExtractor:
                 }]
             )
 
+            # Check for truncation
+            if response.stop_reason == 'max_tokens':
+                print(f"  ⚠️  WARNING: Response was truncated! Output may be incomplete.", file=sys.stderr)
+                print(f"  Consider: 1) Shorter input text, 2) More selective extraction criteria", file=sys.stderr)
+
             # Parse JSON response
             response_text = response.content[0].text
 
@@ -231,9 +239,10 @@ Guidelines:
 - Be selective: only extract entities that are clearly significant to the discussion
 - Prefer full names over nicknames (e.g., "Michael Levin" not "Mike")
 - For concepts, use standard terminology when possible
-- Include brief context (1 sentence) for each entity
+- Include brief context (1-2 sentences MAX) for each entity - be concise!
 - Categorize concepts as: buddhist, cognitive, ai, or interdisciplinary
 - If a category has no entities, return an empty array: []
+- Prioritize quality over quantity - focus on the most important entities
 
 IMPORTANT: Return ONLY valid JSON. Do not include any text before or after the JSON.
 Return the JSON in this exact format:
