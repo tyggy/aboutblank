@@ -130,7 +130,7 @@ class EntityExtractor:
             if verbose:
                 num_batches = (len(transcript_text) + batch_size - 1) // batch_size
                 print(f"  📚 Content is long ({len(transcript_text):,} chars), processing in {num_batches} batches...")
-            return self._extract_with_batching(transcript_text, title, verbose)
+            return self._extract_with_batching(transcript_text, title, transcript_path, verbose)
 
         if verbose:
             print(f"  🤖 Extracting entities with Claude ({len(transcript_text):,} characters)...")
@@ -193,7 +193,7 @@ class EntityExtractor:
                     # If truncated, retry with batching
                     if was_truncated and len(text) > 25000:
                         print(f"  🔄 Retrying with smaller batches (text was truncated)...", file=sys.stderr)
-                        return self._extract_with_batching(text, title, verbose)
+                        return self._extract_with_batching(text, title, transcript_path, verbose)
 
                     # Still failed after repair - save debug info
                     debug_file = transcript_path.parent.parent / 'extractions' / f'{transcript_path.stem}_debug_response.txt'
@@ -234,7 +234,7 @@ class EntityExtractor:
                 }
             }
 
-    def _extract_with_batching(self, text: str, title: str, verbose: bool) -> Dict:
+    def _extract_with_batching(self, text: str, title: str, transcript_path: Path, verbose: bool) -> Dict:
         """
         Extract entities from long text by processing in batches.
 
@@ -317,7 +317,7 @@ class EntityExtractor:
 
         # Add metadata
         all_entities['_metadata'] = {
-            'source_file': 'batched_extraction',
+            'source_file': str(transcript_path),
             'title': title,
             'model': self.model,
             'extraction_date': self._get_timestamp(),
