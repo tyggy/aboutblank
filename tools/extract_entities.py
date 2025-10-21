@@ -351,14 +351,23 @@ Guidelines:
 - For concepts, use standard terminology when possible
 - Include brief context (1-2 sentences MAX) for each entity - be concise!
 - IMPORTANT: Aim for 10-30 entities total, not 100+. Be ruthlessly selective.
-- Categorize concepts as: buddhist, cognitive, ai, biology, philosophy, systems, or interdisciplinary
-  - buddhist: Buddhist concepts, practices, teachings
-  - cognitive: Cognitive science, neuroscience, psychology
-  - ai: AI/ML concepts, algorithms, computational models
-  - biology: Developmental biology, evolution, morphogenesis
-  - philosophy: Metaphysics, epistemology, ethics, phenomenology
-  - systems: Systems theory, cybernetics, complexity
-  - interdisciplinary: Truly spans multiple domains
+- Categorize concepts using the MOST SPECIFIC category possible:
+  - **biology**: Cells, genes, bioelectricity, morphogenesis, regeneration, development, evolution, organisms
+    Examples: gap junctions, action potentials, gene networks, xenobots, morphogenesis
+  - **cognitive**: Mind, perception, consciousness, memory, learning, neuroscience, psychology
+    Examples: embodied cognition, predictive processing, self-model, attention
+  - **ai**: Machine learning, neural networks, algorithms, computational intelligence
+    Examples: transformers, autoencoders, reinforcement learning, deep learning
+  - **buddhist**: Buddhist teachings, practices, concepts from Buddhist philosophy
+    Examples: anatta, dukkha, emptiness, dependent arising, mindfulness
+  - **philosophy**: Metaphysics, epistemology, phenomenology, ontology, ethics (non-Buddhist)
+    Examples: supervenience, panpsychism, hard problem, emergence
+  - **systems**: Cybernetics, complexity, systems theory, information theory
+    Examples: autopoiesis, stigmergy, dissipative structures, feedback loops
+  - **interdisciplinary**: RARELY USE - only when concept genuinely cannot fit in single category above
+    Examples: collective intelligence (biology+cognitive+systems), self (philosophy+cognitive+buddhist)
+
+  IMPORTANT: Default to specific categories. "interdisciplinary" should be <10% of concepts.
 - If a category has no entities, return an empty array: []
 - Prioritize quality over quantity - focus on the most important entities
 
