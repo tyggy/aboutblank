@@ -194,10 +194,19 @@ class EntityCrossEnricher:
             if not frameworks and not concepts:
                 continue
 
+            # Check if already enriched (skip if sections exist)
+            has_frameworks_section = re.search(r'##\s+Frameworks\s*\n', content)
+            has_concepts_section = re.search(r'##\s+Key Concepts\s*\n', content)
+
+            if has_frameworks_section and has_concepts_section:
+                if verbose:
+                    print(f"  ⊘ Already enriched: {thinker_file.name}")
+                continue
+
             # Build enrichment sections
             enrichments = []
 
-            if frameworks:
+            if frameworks and not has_frameworks_section:
                 framework_links = '\n'.join(f"- [[{f}]]" for f in frameworks)
                 enrichments.append(f"""## Frameworks
 
@@ -205,7 +214,7 @@ Frameworks this thinker created or contributed to:
 
 {framework_links}""")
 
-            if concepts:
+            if concepts and not has_concepts_section:
                 concept_links = '\n'.join(f"- [[{c}]]" for c in sorted(concepts))
                 enrichments.append(f"""## Key Concepts
 
@@ -270,10 +279,19 @@ Concepts this thinker frequently discusses:
             if not thinkers and not frameworks:
                 continue
 
+            # Check if already enriched (skip if sections exist)
+            has_thinkers_section = re.search(r'##\s+Key Thinkers\s*\n', content)
+            has_frameworks_section = re.search(r'##\s+Related Frameworks\s*\n', content)
+
+            if has_thinkers_section and has_frameworks_section:
+                if verbose:
+                    print(f"  ⊘ Already enriched: {concept_file.name}")
+                continue
+
             # Build enrichment sections
             enrichments = []
 
-            if thinkers:
+            if thinkers and not has_thinkers_section:
                 thinker_links = '\n'.join(f"- [[{t}]]" for t in sorted(thinkers))
                 enrichments.append(f"""## Key Thinkers
 
@@ -281,7 +299,7 @@ Thinkers who discuss or developed this concept:
 
 {thinker_links}""")
 
-            if frameworks:
+            if frameworks and not has_frameworks_section:
                 framework_links = '\n'.join(f"- [[{f}]]" for f in sorted(frameworks))
                 enrichments.append(f"""## Related Frameworks
 
@@ -345,7 +363,13 @@ Concepts central to this framework:
 
 {concept_links}"""
 
-            # Insert enrichment
+            # Check if Key Concepts section already exists
+            if re.search(r'##\s+Key Concepts\s*\n', content):
+                if verbose:
+                    print(f"  ⊘ Already enriched: {framework_file.name}")
+                continue
+
+            # Insert enrichment before Notes section if it exists
             notes_pattern = r'(##\s+Notes\s*\n)'
             if re.search(notes_pattern, content):
                 new_content = re.sub(notes_pattern, f'{enrichment}\n\n\\1', content)
