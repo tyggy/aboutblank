@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Funding organization supporting scientific research.",
-  "type": "project",
-  "is_new": true,
+  "type": "organization",
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T20:57:54.274813",
+    "last_updated": "2025-10-20T21:21:25.276308",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

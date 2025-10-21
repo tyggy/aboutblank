@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Formal method for defining system boundaries and autonomy; identifies minimal sufficient statistics for conditional independence.",
-  "creator": null,
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.268397",
+    "last_updated": "2025-10-20T21:21:25.273056",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

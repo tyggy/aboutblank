@@ -7,28 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "contexts": [
-    {
-      "source": "batched_extraction",
-      "text": "Referenced for concept of 'Strange Loop' relating to self-reference and meta-goals"
-    },
-    {
-      "source": "batched_extraction",
-      "text": "Theorist of strange loops and cognitive models of consciousness"
-    }
-  ],
-  "domains": [
-    "analogy-making",
-    "cognitive science",
-    "Cognitive Science",
-    "Philosophy",
-    "consciousness"
-  ],
-  "is_new": true,
+  "domains": [],
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T20:57:54.220054",
+    "last_updated": "2025-10-20T21:21:25.241275",
     "sources_count": 1,
-    "contexts_count": 2
+    "contexts_count": 0
   }
 }

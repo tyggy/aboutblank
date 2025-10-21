@@ -5,16 +5,11 @@
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "context": "Theorist of information theory of individuality relevant to modeling selfhood and agency",
-  "domains": [
-    "Information Theory",
-    "Complex Systems"
-  ],
-  "is_new": true,
+  "domains": [],
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T20:57:54.225132",
+    "last_updated": "2025-10-20T21:21:25.243929",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

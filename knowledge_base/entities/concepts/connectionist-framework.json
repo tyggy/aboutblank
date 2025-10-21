@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Theoretical approach explaining individuality through principles of network learning and organization",
   "category": "interdisciplinary",
-  "is_new": true,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.247877",
+    "last_updated": "2025-10-20T21:21:25.258534",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

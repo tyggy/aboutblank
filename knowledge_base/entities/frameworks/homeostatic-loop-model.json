@@ -5,22 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "contexts": [
-    {
-      "source": "batched_extraction",
-      "text": "Framework conceptualizing systems as maintaining preferred states through sensing, memory, and corrective action."
-    },
-    {
-      "source": "batched_extraction",
-      "text": "Framework treating development, regeneration, metamorphosis, and cancer suppression as manifestations of anatomical homeostasis."
-    }
-  ],
-  "creator": null,
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.259770",
+    "last_updated": "2025-10-20T21:21:25.268224",
     "sources_count": 1,
-    "contexts_count": 2
+    "contexts_count": 0
   }
 }

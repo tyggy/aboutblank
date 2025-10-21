@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Self-replication mechanism; referenced for novel kinematic self-replication discovered in xenobots.",
-  "creator": null,
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.269423",
+    "last_updated": "2025-10-20T21:21:25.273688",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

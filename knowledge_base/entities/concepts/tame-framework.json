@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Theoretical framework proposed in paper integrating consciousness, cognition, and biology.",
   "category": "interdisciplinary",
-  "is_new": true,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.250258",
+    "last_updated": "2025-10-20T21:21:25.260414",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

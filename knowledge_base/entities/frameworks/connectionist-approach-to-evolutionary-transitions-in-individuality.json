@@ -5,17 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Design framework using connectionist principles to explain how individuals transition to higher levels of organization through interaction networks.",
-  "creator": [
-    "Richard Watson",
-    "Michael Levin",
-    "Christopher Buckley"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.271015",
+    "last_updated": "2025-10-20T21:21:25.274378",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

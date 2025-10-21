@@ -8,13 +8,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Degree to which system causally influences its environment; relevant to measuring consciousness",
   "category": "interdisciplinary",
-  "is_new": true,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.249658",
+    "last_updated": "2025-10-20T21:21:25.259844",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

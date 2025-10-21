@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Physics-based framework treating systems as embodied beliefs and deriving mechanical principles from Bayesian inference.",
-  "category": "ai",
-  "is_new": true,
+  "category": "interdisciplinary",
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.255348",
+    "last_updated": "2025-10-20T21:21:25.264426",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

@@ -7,22 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "contexts": [
-    {
-      "source": "batched_extraction",
-      "text": "Framework positing minimal physical requirements for cognition and consciousness"
-    },
-    {
-      "source": "batched_extraction",
-      "text": "Philosophical framework proposing consciousness and cognition can emerge from minimal physical substrates across scales."
-    }
-  ],
-  "category": "ai",
-  "is_new": true,
+  "category": "interdisciplinary",
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.243143",
+    "last_updated": "2025-10-20T21:21:25.256420",
     "sources_count": 1,
-    "contexts_count": 2
+    "contexts_count": 0
   }
 }

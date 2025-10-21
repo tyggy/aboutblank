@@ -5,15 +5,11 @@
   "sources": [
     "knowledge_base/papers/edited/isal_a_00465_edited.md"
   ],
-  "context": "Information-theoretic measure quantifying options available to agents; used to characterize agent autonomy and capability",
-  "creator": [
-    "Alexander Klyubin"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.266262",
+    "last_updated": "2025-10-20T21:21:25.271889",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

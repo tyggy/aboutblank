@@ -5,15 +5,11 @@
   "sources": [
     "knowledge_base/papers/edited/Generalizing frameworks for sentience beyond natural species_edited.md"
   ],
-  "context": "Test for machine intelligence based on verbal behavior; criticized as insufficient criterion for assessing sentience in diverse agents including non-verbal bioengineered systems.",
-  "creator": [
-    "Alan Turing"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.265887",
+    "last_updated": "2025-10-20T21:21:25.271644",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

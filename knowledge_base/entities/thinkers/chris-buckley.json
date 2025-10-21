@@ -2,21 +2,17 @@
   "name": "Chris Buckley",
   "filename": "chris-buckley",
   "aliases": [
-    "Buckley, C. L."
+    "Buckley",
+    "C. L."
   ],
   "sources": [
     "batched_extraction"
   ],
-  "context": "Collaborator on optimization in adaptive systems and evolutionary connectionism.",
-  "domains": [
-    "Complex Systems",
-    "Adaptive Networks"
-  ],
-  "is_new": true,
+  "domains": [],
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T20:57:54.222208",
+    "last_updated": "2025-10-20T21:21:25.242964",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

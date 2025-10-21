@@ -3,25 +3,13 @@
   "filename": "animal-sentience",
   "aliases": [],
   "sources": [
-    "batched_extraction",
     "knowledge_base/papers/edited/Multiple ways to implement and infer sentience_edited.md"
   ],
-  "contexts": [
-    {
-      "source": "batched_extraction",
-      "text": "Viewed as an instance of collective intelligence of cell groups, arising from dynamics that manifest in similar ways across numerous substrates."
-    },
-    {
-      "source": "knowledge_base/papers/edited/Multiple ways to implement and infer sentience_edited.md",
-      "text": "The capacity of animals to experience subjective states; conventionally attributed based on behavioral patterns analogous to humans."
-    }
-  ],
   "category": "interdisciplinary",
-  "is_new": true,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.247938",
-    "sources_count": 2,
-    "contexts_count": 2
+    "last_updated": "2025-10-20T21:21:25.258590",
+    "sources_count": 1,
+    "contexts_count": 0
   }
 }

@@ -5,15 +5,11 @@
   "sources": [
     "knowledge_base/papers/edited/1-s2.0-S0303264723001399-main_edited.md"
   ],
-  "context": "Framework distinguishing poiesis from challenging-forth; establishes ethical foundation for human-technology relationships based on care",
-  "creator": [
-    "Martin Heidegger"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.259262",
+    "last_updated": "2025-10-20T21:21:25.267796",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

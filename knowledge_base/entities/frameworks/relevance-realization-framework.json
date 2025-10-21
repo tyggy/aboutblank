@@ -5,17 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Cognitive framework explaining how systems determine relevant information",
-  "creator": [
-    "Vervaeke",
-    "Lillicrap",
-    "Richards"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.262105",
+    "last_updated": "2025-10-20T21:21:25.269938",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

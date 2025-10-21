@@ -5,15 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Framework understanding morphogenesis and pattern formation through bioelectric information.",
-  "creator": [
-    "Michael Levin"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.265504",
+    "last_updated": "2025-10-20T21:21:25.271429",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

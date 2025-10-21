@@ -164,6 +164,17 @@
   },
   "active": "11b86c39420aa129",
   "lastOpenFiles": [
+    "entities/questions 2",
+    "entities/concepts 2",
+    "entities/frameworks 2",
+    "entities/institutions 2",
+    "entities/thinkers 2",
+    "entities/questions/will-intellectual-property-systems-developed-for-passive-materials.json",
+    "entities/questions/why-should-plants-be-denied-the-possibility-of.json",
+    "entities/questions/why-should-functional-or-structural-criteria-be-associated.json",
+    "entities/questions/who-do-we-want-to-be-edged-out.json",
+    "entities/questions/which-came-first-the-higherlevel-unit-of-selection.json",
+    "entities/questions/where-is-the-boundary-between-one-being-and.json",
     "questions/will-intellectual-property-systems-developed-for-passive-materials.md",
     "questions/why-should-plants-be-denied-the-possibility-of.md",
     "questions/why-should-functional-or-structural-criteria-be-associated.md",
@@ -188,17 +199,6 @@
     "questions/what-novel-ethical-frameworks-are-needed-for-relating.md",
     "questions/what-new-fundamental-principles-in-ai-science-might.md",
     "questions/what-mechanisms-enable-biological-pattern-recognition-and-meaningmaking.md",
-    "questions/what-mechanisms-allow-coordination-of-cell-activity-toward.md",
-    "questions/what-mechanisms-allow-cells-to-scale-up-from.md",
-    "concepts/biological",
-    "entities/questions/what-is-the-structure-of-experience-across-different.json",
-    "entities/questions/how-can-we-ensure-that-cognitive-augmentation-tools.json",
-    "entities/questions/what-are-the-physical-and-computational-constraints-on.json",
-    "entities/questions/how-does-expanding-tool-integration-and-bandwidth-affect.json",
-    "entities/questions/can-we-extend-our-capacity-for-love-and.json",
-    "entities/questions/how-do-we-recover-meaning-and-intention-from.json",
-    "entities/questions/how-should-we-formalize-bodhisattva-agency-in-mathematical.json",
-    "entities/questions/does-emptiness-provide-a-framework-for-stressfree-yet.json",
-    "entities/questions/how-can-systems-achieve-knowledge-of-everything-while.json"
+    "questions/what-mechanisms-allow-coordination-of-cell-activity-toward.md"
   ]
 }

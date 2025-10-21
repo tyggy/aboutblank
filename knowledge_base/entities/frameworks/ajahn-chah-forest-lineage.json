@@ -5,15 +5,11 @@
   "sources": [
     "knowledge_base/transcripts/raw/IZ6G50pqbIY_【_Bill_Duane】_Buddha_and_the_Corporation_in_an_AI_world_cleaned_edited.md"
   ],
-  "context": "Buddhist monastic tradition and training lineage; Bill Duane completed five years of teacher training in this tradition.",
-  "creator": [
-    "Ajahn Chah"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.266820",
+    "last_updated": "2025-10-20T21:21:25.272208",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

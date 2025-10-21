@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Artificial agents designed to minimize stress across multiple systems through stress signaling and goal coordination.",
-  "category": "ai",
-  "is_new": true,
+  "category": "interdisciplinary",
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.240603",
+    "last_updated": "2025-10-20T21:21:25.254700",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

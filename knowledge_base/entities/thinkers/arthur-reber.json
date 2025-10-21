@@ -7,16 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Theorist of cellular cognition as primary source of biological order",
-  "domains": [
-    "cellular consciousness",
-    "evolutionary biology"
-  ],
-  "is_new": true,
+  "domains": [],
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T20:57:54.220235",
+    "last_updated": "2025-10-20T21:21:25.241429",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

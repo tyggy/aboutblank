@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Computational model simulating developmental processes; used to study how cellular competency and morphogenetic rules produce adaptive developmental outcomes.",
-  "creator": null,
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.258544",
+    "last_updated": "2025-10-20T21:21:25.267255",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

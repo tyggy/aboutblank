@@ -7,13 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Use of chemical messengers for long-range and local signaling in development and regeneration.",
-  "category": "cognitive",
-  "is_new": true,
+  "category": "interdisciplinary",
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.255918",
+    "last_updated": "2025-10-20T21:21:25.264911",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

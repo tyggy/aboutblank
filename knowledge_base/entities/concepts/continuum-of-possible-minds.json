@@ -5,13 +5,11 @@
   "sources": [
     "knowledge_base/papers/edited/AI: A Bridge Toward Diverse Intelligence_edited.md"
   ],
-  "context": "Understanding that minds exist on spectrum of possibilities rather than discrete categories; challenges outdated natural/artificial distinctions.",
-  "category": "cognitive",
-  "is_new": true,
+  "category": "interdisciplinary",
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.234913",
+    "last_updated": "2025-10-20T21:21:25.250193",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

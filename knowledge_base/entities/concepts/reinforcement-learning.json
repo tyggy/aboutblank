@@ -2,16 +2,14 @@
   "name": "Reinforcement Learning",
   "filename": "reinforcement-learning",
   "aliases": [],
-  "category": "ai",
-  "context": "AI technique where agents learn through trial and error by maximizing cumulative reward; demonstrates stress-transfer between human operators and artificial systems.",
   "sources": [
-    "batched_extraction"
+    "knowledge_base/transcripts/raw/Yt5NN0KcRlQ_【Olaf_Witkowski】_Interwoven_Futures_Harmonizing_Biological_and_Technological_Minds_cleaned_edited.md"
   ],
-  "is_new": true,
+  "category": "interdisciplinary",
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T19:55:58.765295",
+    "last_updated": "2025-10-20T21:21:25.253881",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

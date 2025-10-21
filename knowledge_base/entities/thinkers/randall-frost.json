@@ -7,15 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Poet referenced for understanding of pattern and meaning",
-  "domains": [
-    "cognitive science"
-  ],
-  "is_new": true,
+  "domains": [],
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T20:57:54.221366",
+    "last_updated": "2025-10-20T21:21:25.242282",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

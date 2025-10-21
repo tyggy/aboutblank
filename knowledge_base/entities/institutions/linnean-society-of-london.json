@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Publisher of the Biological Journal where this paper appears.",
-  "type": "research-center",
-  "is_new": true,
+  "type": "organization",
   "_metadata": {
     "entity_type": "institution",
-    "last_updated": "2025-10-20T20:57:54.274379",
+    "last_updated": "2025-10-20T21:21:25.276010",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

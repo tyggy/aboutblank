@@ -7,26 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "contexts": [
-    {
-      "source": "batched_extraction",
-      "text": "Framework applying variational principles to ecological and conscious systems"
-    },
-    {
-      "source": "batched_extraction",
-      "text": "Physics-based approach to consciousness integrating variational principles with ecological dynamics."
-    },
-    {
-      "source": "batched_extraction",
-      "text": "Application of variational inference to ecological and consciousness phenomena; connects free energy principle to broader biological systems."
-    }
-  ],
   "category": "interdisciplinary",
-  "is_new": true,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.242841",
+    "last_updated": "2025-10-20T21:21:25.256262",
     "sources_count": 1,
-    "contexts_count": 3
+    "contexts_count": 0
   }
 }

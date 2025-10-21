@@ -7,17 +7,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Neuroscientist on divided brain and cognition",
-  "domains": [
-    "neuroscience",
-    "philosophy",
-    "brain hemispheres"
-  ],
-  "is_new": true,
+  "domains": [],
   "_metadata": {
     "entity_type": "thinker",
-    "last_updated": "2025-10-20T20:57:54.221261",
+    "last_updated": "2025-10-20T21:21:25.242192",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

@@ -5,15 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Definition of individuality based on integration and collective action capabilities rather than genetics.",
-  "creator": [
-    "Michael Levin"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.262903",
+    "last_updated": "2025-10-20T21:21:25.270331",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

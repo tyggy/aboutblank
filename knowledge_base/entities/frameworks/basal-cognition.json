@@ -5,16 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Research program understanding evolutionary and embryological origins of behavioral capacities through study of simple minds in diverse biological systems.",
-  "creator": [
-    "Michael Levin",
-    "Fermin Baluška"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.268884",
+    "last_updated": "2025-10-20T21:21:25.273346",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

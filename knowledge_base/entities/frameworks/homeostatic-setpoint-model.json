@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Linear-encoding model explaining variability in homeostatic target values during regeneration and development.",
-  "creator": null,
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.258822",
+    "last_updated": "2025-10-20T21:21:25.267494",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

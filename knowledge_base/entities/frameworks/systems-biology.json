@@ -5,15 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Approach studying biological systems as integrated wholes with no privileged causal level.",
-  "creator": [
-    "Dennis Noble"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.265416",
+    "last_updated": "2025-10-20T21:21:25.271370",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

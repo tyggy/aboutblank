@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Framework explaining how learned or physiologically plastic traits become canalized into genetic variation over time.",
-  "creator": null,
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.267395",
+    "last_updated": "2025-10-20T21:21:25.272619",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

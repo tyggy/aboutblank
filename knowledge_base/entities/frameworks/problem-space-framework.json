@@ -5,16 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Formalizes analysis of goal-directed behavior by defining space of possible states an agent navigates toward goal states.",
-  "creator": [
-    "William James",
-    "Michael Levin"
-  ],
-  "is_new": true,
+  "creator": [],
   "_metadata": {
     "entity_type": "framework",
-    "last_updated": "2025-10-20T20:57:54.268970",
+    "last_updated": "2025-10-20T21:21:25.273398",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }

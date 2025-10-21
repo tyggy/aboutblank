@@ -5,13 +5,11 @@
   "sources": [
     "batched_extraction"
   ],
-  "context": "Hierarchical organization enabling specification of high-level goals while automatically activating necessary downstream modules.",
   "category": "interdisciplinary",
-  "is_new": true,
   "_metadata": {
     "entity_type": "concept",
-    "last_updated": "2025-10-20T20:57:54.255163",
+    "last_updated": "2025-10-20T21:21:25.264258",
     "sources_count": 1,
-    "contexts_count": 1
+    "contexts_count": 0
   }
 }
