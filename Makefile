@@ -32,7 +32,8 @@ help:
 	@echo "Knowledge Extraction:"
 	@echo "  make kb-fix-speakers              - Fix speaker name transcription errors"
 	@echo "  make kb-scan-speakers             - Scan for potential speaker name errors"
-	@echo "  make kb-extract                   - Extract entities from transcripts"
+	@echo "  make kb-extract                   - Extract entities (auto-skips processed files)"
+	@echo "  make kb-extract-force             - Force re-extract all entities"
 	@echo "  make kb-normalize                 - Normalize and deduplicate entities"
 	@echo "  make kb-populate                  - Create entity pages in knowledge base"
 	@echo "  make kb-link                      - Inject wiki links into transcripts"
@@ -168,6 +169,31 @@ kb-extract:
 		echo "⚠️  No edited papers found."; \
 	fi
 	@echo "✓ Entity extraction complete!"
+	@echo "Review extractions in: knowledge_base/extractions/"
+
+kb-extract-force:
+	@echo "Force re-extracting entities from all sources..."
+	@if [ -z "$$ANTHROPIC_API_KEY" ]; then \
+		echo "Error: ANTHROPIC_API_KEY not set"; \
+		echo "Set it with: export ANTHROPIC_API_KEY=your-key-here"; \
+		exit 1; \
+	fi
+	@mkdir -p knowledge_base/extractions
+	@# Extract from transcripts
+	@if [ -n "$$(ls knowledge_base/transcripts/raw/*_edited.md 2>/dev/null)" ]; then \
+		echo "📝 Re-extracting from transcripts..."; \
+		python tools/extract_entities.py knowledge_base/transcripts/raw/*_edited.md --verbose --force; \
+	else \
+		echo "⚠️  No edited transcripts found."; \
+	fi
+	@# Extract from papers
+	@if [ -n "$$(ls knowledge_base/papers/edited/*.md 2>/dev/null)" ]; then \
+		echo "📄 Re-extracting from papers..."; \
+		python tools/extract_entities.py knowledge_base/papers/edited/*.md --verbose --force; \
+	else \
+		echo "⚠️  No edited papers found."; \
+	fi
+	@echo "✓ Force extraction complete!"
 	@echo "Review extractions in: knowledge_base/extractions/"
 
 kb-normalize:

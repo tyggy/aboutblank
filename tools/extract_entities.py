@@ -13,16 +13,82 @@ from typing import Dict, List, Optional
 from anthropic import Anthropic
 import os
 import re
+from datetime import datetime
 
 
 class EntityExtractor:
     """Extract structured entities from transcript text using Claude API."""
 
-    def __init__(self, api_key: Optional[str] = None, model: str = "claude-haiku-4-5-20251001"):
+    def __init__(self, api_key: Optional[str] = None, model: str = "claude-haiku-4-5-20251001", output_dir: Path = None):
         """Initialize with API key and model."""
         self.client = Anthropic(api_key=api_key or os.environ.get('ANTHROPIC_API_KEY'))
         self.model = model
         self.max_tokens = 4096
+        self.output_dir = output_dir or Path('knowledge_base/extractions')
+        self.tracking_file = self.output_dir / '_extraction_tracking.json'
+        self.tracking_data = self._load_tracking()
+
+    def _load_tracking(self) -> Dict:
+        """Load extraction tracking data."""
+        if self.tracking_file.exists():
+            try:
+                return json.loads(self.tracking_file.read_text(encoding='utf-8'))
+            except Exception:
+                return {}
+        return {}
+
+    def _save_tracking(self) -> None:
+        """Save extraction tracking data."""
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.tracking_file.write_text(
+            json.dumps(self.tracking_data, indent=2, sort_keys=True),
+            encoding='utf-8'
+        )
+
+    def needs_extraction(self, source_path: Path, output_path: Path, force: bool = False) -> bool:
+        """
+        Check if a file needs extraction.
+
+        Args:
+            source_path: Path to source file
+            output_path: Path to extraction output file
+            force: Force re-extraction even if already processed
+
+        Returns:
+            True if extraction is needed, False otherwise
+        """
+        if force:
+            return True
+
+        # Check if output file exists
+        if not output_path.exists():
+            return True
+
+        # Check tracking data
+        source_key = str(source_path.absolute())
+        if source_key not in self.tracking_data:
+            return True
+
+        # Check if source file has been modified since last extraction
+        source_mtime = source_path.stat().st_mtime
+        tracked_mtime = self.tracking_data[source_key].get('source_mtime', 0)
+
+        if source_mtime > tracked_mtime:
+            return True
+
+        return False
+
+    def update_tracking(self, source_path: Path, output_path: Path) -> None:
+        """Update tracking data after successful extraction."""
+        source_key = str(source_path.absolute())
+        self.tracking_data[source_key] = {
+            'source_file': str(source_path),
+            'source_mtime': source_path.stat().st_mtime,
+            'output_file': str(output_path),
+            'extracted_at': datetime.now().isoformat(),
+            'model': self.model
+        }
+        self._save_tracking()
 
     def extract_from_transcript(self, transcript_path: Path, verbose: bool = False) -> Dict:
         """
@@ -291,6 +357,12 @@ def main():
         action='store_true',
         help='Verbose output'
     )
+    parser.add_argument(
+        '--force',
+        '-f',
+        action='store_true',
+        help='Force re-extraction even if file already processed'
+    )
 
     args = parser.parse_args()
 
@@ -305,32 +377,71 @@ def main():
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     # Initialize extractor
-    extractor = EntityExtractor(api_key=api_key, model=args.model)
+    extractor = EntityExtractor(api_key=api_key, model=args.model, output_dir=args.output_dir)
 
-    print(f"🔍 Extracting entities from {len(args.transcripts)} transcript(s)...")
+    print(f"🔍 Extracting entities from {len(args.transcripts)} file(s)...")
     print(f"📁 Output directory: {args.output_dir}")
+    if args.force:
+        print("⚡ Force mode: re-extracting all files")
     print()
+
+    # Track stats
+    processed = 0
+    skipped = 0
+    failed = 0
 
     # Process each transcript
     for transcript_path in args.transcripts:
         if not transcript_path.exists():
             print(f"⚠️  File not found: {transcript_path}", file=sys.stderr)
+            failed += 1
+            continue
+
+        # Check if extraction is needed
+        output_filename = transcript_path.stem + '_entities.json'
+        output_path = args.output_dir / output_filename
+
+        if not extractor.needs_extraction(transcript_path, output_path, force=args.force):
+            if args.verbose:
+                print(f"⏭️  Skipping (already extracted): {transcript_path.name}")
+            skipped += 1
             continue
 
         # Extract entities
-        entities = extractor.extract_from_transcript(transcript_path, verbose=args.verbose)
+        try:
+            entities = extractor.extract_from_transcript(transcript_path, verbose=args.verbose)
 
-        # Save to output directory
-        output_filename = transcript_path.stem + '_entities.json'
-        output_path = args.output_dir / output_filename
-        extractor.save_extraction(entities, output_path)
-        print()
+            # Save to output directory
+            extractor.save_extraction(entities, output_path)
 
-    print("✅ Entity extraction complete!")
-    print(f"\nNext steps:")
-    print(f"  1. Review extractions in: {args.output_dir}")
-    print(f"  2. Normalize names: python tools/normalize_entities.py")
-    print(f"  3. Create entity pages: python tools/populate_entities.py")
+            # Update tracking
+            extractor.update_tracking(transcript_path, output_path)
+
+            processed += 1
+            print()
+        except Exception as e:
+            print(f"❌ Error processing {transcript_path.name}: {e}", file=sys.stderr)
+            failed += 1
+
+    print("=" * 60)
+    print("📊 Extraction Summary")
+    print("=" * 60)
+    print(f"  ✓ Processed: {processed}")
+    print(f"  ⏭️  Skipped (already extracted): {skipped}")
+    if failed > 0:
+        print(f"  ❌ Failed: {failed}")
+    print(f"  📁 Total files: {len(args.transcripts)}")
+    print()
+
+    if processed > 0:
+        print("✅ Entity extraction complete!")
+        print(f"\nNext steps:")
+        print(f"  1. Review extractions in: {args.output_dir}")
+        print(f"  2. Normalize names: make kb-normalize")
+        print(f"  3. Build knowledge base: make kb-build")
+    elif skipped > 0 and failed == 0:
+        print("✅ All files already extracted!")
+        print("\nTip: Use --force to re-extract all files")
 
 
 if __name__ == '__main__':
