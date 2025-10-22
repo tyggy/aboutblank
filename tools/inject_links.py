@@ -65,37 +65,37 @@ class LinkInjector:
         Build lookup table mapping text patterns to entity names.
 
         Returns:
-            Dict mapping lowercase text -> (display_name, entity_type)
+            Dict mapping lowercase text -> (display_name, entity_type, original_case)
         """
         lookup = {}
 
         # Process thinkers
         for thinker in data.get('thinkers', []):
             name = thinker['name']
-            # Add main name
-            lookup[name.lower()] = {'name': name, 'type': 'thinker'}
+            # Add main name (preserve original case for acronym detection)
+            lookup[name.lower()] = {'name': name, 'type': 'thinker', 'original': name}
             # Add aliases
             for alias in thinker.get('aliases', []):
                 if alias:
-                    lookup[alias.lower()] = {'name': name, 'type': 'thinker'}
+                    lookup[alias.lower()] = {'name': name, 'type': 'thinker', 'original': alias}
 
         # Process concepts
         for concept in data.get('concepts', []):
             name = concept['name']
-            lookup[name.lower()] = {'name': name, 'type': 'concept'}
+            lookup[name.lower()] = {'name': name, 'type': 'concept', 'original': name}
             for alias in concept.get('aliases', []):
                 if alias:
-                    lookup[alias.lower()] = {'name': name, 'type': 'concept'}
+                    lookup[alias.lower()] = {'name': name, 'type': 'concept', 'original': alias}
 
         # Process frameworks
         for framework in data.get('frameworks', []):
             name = framework['name']
-            lookup[name.lower()] = {'name': name, 'type': 'framework'}
+            lookup[name.lower()] = {'name': name, 'type': 'framework', 'original': name}
 
         # Process institutions
         for institution in data.get('institutions', []):
             name = institution['name']
-            lookup[name.lower()] = {'name': name, 'type': 'institution'}
+            lookup[name.lower()] = {'name': name, 'type': 'institution', 'original': name}
 
         return lookup
 
@@ -173,14 +173,31 @@ class LinkInjector:
                 entity_info = self.entity_lookup[pattern_text]
                 entity_name = entity_info['name']
                 entity_type = entity_info['type']
+                original_text = entity_info.get('original', pattern_text)
 
                 # Build regex pattern with word boundaries
                 # Handle possessives (e.g., "Levin's")
                 pattern = re.escape(pattern_text)
-                regex = re.compile(
-                    r'\b' + pattern + r"(?:'s)?" + r'\b',
-                    re.IGNORECASE
-                )
+
+                # For acronyms (all caps, 2-5 letters), use case-sensitive matching
+                # to avoid matching common words like "did", "as", "it"
+                # Check the ORIGINAL text (not lowercased) to detect acronyms
+                is_acronym = (len(original_text) >= 2 and
+                             len(original_text) <= 5 and
+                             original_text.isupper() and
+                             original_text.isalpha())
+
+                if is_acronym:
+                    # Case-sensitive for acronyms
+                    regex = re.compile(
+                        r'\b' + pattern + r"(?:'s)?" + r'\b'
+                    )
+                else:
+                    # Case-insensitive for normal names
+                    regex = re.compile(
+                        r'\b' + pattern + r"(?:'s)?" + r'\b',
+                        re.IGNORECASE
+                    )
 
                 # Find all matches
                 matches = list(regex.finditer(modified_para))
