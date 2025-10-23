@@ -45,6 +45,12 @@ help:
 	@echo "  make kb-build                     - Full pipeline: fix → extract → normalize → populate → link → enrich"
 	@echo "  make kb-build-full                - Full pipeline + synthesis (costs extra API calls)"
 	@echo ""
+	@echo "Quartz Web Deployment:"
+	@echo "  make quartz-prepare               - Create linkified docs with proper titles"
+	@echo "  make quartz-count-mentions        - Add mention counts to entity frontmatter"
+	@echo "  make quartz-build                 - Prepare + count (ready for Quartz)"
+	@echo "  make quartz-setup                 - Show Quartz installation instructions"
+	@echo ""
 	@echo "Analysis:"
 	@echo "  make analyze                      - Run concept extraction and mapping"
 	@echo "  make synthesize                   - Generate synthesis documents"
@@ -365,6 +371,65 @@ kb-build-full: kb-fix-speakers kb-extract kb-normalize kb-synthesize kb-populate
 	@echo "  3. Explore bidirectional links between entities"
 	@echo "  4. Add more papers: copy PDFs to knowledge_base/sources/papers/"
 	@echo "  5. Manually refine and expand entity pages"
+	@echo ""
+
+# Quartz Web Deployment
+# Prepare knowledge base for web deployment with Quartz
+
+quartz-prepare:
+	@echo "🌐 Preparing documents for Quartz..."
+	python tools/prepare_for_quartz.py --verbose
+
+quartz-prepare-dry:
+	@echo "🌐 Preparing documents for Quartz (dry run)..."
+	python tools/prepare_for_quartz.py --dry-run --verbose
+
+quartz-count-mentions:
+	@echo "📊 Counting entity mentions..."
+	python tools/count_mentions.py --verbose
+
+quartz-setup:
+	@echo "🌐 Setting up Quartz..."
+	@echo ""
+	@echo "1. Install Quartz:"
+	@echo "   git clone https://github.com/jackyzha0/quartz.git"
+	@echo "   cd quartz && npm i"
+	@echo ""
+	@echo "2. Copy entity pages:"
+	@echo "   cp -r knowledge_base/thinkers quartz/content/"
+	@echo "   cp -r knowledge_base/concepts quartz/content/"
+	@echo "   cp -r knowledge_base/frameworks quartz/content/"
+	@echo "   cp -r knowledge_base/institutions quartz/content/"
+	@echo ""
+	@echo "3. Link documents:"
+	@echo "   cd quartz/content"
+	@echo "   ln -s ../../knowledge_base/transcripts/linkified transcripts"
+	@echo "   ln -s ../../knowledge_base/papers/linkified papers"
+	@echo ""
+	@echo "4. Build and serve:"
+	@echo "   cd quartz"
+	@echo "   npx quartz build --serve"
+	@echo ""
+
+quartz-build: quartz-prepare quartz-count-mentions
+	@echo ""
+	@echo "════════════════════════════════════════════════"
+	@echo "✅ Quartz Preparation Complete!"
+	@echo "════════════════════════════════════════════════"
+	@echo ""
+	@echo "Linkified documents ready:"
+	@echo "  📝 Transcripts: knowledge_base/transcripts/linkified/"
+	@echo "  📄 Papers: knowledge_base/papers/linkified/"
+	@echo ""
+	@echo "Entity pages with mention counts:"
+	@echo "  👤 Thinkers: knowledge_base/thinkers/ (sorted by mentions)"
+	@echo "  💡 Concepts: knowledge_base/concepts/ (sorted by mentions)"
+	@echo "  🔧 Frameworks: knowledge_base/frameworks/ (sorted by mentions)"
+	@echo ""
+	@echo "Next steps:"
+	@echo "  1. Run 'make quartz-setup' for setup instructions"
+	@echo "  2. Configure quartz.config.ts sidebar sorting"
+	@echo "  3. Deploy to Vercel/Netlify/GitHub Pages"
 	@echo ""
 
 process:

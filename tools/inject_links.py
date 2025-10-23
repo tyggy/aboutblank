@@ -221,13 +221,25 @@ class LinkInjector:
                     # Extract matched text (preserving case and possessive)
                     matched_text = match.group(0)
 
-                    # Create wiki link
-                    wiki_link = f"[[{entity_name}]]"
+                    # Handle possessive case
+                    is_possessive = matched_text.endswith("'s")
+                    if is_possessive:
+                        matched_text_base = matched_text[:-2]  # Remove 's
+                    else:
+                        matched_text_base = matched_text
 
-                    # If possessive, keep the 's outside the link
-                    if matched_text.endswith("'s"):
-                        wiki_link = f"[[{entity_name}]]'s"
-                        matched_text = matched_text[:-2]  # Remove 's for replacement
+                    # Create wiki link - use [[Target|Display]] format if alias
+                    # If matched text differs from entity name, preserve it as display text
+                    if matched_text_base.lower() != entity_name.lower():
+                        # It's an alias - preserve original text
+                        wiki_link = f"[[{entity_name}|{matched_text_base}]]"
+                    else:
+                        # Direct name match - simple link
+                        wiki_link = f"[[{entity_name}]]"
+
+                    # Add possessive back if needed
+                    if is_possessive:
+                        wiki_link = wiki_link + "'s"
 
                     # Replace
                     modified_para = (
